@@ -89,8 +89,9 @@ for station_id, station in station_list.items() :
     station['attributes']['nb_prises_grouped'] += chademo_count[True]
 
     combo_count = Counter(["combo" in elem.lower() for elem in prises])
-    station['attributes']['nb_combo_grouped'] = combo_count[True]
-    station['attributes']['nb_prises_grouped'] += combo_count[True]
+    combo_other_count = Counter(["CCS350" in elem for elem in prises])
+    station['attributes']['nb_combo_grouped'] = combo_count[True] + combo_other_count[True]
+    station['attributes']['nb_prises_grouped'] += combo_count[True] + combo_other_count[True]
 
     if station['attributes']['nb_prises_grouped'] < len(station['pdc_list']):
         errors.append({"station_id" : station_id,
