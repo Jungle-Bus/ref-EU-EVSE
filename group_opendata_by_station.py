@@ -43,7 +43,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs adresses pour une même station",
                        "detail": addresses})
 
-    acces_recharge = set([elem['acces_recharge'] for elem in station['pdc_list']])
+    acces_recharge = set([elem['acces_recharge'].strip() for elem in station['pdc_list']])
     if len(acces_recharge) !=1 :
         errors.append({"station_id" : station_id,
                        "error": "plusieurs prix pour une même station",
@@ -51,7 +51,7 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['acces_recharge_grouped'] = acces_recharge.pop()
 
-    accessibilite = set([elem['accessibilité'] for elem in station['pdc_list']])
+    accessibilite = set([elem['accessibilité'].strip() for elem in station['pdc_list']])
     if len(accessibilite) !=1 :
         errors.append({"station_id" : station_id,
                        "error": "plusieurs horaires pour une même station",
