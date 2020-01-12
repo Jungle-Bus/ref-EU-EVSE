@@ -32,6 +32,12 @@ with open('opendata_irve.csv') as csvfile:
                                    "detail": row['Xlongitude']
                                   })
             continue
+        if not validate_coord(row['Ylatitude']):
+            errors.append({"station_id" :  row['id_station'],
+                                   "error": "coordonnées non valides",
+                                   "detail": row['Ylatitude']
+                                  })
+            continue
         if not row['id_station'] in station_list:
             station_prop = {key: row[key] for key in station_attributes}
             station_list[row['id_station']] = {'attributes' : station_prop, 'pdc_list': []}
