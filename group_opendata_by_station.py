@@ -9,7 +9,16 @@ station_list = {}
 station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'n_station', 'ad_station', 'code_insee', 'Xlongitude', 'Ylatitude', 'nbre_pdc' ]
 pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_recharge', 'accessibilité', 'observations', 'date_maj', 'source']
 
+def validate_coord(longitude_text):
+    try:
+        float(longitude_text)
+    except ValueError:
+        return False
+    return True
+
+
 without_id = []
+errors = []
 
 with open('opendata_irve.csv') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';')
@@ -17,14 +26,17 @@ with open('opendata_irve.csv') as csvfile:
         if not row['id_station']:
             without_id.append(row)
             continue
+        if not validate_coord(row['Xlongitude']):
+            errors.append({"station_id" :  row['id_station'],
+                                   "error": "coordonnées non valides",
+                                   "detail": row['Xlongitude']
+                                  })
+            continue
         if not row['id_station'] in station_list:
             station_prop = {key: row[key] for key in station_attributes}
             station_list[row['id_station']] = {'attributes' : station_prop, 'pdc_list': []}
         pdc_prop = {key: row[key] for key in pdc_attributes}
         station_list[row['id_station']]['pdc_list'].append(pdc_prop)
-
-
-errors = []
 
 all_prises_types = set()
 
@@ -36,6 +48,8 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs sources pour un même id",
                        "detail": sources
                       })
+    else :
+        station['attributes']['source_grouped'] = sources.pop()
 
     addresses = set([elem['ad_station'] for elem in station['pdc_list']])
     if len(addresses) !=1 :
