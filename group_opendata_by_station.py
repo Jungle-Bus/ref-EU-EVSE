@@ -6,7 +6,7 @@ import csv
 from collections import Counter
 
 station_list = {}
-station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'n_station', 'ad_station', 'code_insee', 'Xlongitude', 'Ylatitude', 'nbre_pdc' ]
+station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'id_station', 'n_station', 'ad_station', 'code_insee', 'Xlongitude', 'Ylatitude', 'nbre_pdc' ]
 pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_recharge', 'accessibilité', 'observations', 'date_maj', 'source']
 
 def validate_coord(longitude_text):
