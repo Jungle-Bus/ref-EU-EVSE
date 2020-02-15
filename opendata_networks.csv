@@ -1,13 +1,13 @@
 n_operateur,n_enseigne
 AIRESERVICES,"Station de recharge publique, parking Mairie"
-BOUYGUES ENERGIES ET SERVICES,Alizé Liberté
-BOUYGUES ENERGIES ET SERVICES,Grenoble
-BOUYGUES ENERGIES ET SERVICES,MAMP
-BOUYGUES ENERGIES ET SERVICES,Révéo
-BOUYGUES ENERGIES ET SERVICES,SIEML
-BOUYGUES ENERGIES ET SERVICES,SIMONE
-BOUYGUES ENERGIES ET SERVICES,SYDEV
-BOUYGUES ENERGIES ET SERVICES,TEM53
+Bouygues Énergies et Services,Alizé Liberté
+Bouygues Énergies et Services,Grenoble
+Bouygues Énergies et Services,MAMP
+Bouygues Énergies et Services,Révéo
+Bouygues Énergies et Services,SIEML
+Bouygues Énergies et Services,SIMONE
+Bouygues Énergies et Services,SYDEV
+Bouygues Énergies et Services,TEM53
 CITEOS-FRESHMILE,DIRVE 02
 CITEOS-FRESHMILE,SREM2
 CITEOS-FRESHMILE,TE90
@@ -18,17 +18,16 @@ Freshmile,La borne �lectrique
 Freshmile,Mouv'Oise 
 Freshmile,move in pure
 INEO TINEA,SDEA10
-IONITY,IONITY
 ISTRES,IRVE ISTRES
 IZIVIA,Ecocharge77
 InEnergies,Ecar18
+Ionity,Ionity
 Izivia,Pass pass electrique
-MOUVELECVAR,
 Morbihan énergies,Morbihan énergies
-PLUS DE BORNES,PLUS DE BORNES
-PLUS DE BORNES,VILLE DE CAVAILLON
-PLUS DE BORNES,VILLE DE GAP
-SAINT-LOUIS,
+Mouv Élec Var,
+Plus de Bornes,Plus de Bornes
+Plus de Bornes,VILLE DE CAVAILLON
+Plus de Bornes,VILLE DE GAP
 SDE07,E Born
 SDE65,Watt else?
 SDED,E Born
@@ -36,9 +35,7 @@ SDEY,IRVE SDEY
 SEDI,E Born
 SIEEEN,IRVE SIEEEN
 SIEGE 27,SIEGE 27
-SIEL42,MOBILOIRE
-SODETREL,Pass Pass électrique
-SODETREL,SODETREL MOBILITE
+SIEL42,Mobiloire
 SOREGIES,ALTERBASE86
 SOREGIES,ALTERBASE87
 SOREGIES,ALTERBASE88
@@ -46,11 +43,13 @@ SPIE,
 SPIE,SYDESL
 SYANE,E Born
 SYME05,E Born
+Saint-Louis,
 Sodetrel,Paris Aéroports
+Sodetrel,Pass Pass électrique
 Sodetrel,SDE76
 Sodetrel,SMOYS
+Sodetrel,SODETREL MOBILITE
 Sodetrel,WiiiZ
 Sodetrel,wiiiz
 Syndicat de l'Energie de l'Orne,Te61
 Séolis,AlterBase
-S‚olis,AlterBase
