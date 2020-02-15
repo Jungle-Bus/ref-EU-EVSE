@@ -29,8 +29,8 @@ results_of_the_day['total_with_open_data_ref'] = len([elem for elem in charging_
 results_of_the_day['total_with_fixme'] = len([elem for elem in charging_stations if 'fixme' in elem['tags'] or 'FIXME' in elem['tags']])
 results_of_the_day['percentage_free'] = len([elem for elem in charging_stations if 'fee' in elem['tags'] and elem['tags']['fee']=='no'])*100.0 / len(charging_stations)
 
+nb_places = len([elem for elem in charging_stations if 'capacity' not in elem['tags']])
 tt = [elem for elem in charging_stations if 'capacity' in elem['tags']]
-nb_places = 0
 for elem in tt :
     try:
         nb_places += int(elem['tags']['capacity'])
