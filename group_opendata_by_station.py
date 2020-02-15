@@ -9,6 +9,25 @@ station_list = {}
 station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'id_station', 'n_station', 'ad_station', 'code_insee', 'Xlongitude', 'Ylatitude', 'nbre_pdc' ]
 pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_recharge', 'accessibilité', 'observations', 'date_maj', 'source']
 
+wrong_ortho = {
+    "Herault Energies 34" : "Hérault Énergies 34",
+    "Montpellier Mediterranee Metropole": "Montpellier Méditerranee Métropole",
+    "Toulouse Metropole" : "Toulouse Métropole",
+    "SDEY Syndicat Departemental d'Energies de l'Yonne": "SDEY Syndicat Départemental d'Énergies de l'Yonne",
+    "TERRITOIRE D'ENERGIE 90": "Territoire d'Énergie 90",
+    "SAINT-LOUIS" : "Saint-Louis",
+    "PLUS DE BORNES": "Plus de Bornes",
+    "ORLEANS METROPOLE" : "Orléans Métropole",
+    "S‚olis" : "Séolis",
+    "BREST METROPOLE": "Brest Métropole",
+    "IONITY": "Ionity",
+    "VILLE DE ROSHEIM": "Ville de Rosheim",
+    "BOUYGUES ENERGIES ET SERVICES": "Bouygues Énergies et Services",
+    "SODETREL" : "Sodetrel",
+    "MOBILOIRE": "Mobiloire",
+    "MOUVELECVAR": "Mouv Élec Var"
+}
+
 def validate_coord(longitude_text):
     try:
         float(longitude_text)
@@ -47,7 +66,13 @@ with open('opendata_irve.csv') as csvfile:
 all_prises_types = set()
 
 for station_id, station in station_list.items() :
-
+    if station['attributes']['n_amenageur'] in wrong_ortho.keys():
+        station['attributes']['n_amenageur'] = wrong_ortho[station['attributes']['n_amenageur']]
+    if station['attributes']['n_enseigne'] in wrong_ortho.keys():
+        station['attributes']['n_enseigne'] = wrong_ortho[station['attributes']['n_enseigne']]
+    if station['attributes']['n_operateur'] in wrong_ortho.keys():
+        station['attributes']['n_operateur'] = wrong_ortho[station['attributes']['n_operateur']]
+   
     sources = set([elem['source'] for elem in station['pdc_list']])
     if len(sources) !=1 :
         errors.append({"station_id" : station_id,
