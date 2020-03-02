@@ -24,6 +24,7 @@ wrong_ortho = {
     "VILLE DE ROSHEIM": "Ville de Rosheim",
     "BOUYGUES ENERGIES ET SERVICES": "Bouygues Énergies et Services",
     "SODETREL" : "Sodetrel",
+    "SOREGIES" : "Sorégies",
     "MOBILOIRE": "Mobiloire",
     "MOUVELECVAR": "Mouv Élec Var"
 }
