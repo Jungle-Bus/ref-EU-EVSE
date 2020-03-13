@@ -25,6 +25,7 @@ wrong_ortho = {
     "SIMONE": "Simone",
     "CANTAL": "Cantal",
     "ISTRES": "Istres",
+    "SYDEV": "SyDEV",
     "La borne �lectrique": "La Borne Électrique", 
     "Morbihan énergies": "Morbihan Énergies",
     "Pass pass electrique": "Pass pass électrique",
@@ -126,6 +127,7 @@ for station_id, station in station_list.items() :
 
     T3_count = Counter(["t3" in elem.lower() for elem in prises])
     station['attributes']['nb_T3_grouped'] = T3_count[True]
+    station['attributes']['nb_T3c_grouped'] = T3_count[True]
     station['attributes']['nb_prises_grouped'] += T3_count[True]
 
     T4_count = Counter(["t4" in elem.lower() for elem in prises])
