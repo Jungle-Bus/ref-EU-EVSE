@@ -11,10 +11,11 @@ pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_rech
 
 wrong_ortho = {
     "Herault Energies 34" : "Hérault Énergies 34",
-    "Montpellier Mediterranee Metropole": "Montpellier Méditerranee Métropole",
+    "Montpellier Mediterranee Metropole": "Montpellier Méditerranée Métropole",
     "Toulouse Metropole" : "Toulouse Métropole",
     "SDEY Syndicat Departemental d'Energies de l'Yonne": "SDEY Syndicat Départemental d'Énergies de l'Yonne",
     "TERRITOIRE D'ENERGIE 90": "Territoire d'Énergie 90",
+    "TE90": "Territoire d'Énergie 90",
     "SAINT-LOUIS" : "Saint-Louis",
     "PLUS DE BORNES": "Plus de Bornes",
     "ORLEANS METROPOLE" : "Orléans Métropole",
@@ -46,6 +47,17 @@ def validate_coord(longitude_text):
         return False
     return True
 
+def is_correct_id(station_id):
+    station_id_parts = station_id.split('*')
+    station_id = "".join(station_id_parts)
+    station_id_parts = station_id.split(' ')
+    station_id = "".join(station_id_parts)
+    
+    if not station_id.startswith('FR'):
+        return False
+    if not station_id.startswith('P', 5):
+        return False
+    return True
 
 without_id = []
 errors = []
@@ -58,12 +70,14 @@ with open('opendata_irve.csv') as csvfile:
             continue
         if not validate_coord(row['Xlongitude']):
             errors.append({"station_id" :  row['id_station'],
+                                   "source": row['source'],
                                    "error": "coordonnées non valides",
                                    "detail": row['Xlongitude']
                                   })
             continue
         if not validate_coord(row['Ylatitude']):
             errors.append({"station_id" :  row['id_station'],
+                                   "source": row['source'],
                                    "error": "coordonnées non valides",
                                    "detail": row['Ylatitude']
                                   })
@@ -87,21 +101,30 @@ for station_id, station in station_list.items() :
     sources = set([elem['source'] for elem in station['pdc_list']])
     if len(sources) !=1 :
         errors.append({"station_id" : station_id,
+                       "source": "multiples",
                        "error": "plusieurs sources pour un même id",
                        "detail": sources
                       })
-    else :
-        station['attributes']['source_grouped'] = sources.pop()
+    station['attributes']['source_grouped'] = sources.pop()
+
+    if not is_correct_id(station_id):
+        errors.append({"station_id" : station_id, 
+               "source": station['attributes']['source_grouped'],
+               "error": "le format de l'identifiant ref:EU:EVSE (id_station) n'est pas valide",
+               "detail": station_id})
+        station['attributes']['id_station'] = None
 
     addresses = set([elem['ad_station'] for elem in station['pdc_list']])
     if len(addresses) !=1 :
         errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
                        "error": "plusieurs adresses pour une même station",
                        "detail": addresses})
 
     acces_recharge = set([elem['acces_recharge'].strip() for elem in station['pdc_list']])
     if len(acces_recharge) !=1 :
         errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
                        "error": "plusieurs prix pour une même station",
                        "detail": acces_recharge})
     else :
@@ -110,6 +133,7 @@ for station_id, station in station_list.items() :
     accessibilite = set([elem['accessibilité'].strip() for elem in station['pdc_list']])
     if len(accessibilite) !=1 :
         errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
                        "error": "plusieurs horaires pour une même station",
                        "detail": accessibilite})
     else :
@@ -152,6 +176,7 @@ for station_id, station in station_list.items() :
 
     if station['attributes']['nb_prises_grouped'] < len(station['pdc_list']):
         errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
                        "error": "type de prise inconnu",
                        "detail": prises})
 
