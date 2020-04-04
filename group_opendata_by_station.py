@@ -153,7 +153,6 @@ for station_id, station in station_list.items() :
     station['attributes']['nb_prises_grouped'] += T2_count[True]
 
     T3_count = Counter(["t3" in elem.lower() for elem in prises])
-    station['attributes']['nb_T3_grouped'] = T3_count[True]
     station['attributes']['nb_T3c_grouped'] = T3_count[True]
     station['attributes']['nb_prises_grouped'] += T3_count[True]
 
