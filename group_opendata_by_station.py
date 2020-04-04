@@ -59,26 +59,29 @@ def is_correct_id(station_id):
         return False
     return True
 
-without_id = []
 errors = []
 
 with open('opendata_irve.csv') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';')
     for row in reader:
         if not row['id_station']:
-            without_id.append(row)
+            errors.append({"station_id" :  None,
+                                   "source": row['source'],
+                                   "error": "pas d'identifiant ref:EU:EVSE (id_station). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
+                                   "detail": None
+                                  })
             continue
         if not validate_coord(row['Xlongitude']):
             errors.append({"station_id" :  row['id_station'],
                                    "source": row['source'],
-                                   "error": "coordonnées non valides",
+                                   "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['Xlongitude']
                                   })
             continue
         if not validate_coord(row['Ylatitude']):
             errors.append({"station_id" :  row['id_station'],
                                    "source": row['source'],
-                                   "error": "coordonnées non valides",
+                                   "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['Ylatitude']
                                   })
             continue
@@ -181,8 +184,6 @@ for station_id, station in station_list.items() :
                        "detail": prises})
 
 print("{} stations".format(len(station_list)))
-
-print("{} stations sans id (ignorées)".format(len(without_id)))
 
 print("{} stations avec des erreurs :".format(len(errors)))
 for error_type, error_count in Counter([elem['error'] for elem in errors]).items():
