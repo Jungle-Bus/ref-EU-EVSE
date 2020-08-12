@@ -14,10 +14,8 @@ Clem',cchvc.clem.mobi
 ELECTRIC 55 CHARGING,VELIZ VELIZY
 ELECTRIC 55 CHARGING,VILLE D'AVIGNON
 ELECTRIC 55 CHARGING,VILLE D'ISSY LES MOULINEAUX
-ELECTRIC 55 CHARGING,VILLE DE CAVAILLON
 ELECTRIC 55 CHARGING,VILLE DE CAVALAIRE
 ELECTRIC 55 CHARGING,VILLE DE DRANCY
-ELECTRIC 55 CHARGING,VILLE DE GAP
 ELECTRIC 55 CHARGING,VILLE DE GARCHE
 ELECTRIC 55 CHARGING,VILLE DE GASSIN
 ELECTRIC 55 CHARGING,VILLE DE GRIMAUD
@@ -35,6 +33,7 @@ ELECTRIC 55 CHARGING,VILLE DE SIVERGUES
 ELECTRIC 55 CHARGING,VILLE DE SOSPEL
 ELECTRIC 55 CHARGING,VILLE DE VERSAILLES
 ELECTRIC 55 CHARGING,VILLES DES ANGLES
+ENERGIE Eure-et-Loir | FR*S28,ENERGIE Eure-et-Loir
 Freshmile,DIRVE 02
 Freshmile,La Borne Électrique
 Freshmile,La borne électrique
@@ -47,6 +46,8 @@ InEnergies,Ecar18
 Ionity,Ionity
 Istres,IRVE ISTRES
 Izivia,Ecocharge77
+Izivia,IZIVIA Grand Lyon
+Izivia,MObiVE
 Izivia,Pass pass électrique
 Izivia,WiiiZ
 MODULO | FR*S41,Modulo
@@ -54,6 +55,8 @@ Modulo (Mobilité Locale Durable) | FR*S41,EneRSIEIL
 Morbihan Énergies,Morbihan Énergies
 Mouv Élec Var,
 Plus de Bornes,Plus de Bornes
+Plus de Bornes,VILLE DE CAVAILLON
+Plus de Bornes,VILLE DE GAP
 SDE07,E Born
 SDE65,Watt else?
 SDED,E Born
@@ -76,6 +79,7 @@ Sodetrel,WiiiZ
 Sodetrel,wiiiz
 Sorégies,ALTERBASE86
 Sorégies,ALTERBASE87
+Sorégies,ALTERBASE88
 Syndicat Départemental d'Énergie de Loire-Atlantique (SYDELA) | FR*S44,SYDEGO
 Syndicat Départemental d'Énergies d'Eure et Loir (SDE28) | FR*S28,SDE 28
 Syndicat de l'Energie de l'Orne,Te61
