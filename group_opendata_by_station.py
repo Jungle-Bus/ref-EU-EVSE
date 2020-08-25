@@ -6,7 +6,7 @@ import csv
 from collections import Counter
 
 station_list = {}
-station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'id_station', 'n_station', 'ad_station', 'code_insee', 'Xlongitude', 'Ylatitude', 'nbre_pdc' ]
+station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'id_station', 'n_station', 'ad_station', 'code_insee', 'nbre_pdc' ]
 pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_recharge', 'accessibilité', 'observations', 'date_maj', 'source']
 
 wrong_ortho = {
@@ -40,9 +40,9 @@ wrong_ortho = {
     "MOUVELECVAR": "Mouv Élec Var"
 }
 
-def validate_coord(longitude_text):
+def validate_coord(lat_or_lon_text):
     try:
-        float(longitude_text)
+        float(lat_or_lon_text)
     except ValueError:
         return False
     return True
@@ -87,6 +87,8 @@ with open('opendata_irve.csv') as csvfile:
             continue
         if not row['id_station'] in station_list:
             station_prop = {key: row[key] for key in station_attributes}
+            station_prop['Xlongitude'] = float(row['Xlongitude'])
+            station_prop['Ylatitude'] = float(row['Ylatitude'])
             station_list[row['id_station']] = {'attributes' : station_prop, 'pdc_list': []}
         pdc_prop = {key: row[key] for key in pdc_attributes}
         station_list[row['id_station']]['pdc_list'].append(pdc_prop)
