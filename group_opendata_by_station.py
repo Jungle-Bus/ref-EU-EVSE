@@ -199,7 +199,7 @@ with open("output/opendata_errors.csv", 'w') as ofile:
 
 
 with open("output/opendata_stations.csv", 'w') as ofile:
-    tt = csv.DictWriter(ofile, fieldnames=station_list['FR*M13*P13029*001']["attributes"].keys())
+    tt = csv.DictWriter(ofile, fieldnames=station_list['FR*A22*P06104*002']["attributes"].keys())
     tt.writeheader()
     for station_id, station in station_list.items():
         tt.writerow(station['attributes'])
