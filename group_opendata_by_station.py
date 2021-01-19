@@ -27,7 +27,7 @@ wrong_ortho = {
     "CANTAL": "Cantal",
     "ISTRES": "Istres",
     "SYDEV": "SyDEV",
-    "La borne �lectrique": "La Borne Électrique", 
+    "La borne �lectrique": "La Borne Électrique",
     "Morbihan énergies": "Morbihan Énergies",
     "Pass pass electrique": "Pass pass électrique",
     "VILLE DE ROSHEIM": "Ville de Rosheim",
@@ -52,7 +52,7 @@ def is_correct_id(station_id):
     station_id = "".join(station_id_parts)
     station_id_parts = station_id.split(' ')
     station_id = "".join(station_id_parts)
-    
+
     if not station_id.startswith('FR'):
         return False
     if not station_id.startswith('P', 5):
@@ -102,7 +102,7 @@ for station_id, station in station_list.items() :
         station['attributes']['n_enseigne'] = wrong_ortho[station['attributes']['n_enseigne']]
     if station['attributes']['n_operateur'] in wrong_ortho.keys():
         station['attributes']['n_operateur'] = wrong_ortho[station['attributes']['n_operateur']]
-   
+
     sources = set([elem['source'] for elem in station['pdc_list']])
     if len(sources) !=1 :
         errors.append({"station_id" : station_id,
@@ -113,7 +113,7 @@ for station_id, station in station_list.items() :
     station['attributes']['source_grouped'] = sources.pop()
 
     if not is_correct_id(station_id):
-        errors.append({"station_id" : station_id, 
+        errors.append({"station_id" : station_id,
                "source": station['attributes']['source_grouped'],
                "error": "le format de l'identifiant ref:EU:EVSE (id_station) n'est pas valide",
                "detail": station_id})
@@ -197,9 +197,8 @@ with open("output/opendata_errors.csv", 'w') as ofile:
     for elem in errors:
         tt.writerow(elem)
 
-
 with open("output/opendata_stations.csv", 'w') as ofile:
-    tt = csv.DictWriter(ofile, fieldnames=station_list['FR*A22*P06104*002']["attributes"].keys())
+    tt = csv.DictWriter(ofile, fieldnames=station_list[list(station_list)[0]]["attributes"].keys())
     tt.writeheader()
     for station_id, station in station_list.items():
         tt.writerow(station['attributes'])

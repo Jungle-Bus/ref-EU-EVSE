@@ -15,6 +15,7 @@ overpass_requests = requests.get(overpass_base_url + overpass_params)
 
 if not overpass_requests.ok:
     print("kapout : requête échouée") #TODO
+    print(overpass_requests.status_code)
 if not overpass_requests.json()['elements']:
     print("kapout : pas d'éléments") #TODO
 
