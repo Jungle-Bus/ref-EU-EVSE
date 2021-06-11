@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# this script was used to compute the stats during the Project of the Month
+# https://wiki.openstreetmap.org/wiki/FR:Project_of_the_month/bornes_vehicules_electriques
+# it is not used anymore
+
 import json
 import csv
 import requests
