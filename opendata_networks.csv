@@ -1,19 +1,17 @@
 n_operateur,n_enseigne
 ,MOBIVE
 AIRESERVICES,"Station de recharge publique, parking Mairie"
+BORNES SOLUTIONS,BSC
 BORNES SOLUTIONS,BSP
 BOUYGUES ENERGIES & SERVICES,Alizé
 BYES,MOBIVE
 Bouygues,Bornes sur candélabre
 Bouygues Énergies et Services,Alizé Liberté
-Bouygues Énergies et Services,Alizé Liberté 2
 Bouygues Énergies et Services,Grenoble
 Bouygues Énergies et Services,MAMP
 Bouygues Énergies et Services,Révéo
-Bouygues Énergies et Services,SIEML
 Bouygues Énergies et Services,Simone
 Bouygues Énergies et Services,SyDEV
-Bouygues Énergies et Services,TEM53
 Bouygues Énergies et Services,pass pass électrique
 CAPG,E Born
 CITEOS/FRESHMILE,
@@ -29,15 +27,21 @@ Commune de Péron,E Born
 Commune de Saint-Genis-Pouilly,E Born
 Commune de Thoiry,E Born
 Commune de Versonnex,E Born
+DRIVECO,ABVV Hyundai Gonesse
+DRIVECO,ABVV Volvo Chantilly
+DRIVECO,ABVV Volvo Roissy
+DRIVECO,ABVV Volvo St Ouen l'Aumône
 DRIVECO,ASL AREA Englos
 DRIVECO,Aventim - Hôtel Najeti
 DRIVECO,Aventim - Lazaro3
 DRIVECO,Aventim - Restaurant au Bureau
 DRIVECO,Aventim Aulnoy
-DRIVECO,Aventim Bouvines
+DRIVECO,Aventim Bouvines - Lot 1
+DRIVECO,Aventim Bouvines - Lot 2
 DRIVECO,BMW Beaurains - Arras
 DRIVECO,BMW Béthune
 DRIVECO,BMW Chennevières
+DRIVECO,Bidaud Volvo Athis Mons
 DRIVECO,CC Sud Corse - Lecci
 DRIVECO,CC Sud Corse - Pianotolli
 DRIVECO,CC Sud Corse - Stade Claude Papi
@@ -45,6 +49,7 @@ DRIVECO,CEETRUS Roncq2
 DRIVECO,CEETRUS Roncq3 Decathlon
 DRIVECO,CEETRUS Roncq3 Kiabi
 DRIVECO,CEETRUS Roncq3 Pizza Paï
+DRIVECO,COM.ACMD - Albi Conception Métallique et Développement
 DRIVECO,Campanile Futuroscope
 DRIVECO,Casino Golden Palace
 DRIVECO,Citroën Bethune
@@ -60,6 +65,7 @@ DRIVECO,DS Saint Omer
 DRIVECO,Darty - Limonest
 DRIVECO,Decathlon - Dourges
 DRIVECO,Domyos - Marcq-en-Bar?ul
+DRIVECO,EDHEC - Campus Arnault
 DRIVECO,ESSO DES CALANCHES
 DRIVECO,ESSO DIGIACOMI et Fils
 DRIVECO,ESSO LE CHALET
@@ -81,28 +87,40 @@ DRIVECO,Fiat Fontaine
 DRIVECO,Fiat Haguenau
 DRIVECO,Fiat Huningue
 DRIVECO,Fiat L'Horme
-DRIVECO,Fiat Liévin/Lens
+DRIVECO,Fiat Liévin - Lens
 DRIVECO,Fiat Melun
 DRIVECO,Fiat Mulhouse
 DRIVECO,Fiat St Etienne
 DRIVECO,Fiat Strasbourg Bischheim
 DRIVECO,Fiat Valenciennes SDAH
 DRIVECO,Fiat Viry-Châtillon
+DRIVECO,Fiba Quetigny
 DRIVECO,Ford Aix
+DRIVECO,Ford Albertville
 DRIVECO,Ford Alès
+DRIVECO,Ford Annecy
 DRIVECO,Ford Annemasse - Garage du Lac
+DRIVECO,Ford Anthy sur Léman
+DRIVECO,Ford Arles
 DRIVECO,Ford Aubagne
 DRIVECO,Ford Avignon
 DRIVECO,Ford Besançon
 DRIVECO,Ford Bois Grenier - Armentières
 DRIVECO,Ford Boulogne sur Mer
+DRIVECO,Ford Brignoles
 DRIVECO,Ford Calais
+DRIVECO,Ford Carcassonne
+DRIVECO,Ford Carpentras
+DRIVECO,Ford Draguignan
 DRIVECO,Ford Dunkerque
 DRIVECO,Ford Faches
 DRIVECO,Ford Istres
 DRIVECO,Ford Lons Le Saunier
 DRIVECO,Ford Lys Lez Lannoy
+DRIVECO,Ford Manosque
 DRIVECO,Ford Marseille
+DRIVECO,Ford Martigues
+DRIVECO,Ford Narbonne
 DRIVECO,Ford Nîmes
 DRIVECO,Ford Orange
 DRIVECO,Ford Oyonnax
@@ -110,6 +128,7 @@ DRIVECO,Ford Pezenas
 DRIVECO,Ford Rognonas
 DRIVECO,Ford Saint Claude
 DRIVECO,Ford Saint Omer
+DRIVECO,Ford Sallanches
 DRIVECO,Ford Salon-de-Provence
 DRIVECO,Ford Ségny
 DRIVECO,Ford Toulon La Valette
@@ -118,15 +137,18 @@ DRIVECO,Ford Villeneuve d'Ascq
 DRIVECO,Ford Vitrolles
 DRIVECO,Ford Volgans
 DRIVECO,GAMM VERT ESTAIRES
-DRIVECO,GHP - Ducati
 DRIVECO,Genevray
+DRIVECO,Géant Casino - Bastia - Port Toga
 DRIVECO,Géant Casino - Corte
 DRIVECO,Géant Casino - Mezzavia
 DRIVECO,Géant Casino - Porto Vecchio
 DRIVECO,Géant Casino Furiani
+DRIVECO,Général Automobile - Volvo Guérande
+DRIVECO,Hermès - Ateliers de Fitilieu
 DRIVECO,Honda Cannes
 DRIVECO,Hyundai Dechy
 DRIVECO,Hyundai Dunkerque - H Motors
+DRIVECO,Hyundai Faches
 DRIVECO,Hyundai Le Pontet
 DRIVECO,Hyundai Liévin
 DRIVECO,Hôpital Saint Philibert
@@ -178,6 +200,7 @@ DRIVECO,Kia Castres
 DRIVECO,Kia Dunkerque
 DRIVECO,Kia Déols
 DRIVECO,Kia Fréjus
+DRIVECO,Kia Furiani
 DRIVECO,Kia Gometz - ULIS AUTOMOBILES
 DRIVECO,Kia Guéret
 DRIVECO,Kia Istres
@@ -189,18 +212,18 @@ DRIVECO,Kia Vierzon
 DRIVECO,Kia Volvo Nice La Plaine (SAV)
 DRIVECO,Kipsta - Tourcoing
 DRIVECO,LM - Ajaccio (magasin 293)
-DRIVECO,LM - Albi (magasin 88)
+DRIVECO,LM - Albi - magasin 88
 DRIVECO,LM - Avignon Le Pontet (magasin 188)
 DRIVECO,LM - Biganos (magasin 173)
 DRIVECO,LM - Bois d'Arcy
 DRIVECO,LM - Bordeaux le Lac (magasin 37)
 DRIVECO,LM - Brest Guipavas (magasin 193)
 DRIVECO,LM - Béziers
-DRIVECO,LM - Gennevilliers (magasin 72)
+DRIVECO,LM - Gennevilliers - magasin 72
 DRIVECO,LM - Grenoble St-Egreve (magasin 194)
 DRIVECO,LM - Haguenau 2 (magasin 82)
 DRIVECO,LM - Laval St Berthevin (magasin 198)
-DRIVECO,LM - Le port (île de la Réunion)
+DRIVECO,LM - Le port (ile de la Réunion)
 DRIVECO,LM - Niort (magasin 81)
 DRIVECO,LM - Puget-sur-Argens Frejus (magasin 192)
 DRIVECO,LM - Reau
@@ -208,9 +231,10 @@ DRIVECO,LM - Siege Lezennes
 DRIVECO,LM - Strasbourg Ostwald La Vigie (magasin 199)
 DRIVECO,LM - Tassin (magasin 117)
 DRIVECO,LM - Tourcoing - Neuville-en-Ferrain (magasin 34)
-DRIVECO,LM - Vénissieux Grand Parilly (magasin 85)
 DRIVECO,Leclerc Océane
 DRIVECO,Lycées Scamaroni & Vincensini
+DRIVECO,Mairie de Rogliano
+DRIVECO,Mazda Douai / Dechy
 DRIVECO,McDonald's Decazeville
 DRIVECO,McDonald's Luc la Primaube
 DRIVECO,McDonald's Takheos Onet
@@ -219,6 +243,7 @@ DRIVECO,Mercedes Bellerive
 DRIVECO,Mercedes Le Cannet
 DRIVECO,Mercedes Montluçon
 DRIVECO,Mercedes Moulins
+DRIVECO,Mercedes Nice Gambetta
 DRIVECO,Mercedes Villeneuve Loubet
 DRIVECO,Mitsubishi Villeneuve d'Ascq
 DRIVECO,Montpellier Utilitaires - Volkswagen Baillargues
@@ -272,6 +297,7 @@ DRIVECO,Peugeot Cluses
 DRIVECO,Peugeot Cours-la-Ville
 DRIVECO,Peugeot Douai
 DRIVECO,Peugeot Dunkerque
+DRIVECO,Peugeot Etaples - Garage de la Baie
 DRIVECO,Peugeot Feurs
 DRIVECO,Peugeot Hazebrouck
 DRIVECO,Peugeot Hirson
@@ -283,36 +309,46 @@ DRIVECO,Peugeot Sallanches
 DRIVECO,Peugeot Sedan
 DRIVECO,Peugeot Thonon
 DRIVECO,Peugeot Wasquehal
+DRIVECO,Pre de Math Annecy
 DRIVECO,Promocash Béziers
 DRIVECO,Renault Boissy-St-Léger
 DRIVECO,Renault Fontaine
 DRIVECO,Renault Limeil
 DRIVECO,Renault Liévin
 DRIVECO,SEPRIC Champagne Mont d'Or
+DRIVECO,Sixt Nanterre
 DRIVECO,Siège Groupe Lempereur
 DRIVECO,Siège Promod
 DRIVECO,Smart Nice
+DRIVECO,Village Maurin - Carrosserie
 DRIVECO,Village Maurin - Ford
 DRIVECO,Village Maurin - Nissan
 DRIVECO,Village Maurin Suzuki Hyundai
 DRIVECO,Volkswagen Beaurains SLBA
 DRIVECO,Volkswagen Bruay
 DRIVECO,Volkswagen Cambrai SLBA
+DRIVECO,Volkswagen Digne
 DRIVECO,Volkswagen Gap
 DRIVECO,Volkswagen Louvroil Maubeuge SLBA
 DRIVECO,Volkswagen Volx Manosque - AUTOMOBILES DU LUBERON
 DRIVECO,Volvo Annecy
 DRIVECO,Volvo Annemasse
+DRIVECO,Volvo Avignon
 DRIVECO,Volvo Caen
 DRIVECO,Volvo Cannes
 DRIVECO,Volvo Chambéry
 DRIVECO,Volvo Dechy
 DRIVECO,Volvo Dunkerque - V Motors
+DRIVECO,Volvo Grenoble
 DRIVECO,Volvo Lievin
+DRIVECO,Volvo Lyon
 DRIVECO,Volvo Roncq
+DRIVECO,Volvo St Etienne
 DRIVECO,Volvo Valence
 DRIVECO,Volvo Valenciennes
+DRIVECO,Volvo Villefranche sur Saône
 DRIVECO,Volvo Villeneuve d'Ascq
+DRIVECO,Volvo Vénissieux
 ELECTRIC 55 CHARGING,VELIZ VELIZY
 ELECTRIC 55 CHARGING,VILLE D'AVIGNON
 ELECTRIC 55 CHARGING,VILLE D'ISSY LES MOULINEAUX
@@ -339,8 +375,9 @@ ELECTRIC 55 CHARGING,VILLE DE VELIZY
 ELECTRIC 55 CHARGING,VILLE DE VERSAILLES
 ELECTRIC 55 CHARGING,VILLES DES ANGLES
 ENERGIE Eure-et-Loir | FR*S28,ENERGIE Eure-et-Loir
+EVBOX,Clinique de la porte verte
 EXADYS,EXADYS
-FR*S50,e-charge50
+Enerstock,IBIS 
 FRESHMILE,Parking CATHEDRALE
 FRESHMILE,Parking COMEDIE / THEATRE
 FRESHMILE,Parking GARE CHARLES DE GAULLE
@@ -348,27 +385,27 @@ FRESHMILE,Parking GARE POMPIDOU
 FRESHMILE,Parking REPUBLIQUE
 Freshmile,DIRVE 02
 Freshmile,Freshmile
-Freshmile,La Borne Électrique
 Freshmile,La borne électrique
 Freshmile,Mouv'Oise 
 Freshmile,SREM2
 Freshmile,Territoire d'Énergie 90
 Freshmile,move in pure
 INEO TINEA,SDEA10
-InEnergies,Ecar18
 Ionity,Ionity
 Istres,IRVE ISTRES
-Izivia,Belib'
-Izivia,Ecocharge77
 Izivia,IZIVIA Grand Lyon
 Izivia,MObiVE
+Izivia,OUESTCHARGE
+Izivia,Ouest Charge
 Izivia,Pass pass électrique
+Izivia,SDE22
 Izivia,SIGEIF
 Izivia,WiiiZ
 MAIRIE,IRVE Scy-Schazelles
 MODULO | FR*S41,Modulo
 Mairie de Paris,Paris Recharge
 MobiSDEC,MobiSDEC
+Mobilygreen,Mobilygreen
 Modulo (Mobilité Locale Durable) | FR*S41,Modulo
 Morbihan Énergies,Morbihan Énergies
 Mouv Élec Var,
@@ -398,9 +435,16 @@ Sodetrel,WiiiZ
 Sodetrel,wiiiz
 Sorégies,ALTERBASE86
 Sorégies,ALTERBASE87
+Sorégies,ALTERBASE88
 Syndicat Départemental d'Énergie de Loire-Atlantique (SYDELA) | FR*S44,SYDEGO
 Syndicat Départemental d'Énergies d'Eure et Loir (SDE28) | FR*S28,SDE 28
 Syndicat de l'Energie de l'Orne,Te61
 Syndicat de l'Énergie de l'Orne (TE61) | FR*S61,Te61
 Séolis,AlterBase
+TOTAL MARKETING FRANCE,Belib'
 UEM,Connect&Go
+Zephyre,Airria
+Zephyre,Hotel - Les Fermes de Marie
+Zephyre,Hôtel Mercure Annemasse Porte de Genève
+Zephyre,Nex Hotel Tarbes
+Zephyre,Pullman Toulouse Airport Hotel
