@@ -15,6 +15,15 @@ Bouygues Énergies et Services,SyDEV
 Bouygues Énergies et Services,pass pass électrique
 CAPG,E Born
 CITEOS/FRESHMILE,
+ChargePoint,Artemis
+ChargePoint,BYMYCAR siège social
+ChargePoint,Corstyrene
+ChargePoint,Deep Nature
+ChargePoint,FM Logistic
+ChargePoint,Intermarche Villefranche
+ChargePoint,Paragon Mobility
+ChargePoint,Police Loire Atlantique
+ChargePoint,SAS Kamelia
 Clem',cchvc.clem.mobi
 Commune de Cessy,E Born
 Commune de Collonges,E Born
@@ -355,7 +364,6 @@ ELECTRIC 55 CHARGING,VILLE D'ISSY LES MOULINEAUX
 ELECTRIC 55 CHARGING,VILLE DE CAVAILLON
 ELECTRIC 55 CHARGING,VILLE DE CAVALAIRE
 ELECTRIC 55 CHARGING,VILLE DE DRANCY
-ELECTRIC 55 CHARGING,VILLE DE GAP
 ELECTRIC 55 CHARGING,VILLE DE GARCHE
 ELECTRIC 55 CHARGING,VILLE DE GASSIN
 ELECTRIC 55 CHARGING,VILLE DE GRIMAUD
@@ -393,8 +401,7 @@ Freshmile,move in pure
 INEO TINEA,SDEA10
 Ionity,Ionity
 Istres,IRVE ISTRES
-Izivia,IZIVIA Grand Lyon
-Izivia,MObiVE
+Izivia,Izivia
 Izivia,OUESTCHARGE
 Izivia,Ouest Charge
 Izivia,Pass pass électrique
@@ -404,12 +411,12 @@ Izivia,WiiiZ
 MAIRIE,IRVE Scy-Schazelles
 MODULO | FR*S41,Modulo
 Mairie de Paris,Paris Recharge
-MobiSDEC,MobiSDEC
 Mobilygreen,Mobilygreen
 Modulo (Mobilité Locale Durable) | FR*S41,Modulo
 Morbihan Énergies,Morbihan Énergies
 Mouv Élec Var,
 Plus de Bornes,Plus de Bornes
+Plus de Bornes,VILLE DE GAP
 Q PARK,Parking COISLIN
 SDE07,E Born
 SDE65,Watt else?
@@ -417,7 +424,6 @@ SDED,E Born
 SDEY,IRVE SDEY
 SEDI,E Born
 SIEEEN,IRVE SIEEEN
-SIEGE 27,SIEGE 27
 SNC Mazelle,Parking MAZELLE
 SNC Paixhans,Parking PAIXHANS
 SPBR1,Réseau eborn
@@ -435,7 +441,6 @@ Sodetrel,WiiiZ
 Sodetrel,wiiiz
 Sorégies,ALTERBASE86
 Sorégies,ALTERBASE87
-Sorégies,ALTERBASE88
 Syndicat Départemental d'Énergie de Loire-Atlantique (SYDELA) | FR*S44,SYDEGO
 Syndicat Départemental d'Énergies d'Eure et Loir (SDE28) | FR*S28,SDE 28
 Syndicat de l'Energie de l'Orne,Te61
@@ -445,6 +450,10 @@ TOTAL MARKETING FRANCE,Belib'
 UEM,Connect&Go
 Zephyre,Airria
 Zephyre,Hotel - Les Fermes de Marie
+Zephyre,Hôtel Logis Europa
 Zephyre,Hôtel Mercure Annemasse Porte de Genève
+Zephyre,Kyriad - Lunel
 Zephyre,Nex Hotel Tarbes
 Zephyre,Pullman Toulouse Airport Hotel
+Zephyre,UNICAP - GARAGE SANTA MARIA
+Zephyre,UNICAP - SARL DU COLOMBIER
