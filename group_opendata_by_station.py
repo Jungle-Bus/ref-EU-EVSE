@@ -115,6 +115,7 @@ with open('opendata_irve.csv') as csvfile:
             phone = cleanPhoneNumber(row['telephone_operateur'])
             station_list[row['id_station_itinerance']] = {'attributes' : station_prop, 'pdc_list': []}
 
+            # Non-blocking issues
             if phone is None and station_prop['telephone_operateur'] != "null":
                 station_prop['telephone_operateur'] = None
                 errors.append({"station_id" : row['id_station_itinerance'],
@@ -123,6 +124,15 @@ with open('opendata_irve.csv') as csvfile:
                    "detail": row['telephone_operateur']})
             else:
                 station_prop['telephone_operateur'] = phone
+
+            if row['station_deux_roues'].lower() not in ['true', 'false', '']:
+                station_prop['station_deux_roues'] = None
+                errors.append({"station_id" : row['id_station_itinerance'],
+                   "source": row['datagouv_organization_or_owner'],
+                   "error": "le champ station_deux_roues n'est pas valide",
+                   "detail": row['id_station_itinerance']})
+            else:
+                station_prop['station_deux_roues'] = row['station_deux_roues'].lower()
 
         pdc_prop = {key: row[key] for key in pdc_attributes}
         station_list[row['id_station_itinerance']]['pdc_list'].append(pdc_prop)
