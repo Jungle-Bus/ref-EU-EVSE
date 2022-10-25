@@ -85,6 +85,9 @@ with open('opendata_irve.csv') as csvfile:
                                    "detail": None
                                   })
             continue
+        if row['id_station_itinerance']=="Non concerné":
+            # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose
+            continue        
         coordsXY = row['coordonneesXY'][1:-1].split(',')
         if not validate_coord(coordsXY[0]):
             errors.append({"station_id" :  row['id_station_itinerance'],
