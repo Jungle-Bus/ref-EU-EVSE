@@ -2,12 +2,13 @@
 # coding: utf-8
 
 import csv
+import re
 
 from collections import Counter
 
 station_list = {}
-station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations' ]
-pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'adresse_station', 'horaires' ]
+station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'adresse_station' ]
+pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'horaires' ]
 
 wrong_ortho = {
     "Herault Energies 34" : "Hérault Énergies 34",
@@ -59,6 +60,16 @@ def is_correct_id(station_id):
         return False
     return True
 
+def cleanPhoneNumber(phone):
+    if re.match("^\d{10}$", phone):
+        return "+33" + phone[1:]
+    elif re.match("^\d{9}$", phone):
+        return "+33" + phone
+    elif re.match("^(\d{2}[. -]){4}\d{2}$", phone):
+        return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
+    else:
+        return None
+
 def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
 
@@ -101,7 +112,18 @@ with open('opendata_irve.csv') as csvfile:
             station_prop = {key: row[key] for key in station_attributes}
             station_prop['Xlongitude'] = float(coordsXY[0])
             station_prop['Ylatitude'] = float(coordsXY[1])
+            phone = cleanPhoneNumber(row['telephone_operateur'])
             station_list[row['id_station_itinerance']] = {'attributes' : station_prop, 'pdc_list': []}
+
+            if phone is None and station_prop['telephone_operateur'] != "null":
+                station_prop['telephone_operateur'] = None
+                errors.append({"station_id" : row['id_station_itinerance'],
+                   "source": row['datagouv_organization_or_owner'],
+                   "error": "le numéro de téléphone de l'opérateur (telephone_operateur) est dans un format invalide",
+                   "detail": row['telephone_operateur']})
+            else:
+                station_prop['telephone_operateur'] = phone
+
         pdc_prop = {key: row[key] for key in pdc_attributes}
         station_list[row['id_station_itinerance']]['pdc_list'].append(pdc_prop)
 
@@ -124,23 +146,6 @@ for station_id, station in station_list.items() :
                       })
     station['attributes']['source_grouped'] = sources.pop()
 
-    addresses = set([elem['adresse_station'] for elem in station['pdc_list']])
-    if len(addresses) !=1 :
-        errors.append({"station_id" : station_id,
-                       "source": station['attributes']['source_grouped'],
-                       "error": "plusieurs adresses pour une même station",
-                       "detail": addresses})
-
-    condition_acces = set([elem['condition_acces'].strip() for elem in station['pdc_list']])
-    if len(condition_acces) !=1 :
-        station['attributes']['condition_acces_grouped'] = None
-        errors.append({"station_id" : station_id,
-                       "source": station['attributes']['source_grouped'],
-                       "error": "plusieurs conditions d'accès pour une même station",
-                       "detail": condition_acces})
-    else :
-        station['attributes']['condition_acces_grouped'] = condition_acces.pop()
-
     horaires = set([elem['horaires'].strip() for elem in station['pdc_list']])
     if len(horaires) !=1 :
         station['attributes']['horaires_grouped'] = None
@@ -150,6 +155,56 @@ for station_id, station in station_list.items() :
                        "detail": horaires})
     else :
         station['attributes']['horaires_grouped'] = horaires.pop()
+
+    gratuit = set([elem['gratuit'].strip() for elem in station['pdc_list']])
+    if len(gratuit) !=1 :
+        station['attributes']['gratuit_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos de gratuité (gratuit) pour une même station",
+                       "detail": gratuit})
+    else :
+        station['attributes']['gratuit_grouped'] = gratuit.pop()
+
+    paiement_acte = set([elem['paiement_acte'].strip() for elem in station['pdc_list']])
+    if len(paiement_acte) !=1 :
+        station['attributes']['paiement_acte_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos de paiement (paiement_acte) pour une même station",
+                       "detail": paiement_acte})
+    else :
+        station['attributes']['paiement_acte_grouped'] = paiement_acte.pop()
+
+    paiement_cb = set([elem['paiement_cb'].strip() for elem in station['pdc_list']])
+    if len(paiement_cb) !=1 :
+        station['attributes']['paiement_cb_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos de paiement (paiement_cb) pour une même station",
+                       "detail": paiement_cb})
+    else :
+        station['attributes']['paiement_cb_grouped'] = paiement_cb.pop()
+
+    reservation = set([elem['reservation'].strip() for elem in station['pdc_list']])
+    if len(reservation) !=1 :
+        station['attributes']['reservation_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos reservation pour une même station",
+                       "detail": reservation})
+    else :
+        station['attributes']['reservation_grouped'] = reservation.pop()
+
+    accessibilite_pmr = set([elem['accessibilite_pmr'].strip() for elem in station['pdc_list']])
+    if len(accessibilite_pmr) !=1 :
+        station['attributes']['accessibilite_pmr_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos d'accessibilité PMR (accessibilite_pmr) pour une même station",
+                       "detail": accessibilite_pmr})
+    else :
+        station['attributes']['accessibilite_pmr_grouped'] = accessibilite_pmr.pop()
 
 
     station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
