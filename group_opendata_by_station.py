@@ -2,12 +2,13 @@
 # coding: utf-8
 
 import csv
+import re
 
 from collections import Counter
 
 station_list = {}
-station_attributes = ['n_amenageur', 'n_operateur', 'n_enseigne', 'id_station', 'n_station', 'ad_station', 'code_insee', 'nbre_pdc' ]
-pdc_attributes = ['ad_station', 'id_pdc', 'puiss_max', 'type_prise', 'acces_recharge', 'accessibilité', 'observations', 'date_maj', 'source']
+station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'adresse_station' ]
+pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'horaires' ]
 
 wrong_ortho = {
     "Herault Energies 34" : "Hérault Énergies 34",
@@ -59,51 +60,97 @@ def is_correct_id(station_id):
         return False
     return True
 
+def cleanPhoneNumber(phone):
+    if re.match("^\d{10}$", phone):
+        return "+33" + phone[1:]
+    elif re.match("^\d{9}$", phone):
+        return "+33" + phone
+    elif re.match("^(\d{2}[. -]){4}\d{2}$", phone):
+        return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
+    else:
+        return None
+
+def stringBoolToInt(strbool):
+    return 1 if strbool.lower() == 'true' else 0
+
 errors = []
 
 with open('opendata_irve.csv') as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=';')
+    reader = csv.DictReader(csvfile, delimiter=',')
     for row in reader:
-        if not row['id_station']:
+        if not row['id_station_itinerance']:
             errors.append({"station_id" :  None,
-                                   "source": row['source'],
-                                   "error": "pas d'identifiant ref:EU:EVSE (id_station). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
+                                   "source": row['datagouv_organization_or_owner'],
+                                   "error": "pas d'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
                                    "detail": None
                                   })
             continue
-        if not validate_coord(row['Xlongitude']):
-            errors.append({"station_id" :  row['id_station'],
-                                   "source": row['source'],
+        if row['id_station_itinerance']=="Non concerné":
+            # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose
+            continue        
+        coordsXY = row['coordonneesXY'][1:-1].split(',')
+        if not validate_coord(coordsXY[0]):
+            errors.append({"station_id" :  row['id_station_itinerance'],
+                                   "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['Xlongitude']
+                                   "detail": row['coordonneesXY']
                                   })
             continue
-        if not validate_coord(row['Ylatitude']):
-            errors.append({"station_id" :  row['id_station'],
-                                   "source": row['source'],
+        if not validate_coord(coordsXY[1]):
+            errors.append({"station_id" :  row['id_station_itinerance'],
+                                   "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['Ylatitude']
+                                   "detail": row['coordonneesXY']
                                   })
             continue
-        if not row['id_station'] in station_list:
-            station_prop = {key: row[key] for key in station_attributes}
-            station_prop['Xlongitude'] = float(row['Xlongitude'])
-            station_prop['Ylatitude'] = float(row['Ylatitude'])
-            station_list[row['id_station']] = {'attributes' : station_prop, 'pdc_list': []}
-        pdc_prop = {key: row[key] for key in pdc_attributes}
-        station_list[row['id_station']]['pdc_list'].append(pdc_prop)
 
-all_prises_types = set()
+        if not is_correct_id(row['id_station_itinerance']):
+            errors.append({"station_id" : row['id_station_itinerance'],
+                   "source": row['datagouv_organization_or_owner'],
+                   "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide",
+                   "detail": row['id_station_itinerance']})
+            continue
+
+        if not row['id_station_itinerance'] in station_list:
+            station_prop = {key: row[key] for key in station_attributes}
+            station_prop['Xlongitude'] = float(coordsXY[0])
+            station_prop['Ylatitude'] = float(coordsXY[1])
+            phone = cleanPhoneNumber(row['telephone_operateur'])
+            station_list[row['id_station_itinerance']] = {'attributes' : station_prop, 'pdc_list': []}
+
+            # Non-blocking issues
+            if phone is None and station_prop['telephone_operateur'] != "null":
+                station_prop['telephone_operateur'] = None
+                errors.append({"station_id" : row['id_station_itinerance'],
+                   "source": row['datagouv_organization_or_owner'],
+                   "error": "le numéro de téléphone de l'opérateur (telephone_operateur) est dans un format invalide",
+                   "detail": row['telephone_operateur']})
+            else:
+                station_prop['telephone_operateur'] = phone
+
+            if row['station_deux_roues'].lower() not in ['true', 'false', '']:
+                station_prop['station_deux_roues'] = None
+                errors.append({"station_id" : row['id_station_itinerance'],
+                   "source": row['datagouv_organization_or_owner'],
+                   "error": "le champ station_deux_roues n'est pas valide",
+                   "detail": row['id_station_itinerance']})
+            else:
+                station_prop['station_deux_roues'] = row['station_deux_roues'].lower()
+
+        pdc_prop = {key: row[key] for key in pdc_attributes}
+        station_list[row['id_station_itinerance']]['pdc_list'].append(pdc_prop)
+
+# ~ all_prises_types = set()
 
 for station_id, station in station_list.items() :
-    if station['attributes']['n_amenageur'] in wrong_ortho.keys():
-        station['attributes']['n_amenageur'] = wrong_ortho[station['attributes']['n_amenageur']]
-    if station['attributes']['n_enseigne'] in wrong_ortho.keys():
-        station['attributes']['n_enseigne'] = wrong_ortho[station['attributes']['n_enseigne']]
-    if station['attributes']['n_operateur'] in wrong_ortho.keys():
-        station['attributes']['n_operateur'] = wrong_ortho[station['attributes']['n_operateur']]
+    if station['attributes']['nom_amenageur'] in wrong_ortho.keys():
+        station['attributes']['nom_amenageur'] = wrong_ortho[station['attributes']['nom_amenageur']]
+    if station['attributes']['nom_enseigne'] in wrong_ortho.keys():
+        station['attributes']['nom_enseigne'] = wrong_ortho[station['attributes']['nom_enseigne']]
+    if station['attributes']['nom_operateur'] in wrong_ortho.keys():
+        station['attributes']['nom_operateur'] = wrong_ortho[station['attributes']['nom_operateur']]
 
-    sources = set([elem['source'] for elem in station['pdc_list']])
+    sources = set([elem['datagouv_organization_or_owner'] for elem in station['pdc_list']])
     if len(sources) !=1 :
         errors.append({"station_id" : station_id,
                        "source": "multiples",
@@ -112,79 +159,90 @@ for station_id, station in station_list.items() :
                       })
     station['attributes']['source_grouped'] = sources.pop()
 
-    if not is_correct_id(station_id):
-        errors.append({"station_id" : station_id,
-               "source": station['attributes']['source_grouped'],
-               "error": "le format de l'identifiant ref:EU:EVSE (id_station) n'est pas valide",
-               "detail": station_id})
-        station['attributes']['id_station'] = None
-
-    addresses = set([elem['ad_station'] for elem in station['pdc_list']])
-    if len(addresses) !=1 :
-        errors.append({"station_id" : station_id,
-                       "source": station['attributes']['source_grouped'],
-                       "error": "plusieurs adresses pour une même station",
-                       "detail": addresses})
-
-    acces_recharge = set([elem['acces_recharge'].strip() for elem in station['pdc_list']])
-    if len(acces_recharge) !=1 :
-        station['attributes']['acces_recharge_grouped'] = None
-        errors.append({"station_id" : station_id,
-                       "source": station['attributes']['source_grouped'],
-                       "error": "plusieurs prix pour une même station",
-                       "detail": acces_recharge})
-    else :
-        station['attributes']['acces_recharge_grouped'] = acces_recharge.pop()
-
-    accessibilite = set([elem['accessibilité'].strip() for elem in station['pdc_list']])
-    if len(accessibilite) !=1 :
-        station['attributes']['accessibilité_grouped'] = None
+    horaires = set([elem['horaires'].strip() for elem in station['pdc_list']])
+    if len(horaires) !=1 :
+        station['attributes']['horaires_grouped'] = None
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
                        "error": "plusieurs horaires pour une même station",
-                       "detail": accessibilite})
+                       "detail": horaires})
     else :
-        station['attributes']['accessibilité_grouped'] = accessibilite.pop()
+        station['attributes']['horaires_grouped'] = horaires.pop()
 
-    prises = [elem['type_prise'] for elem in station['pdc_list']]
-    all_prises_types.update(prises)
-    station['attributes']['nb_prises_grouped'] = 0
-    station['attributes']['prises_grouped'] = prises
-
-
-    T2_count = Counter(["t2" in elem.lower() for elem in prises])
-    station['attributes']['nb_T2_grouped'] = T2_count[True]
-    station['attributes']['nb_prises_grouped'] += T2_count[True]
-
-    T3_count = Counter(["t3" in elem.lower() for elem in prises])
-    station['attributes']['nb_T3c_grouped'] = T3_count[True]
-    station['attributes']['nb_prises_grouped'] += T3_count[True]
-
-    T4_count = Counter(["t4" in elem.lower() for elem in prises])
-    if T4_count[True]:
-        errors.append({"station_id" : station_id,
-                       "error": "type de prise inconnu",
-                       "detail": "T4"})
-
-    EF_count = Counter(["EF" in elem for elem in prises])
-    EF_other_count = Counter(["E/F" in elem for elem in prises])
-    station['attributes']['nb_EF_grouped'] = EF_count[True] + EF_other_count[True]
-    station['attributes']['nb_prises_grouped'] += EF_count[True] + EF_other_count[True]
-
-    chademo_count = Counter(["chademo" in elem.lower() for elem in prises])
-    station['attributes']['nb_chademo_grouped'] = chademo_count[True]
-    station['attributes']['nb_prises_grouped'] += chademo_count[True]
-
-    combo_count = Counter(["combo" in elem.lower() for elem in prises])
-    combo_other_count = Counter(["CCS350" in elem for elem in prises])
-    station['attributes']['nb_combo_grouped'] = combo_count[True] + combo_other_count[True]
-    station['attributes']['nb_prises_grouped'] += combo_count[True] + combo_other_count[True]
-
-    if station['attributes']['nb_prises_grouped'] < len(station['pdc_list']):
+    gratuit = set([elem['gratuit'].strip() for elem in station['pdc_list']])
+    if len(gratuit) !=1 :
+        station['attributes']['gratuit_grouped'] = None
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
-                       "error": "type de prise inconnu",
-                       "detail": prises})
+                       "error": "plusieurs infos de gratuité (gratuit) pour une même station",
+                       "detail": gratuit})
+    else :
+        station['attributes']['gratuit_grouped'] = gratuit.pop()
+
+    paiement_acte = set([elem['paiement_acte'].strip() for elem in station['pdc_list']])
+    if len(paiement_acte) !=1 :
+        station['attributes']['paiement_acte_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos de paiement (paiement_acte) pour une même station",
+                       "detail": paiement_acte})
+    else :
+        station['attributes']['paiement_acte_grouped'] = paiement_acte.pop()
+
+    paiement_cb = set([elem['paiement_cb'].strip() for elem in station['pdc_list']])
+    if len(paiement_cb) !=1 :
+        station['attributes']['paiement_cb_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos de paiement (paiement_cb) pour une même station",
+                       "detail": paiement_cb})
+    else :
+        station['attributes']['paiement_cb_grouped'] = paiement_cb.pop()
+
+    reservation = set([elem['reservation'].strip() for elem in station['pdc_list']])
+    if len(reservation) !=1 :
+        station['attributes']['reservation_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos reservation pour une même station",
+                       "detail": reservation})
+    else :
+        station['attributes']['reservation_grouped'] = reservation.pop()
+
+    accessibilite_pmr = set([elem['accessibilite_pmr'].strip() for elem in station['pdc_list']])
+    if len(accessibilite_pmr) !=1 :
+        station['attributes']['accessibilite_pmr_grouped'] = None
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs infos d'accessibilité PMR (accessibilite_pmr) pour une même station",
+                       "detail": accessibilite_pmr})
+    else :
+        station['attributes']['accessibilite_pmr_grouped'] = accessibilite_pmr.pop()
+
+
+    station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
+
+    EF_count = sum([ stringBoolToInt(elem['prise_type_ef']) for elem in station['pdc_list'] ])
+    station['attributes']['nb_EF_grouped'] = EF_count
+
+    T2_count = sum([ stringBoolToInt(elem['prise_type_2']) for elem in station['pdc_list'] ])
+    station['attributes']['nb_T2_grouped'] = T2_count
+
+    combo_count = sum([ stringBoolToInt(elem['prise_type_combo_ccs']) for elem in station['pdc_list'] ])
+    station['attributes']['nb_combo_ccs_grouped'] = combo_count
+
+    chademo_count = sum([ stringBoolToInt(elem['prise_type_chademo']) for elem in station['pdc_list'] ])
+    station['attributes']['nb_chademo_grouped'] = chademo_count
+
+    autre_count = sum([ stringBoolToInt(elem['prise_type_autre']) for elem in station['pdc_list'] ])
+    station['attributes']['nb_autre_grouped'] = autre_count
+
+    if (EF_count + T2_count + combo_count + chademo_count + autre_count) == 0:
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "aucun type de prise précisé sur l'ensemble des points de charge",
+                       "detail": "nb pdc: %s" % (len(station['pdc_list']))
+                       })
 
 print("{} stations".format(len(station_list)))
 

@@ -27,11 +27,11 @@ jobs:
         export PATH=$PATH:$PWD/
         xsv --version
         mkdir output
-        wget https://www.data.gouv.fr/fr/datasets/r/50625621-18bd-43cb-8fde-6b8c24bdabb3 --no-verbose --output-document=opendata_irve.csv 2>&1
+        wget https://www.data.gouv.fr/fr/datasets/r/8d9398ae-3037-48b2-be19-412c24561fbb --no-verbose --output-document=opendata_irve.csv 2>&1
         python group_opendata_by_station.py
         #fail if less than 2 lines
         test `cat output/opendata_stations.csv | xsv count` -ge 2
-        cat output/opendata_stations.csv |xsv select n_operateur,n_enseigne |xsv sort |uniq > output/opendata_networks.csv
+        cat output/opendata_stations.csv |xsv select nom_operateur,nom_enseigne |xsv sort |uniq > output/opendata_networks.csv
     - name: Deploy
       if: ${{ github.ref == 'refs/heads/master' }}
       uses: peaceiris/actions-gh-pages@v3
