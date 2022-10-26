@@ -49,6 +49,9 @@ def validate_coord(lat_or_lon_text):
     return True
 
 def is_correct_id(station_id):
+    if station_id is None:
+        return False
+
     station_id_parts = station_id.split('*')
     station_id = "".join(station_id_parts)
     station_id_parts = station_id.split(' ')
@@ -61,17 +64,38 @@ def is_correct_id(station_id):
     return True
 
 def cleanPhoneNumber(phone):
-    if re.match("^\d{10}$", phone):
+    if re.match("^\+33\d{9}$", phone):
+        return phone
+    elif re.match("^\+33 \d( \d{2}){4}$", phone):
+        return phone.replace(" ", "")
+    elif re.match("^33\d{9}$", phone):
+        return "+"+phone
+    elif re.match("^\d{10}$", phone):
         return "+33" + phone[1:]
     elif re.match("^\d{9}$", phone):
         return "+33" + phone
     elif re.match("^(\d{2}[. -]){4}\d{2}$", phone):
         return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
+    elif re.match("^\d( \d{3}){3}$", phone):
+        return "+33" + phone[1:].replace(" ", "")
     else:
         return None
 
 def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
+
+def transformRef(refIti, refLoc):
+    rgx = "FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
+    areRefNoSepEqual = refIti.replace("*", "") == refLoc.replace("*", "")
+
+    if re.match(rgx, refIti):
+        return refIti
+    elif areRefNoSepEqual and re.match(rgx, refLoc):
+        return refLoc
+    elif re.match("FR[A-Za-z0-9]{3}P[A-Za-z0-9]+", refIti):
+        return "FR*"+refIti[2:5]+"*P"+refIti[6:]
+    else:
+        return None
 
 errors = []
 
@@ -87,50 +111,55 @@ with open('opendata_irve.csv') as csvfile:
             continue
         if row['id_station_itinerance']=="Non concerné":
             # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose
-            continue        
+            continue
+
         coordsXY = row['coordonneesXY'][1:-1].split(',')
+        cleanRef = transformRef(row['id_station_itinerance'], row['id_station_local'])
+
         if not validate_coord(coordsXY[0]):
-            errors.append({"station_id" :  row['id_station_itinerance'],
+            errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['coordonneesXY']
                                   })
             continue
         if not validate_coord(coordsXY[1]):
-            errors.append({"station_id" :  row['id_station_itinerance'],
+            errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['coordonneesXY']
                                   })
             continue
 
-        if not is_correct_id(row['id_station_itinerance']):
-            errors.append({"station_id" : row['id_station_itinerance'],
+        if not is_correct_id(cleanRef):
+            errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide",
-                   "detail": row['id_station_itinerance']})
+                   "detail": "iti: %s, local: %s" % (row['id_station_itinerance'], row['id_station_local'])})
             continue
 
-        if not row['id_station_itinerance'] in station_list:
-            station_prop = {key: row[key] for key in station_attributes}
+        if not cleanRef in station_list:
+            station_prop = {key: row[key] if row[key] != "null" else "" for key in station_attributes}
             station_prop['Xlongitude'] = float(coordsXY[0])
             station_prop['Ylatitude'] = float(coordsXY[1])
             phone = cleanPhoneNumber(row['telephone_operateur'])
-            station_list[row['id_station_itinerance']] = {'attributes' : station_prop, 'pdc_list': []}
+            station_list[cleanRef] = {'attributes' : station_prop, 'pdc_list': []}
 
             # Non-blocking issues
-            if phone is None and station_prop['telephone_operateur'] != "null":
+            if phone is None and row['telephone_operateur'] != "null":
                 station_prop['telephone_operateur'] = None
-                errors.append({"station_id" : row['id_station_itinerance'],
+                errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le numéro de téléphone de l'opérateur (telephone_operateur) est dans un format invalide",
                    "detail": row['telephone_operateur']})
-            else:
+            elif phone is not None:
                 station_prop['telephone_operateur'] = phone
+            else:
+                station_prop['telephone_operateur'] = None
 
             if row['station_deux_roues'].lower() not in ['true', 'false', '']:
                 station_prop['station_deux_roues'] = None
-                errors.append({"station_id" : row['id_station_itinerance'],
+                errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le champ station_deux_roues n'est pas valide",
                    "detail": row['id_station_itinerance']})
@@ -138,7 +167,7 @@ with open('opendata_irve.csv') as csvfile:
                 station_prop['station_deux_roues'] = row['station_deux_roues'].lower()
 
         pdc_prop = {key: row[key] for key in pdc_attributes}
-        station_list[row['id_station_itinerance']]['pdc_list'].append(pdc_prop)
+        station_list[cleanRef]['pdc_list'].append(pdc_prop)
 
 # ~ all_prises_types = set()
 
@@ -150,6 +179,7 @@ for station_id, station in station_list.items() :
     if station['attributes']['nom_operateur'] in wrong_ortho.keys():
         station['attributes']['nom_operateur'] = wrong_ortho[station['attributes']['nom_operateur']]
 
+    station['attributes']['id_station_itinerance'] = station_id
     sources = set([elem['datagouv_organization_or_owner'] for elem in station['pdc_list']])
     if len(sources) !=1 :
         errors.append({"station_id" : station_id,
