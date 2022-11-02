@@ -10,36 +10,12 @@ station_list = {}
 station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'adresse_station' ]
 pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'horaires' ]
 
-wrong_ortho = {
-    "Herault Energies 34" : "Hérault Énergies 34",
-    "Montpellier Mediterranee Metropole": "Montpellier Méditerranée Métropole",
-    "Toulouse Metropole" : "Toulouse Métropole",
-    "SDEY Syndicat Departemental d'Energies de l'Yonne": "SDEY Syndicat Départemental d'Énergies de l'Yonne",
-    "TERRITOIRE D'ENERGIE 90": "Territoire d'Énergie 90",
-    "TE90": "Territoire d'Énergie 90",
-    "SAINT-LOUIS" : "Saint-Louis",
-    "PLUS DE BORNES": "Plus de Bornes",
-    "ORLEANS METROPOLE" : "Orléans Métropole",
-    "S‚olis" : "Séolis",
-    "BREST METROPOLE": "Brest Métropole",
-    "IONITY": "Ionity",
-    "IZIVIA": "Izivia",
-    "SIMONE": "Simone",
-    "CANTAL": "Cantal",
-    "ISTRES": "Istres",
-    "SYDEV": "SyDEV",
-    "La borne �lectrique": "La Borne Électrique",
-    "Morbihan énergies": "Morbihan Énergies",
-    "Pass pass electrique": "Pass pass électrique",
-    "VILLE DE ROSHEIM": "Ville de Rosheim",
-    "CC VITRY CHAMPAGNE ET DER": "Communauté de communes Vitry, Champagne et Der",
-    "BOUYGUES ENERGIES ET SERVICES": "Bouygues Énergies et Services",
-    "CITEOS-FRESHMILE" : "Freshmile",
-    "SODETREL" : "Sodetrel",
-    "SOREGIES" : "Sorégies",
-    "MOBILOIRE": "Mobiloire",
-    "MOUVELECVAR": "Mouv Élec Var"
-}
+wrong_ortho = {}
+
+with open('fixes_networks.csv', 'r') as csv_file:
+    csv_reader = csv.DictReader(csv_file, delimiter=',')
+    for row in csv_reader:
+        wrong_ortho[row["opendata_name"]] = row["better_name"]
 
 def validate_coord(lat_or_lon_text):
     try:
