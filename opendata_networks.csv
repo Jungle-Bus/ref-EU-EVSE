@@ -358,6 +358,8 @@ nom_operateur,nom_enseigne
 Acelec Charge,Acelec
 Acelec Charge,Camaïeu France
 Acelec Charge,HOTEL KYRIAD PARIS BEZONS
+BIARS DISTRIBUTION,Leclerc Biars
+BORNECO,borneco
 BORNES SOLUTIONS,BORNES SOLUTIONS - Itinérance Publique
 BORNES SOLUTIONS,BORNES SOLUTIONS - Itinérance Publique en Copropriété
 Bouygues E&S,Alizé Liberté
@@ -388,28 +390,60 @@ ECO-PI,PM CONCEPTION
 ECO-PI,SCI DU CHATEAU D AVENY
 ECO-PI,VAL SERVICES
 ELECTRA,ELECTRA
+ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ELECTROMAPS,Le COTONNIER NIEPPE
 EVBOX,Hötel Orchidées S.A.R.L Céline
+Easycharge services,Easycharge services
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Carrefour Contact 
+Electromaps,Carrefour Contact
 Electromaps,Domaine de Fompeyre
 Electromaps,Favret Automobiles
+FRESHMILE,Réseau de recharge DOMAINE DES BUFFLONNES
+FRESHMILE,STATIONS-E
 Fastned,Fastned
 Freshmile,Morbihan Energies
 Freshmile SAS,Freshmile
 Freshmile SAS,Mobisdec
+HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
+Izivia,ARCACHON
+Izivia,AVIA PICOTY
+Izivia,AVIA TD
+Izivia,BP EG
 Izivia,Ecocharge77
-Izivia,IZIVIA - MAMP
+Izivia,FLEX-E
+Izivia,GARENNE
+Izivia,LEVAPARC
+Izivia,MAMP
+Izivia,MOBIVE - FDEE 19
+Izivia,MOBIVE - SDE 24
+Izivia,MOBIVE - SDEER 17
+Izivia,MOBIVE - SDEG 16
+Izivia,MOBIVE - SDEPA 64
+Izivia,MOBIVE - SEHV87
+Izivia,MOBIVE - SYDEC 40
+Izivia,MOBIVE - TE 47
+Izivia,OUEST CHARGE - 22
+Izivia,OUEST CHARGE - 29
+Izivia,OUEST CHARGE - 35
+Izivia,RT78
+Izivia,SHELL
+Izivia,SIXT
+Izivia,UNIBAIL
+Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
 LMS Informatique,LMS Informatique
+Leclerc Millau,Leclerc Millau
 MAS DES OLIVES,MAS DES OLIVES
 Metropole Rouen Normandie,Metropole Rouen Normandie
 NEXTENEO,NEXTENEO
 NM SECURELEC,Le Morgane
+OCR MAINTENANCE ELECTRONIQUE,OCR MAINTENANCE ELECTRONIQUE
 PLAGECO DISTRIBUTION,Leclerc Express Labouheyre
 PLAGECO DISTRIBUTION,Leclerc Mimizan
+Power Dot France,Power Dot France
 QoWatt,QoWatt
+SAS Miodis,Leclerc Mios
 SGA Industries,Réseau de recharge Brasserie Castelain
 SGA Industries,Réseau de recharge Bulle de Linge
 SGA Industries,Réseau de recharge DEBELEC
@@ -420,22 +454,22 @@ SIEGE 27,SIEGE102
 SIEGE 27,SIEGE104
 SIEGE 27,SIEGE106
 SIEGE 27,SIEGE108
-SIEGE 27,SIEGE109
-SIEGE 27,SIEGE111
+SIEGE 27,SIEGE110
+SIEGE 27,SIEGE112
 SIEGE 27,SIEGE113
 SIEGE 27,SIEGE115
-SIEGE 27,SIEGE117
+SIEGE 27,SIEGE118
 SIEGE 27,SIEGE119
 SIEGE 27,SIEGE121
-SIEGE 27,SIEGE124
-SIEGE 27,SIEGE125
-SIEGE 27,SIEGE128
+SIEGE 27,SIEGE123
+SIEGE 27,SIEGE126
+SIEGE 27,SIEGE127
 SIEGE 27,SIEGE130
 SIEGE 27,SIEGE132
 SIEGE 27,SIEGE134
 SIEGE 27,SIEGE136
 SIEGE 27,SIEGE138
-SIEGE 27,SIEGE140
+SIEGE 27,SIEGE139
 SIEGE 27,SIEGE142
 SIEGE 27,SIEGE144
 SIEGE 27,SIEGE146
@@ -445,8 +479,8 @@ SIEGE 27,SIEGE152
 SIEGE 27,SIEGE154
 SIEGE 27,SIEGE156
 SIEGE 27,SIEGE158
-SIEGE 27,SIEGE159
-SIEGE 27,SIEGE162
+SIEGE 27,SIEGE160
+SIEGE 27,SIEGE161
 SIEGE 27,SIEGE164
 SIEGE 27,SIEGE166
 SIEGE 27,SIEGE168
@@ -462,14 +496,14 @@ SIEGE 27,SIEGE186
 SIEGE 27,SIEGE188
 SIEGE 27,SIEGE190
 SIEGE 27,SIEGE192
-SIEGE 27,SIEGE193
+SIEGE 27,SIEGE194
 SIEGE 27,SIEGE195
-SIEGE 27,SIEGE200
-SIEGE 27,SIEGE201
-SIEGE 27,SIEGE203
-SIEGE 27,SIEGE205
+SIEGE 27,SIEGE199
+SIEGE 27,SIEGE202
+SIEGE 27,SIEGE204
+SIEGE 27,SIEGE206
 SIEGE 27,SIEGE208
-SIEGE 27,SIEGE210
+SIEGE 27,SIEGE209
 SIEGE 27,SIEGE212
 SIEGE 27,SIEGE214
 SIEGE 27,SIEGE216
@@ -488,7 +522,7 @@ SIEGE 27,SIEGE240
 SIEGE 27,SIEGE242
 SIEGE 27,SIEGE244
 SIEGE 27,SIEGE246
-SIEGE 27,SIEGE247
+SIEGE 27,SIEGE248
 SIEGE 27,SIEGE250
 SIEGE 27,SIEGE252
 SIEGE 27,SIEGE253
@@ -496,9 +530,9 @@ SIEGE 27,SIEGE254
 SIEGE 27,SIEGE256
 SIEGE 27,SIEGE258
 SIEGE 27,SIEGE260
-SIEGE 27,SIEGE261
+SIEGE 27,SIEGE262
 SIEGE 27,SIEGE263
-SIEGE 27,SIEGE265
+SIEGE 27,SIEGE266
 SIEGE 27,SIEGE268
 SIEGE 27,SIEGE270
 SIEGE 27,SIEGE272
@@ -507,7 +541,7 @@ SIEGE 27,SIEGE276
 SIEGE 27,SIEGE278
 SIEGE 27,SIEGE28
 SIEGE 27,SIEGE280
-SIEGE 27,SIEGE281
+SIEGE 27,SIEGE282
 SIEGE 27,SIEGE284
 SIEGE 27,SIEGE286
 SIEGE 27,SIEGE288
@@ -543,11 +577,12 @@ SIEGE 27,SIEGE79
 SIEGE 27,SIEGE82
 SIEGE 27,SIEGE84
 SIEGE 27,SIEGE86
-SIEGE 27,SIEGE90
+SIEGE 27,SIEGE89
 SIEGE 27,SIEGE92
 SIEGE 27,SIEGE93
 SIEGE 27,SIEGE96
-SIEGE 27,SIEGE98
+SIEGE 27,SIEGE97
+SPBR1,eborn
 SPIE CITYNETWORKS,BE CABLE
 SPIE CITYNETWORKS,BECABLE
 SPIE CITYNETWORKS,Métropolis
@@ -555,37 +590,20 @@ SPIE CITYNETWORKS,SIEML
 SPIE CITYNETWORKS,SYDELA
 SPIE CITYNETWORKS,SyDEV
 SPIE CITYNETWORKS,TEM53
-Sodetrel,ARCACHON
-Sodetrel,CPS
-Sodetrel,FLEX-E
-Sodetrel,GARENNE
-Sodetrel,GRAND LYON
-Sodetrel,IZIVIA EXPRESS
-Sodetrel,LEVAPARC
-Sodetrel,MOBIVE - FDEE 19
-Sodetrel,MOBIVE - SDE 24
-Sodetrel,MOBIVE - SDEEG 33
-Sodetrel,MOBIVE - SDEER 17
-Sodetrel,MOBIVE - SDEG 16
-Sodetrel,MOBIVE - SDEPA 64
-Sodetrel,MOBIVE - SEHV87
-Sodetrel,MOBIVE - SYDEC 40
-Sodetrel,MOBIVE - TE 47
-Sodetrel,OUEST CHARGE - 29
-Sodetrel,OUEST CHARGE - 35
-Sodetrel,RT78
-Sodetrel,SIXT
 Sodetrel,SUPER U CARQUEFOU
-Sodetrel,UNIBAIL
 Sodetrel,WIIIZ
 Sorégies,ALTERBASE86
 Sorégies,ALTERBASE87
+TANAY Electricité,Riviera Car Center
 TESLA France,Supercharger Tesla
 TOTALENERGIES,Belib'
 Total marketing france,e-charge50
 TotalEnergies Marketing France,ACCOR HOTELS
 TotalEnergies Marketing France,ACCOR Hotels
 TotalEnergies Marketing France,Aix Marseille Provence La Recharge
+TotalEnergies Marketing France,BMW EPINAL
+TotalEnergies Marketing France,BMW METZ
+TotalEnergies Marketing France,BMW SARREBOURG
 TotalEnergies Marketing France,CHALLANS AUTOMOBILES
 TotalEnergies Marketing France,DA COSTA AUTOMOBILES
 TotalEnergies Marketing France,F.B SERVICE
@@ -593,20 +611,31 @@ TotalEnergies Marketing France,GARAGE PEUGEOT CUCIS
 TotalEnergies Marketing France,HOTEL VAL DE VIENNE
 TotalEnergies Marketing France,INTERPARKING
 TotalEnergies Marketing France,INTERPARKING 
+TotalEnergies Marketing France,KIA COLMAR CAR AVENUE
+TotalEnergies Marketing France,KIA FORBACH
+TotalEnergies Marketing France,KIA HAGUENAU
+TotalEnergies Marketing France,KIA METZ
 TotalEnergies Marketing France,L.R. Participations
 TotalEnergies Marketing France,LOUVRE HOTELS GROUP
+TotalEnergies Marketing France,MERCURE ALBI
 TotalEnergies Marketing France,PSA Agents France
+TotalEnergies Marketing France,RIESTER BEAUVAIS
+TotalEnergies Marketing France,RIESTER BUSSY
+TotalEnergies Marketing France,RIESTER MEAUX
 TotalEnergies Marketing France,Renault Agents France
 TotalEnergies Marketing France,SAEMES
 TotalEnergies Marketing France,TERRITOIRE D'ENERGIE ORNE
+TotalEnergies Marketing France,Total Charge Rapide
+TotalEnergies Marketing France,Total FR HPC
 TotalEnergies Marketing France,VIKING CASINOS
 TotalEnergies Marketing France,WARNING
 Totalenergies Marketing France,ACCOR Hotels
 Totalenergies Marketing France,BMW
 Totalenergies Marketing France,Résidence les Primevères
+VINCI Autoroutes,VINCI Autoroutes
+Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 electromaps,Ligue Occitanie Basketball
 evzen (SMEG Développement),Simone
 evzen (SMEG Développement),evzen
 evzen (SMEG Développement),larecharge
-themis,edf
