@@ -27,7 +27,6 @@ nom_operateur,nom_enseigne
 ,CC RIVES D'ALZON
 ,CC Sud Corse - Santa Catalina
 ,CORSE TRAVAUX
-,CPS
 ,Campanile
 ,Camping 3 étoiles
 ,Camping Les Lacs
@@ -87,7 +86,6 @@ nom_operateur,nom_enseigne
 ,Ford Angers - Cl&eacute;net
 ,Ford Rennes Cesson-S&eacute;vign&eacute; - Contacts automobiles
 ,Ford Saint-Brieuc - Contacts automobiles
-,GRAND LYON
 ,GRAND NANCY
 ,GRIM AUTO
 ,GROUPE BERNARD
@@ -129,7 +127,6 @@ nom_operateur,nom_enseigne
 ,IN-GEO Vito
 ,Ibis Styles
 ,IdealJob
-,Izivia Express
 ,J.H MESGUEN
 ,JCB - Lyomat
 ,JFC Normandie Evreux
@@ -177,7 +174,6 @@ nom_operateur,nom_enseigne
 ,MG Motor BESAN&Ccedil;ON - Autobernard
 ,MINI
 ,ML Autos
-,MOBIVE LA DIEGE
 ,MTP-E
 ,Mairie
 ,Mairie de Gevrey-Chambertin
@@ -242,7 +238,6 @@ nom_operateur,nom_enseigne
 ,SETE UTILITAIRES
 ,SOCAM - PEUGEOT
 ,SUZUKI AUTOMOBILES
-,SYDER
 ,Salade & Co
 ,Salle &agrave; usage multiple Nelson Mandela
 ,Savoie Motors Albertville
@@ -250,10 +245,10 @@ nom_operateur,nom_enseigne
 ,Seat ABVV Epinay-sur-Seine
 ,Sepric
 ,Sicobal
-,Sigeif
 ,Sixt
 ,Siège Lempereur
 ,Smart
+,Sorégies
 ,Spie Batignolles Petavit
 ,Stade Claude Papi
 ,Station Eurotyre
@@ -263,7 +258,6 @@ nom_operateur,nom_enseigne
 ,Toufflin MTP
 ,Toyota
 ,Toyota Nissan
-,Unibail
 ,Usine
 ,VAL DE LOIRE AUTOMOBILES SAUMUR
 ,VOLKSWAGEN BYmyCAR Beaune
@@ -292,7 +286,6 @@ nom_operateur,nom_enseigne
 ,Volvo Rouen Thibaut SAS
 ,Volvo Tarbes Commeres SAS
 ,Volvo Tours (37) - Val de Loire Automobile
-,WiiiZ
 ,Zenpark
 ,edenauto Renault Aire-sur-l'Adour
 ,edenauto Renault Mont-de-Marsan
@@ -303,8 +296,8 @@ Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Carrefour Energies
+BIARS DISTRIBUTION,E. Leclerc
 BORNECO,borneco
-BOUYGUES ENERGIES ET SERVICES,Pass Pass Electrique
 Bouygues Énergies et Services,ADP Groupe
 Bouygues Énergies et Services,Alizé Liberté
 Bouygues Énergies et Services,Bouygues Energies et Services
@@ -325,6 +318,8 @@ CHARGEPOLY,CHARGEPOLY
 ELECTRA,ELECTRA
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EVBOX,Hötel Orchidées S.A.R.L Céline
+EVzen (SMEG Développement),Simone
+EVzen (SMEG Développement),larecharge
 Easycharge services,Easycharge services
 Eco-Pi,CENTRE DE REEDUCATION DE L'OISEAU BLANC
 Eco-Pi,EDEN PARK HOTEL RESTAURANT
@@ -335,7 +330,6 @@ Eco-Pi,VAL SERVICES
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Carrefour Contact
 Electromaps,Domaine de Fompeyre
-Electromaps,Electromaps
 Electromaps,Favret Automobiles
 Electromaps,Le COTONNIER NIEPPE
 Fastned,Fastned
@@ -346,7 +340,6 @@ Freshmile SAS,Freshmile
 Freshmile SAS,Mobisdec
 Green To Wheel,ALLEGO
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
-Hostellerie,Charge parking
 Izivia,AVIA PICOTY
 Izivia,AVIA TD
 Izivia,Arcachon
@@ -369,6 +362,7 @@ Izivia,SHELL
 Izivia,SYDER
 Izivia,Sigeif
 Izivia,Sixt
+Izivia,Sorégies
 Izivia,Unibail
 Izivia,WiiiZ
 Kallista BDR,YAWAY Recharge
@@ -379,8 +373,11 @@ Last Mile Solutions,Last Mile Solutions
 Leclerc Millau,Leclerc Millau
 MAS DES OLIVES,MAS DES OLIVES
 Modulo énergies,Modulo
+NEXTENEO,ACTIPOLE
 NEXTENEO,CLUB MED
-NEXTENEO,NEXTENEO
+NEXTENEO,GALILEO
+NEXTENEO,MOULINS D'ASCQ
+NEXTENEO,VOYAGES FRANCONY
 NM SECURELEC,Le Morgane
 Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
@@ -393,6 +390,7 @@ QoWatt,QoWatt
 R3,R3
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
+SAS Miodis,E. Leclerc
 SGA Industries,Réseau de recharge Brasserie Castelain
 SGA Industries,Réseau de recharge Bulle de Linge
 SGA Industries,Réseau de recharge DEBELEC
@@ -404,15 +402,15 @@ SIEGE 27,SIEGE104
 SIEGE 27,SIEGE106
 SIEGE 27,SIEGE108
 SIEGE 27,SIEGE110
-SIEGE 27,SIEGE111
+SIEGE 27,SIEGE112
 SIEGE 27,SIEGE113
 SIEGE 27,SIEGE115
 SIEGE 27,SIEGE117
 SIEGE 27,SIEGE119
 SIEGE 27,SIEGE121
 SIEGE 27,SIEGE124
-SIEGE 27,SIEGE125
-SIEGE 27,SIEGE128
+SIEGE 27,SIEGE126
+SIEGE 27,SIEGE127
 SIEGE 27,SIEGE130
 SIEGE 27,SIEGE132
 SIEGE 27,SIEGE134
@@ -425,19 +423,19 @@ SIEGE 27,SIEGE146
 SIEGE 27,SIEGE148
 SIEGE 27,SIEGE150
 SIEGE 27,SIEGE152
-SIEGE 27,SIEGE154
-SIEGE 27,SIEGE155
+SIEGE 27,SIEGE153
+SIEGE 27,SIEGE156
 SIEGE 27,SIEGE157
 SIEGE 27,SIEGE159
 SIEGE 27,SIEGE161
-SIEGE 27,SIEGE163
+SIEGE 27,SIEGE164
 SIEGE 27,SIEGE166
 SIEGE 27,SIEGE168
 SIEGE 27,SIEGE170
 SIEGE 27,SIEGE172
 SIEGE 27,SIEGE174
 SIEGE 27,SIEGE176
-SIEGE 27,SIEGE178
+SIEGE 27,SIEGE177
 SIEGE 27,SIEGE180
 SIEGE 27,SIEGE182
 SIEGE 27,SIEGE184
@@ -446,7 +444,7 @@ SIEGE 27,SIEGE188
 SIEGE 27,SIEGE190
 SIEGE 27,SIEGE191
 SIEGE 27,SIEGE193
-SIEGE 27,SIEGE196
+SIEGE 27,SIEGE195
 SIEGE 27,SIEGE200
 SIEGE 27,SIEGE202
 SIEGE 27,SIEGE204
@@ -462,7 +460,7 @@ SIEGE 27,SIEGE222
 SIEGE 27,SIEGE224
 SIEGE 27,SIEGE226
 SIEGE 27,SIEGE228
-SIEGE 27,SIEGE230
+SIEGE 27,SIEGE229
 SIEGE 27,SIEGE232
 SIEGE 27,SIEGE234
 SIEGE 27,SIEGE236
@@ -470,7 +468,7 @@ SIEGE 27,SIEGE238
 SIEGE 27,SIEGE240
 SIEGE 27,SIEGE242
 SIEGE 27,SIEGE244
-SIEGE 27,SIEGE245
+SIEGE 27,SIEGE246
 SIEGE 27,SIEGE248
 SIEGE 27,SIEGE250
 SIEGE 27,SIEGE252
@@ -478,8 +476,8 @@ SIEGE 27,SIEGE253
 SIEGE 27,SIEGE254
 SIEGE 27,SIEGE256
 SIEGE 27,SIEGE258
-SIEGE 27,SIEGE259
-SIEGE 27,SIEGE261
+SIEGE 27,SIEGE260
+SIEGE 27,SIEGE262
 SIEGE 27,SIEGE263
 SIEGE 27,SIEGE266
 SIEGE 27,SIEGE268
@@ -488,32 +486,32 @@ SIEGE 27,SIEGE272
 SIEGE 27,SIEGE274
 SIEGE 27,SIEGE276
 SIEGE 27,SIEGE278
-SIEGE 27,SIEGE279
 SIEGE 27,SIEGE28
+SIEGE 27,SIEGE280
 SIEGE 27,SIEGE282
 SIEGE 27,SIEGE284
-SIEGE 27,SIEGE285
+SIEGE 27,SIEGE286
 SIEGE 27,SIEGE288
-SIEGE 27,SIEGE290
-SIEGE 27,SIEGE291
-SIEGE 27,SIEGE293
+SIEGE 27,SIEGE289
+SIEGE 27,SIEGE292
+SIEGE 27,SIEGE294
 SIEGE 27,SIEGE30
 SIEGE 27,SIEGE32
 SIEGE 27,SIEGE34
-SIEGE 27,SIEGE36
+SIEGE 27,SIEGE35
 SIEGE 27,SIEGE38
 SIEGE 27,SIEGE40
-SIEGE 27,SIEGE41
+SIEGE 27,SIEGE42
 SIEGE 27,SIEGE44
-SIEGE 27,SIEGE46
+SIEGE 27,SIEGE45
 SIEGE 27,SIEGE48
 SIEGE 27,SIEGE50
 SIEGE 27,SIEGE52
 SIEGE 27,SIEGE54
-SIEGE 27,SIEGE55
+SIEGE 27,SIEGE56
 SIEGE 27,SIEGE57
 SIEGE 27,SIEGE59
-SIEGE 27,SIEGE62
+SIEGE 27,SIEGE61
 SIEGE 27,SIEGE64
 SIEGE 27,SIEGE66
 SIEGE 27,SIEGE68
@@ -527,9 +525,9 @@ SIEGE 27,SIEGE82
 SIEGE 27,SIEGE84
 SIEGE 27,SIEGE86
 SIEGE 27,SIEGE90
-SIEGE 27,SIEGE91
-SIEGE 27,SIEGE94
-SIEGE 27,SIEGE96
+SIEGE 27,SIEGE92
+SIEGE 27,SIEGE93
+SIEGE 27,SIEGE95
 SIEGE 27,SIEGE98
 SPBR1,eborn
 SPIE CityNetworks,Be Cablé
@@ -543,8 +541,12 @@ Securecharge,Securecharge
 Sodetrel,Super U
 Sodetrel,WiiiZ
 Sorégies,AlterBase
+Sorégies,Sorégies
 TANAY Electricité,Riviera Car Center
 Total marketing france,e-charge50
+TotalEnergies, VIKINGS CASINO B&B LA RIVIERE ST SAUVEUR
+TotalEnergies, VIKINGS CASINO IBIS BUDGET MONDEVILLE
+TotalEnergies, VIKINGS CASINO IBIS ROUGE HONFLEUR
 TotalEnergies,Accor Hotels
 TotalEnergies,Atelier de l'Aluminium Chanopost
 TotalEnergies,BEST WESTERN NANTES
@@ -570,8 +572,9 @@ TotalEnergies,KIA METZ
 TotalEnergies,KIA MULHOUSE
 TotalEnergies,L.R. Participations
 TotalEnergies,LOUVRE HOTELS GROUP
+TotalEnergies,La Recharge - Aix Marseille Provence
+TotalEnergies,MAISON DES ENTREPRISES DIJON
 TotalEnergies,MERCURE ALBI
-TotalEnergies,METROPOLE D'AIX-MARSEILLE-PROVENCE
 TotalEnergies,PSA Agents France
 TotalEnergies,RIESTER BEAUVAIS
 TotalEnergies,RIESTER BUSSY
@@ -583,19 +586,26 @@ TotalEnergies,Résidence les Primevères
 TotalEnergies,SAEMES
 TotalEnergies,SAMSE - ERP BASSENS-Parking magasin
 TotalEnergies,SAMSE - ERP COMBOIRE
+TotalEnergies,SAMSE - ERP EDB ANNEMASSE
+TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
 TotalEnergies,TERRITOIRE D'ENERGIE ORNE
 TotalEnergies,Total Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
+TotalEnergies,VIKINGS CASINO IBIS BUDGET BONCHAMPS LAVAL
+TotalEnergies,VIKINGS CASINO IBIS BUDGET GRANVILLE
+TotalEnergies,VIKINGS CASINO IBIS ROUGE FALAISE
+TotalEnergies,VIKINGS CASINO MERCURE GRANVILLE
 TotalEnergies,VIKINGS CASINO SANARY SUR MER
 TotalEnergies,WARNING
+TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 VINCI Autoroutes,VINCI Autoroutes
 Virta,Groupama supports et services 
+Virta,MODULO
 Virta,Réseau de recharge Virta Public
+alterna energie,alterna energie
 electromaps,Ligue Occitanie Basketball
-evzen (SMEG Développement),Simone
 evzen (SMEG Développement),evzen
-evzen (SMEG Développement),larecharge
 total énergie,enedis
