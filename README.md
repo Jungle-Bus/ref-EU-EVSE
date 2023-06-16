@@ -1,4 +1,4 @@
-# ref-fr-IRVE
+# ref:EU:EVSE
 
 Retraitement des données open data des points de recharge pour véhicules électriques pour intégration dans OpenStreetMap.
 
