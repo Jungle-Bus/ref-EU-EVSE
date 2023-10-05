@@ -8,16 +8,16 @@ nom_operateur,nom_enseigne
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
-,Sorégies
-,Zenpark
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
 Acelec Charge,Acelec
 Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
 Allego,ALLEGO
+Allego,Carrefour Energies
 Allego,GreenToWheel
 BORNECO,borneco
+Botanic,Botanic
 Bouygues (1-OUEST),OUEST CHARGE 35
 Bouygues (2-Nord),OUEST CHARGE 35
 Bouygues Energies et Services,Ecocharge77
@@ -36,6 +36,7 @@ Bouygues Énergies et Services,SARTHE IRVE
 Bouygues Énergies et Services,Seymaborne
 Bouygues Énergies et Services,Syndicat Départemental d'Énergie du Tarn
 CHARGEPOLY,CHARGEPOLY
+DRIVECO,DRIVECO
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
 E-TOTEM,AGGLOMERATION MONTARGOISE - CEPOY
@@ -122,7 +123,6 @@ E-TOTEM,VILLE DE LA ROCHELLE - PLACE JB MARCET
 E-TOTEM,VILLE DE LA ROCHELLE - PLACE VERDUN
 ELECTRA,ELECTRA
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
-EV MAP SAS,GARAGE RAYMOND
 EVBOX,Hötel Orchidées S.A.R.L Céline
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
@@ -141,34 +141,15 @@ Green To Wheel,GreenToWheel
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Reseau_IRVE_SIED70
 HAEFELI,Réseau IRVE TE90
-Izivia,AVIA PICOTY
-Izivia,AVIA TD
-Izivia,Arcachon
-Izivia,CPS
-Izivia,Flex-E
-Izivia,GARENNE
-Izivia,GRAND LYON
 Izivia,GRAND NANCY
-Izivia,Izivia Express
-Izivia,LEVAPARC
-Izivia,MAMP
-Izivia,MOBIVE LA DIEGE
-Izivia,MobiVE
 Izivia,OUEST CHARGE - 22
 Izivia,Ouest Charge
-Izivia,Rambouillet Territoires
-Izivia,SHELL
-Izivia,SYDER
-Izivia,Sigeif
-Izivia,Sixt
-Izivia,Sorégies
-Izivia,Unibail
-Izivia,WiiiZ
 Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
 LE REVE DE JANINE,LE REVE DE JANINE
 LMS Informatique,LMS Informatique
+Last Mile Solutions,ENGIE Vianeo
 Last Mile Solutions,Last Mile Solutions
 Leclerc Millau,Leclerc Millau
 MAS DES OLIVES,MAS DES OLIVES
@@ -183,9 +164,10 @@ Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
 ProperPhi,PROPERPHI
+QOVOLTIS,LABODENT
+QOVOLTIS,QOVOLTIS
 QoWatt,QoWatt
 R3,R3
-RechargerMonAuto,RechargerMonAuto
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
 SARL LAFOURCADE ,SARL LAFOURCADE
@@ -226,6 +208,7 @@ SIEGE 27,SIEGE157
 SIEGE 27,SIEGE159
 SIEGE 27,SIEGE161
 SIEGE 27,SIEGE163
+SIEGE 27,SIEGE166
 SIEGE 27,SIEGE167
 SIEGE 27,SIEGE169
 SIEGE 27,SIEGE171
@@ -336,12 +319,10 @@ SPIE CityNetworks,SYDEV
 SPIE CityNetworks,Siéml
 SPIE CityNetworks,Territoire d'Énergie Mayenne
 SPIE CityNetworks,e-Vadea
+SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,805035100
 Securecharge,Securecharge
 Sodetrel,Super U
-Sodetrel,WiiiZ
-Sorégies,AlterBase
-Sorégies,Sorégies
 Spie,OUEST CHARGE 35
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
@@ -418,5 +399,4 @@ TotalEnergies Charging Services,TotalEnergies Charge Rapide
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 electromaps,Ligue Occitanie Basketball
-evzen (SMEG Développement),evzen
 total énergie,enedis
