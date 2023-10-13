@@ -225,6 +225,13 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['accessibilite_pmr_grouped'] = list(accessibilite_pmr)[0]
 
+    if len(station['pdc_list']) != int(station['attributes']['nbre_pdc']):
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "le nombre de point de charge de la station n'est pas cohérent avec la liste des points de charge fournie",
+                       "detail": "{} points de charge indiqués pour la station (nbre_pdc) mais {} points de charge listés".format(station['attributes']['nbre_pdc'], len(station['pdc_list']))})        
+        station['attributes']['nbre_pdc'] = None
+
     station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
 
     EF_count = sum([ stringBoolToInt(elem['prise_type_ef']) for elem in station['pdc_list'] ])
@@ -253,7 +260,7 @@ print("{} stations".format(len(station_list)))
 
 print("{} points de charge avec des erreurs :".format(len(errors)))
 for error_type, error_count in Counter([elem['error'] for elem in errors]).items():
-    print(" > {} : {} stations ou points de charge".format(error_type, error_count))
+    print(" > {} : {} éléments".format(error_type, error_count))
 
 
 with open("output/opendata_errors.csv", 'w') as ofile:
