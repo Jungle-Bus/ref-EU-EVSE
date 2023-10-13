@@ -81,12 +81,12 @@ with open('opendata_irve.csv') as csvfile:
         if not row['id_station_itinerance']:
             errors.append({"station_id" :  None,
                                    "source": row['datagouv_organization_or_owner'],
-                                   "error": "pas d'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
+                                   "error": "pas d'identifiant ref:EU:EVSE (id_station_itinerance). Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                                    "detail": None
                                   })
             continue
         if row['id_station_itinerance']=="Non concerné":
-            # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Cette station est ignorée et ne sera pas présente dans l'analyse Osmose
+            # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose
             continue
 
         coordsXY = row['coordonneesXY'][1:-1].split(',')
@@ -95,14 +95,14 @@ with open('opendata_irve.csv') as csvfile:
         if not validate_coord(coordsXY[0]):
             errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
+                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['coordonneesXY']
                                   })
             continue
         if not validate_coord(coordsXY[1]):
             errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Cette station est ignorée et ne sera pas présente dans l'analyse Osmose",
+                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                                    "detail": row['coordonneesXY']
                                   })
             continue
@@ -110,7 +110,7 @@ with open('opendata_irve.csv') as csvfile:
         if not is_correct_id(cleanRef):
             errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
-                   "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide",
+                   "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                    "detail": "iti: %s, local: %s" % (row['id_station_itinerance'], row['id_station_local'])})
             continue
 
@@ -122,7 +122,7 @@ with open('opendata_irve.csv') as csvfile:
             station_list[cleanRef] = {'attributes' : station_prop, 'pdc_list': []}
 
             # Non-blocking issues
-            if phone is None and row['telephone_operateur'] != "null":
+            if phone is None and row['telephone_operateur']!= "":
                 station_prop['telephone_operateur'] = None
                 errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
@@ -138,7 +138,7 @@ with open('opendata_irve.csv') as csvfile:
                 errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le champ station_deux_roues n'est pas valide",
-                   "detail": row['id_station_itinerance']})
+                   "detail": row['station_deux_roues']})
             else:
                 station_prop['station_deux_roues'] = row['station_deux_roues'].lower()
 
@@ -163,7 +163,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs sources pour un même id",
                        "detail": sources
                       })
-    station['attributes']['source_grouped'] = sources.pop()
+    station['attributes']['source_grouped'] = list(sources)[0]
 
     horaires = set([elem['horaires'].strip() for elem in station['pdc_list']])
     if len(horaires) !=1 :
@@ -173,7 +173,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs horaires pour une même station",
                        "detail": horaires})
     else :
-        station['attributes']['horaires_grouped'] = horaires.pop()
+        station['attributes']['horaires_grouped'] = list(horaires)[0]
 
     gratuit = set([elem['gratuit'].strip() for elem in station['pdc_list']])
     if len(gratuit) !=1 :
@@ -183,7 +183,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs infos de gratuité (gratuit) pour une même station",
                        "detail": gratuit})
     else :
-        station['attributes']['gratuit_grouped'] = gratuit.pop()
+        station['attributes']['gratuit_grouped'] = list(gratuit)[0]
 
     paiement_acte = set([elem['paiement_acte'].strip() for elem in station['pdc_list']])
     if len(paiement_acte) !=1 :
@@ -193,7 +193,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs infos de paiement (paiement_acte) pour une même station",
                        "detail": paiement_acte})
     else :
-        station['attributes']['paiement_acte_grouped'] = paiement_acte.pop()
+        station['attributes']['paiement_acte_grouped'] = list(paiement_acte)[0]
 
     paiement_cb = set([elem['paiement_cb'].strip() for elem in station['pdc_list']])
     if len(paiement_cb) !=1 :
@@ -203,17 +203,17 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs infos de paiement (paiement_cb) pour une même station",
                        "detail": paiement_cb})
     else :
-        station['attributes']['paiement_cb_grouped'] = paiement_cb.pop()
+        station['attributes']['paiement_cb_grouped'] = list(paiement_cb)[0]
 
     reservation = set([elem['reservation'].strip() for elem in station['pdc_list']])
     if len(reservation) !=1 :
         station['attributes']['reservation_grouped'] = None
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
-                       "error": "plusieurs infos reservation pour une même station",
+                       "error": "plusieurs infos de réservation pour une même station",
                        "detail": reservation})
     else :
-        station['attributes']['reservation_grouped'] = reservation.pop()
+        station['attributes']['reservation_grouped'] = list(reservation)[0]
 
     accessibilite_pmr = set([elem['accessibilite_pmr'].strip() for elem in station['pdc_list']])
     if len(accessibilite_pmr) !=1 :
@@ -223,8 +223,7 @@ for station_id, station in station_list.items() :
                        "error": "plusieurs infos d'accessibilité PMR (accessibilite_pmr) pour une même station",
                        "detail": accessibilite_pmr})
     else :
-        station['attributes']['accessibilite_pmr_grouped'] = accessibilite_pmr.pop()
-
+        station['attributes']['accessibilite_pmr_grouped'] = list(accessibilite_pmr)[0]
 
     station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
 
@@ -252,9 +251,9 @@ for station_id, station in station_list.items() :
 
 print("{} stations".format(len(station_list)))
 
-print("{} stations avec des erreurs :".format(len(errors)))
+print("{} points de charge avec des erreurs :".format(len(errors)))
 for error_type, error_count in Counter([elem['error'] for elem in errors]).items():
-    print(" > {} : {} stations".format(error_type, error_count))
+    print(" > {} : {} stations ou points de charge".format(error_type, error_count))
 
 
 with open("output/opendata_errors.csv", 'w') as ofile:
