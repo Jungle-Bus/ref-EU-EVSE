@@ -98,7 +98,6 @@ E-TOTEM,Meritor
 E-TOTEM,RENAULT AGENCE LOSANGE
 E-TOTEM,RENAULT THIVOLLE ST ETIENNE
 E-TOTEM,Réseau Saint Étienne Métropole
-E-TOTEM,Réseau e-Totem Infrastructures
 E-TOTEM,SAS COPADIS
 E-TOTEM,SAS VERNAIDIS
 E-TOTEM,STEEL Parkings
@@ -129,7 +128,7 @@ EVzen (SMEG Développement),larecharge
 Easycharge services,Easycharge services
 Ekoplug,aucun
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact 
 Electromaps,Electromaps
 Electromaps,Le COTONNIER NIEPPE
 Freshmile,Morbihan Energies
@@ -141,6 +140,7 @@ Green To Wheel,GreenToWheel
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Reseau_IRVE_SIED70
 HAEFELI,Réseau IRVE TE90
+INOUID,Caliceo Sainte Cyr Public
 Izivia,GRAND NANCY
 Izivia,OUEST CHARGE - 22
 Izivia,Ouest Charge
@@ -156,6 +156,8 @@ MAS DES OLIVES,MAS DES OLIVES
 NEXTENEO,ACTIPOLE
 NEXTENEO,CLUB MED
 NEXTENEO,GALILEO
+NEXTENEO,GRAND ANNECY BASE CAMP
+NEXTENEO,LOCKIT
 NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
@@ -163,11 +165,11 @@ NEXTENEO,SA TRANSPORTS FRANCONY
 Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
+Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
 QOVOLTIS,QOVOLTIS
 QoWatt,QoWatt
-R3,R3
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
 SARL LAFOURCADE ,SARL LAFOURCADE
@@ -363,6 +365,7 @@ TotalEnergies,L.R. Participations
 TotalEnergies,LOUVRE HOTELS GROUP
 TotalEnergies,MAISON DES ENTREPRISES DIJON
 TotalEnergies,MERCURE ALBI
+TotalEnergies,METROPOLE D'AIX-MARSEILLE-PROVENCE
 TotalEnergies,PSA Agents France
 TotalEnergies,RIESTER BEAUVAIS
 TotalEnergies,RIESTER BUSSY
@@ -390,11 +393,8 @@ TotalEnergies,WARNING
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 TotalEnergies Charging Services,BAR RESTAURANT L’ARENA
-TotalEnergies Charging Services,Belib'
 TotalEnergies Charging Services,INTERPARKING
-TotalEnergies Charging Services,La Recharge - Aix Marseille Provence
 TotalEnergies Charging Services,RESTAURANT L’ETAPE BEZIERS
-TotalEnergies Charging Services,TotalEnergies Charge Rapide
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 electromaps,Ligue Occitanie Basketball
