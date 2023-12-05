@@ -8,6 +8,8 @@ nom_operateur,nom_enseigne
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
+,Sorégies
+,Zenpark
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
 Acelec Charge,Acelec
@@ -98,7 +100,9 @@ E-TOTEM,Meritor
 E-TOTEM,RENAULT AGENCE LOSANGE
 E-TOTEM,RENAULT THIVOLLE ST ETIENNE
 E-TOTEM,Réseau Saint Étienne Métropole
+E-TOTEM,SAS ANGELINA
 E-TOTEM,SAS COPADIS
+E-TOTEM,SAS HADERMA
 E-TOTEM,SAS VERNAIDIS
 E-TOTEM,STEEL Parkings
 E-TOTEM,SUPER U CAEN
@@ -122,7 +126,6 @@ E-TOTEM,VILLE DE LA ROCHELLE - PLACE JB MARCET
 E-TOTEM,VILLE DE LA ROCHELLE - PLACE VERDUN
 ELECTRA,ELECTRA
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
-EVBOX,Hötel Orchidées S.A.R.L Céline
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easycharge services,Easycharge services
@@ -135,15 +138,31 @@ Freshmile,Morbihan Energies
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
-Freshmile SAS,Mobisdec
 Green To Wheel,GreenToWheel
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Reseau_IRVE_SIED70
 HAEFELI,Réseau IRVE TE90
 INOUID,Caliceo Sainte Cyr Public
+Izivia,AVIA PICOTY
+Izivia,Arcachon
+Izivia,CPS
+Izivia,GARENNE
 Izivia,GRAND NANCY
+Izivia,IKEA
+Izivia,IZIVIA FAST
+Izivia,Izivia Express
+Izivia,LEVAPARC
+Izivia,MAMP
+Izivia,MOBIVE LA DIEGE
+Izivia,MobiVE
 Izivia,OUEST CHARGE - 22
 Izivia,Ouest Charge
+Izivia,QPARK
+Izivia,SYDER
+Izivia,Sixt
+Izivia,Sorégies
+Izivia,Unibail
+Izivia,Waterrower Fr Investments
 Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
@@ -152,7 +171,6 @@ LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Last Mile Solutions,Last Mile Solutions
 Leclerc Millau,Leclerc Millau
-MAS DES OLIVES,MAS DES OLIVES
 NEXTENEO,ACTIPOLE
 NEXTENEO,CLUB MED
 NEXTENEO,GALILEO
@@ -170,6 +188,7 @@ ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
 QOVOLTIS,QOVOLTIS
 QoWatt,QoWatt
+R3,R3
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
 SARL LAFOURCADE ,SARL LAFOURCADE
@@ -301,7 +320,7 @@ SIEGE 27,SIEGE73
 SIEGE 27,SIEGE75
 SIEGE 27,SIEGE77
 SIEGE 27,SIEGE79
-SIEGE 27,SIEGE82
+SIEGE 27,SIEGE81
 SIEGE 27,SIEGE83
 SIEGE 27,SIEGE85
 SIEGE 27,SIEGE89
@@ -324,6 +343,7 @@ SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,805035100
 Securecharge,Securecharge
 Sodetrel,Super U
+Sorégies,Sorégies
 Spie,OUEST CHARGE 35
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
@@ -365,7 +385,6 @@ TotalEnergies,L.R. Participations
 TotalEnergies,LOUVRE HOTELS GROUP
 TotalEnergies,MAISON DES ENTREPRISES DIJON
 TotalEnergies,MERCURE ALBI
-TotalEnergies,METROPOLE D'AIX-MARSEILLE-PROVENCE
 TotalEnergies,PSA Agents France
 TotalEnergies,RIESTER BEAUVAIS
 TotalEnergies,RIESTER BUSSY
@@ -392,9 +411,10 @@ TotalEnergies,VIKINGS CASINO SANARY SUR MER
 TotalEnergies,WARNING
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
-TotalEnergies Charging Services,BAR RESTAURANT L’ARENA
+TotalEnergies Charging Services,Belib'
 TotalEnergies Charging Services,INTERPARKING
-TotalEnergies Charging Services,RESTAURANT L’ETAPE BEZIERS
+TotalEnergies Charging Services,La Recharge - Aix Marseille Provence
+TotalEnergies Charging Services,TotalEnergies Charge Rapide
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 electromaps,Ligue Occitanie Basketball
