@@ -1,14 +1,22 @@
 nom_operateur,nom_enseigne
+,CAMPING LE TALOUCH
+,COMMUNE VAL DISERE
+,CSP PARIS FASHION GROUP
+,CTA CONSTRUCTION
 ,EPGML
 ,GRAND NANCY
+,GROUPE PARTOUCHE
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
+,MAISONS TERRE DOC
+,ORECO
 ,OUEST CHARGE - 22
 ,Ouest Charge
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
 ,Sorégies
+,TITI FLORIS
 ,Zenpark
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
@@ -25,20 +33,20 @@ Bouygues (1-OUEST),OUEST CHARGE 35
 Bouygues (2-Nord),OUEST CHARGE 35
 Bouygues Energies et Services,Ecocharge77
 Bouygues Énergies et Services,ADP Groupe
-Bouygues Énergies et Services,CPO Alizé Liberté Public
+Bouygues Énergies et Services,CPO AlizÈ LibertÈ Public
 Bouygues Énergies et Services,EFFIA France
 Bouygues Énergies et Services,Ecocharge77
-Bouygues Énergies et Services,Grenoble-Alpes Métropole
+Bouygues Énergies et Services,Grenoble-Alpes MÈtropole
 Bouygues Énergies et Services,Indigo France
 Bouygues Énergies et Services,Le Plein Tarnais
-Bouygues Énergies et Services,Métropole Rouen Normandie
+Bouygues Énergies et Services,MÈtropole Rouen Normandie
 Bouygues Énergies et Services,Ouest Charge
-Bouygues Énergies et Services,Pass pass électrique
 Bouygues Énergies et Services,Rambouillet Territoires
 Bouygues Énergies et Services,Reveo
 Bouygues Énergies et Services,SARTHE IRVE
 Bouygues Énergies et Services,SIPPEREC
 Bouygues Énergies et Services,Seymaborne
+Bouygues Énergies et Services,pass pass Èlectrique
 CHARGEPOLY,CHARGEPOLY
 DRIVECO,DRIVECO
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
@@ -131,6 +139,10 @@ ELECTRA,ELECTRA
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
+EV MAP SAS,CENTRAL MOTOR FRANCHEVILLE
+EV MAP SAS,CENTRAL MOTOR LYON NORD
+EV MAP SAS,CENTRAL MOTOR ST FONS
+EV MAP SAS,CENTRAL MOTOR VIENNE
 EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
@@ -138,7 +150,7 @@ Easycharge services,Easycharge services
 Ekoplug,aucun
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -149,6 +161,9 @@ Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
+GREENSPOT,Ambulance - Taxi - VSL MAQUIN
+GREENSPOT,LE FOURNIL DE CREON
+GREENSPOT,Station LE GUA
 Green To Wheel,GreenToWheel
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Reseau_IRVE_SIED70
@@ -156,15 +171,13 @@ HAEFELI,Réseau IRVE TE90
 INOUID,Caliceo Sainte Cyr Public
 INOUID,Caliceo Sainte Foy Public
 Izivia,AVIA PICOTY
-Izivia,Arcachon
 Izivia,CPS
 Izivia,Flex-E
 Izivia,GARENNE
 Izivia,GRAND LYON
 Izivia,GRAND NANCY
-Izivia,IKEA
 Izivia,IZIVIA FAST
-Izivia,LEVAPARC
+Izivia,Izivia Express
 Izivia,MOBIVE LA DIEGE
 Izivia,MobiVE
 Izivia,OUEST CHARGE - 22
@@ -172,7 +185,6 @@ Izivia,Ouest Charge
 Izivia,QPARK
 Izivia,SYDER
 Izivia,Sigeif
-Izivia,Sixt
 Izivia,Sorégies
 Izivia,Unibail
 Izivia,Waterrower Fr Investments
@@ -224,9 +236,187 @@ SPIE CityNetworks,Siéml
 SPIE CityNetworks,Territoire d'Énergie Mayenne
 SPIE CityNetworks,e-Vadea
 SPIM ENERGIES,SPIM ENERGIES
-STATIONS-E,805035100
 Securecharge,Securecharge
-Sodetrel,Super U
+Sodetrel,ACC HUSSE
+Sodetrel,ADVANCED CONFORT SYSTEMS
+Sodetrel,AEROPORTS DE LYON
+Sodetrel,AGILAUTO
+Sodetrel,AGROPOLE
+Sodetrel,AMSOM HABITAT
+Sodetrel,AQUABELLA
+Sodetrel,ASCAPE
+Sodetrel,ASSOCIATION LE BOIS NOIR / ELORN IMMOBILIER
+Sodetrel,AU MARCHE SAVOYARD
+Sodetrel,AUCHAN
+Sodetrel,AUTOGRILL
+Sodetrel,Arcachon
+Sodetrel,B&B HOTEL
+Sodetrel,B2G DIFFUS
+Sodetrel,BAOBAB
+Sodetrel,BATIMENT START
+Sodetrel,BMW HELI-MOTORS
+Sodetrel,BORNES-E
+Sodetrel,BOULANGER VARTELEC
+Sodetrel,BRAS - LE SUQUET
+Sodetrel,BRIOCHES FONTENEAU
+Sodetrel,BRIT HOTEL
+Sodetrel,CAMPING AURAN LES PLANS
+Sodetrel,CAMPING CHADOTEL - LA DUNE DES SABLES
+Sodetrel,CAMPING CRIN BLANC
+Sodetrel,CAMPING DE KERSENTIC
+Sodetrel,CAMPING DE LOCEAN
+Sodetrel,CAMPING DEVILLAIRS
+Sodetrel,CAMPING DU LAVEDAN
+Sodetrel,CAMPING ELEOVIC
+Sodetrel,CAMPING LA PERLE
+Sodetrel,CAMPING LA PLAGE
+Sodetrel,CAMPING LE PARADIS
+Sodetrel,CAMPING LE ROUGE GORGE
+Sodetrel,CAMPING LES EMBRUNS
+Sodetrel,CAMPING LES RESPOUNCHOUS
+Sodetrel,CAMPING LES ROCHELETS
+Sodetrel,CAMPING LEZ-EAUX
+Sodetrel,CAMPING MUNICIPALE LES SABLERES
+Sodetrel,CAMPING RESASOL
+Sodetrel,CAMPING SANDAYA
+Sodetrel,CAMPING SUNELIA LES 3 VALLEES
+Sodetrel,CAMPING UR ONEA
+Sodetrel,CANCE
+Sodetrel,CANTAL REPROGRAPHIE
+Sodetrel,CARREFOUR
+Sodetrel,CARREFOUR GRESY-SUR-AIX
+Sodetrel,CAVE COOP VINIFI COSTIERES
+Sodetrel,CAVE ROBERT ET MARCEL
+Sodetrel,CCI - BAYONNE PAYS BASQUE
+Sodetrel,CCI - CALAIS
+Sodetrel,CCI - OUST MAREST
+Sodetrel,CENTRAKOR
+Sodetrel,CENTRE CCIAL LA VOULZIE
+Sodetrel,CENTRIMEX
+Sodetrel,CHATEAU GISCOURS
+Sodetrel,CLUB DU DOMAINE DES HAUTS DE VAUGRENIER
+Sodetrel,COFRA
+Sodetrel,COMMUNAUTE DE COMMUNES DU PAYS DE WISSEMBOURG
+Sodetrel,COMMUNE DE SAINT-FLOUR
+Sodetrel,COMMUNE DOYONNAX
+Sodetrel,COMMUNE VAL DISERE
+Sodetrel,CONFISERIE LE ROY RENE
+Sodetrel,CREPS DE POITIERS
+Sodetrel,CYCLIFE-EV100
+Sodetrel,DALKIA-EV100
+Sodetrel,DEP INDUSTRIE
+Sodetrel,DOMAINE DE LESPERON
+Sodetrel,DOMOLANDES
+Sodetrel,DYNEFF
+Sodetrel,E.LECLERC
+Sodetrel,ECOLE DINGENIEURS DE PURPAN SITE TOULOUSE
+Sodetrel,EDEIS AEROPORT CHERBOURG-MAUPERTUS
+Sodetrel,EDF-EV100
+Sodetrel,EKOSPORT
+Sodetrel,EPSA
+Sodetrel,ES B2B
+Sodetrel,ES B2G
+Sodetrel,EURL R.M.A
+Sodetrel,FAIVELEY
+Sodetrel,FEDERATION FRANCAISE DE FOOTBALL
+Sodetrel,FLANDRE ENERGIES
+Sodetrel,FLEURY MICHON
+Sodetrel,FPEE INDUSTRIES
+Sodetrel,FROMAGERIE MILLERET
+Sodetrel,GARAGE RENAULT FIDALGO
+Sodetrel,GARAGE TERRIEN
+Sodetrel,GAZZELLA ATLANTIQUE
+Sodetrel,GROUPE EDENIS
+Sodetrel,GROUPE INCA
+Sodetrel,GROUPE PARTOUCHE
+Sodetrel,GROUPE PARTOUCHE - CASINO ROYAT
+Sodetrel,HAMMEL
+Sodetrel,HAUTS DE MONTROUGE
+Sodetrel,HOPITAL DE SEMUR
+Sodetrel,HOTEL CARCARILLE
+Sodetrel,HOTEL ESTELOU
+Sodetrel,HOTEL IBARBOURE
+Sodetrel,HOTEL LA CHAMBRE
+Sodetrel,HOTEL LE BELVEDERE
+Sodetrel,HOTEL RESTAURANT LA PERGOLA
+Sodetrel,HOTELS IBIS
+Sodetrel,HOTRAVAIL
+Sodetrel,HUHTAMAKI
+Sodetrel,IBIPEX
+Sodetrel,INTERMARCHE
+Sodetrel,INTERMARCHE CLAUGINIE
+Sodetrel,JERNAT
+Sodetrel,JIVA HILL RESORT
+Sodetrel,JONATHAN EVENEMENTS
+Sodetrel,KAFREMBO
+Sodetrel,KIAGIS
+Sodetrel,KR EXPANSION
+Sodetrel,KYRIAD
+Sodetrel,LA GARANGEOIRE
+Sodetrel,LA NORMANDISE
+Sodetrel,LABORATOIRE DES PYRENEES ET DES LANDES
+Sodetrel,LABORATOIRES M&L
+Sodetrel,LAFUMA MOBILIER
+Sodetrel,LE CASTEL EMERAUDE
+Sodetrel,LE CONCORDE
+Sodetrel,LE FIEF MELIN
+Sodetrel,LE GOLF DES HAUTS DE NIMES
+Sodetrel,LES CAVES DE LA LOIRE
+Sodetrel,LES JARDINS DE LA MER
+Sodetrel,LES MOUSQUETAIRES
+Sodetrel,LES TERRASSES DEZE
+Sodetrel,LES VIGNERONS DE FLORENSAC
+Sodetrel,LEVAPARC
+Sodetrel,LOGIS TRAVAUX
+Sodetrel,LR2P
+Sodetrel,LUMINUS
+Sodetrel,MAIRIE DE COURRIERES
+Sodetrel,MAIRIE DE FREVENT
+Sodetrel,MAISON PIERRE OTEIZA
+Sodetrel,MAISONS FRANCE CONFORT
+Sodetrel,MASSILLY GROUPE
+Sodetrel,METRE CARRE
+Sodetrel,MILLAU DIFF
+Sodetrel,MIPIOL - INTERMARCHE
+Sodetrel,NETTO
+Sodetrel,NETTO - DAMPIERRUS
+Sodetrel,NETTO GIMA
+Sodetrel,OMBRIWATT-ST LAURENT BLANGUY
+Sodetrel,ORTEC
+Sodetrel,PATISMATIQUE
+Sodetrel,PLESSIS-TREVISE
+Sodetrel,PRODUCTEURS PLAIMONT
+Sodetrel,PROVENCIA
+Sodetrel,QUERCY FROID
+Sodetrel,REINE DE DIJON
+Sodetrel,REPORAMA
+Sodetrel,RESERVE AFRICAINE DE SIGEAN
+Sodetrel,SAINT-JUNIEN
+Sodetrel,SAS EPONA
+Sodetrel,SAS LE RUISSEAU
+Sodetrel,SCA ALINEA
+Sodetrel,SEMVR
+Sodetrel,SERCEL
+Sodetrel,SIMON SAS
+Sodetrel,SNC CLEMENT ADER
+Sodetrel,SOBAG
+Sodetrel,SODIP
+Sodetrel,SOFRADI
+Sodetrel,SYGNATURES
+Sodetrel,SYSTEME U
+Sodetrel,Sixt
+Sodetrel,TEGOMETALL
+Sodetrel,TESTO INDUSTRIAL SERVICES
+Sodetrel,TIERS
+Sodetrel,TITI FLORIS
+Sodetrel,UBAUD
+Sodetrel,UNION AGRICOLE DU PAYS DE LOIRE
+Sodetrel,UNIVITIS
+Sodetrel,UP2PLAY
+Sodetrel,VIPE GESTION
+Sodetrel,VM DECOR
+Sodetrel,VOLKSWAGEN
+Sodetrel,ZOOPARC DE BEAUVAL
 Sorégies,Sorégies
 Spie,OUEST CHARGE 35
 Séolis,AlterBase
@@ -301,6 +491,106 @@ TotalEnergies Charging Services,INTERPARKING
 TotalEnergies Charging Services,La Recharge - Aix Marseille Provence
 TotalEnergies Charging Services,TotalEnergies Charge Rapide
 Virta,Groupama supports et services 
+Zephyre SAS,AR Duen
+Zephyre SAS,Airria
+Zephyre SAS,Best Hotel Mayenne
+Zephyre SAS,Best Hotel Rouen-Est / Val De Reuil
+Zephyre SAS,Comfort Hotel Lille l'Union
+Zephyre SAS,Comfort Hotel Paris Sud
+Zephyre SAS,GHO Annecy 
+Zephyre SAS,GHO Creteil Le Lac
+Zephyre SAS,GHO Dijon Sud
+Zephyre SAS,GHO Evry
+Zephyre SAS,GHO Fontainebleau Royal
+Zephyre SAS,GHO Le Coudray
+Zephyre SAS,GHO Lille aeroport
+Zephyre SAS,GHO Lyon Bron
+Zephyre SAS,GHO Maffliers
+Zephyre SAS,GHO Metz Hauconcourt
+Zephyre SAS,GHO Metz Nord
+Zephyre SAS,GHO Narbonne
+Zephyre SAS,GHO Orleans sud la source
+Zephyre SAS,GHO Reims Parc des expositions
+Zephyre SAS,GHO Sophia Antipolis
+Zephyre SAS,Garage Beaudouin
+Zephyre SAS,Garage Chambault SARL 
+Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
+Zephyre SAS,Hostellerie Moulin des Ruats
+Zephyre SAS,Hotel - Les Fermes de Marie
+Zephyre SAS,Hôtel & Restaurant ARGI-EDER
+Zephyre SAS,Hôtel Beauséjour
+Zephyre SAS,Hôtel Kyriad Prestige Dijon Nord Valmy
+Zephyre SAS,Hôtel Kyriad St Jean de Védas
+Zephyre SAS,Hôtel Logis Europa
+Zephyre SAS,Hôtel Mercure Annemasse Porte de Genève
+Zephyre SAS,Hôtel Meurice Calais
+Zephyre SAS,Hôtel Saint Joseph
+Zephyre SAS,Hôtel le Relais de Comodoliac
+Zephyre SAS,Ibis Budget Evreux
+Zephyre SAS,Ibis Centre Ales
+Zephyre SAS,Ibis Nimes Ouest
+Zephyre SAS,Kyriad - Lunel
+Zephyre SAS,Kyriad Lattes
+Zephyre SAS,LE CHRYSTAL (HOTEL CRYSTAL)
+Zephyre SAS,La Bertelière
+Zephyre SAS,Logis Auberge du Relais
+Zephyre SAS,Logis Central Hôtel
+Zephyre SAS,Logis Hostellerie d'Aussois
+Zephyre SAS,Logis Hostellerie du Causse
+Zephyre SAS,Logis Hotel Cheval Blanc
+Zephyre SAS,Logis Hotel La Peyrade
+Zephyre SAS,Logis Hôtel Arbezie Franco-Suisse
+Zephyre SAS,Logis Hôtel Castel Damandre
+Zephyre SAS,Logis Hôtel Edgar
+Zephyre SAS,Logis Hôtel Fontarabie
+Zephyre SAS,Logis Hôtel Le Faisan Doré
+Zephyre SAS,Logis Hôtel Oasis
+Zephyre SAS,Logis Hôtel Restaurant de France
+Zephyre SAS,Logis Hôtel de la Paix
+Zephyre SAS,Logis Hôtel de la Poste
+Zephyre SAS,Logis Hôtel des Lacs
+Zephyre SAS,Logis Hôtel l'Occitan
+Zephyre SAS,Logis Hôtel la Bombardière
+Zephyre SAS,Logis Hôtel la Chatellenie
+Zephyre SAS,Logis Hôtel la Croix de Savoie & Spa
+Zephyre SAS,Logis Hôtel le Ménestrel
+Zephyre SAS,Logis Hôtel le Parc Rest. Joséphine
+Zephyre SAS,Logis Hôtel le Relais Marine
+Zephyre SAS,Logis Hôtel le Relais du Taurion
+Zephyre SAS,Logis Hôtel le Sablier du Temps
+Zephyre SAS,Logis Hôtel le Tulipier
+Zephyre SAS,Logis Hôtel les 3 Lieux
+Zephyre SAS,Logis Hôtel les Capucins
+Zephyre SAS,Logis La Forestière
+Zephyre SAS,Logis Maison Glenn Anna 
+Zephyre SAS,Logis Mar I Sol
+Zephyre SAS,Manoir du Lys
+Zephyre SAS,Mercure Quimper Centre
+Zephyre SAS,N.M.A Sud-Ouest
+Zephyre SAS,NORAUTO - Aubagne
+Zephyre SAS,NORAUTO - Barjouville
+Zephyre SAS,NORAUTO - Plaisir
+Zephyre SAS,NatUp
+Zephyre SAS,Nex Hotel Tarbes
+Zephyre SAS,Opéralia les Pins
+Zephyre SAS,Pullman Toulouse Airport Hotel
+Zephyre SAS,Radisson Blu Disney
+Zephyre SAS,Societe Insulaire Garage Corse
+Zephyre SAS,UNICAP - GARAGE DU CENTRE
+Zephyre SAS,UNICAP - GARAGE DU PALAIS
+Zephyre SAS,UNICAP - GARAGE FLORET
+Zephyre SAS,UNICAP - GARAGE MECASUD
+Zephyre SAS,UNICAP - GARAGE SAINT AUBIN
+Zephyre SAS,UNICAP - GARAGE SANTA MARIA
+Zephyre SAS,UNICAP - GARAGE SERVA AUTOS
+Zephyre SAS,UNICAP - Garage Croix St Ladre
+Zephyre SAS,UNICAP - Garage Gois Automobiles
+Zephyre SAS,UNICAP - Garage Horizon Automobiles
+Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - LOUE AUTOMOBILES
+Zephyre SAS,UNICAP - SARL DU COLOMBIER
+Zephyre SAS, Logis Hôtel la Ferme des Mares
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
 total énergie,enedis
