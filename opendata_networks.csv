@@ -4,14 +4,11 @@ nom_operateur,nom_enseigne
 ,CSP PARIS FASHION GROUP
 ,CTA CONSTRUCTION
 ,EPGML
-,GRAND NANCY
 ,GROUPE PARTOUCHE
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
 ,MAISONS TERRE DOC
 ,ORECO
-,OUEST CHARGE - 22
-,Ouest Charge
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
@@ -26,7 +23,6 @@ Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Carrefour Energies
-Allego,GreenToWheel
 BIARS DISTRIBUTION,E. Leclerc
 Botanic,Botanic
 Bouygues (1-OUEST),OUEST CHARGE 35
@@ -48,6 +44,7 @@ Bouygues Énergies et Services,SIPPEREC
 Bouygues Énergies et Services,Seymaborne
 Bouygues Énergies et Services,pass pass Èlectrique
 CHARGEPOLY,CHARGEPOLY
+DOMAINEDU GRAND HARD,DOMAINE UTAH BEACH
 DRIVECO,DRIVECO
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
@@ -144,15 +141,17 @@ EV MAP SAS,CENTRAL MOTOR LYON NORD
 EV MAP SAS,CENTRAL MOTOR ST FONS
 EV MAP SAS,CENTRAL MOTOR VIENNE
 EVBOX,EVBOX
+EVBOX,Hötel Orchidées S.A.R.L Céline
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easycharge services,Easycharge services
-Ekoplug,aucun
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Carrefour Contact
+Electromaps,Domaine de Fompeyre
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
+Electromaps,Favret Automobiles
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
 Etablissement Combes,Etablissement Combes
@@ -164,7 +163,30 @@ Freshmile SAS,Freshmile
 GREENSPOT,Ambulance - Taxi - VSL MAQUIN
 GREENSPOT,LE FOURNIL DE CREON
 GREENSPOT,Station LE GUA
-Green To Wheel,GreenToWheel
+Green To Wheel,ABBEVILLE
+Green To Wheel,ANGOULEME BERTRAND
+Green To Wheel,BASSO CAMBO
+Green To Wheel,CASINO AIX EN PROVENCE
+Green To Wheel,CASINO AVIGNON
+Green To Wheel,CASINO CHAMPNIERS
+Green To Wheel,CASINO DIJON CHENOVE
+Green To Wheel,CASINO FENOUILLET
+Green To Wheel,CASINO FREJUS
+Green To Wheel,CASINO LANESTER
+Green To Wheel,CASINO LIMOGES
+Green To Wheel,CASINO MONTPELLIER
+Green To Wheel,CASINO NIMES
+Green To Wheel,CASINO SAINT ETIENNE
+Green To Wheel,CASINO SAINT LOUIS
+Green To Wheel,CASINO TOURS LA RICHE
+Green To Wheel,CASINO VALENCE
+Green To Wheel,CHAVAGNES ASF
+Green To Wheel,LES BROUZILS ASF
+Green To Wheel,ROUILLE PAMPROUX ASF
+Green To Wheel,TISSEO BALMA GRAMONT
+Green To Wheel,TISSEO BORDEROUGE
+Green To Wheel,TISSEO RAMONVILLE
+Green To Wheel,TOULOUSE SUD NORD ASF
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Reseau_IRVE_SIED70
 HAEFELI,Réseau IRVE TE90
@@ -175,20 +197,15 @@ Izivia,CPS
 Izivia,Flex-E
 Izivia,GARENNE
 Izivia,GRAND LYON
-Izivia,GRAND NANCY
 Izivia,IZIVIA FAST
 Izivia,Izivia Express
+Izivia,MAMP
 Izivia,MOBIVE LA DIEGE
 Izivia,MobiVE
-Izivia,OUEST CHARGE - 22
-Izivia,Ouest Charge
 Izivia,QPARK
 Izivia,SYDER
-Izivia,Sigeif
 Izivia,Sorégies
 Izivia,Unibail
-Izivia,Waterrower Fr Investments
-Izivia,WiiiZ
 Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
@@ -197,6 +214,8 @@ LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Last Mile Solutions,Last Mile Solutions
 Leclerc Millau,Leclerc Millau
+MAS DES OLIVES,MAS DES OLIVES
+Masseria,Charge banarge
 NEXTENEO,ACTIPOLE
 NEXTENEO,CLUB MED
 NEXTENEO,GALILEO
@@ -206,6 +225,7 @@ NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
 NEXTENEO,SA TRANSPORTS FRANCONY
+NM SECURELEC,Le Morgane
 Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
@@ -588,6 +608,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
