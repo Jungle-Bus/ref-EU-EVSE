@@ -27,7 +27,7 @@ jobs:
         export PATH=$PATH:$PWD/
         xsv --version
         mkdir output
-        wget https://www.data.gouv.fr/fr/datasets/r/8d9398ae-3037-48b2-be19-412c24561fbb --no-verbose --output-document=opendata_irve.csv 2>&1
+        wget https://www.data.gouv.fr/fr/datasets/r/2729b192-40ab-4454-904d-735084dca3a3 --no-verbose --output-document=opendata_irve.csv 2>&1
         python group_opendata_by_station.py
         #fail if less than 2 lines
         test `cat output/opendata_stations.csv | xsv count` -ge 2
