@@ -157,6 +157,7 @@ Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
+G-MOB,GMOB
 GREENSPOT,Ambulance - Taxi - VSL MAQUIN
 GREENSPOT,CARREFOUR MARKET CAUDERAN
 GREENSPOT,LE FOURNIL DE CREON
@@ -164,6 +165,7 @@ GREENSPOT,Station LE GUA
 Green To Wheel,GreenToWheel
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Réseau IRVE TE90
+IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
 INOUID,Caliceo Sainte Cyr Public
 INOUID,Caliceo Sainte Foy Public
 Izivia,ACC HUSSE
@@ -183,6 +185,7 @@ Izivia,B&B HOTEL
 Izivia,B2G DIFFUS
 Izivia,BAOBAB
 Izivia,BATIMENT START
+Izivia,BENARD HOLDING
 Izivia,BMW HELI-MOTORS
 Izivia,BORNES-E
 Izivia,BOULANGER VARTELEC
@@ -255,6 +258,7 @@ Izivia,FEDERATION FRANCAISE DE FOOTBALL
 Izivia,FLANDRE ENERGIES
 Izivia,FLEURY MICHON
 Izivia,FPEE INDUSTRIES
+Izivia,FREY
 Izivia,FROMAGERIE MILLERET
 Izivia,Flex-E
 Izivia,GARAGE RENAULT FIDALGO
@@ -325,6 +329,7 @@ Izivia,MobiVE
 Izivia,NETTO
 Izivia,NETTO - DAMPIERRUS
 Izivia,NETTO GIMA
+Izivia,NH HOTEL
 Izivia,NHOOD
 Izivia,NICE AP
 Izivia,NICE RP
@@ -389,6 +394,7 @@ NEXTENEO,MOULINS D'ASCQ
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,SA TRANSPORTS FRANCONY
 NEXTENEO,SMAG CDC
+NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
@@ -425,6 +431,7 @@ Securecharge,Securecharge
 Spie,OUEST CHARGE
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
+TEVGO,61mobility
 Tesla,Tesla Supercharger
 Total marketing france,e-charge50
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE
@@ -475,12 +482,12 @@ TotalEnergies,RIESTER SAINT MAXIMIN
 TotalEnergies,Renault Agents France
 TotalEnergies,Résidence les Primevères
 TotalEnergies,SAEMES
+TotalEnergies,SAEMES Méditérranée
 TotalEnergies,SAMSE - ERP BASSENS-Parking magasin
 TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
-TotalEnergies,TERRITOIRE D'ENERGIE ORNE
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
 TotalEnergies,VIKINGS CASINO IBIS BUDGET BONCHAMPS LAVAL
@@ -521,6 +528,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -593,10 +601,10 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
+electromaps,ROAD54 / ChargeMeUp
 total énergie,enedis
