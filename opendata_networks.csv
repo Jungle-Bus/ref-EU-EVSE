@@ -45,7 +45,6 @@ E-TOTEM,Biocoop Granville
 E-TOTEM,CASINO DE MONTROND
 E-TOTEM,CBS - Gare de Culoz 1
 E-TOTEM,CBS - Gare de Culoz 2
-E-TOTEM,CC Ambert Rapide
 E-TOTEM,CENTRE COMMERCIAL CENTR'AZUR
 E-TOTEM,CERTAS Eurodisney
 E-TOTEM,CLOS DE LA VAUPALIERE
@@ -60,12 +59,14 @@ E-TOTEM,Carrefour Nice Lingostière
 E-TOTEM,Carrefour Supply Chain - Combs la Ville
 E-TOTEM,Carrefour Supply Chain - Crépy en valois
 E-TOTEM,Carrefour Supply Chain - La Courneuve
+E-TOTEM,Carrefour Supply Chaine - Saint Germain les Arpajon
 E-TOTEM,Carrefour express Villaz
 E-TOTEM,Cimetière intercommunal de Valenton
 E-TOTEM,DOMAINE DE LA SAPINIERE
 E-TOTEM,DOMAINE DE VALINCHES
 E-TOTEM,ETOTEM Aytré
 E-TOTEM,Eurocommercial Etrembières
+E-TOTEM,Ferrières-en-Gatinais - Rue du Perray
 E-TOTEM,GAMM VERT - MONISTROL SUR LOIRE
 E-TOTEM,GAMMVERT - BRIGNAIS
 E-TOTEM,GARAGE DU CENTRE
@@ -73,16 +74,13 @@ E-TOTEM,Garage Cheminal - Volkswagen
 E-TOTEM,Garage Quantin
 E-TOTEM,Garage de la Marinière
 E-TOTEM,Garage de la Senia
+E-TOTEM,HOTELOP - Holiday Inn Roissy
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
 E-TOTEM,Hôtel Ibis Style Fougères
 E-TOTEM,Hôtel Mercure Orange Centre
-E-TOTEM,INSEAD Fontainebleau
-E-TOTEM,ITM Entreprises - Expositions
-E-TOTEM,ITM Entreprises - Mousquetaires
 E-TOTEM,Intermarché Yssingeaux
-E-TOTEM,King Jouet Voiron
 E-TOTEM,La Charpinière
 E-TOTEM,MAIRIE DE MOUXY
 E-TOTEM,MAIRIE OLLIERGUES
@@ -91,7 +89,6 @@ E-TOTEM,Mairie Aillant sur Milleron
 E-TOTEM,Mairie de Beaugency - PARKING AGORA
 E-TOTEM,Mairie de Beaugency - PARKING GRAND MAIL
 E-TOTEM,Mairie de Beaugency - PARKING RUE NATIONALE
-E-TOTEM,Mairie de Ferrières-en-Gatinais
 E-TOTEM,Mairie de Vertolaye
 E-TOTEM,Meritor
 E-TOTEM,PROMOCASH WASQUEHAL
@@ -104,8 +101,10 @@ E-TOTEM,SAS COPADIS
 E-TOTEM,SAS GCP
 E-TOTEM,SAS GUYDIS
 E-TOTEM,SAS HADERMA
+E-TOTEM,SAS ISADIS
 E-TOTEM,SAS VERNAIDIS
-E-TOTEM,STEEL Parkings
+E-TOTEM,SPLM Parking Bourse - N1 - Zone 2
+E-TOTEM,SPLM Parking GPD - N1 - Zone 1
 E-TOTEM,SUPER U CAEN
 E-TOTEM,SUPER U FARGUES ST HILAIRE
 E-TOTEM,SUPER U GANGES
@@ -125,6 +124,7 @@ E-TOTEM,VILLE DE LA ROCHELLE - PARKING CHASSELOUP LAUBAT
 E-TOTEM,VILLE DE LA ROCHELLE - PARKING PREFECTURE
 E-TOTEM,VILLE DE LA ROCHELLE - PLACE JB MARCET
 E-TOTEM,VILLE DE LA ROCHELLE - PLACE VERDUN
+E-TOTEM,Ville de Cerdon
 E-TOTEM,Ville de Lens - 1 Place de la République
 E-TOTEM,Ville de Lens - 20 Place de la République
 E-TOTEM,Ville de Lens - Giratoire Maës
@@ -158,8 +158,20 @@ Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
 G-MOB,GMOB
+GREENSPOT,AED
 GREENSPOT,Ambulance - Taxi - VSL MAQUIN
+GREENSPOT,BOISSEE - IBIS BUDGET CHATILLON 
+GREENSPOT,BOISSEE - IBIS BUDGET DEAUVILLE
+GREENSPOT,BOISSEE - IBIS BUDGET FECAMP
+GREENSPOT,BOISSEE - IBIS BUDGET LE HAVRE
+GREENSPOT,BOISSEE - IBIS BUDGET PETIT QUEVILLY 
 GREENSPOT,CARREFOUR MARKET CAUDERAN
+GREENSPOT,CREDIT AGRICOLE AMBARES 
+GREENSPOT,CREDIT AGRICOLE ANDERNOS
+GREENSPOT,CREDIT AGRICOLE CREON 
+GREENSPOT,CREDIT AGRICOLE MORCENX
+GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC 
+GREENSPOT,Ibis budget Dives sur Mer 
 GREENSPOT,LE FOURNIL DE CREON
 GREENSPOT,Station LE GUA
 Green To Wheel,GreenToWheel
@@ -177,6 +189,7 @@ Izivia,AMSOM HABITAT
 Izivia,AQUABELLA
 Izivia,ASCAPE
 Izivia,ASSOCIATION LE BOIS NOIR / ELORN IMMOBILIER
+Izivia,ATLANTIS - SAS SHD IMMO
 Izivia,AU MARCHE SAVOYARD
 Izivia,AUCHAN
 Izivia,AUTOGRILL
@@ -345,17 +358,18 @@ Izivia,QUERCY FROID
 Izivia,REINE DE DIJON
 Izivia,REPORAMA
 Izivia,RESERVE AFRICAINE DE SIGEAN
+Izivia,ROTEL
 Izivia,SAINT-JUNIEN
 Izivia,SAS EPONA
 Izivia,SAS LE RUISSEAU
 Izivia,SCA ALINEA
+Izivia,SCI MEUNIER
 Izivia,SEMVR
 Izivia,SERCEL
 Izivia,SIMON SAS
 Izivia,SNC CLEMENT ADER
 Izivia,SOBAG
 Izivia,SODIP
-Izivia,SYDER
 Izivia,SYGNATURES
 Izivia,SYSTEME U
 Izivia,Sigeif
@@ -397,7 +411,6 @@ NEXTENEO,SMAG CDC
 NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
 Plageco Distribution,E. Leclerc
-Plageco Distribution,Leclerc Express Labouheyre
 Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
@@ -528,7 +541,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -601,6 +613,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
