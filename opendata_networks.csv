@@ -21,7 +21,6 @@ Bouygues (1-OUEST),OUEST CHARGE
 Bouygues (2-Nord),OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 CHARGEPOLY,CHARGEPOLY
-DRIVECO,DRIVECO
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
 E-TOTEM,AGGLOMERATION MONTARGOISE - CEPOY
@@ -69,6 +68,7 @@ E-TOTEM,Ferrières-en-Gatinais - Rue du Perray
 E-TOTEM,GAMM VERT - MONISTROL SUR LOIRE
 E-TOTEM,GAMMVERT - BRIGNAIS
 E-TOTEM,GARAGE DU CENTRE
+E-TOTEM,GEG - Site d'Apprieu
 E-TOTEM,Garage Cheminal - Volkswagen
 E-TOTEM,Garage Quantin
 E-TOTEM,Garage de la Marinière
@@ -77,9 +77,31 @@ E-TOTEM,HOTELOP - Holiday Inn Roissy
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
+E-TOTEM,Holiday Marina Resort
 E-TOTEM,Hôtel Ibis Style Fougères
 E-TOTEM,Hôtel Mercure Orange Centre
+E-TOTEM,Institut de Cancérologie de Lorraine
+E-TOTEM,Intermarché Hermillon
 E-TOTEM,Intermarché Yssingeaux
+E-TOTEM,LPA Parking Antonin Poncet - N1 - Zone 1
+E-TOTEM,LPA Parking Berthelot - N1 - Zone 1
+E-TOTEM,LPA Parking Berthelot - N1 - Zone 2
+E-TOTEM,LPA Parking Célestins - N1 - Zone 1
+E-TOTEM,LPA Parking Célestins - N1 - Zone 2
+E-TOTEM,LPA Parking Célestins - N1 - Zone 3
+E-TOTEM,LPA Parking FAO - N1 - Zone 1
+E-TOTEM,LPA Parking FAO - N1 - Zone 2
+E-TOTEM,LPA Parking GPD - N1 - Zone 1
+E-TOTEM,LPA Parking Gros Cailloux - N1 - Zone 1
+E-TOTEM,LPA Parking Gros Cailloux - N1 - Zone 2
+E-TOTEM,LPA Parking Les Halles - N1 - Zone 1
+E-TOTEM,LPA Parking Morand - N1 - Zone 1
+E-TOTEM,LPA Parking Morand - N1 - Zone 2
+E-TOTEM,LPA Parking St Antoine - N1 - Zone 1
+E-TOTEM,LPA Parking St Exupery - N1 - Zone 1
+E-TOTEM,LPA Parking St Georges - N1 - Zone 1
+E-TOTEM,LPA Parking Tony Garnier - N1 - Zone 1
+E-TOTEM,LPA Parking Tony Garnier - N1 - Zone 2
 E-TOTEM,La Charpinière
 E-TOTEM,MAIRIE DE MOUXY
 E-TOTEM,MAIRIE OLLIERGUES
@@ -102,8 +124,15 @@ E-TOTEM,SAS GUYDIS
 E-TOTEM,SAS HADERMA
 E-TOTEM,SAS ISADIS
 E-TOTEM,SAS VERNAIDIS
+E-TOTEM,SPLM Marché Gare zone 1
+E-TOTEM,SPLM Marché Gare zone 2
 E-TOTEM,SPLM Parking Bourse - N1 - Zone 2
-E-TOTEM,SPLM Parking GPD - N1 - Zone 1
+E-TOTEM,SPLM Parking République - N1 - Zone 1
+E-TOTEM,SPLM Parking République - N1 - Zone 2
+E-TOTEM,SPLM Parking Terreaux - N1 - Zone 1
+E-TOTEM,SPLM Parking Terreaux - N1 - Zone 2
+E-TOTEM,SPLM Parking Terreaux - N1 - Zone 3
+E-TOTEM,SPLM Parking Villette
 E-TOTEM,SUPER U CAEN
 E-TOTEM,SUPER U FARGUES ST HILAIRE
 E-TOTEM,SUPER U GANGES
@@ -269,7 +298,6 @@ Izivia,BAOBAB
 Izivia,BATIMENT START
 Izivia,BMW HELI-MOTORS
 Izivia,BORNES-E
-Izivia,BOULANGER VARTELEC
 Izivia,BRAS - LE SUQUET
 Izivia,BRIOCHES FONTENEAU
 Izivia,BRIT HOTEL
@@ -370,6 +398,7 @@ Izivia,IKEA
 Izivia,INTERMARCHE
 Izivia,INTERMARCHE CLAUGINIE
 Izivia,IZIVIA FAST
+Izivia,IZIVIA IMPACT
 Izivia,Izivia
 Izivia,Izivia Express
 Izivia,JERNAT
@@ -461,6 +490,7 @@ Izivia,VOLKSWAGEN
 Izivia,WiiiZ
 Izivia,ZOOPARC DE BEAUVAL
 Izivia,Zenpark
+Jerecharge.com,Jerecharge.com
 Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
@@ -615,6 +645,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -687,7 +718,6 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
