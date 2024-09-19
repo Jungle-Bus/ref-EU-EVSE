@@ -1,5 +1,6 @@
 nom_operateur,nom_enseigne
 ,EPGML
+,ESPACE CARROSSERIE DIJON
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
 ,ORECO
@@ -21,6 +22,7 @@ Bouygues (1-OUEST),OUEST CHARGE
 Bouygues (2-Nord),OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 CHARGEPOLY,CHARGEPOLY
+DRIVECO,DRIVECO
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
 E-TOTEM,AGGLOMERATION MONTARGOISE - CEPOY
@@ -168,6 +170,7 @@ EV MAP SAS,CENTRAL MOTOR ST FONS
 EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
+EV MAP SAS,Renault Faurie Bergerac
 EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
@@ -239,7 +242,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
@@ -547,7 +549,6 @@ Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
 TEVGO,61mobility
 Tesla,Tesla Supercharger
-Total marketing france,e-charge50
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE
 TotalEnergies, GROUPE DESFOSSEY- ACCOR - IBIS BUDGET NUITS SAINT GEORGES
@@ -561,6 +562,7 @@ TotalEnergies,BMW
 TotalEnergies,BMW EPINAL
 TotalEnergies,BMW METZ
 TotalEnergies,BMW SARREBOURG
+TotalEnergies,Belib'
 TotalEnergies,CHALLANS AUTOMOBILES
 TotalEnergies,DA COSTA AUTOMOBILES
 TotalEnergies,F.B SERVICE
@@ -586,8 +588,11 @@ TotalEnergies,KIA METZ
 TotalEnergies,KIA MULHOUSE
 TotalEnergies,L.R. Participations
 TotalEnergies,LOUVRE HOTELS GROUP
+TotalEnergies,La Recharge - Aix Marseille Provence
 TotalEnergies,MAISON DES ENTREPRISES DIJON
+TotalEnergies,MEL
 TotalEnergies,MERCURE ALBI
+TotalEnergies,PAUL KROELY ETOILE 67
 TotalEnergies,PSA Agents France
 TotalEnergies,RIESTER BEAUVAIS
 TotalEnergies,RIESTER BUSSY
@@ -603,6 +608,7 @@ TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
+TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
 TotalEnergies,VIKINGS CASINO IBIS BUDGET BONCHAMPS LAVAL
@@ -612,14 +618,10 @@ TotalEnergies,VIKINGS CASINO MERCURE GRANVILLE
 TotalEnergies,VIKINGS CASINO MERCURE HONFLEUR
 TotalEnergies,VIKINGS CASINO SANARY SUR MER
 TotalEnergies,WARNING
+TotalEnergies,e-charge50
+TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
-TotalEnergies Charging Services,Belib'
-TotalEnergies Charging Services,INTERPARKING
-TotalEnergies Charging Services,La Recharge - Aix Marseille Provence
-TotalEnergies Charging Services,MEL
-TotalEnergies Charging Services,PAUL KROELY ETOILE 67
-TotalEnergies Charging Services,TotalEnergies Charge Rapide
 Virta,Groupama supports et services 
 Zephyre SAS,AR Duen
 Zephyre SAS,Airria
@@ -645,7 +647,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -718,6 +719,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
@@ -725,4 +727,3 @@ bp France,bp pulse
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
 electromaps,ROAD54 / ChargeMeUp
-total énergie,enedis
