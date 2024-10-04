@@ -223,8 +223,8 @@ for station_id, station in station_list.items() :
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
                        "error": "le nombre de point de charge de la station n'est pas cohérent avec la liste des points de charge fournie",
-                       "detail": "{} points de charge indiqués pour la station (nbre_pdc) mais {} points de charge listés".format(station['attributes']['nbre_pdc'], len(station['pdc_list']))})        
-        station['attributes']['nbre_pdc'] = None
+                       "detail": "{} points de charge indiqués pour la station (nbre_pdc) mais {} points de charge listés".format(station['attributes']['nbre_pdc'], len(station['pdc_list']))})
+        station['attributes']['nbre_pdc'] = min(len(station['pdc_list']), int(station['attributes']['nbre_pdc']))
 
     station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
 
