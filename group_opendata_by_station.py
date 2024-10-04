@@ -89,21 +89,20 @@ with open('opendata_irve.csv') as csvfile:
             # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose
             continue
 
-        coordsXY = row['coordonneesXY'][1:-1].split(',')
         cleanRef = transformRef(row['id_station_itinerance'], row['id_station_local'])
 
-        if not validate_coord(coordsXY[0]):
+        if not validate_coord(row["consolidated_longitude"]):
             errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['coordonneesXY']
+                                   "detail": row['consolidated_longitude'] + row["consolidated_latitude"]
                                   })
             continue
-        if not validate_coord(coordsXY[1]):
+        if not validate_coord(row["consolidated_latitude"]):
             errors.append({"station_id" :  cleanRef,
                                    "source": row['datagouv_organization_or_owner'],
                                    "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['coordonneesXY']
+                                   "detail": row['consolidated_longitude'] + row["consolidated_latitude"]
                                   })
             continue
 
@@ -116,8 +115,8 @@ with open('opendata_irve.csv') as csvfile:
 
         if not cleanRef in station_list:
             station_prop = {key: row[key] if row[key] != "null" else "" for key in station_attributes}
-            station_prop['Xlongitude'] = float(coordsXY[0])
-            station_prop['Ylatitude'] = float(coordsXY[1])
+            station_prop['Xlongitude'] = float(row['consolidated_longitude'])
+            station_prop['Ylatitude'] = float(row['consolidated_latitude'])
             phone = cleanPhoneNumber(row['telephone_operateur'])
             station_list[cleanRef] = {'attributes' : station_prop, 'pdc_list': []}
 
