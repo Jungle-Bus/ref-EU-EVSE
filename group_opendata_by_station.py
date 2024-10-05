@@ -40,19 +40,19 @@ def is_correct_id(station_id):
     return True
 
 def cleanPhoneNumber(phone):
-    if re.match("^\+33\d{9}$", phone):
+    if re.match(r"^\+33\d{9}$", phone):
         return phone
-    elif re.match("^\+33 \d( \d{2}){4}$", phone):
+    elif re.match(r"^\+33 \d( \d{2}){4}$", phone):
         return phone.replace(" ", "")
-    elif re.match("^33\d{9}$", phone):
+    elif re.match(r"^33\d{9}$", phone):
         return "+"+phone
-    elif re.match("^\d{10}$", phone):
+    elif re.match(r"^\d{10}$", phone):
         return "+33" + phone[1:]
-    elif re.match("^\d{9}$", phone):
+    elif re.match(r"^\d{9}$", phone):
         return "+33" + phone
-    elif re.match("^(\d{2}[. -]){4}\d{2}$", phone):
+    elif re.match(r"^(\d{2}[. -]){4}\d{2}$", phone):
         return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
-    elif re.match("^\d( \d{3}){3}$", phone):
+    elif re.match(r"^\d( \d{3}){3}$", phone):
         return "+33" + phone[1:].replace(" ", "")
     else:
         return None
@@ -61,7 +61,7 @@ def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
 
 def transformRef(refIti, refLoc):
-    rgx = "FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
+    rgx = r"FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
     areRefNoSepEqual = refIti.replace("*", "") == refLoc.replace("*", "")
 
     if re.match(rgx, refIti):
