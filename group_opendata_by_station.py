@@ -91,19 +91,14 @@ with open('opendata_irve.csv') as csvfile:
 
         cleanRef = transformRef(row['id_station_itinerance'], row['id_station_local'])
 
-        if not validate_coord(row["consolidated_longitude"]):
+        # Overkill given that this data should have passed through this code:
+        # https://github.com/datagouv/datagouvfr_data_pipelines/blob/75db0b1db3fd79407a1526b0950133114fefaa0f/schema/utils/geo.py#L33
+        if not validate_coord(row["consolidated_longitude"]) or not validate_coord(row["consolidated_latitude"]):
             errors.append({"station_id" :  cleanRef,
-                                   "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['consolidated_longitude'] + row["consolidated_latitude"]
-                                  })
-            continue
-        if not validate_coord(row["consolidated_latitude"]):
-            errors.append({"station_id" :  cleanRef,
-                                   "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['consolidated_longitude'] + row["consolidated_latitude"]
-                                  })
+                "source": row['datagouv_organization_or_owner'],
+                "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
+                "detail": "consolidated_longitude: {}, consolidated_latitude: {}".format(row['consolidated_longitude'], row["consolidated_latitude"])
+                })
             continue
 
         if not is_correct_id(cleanRef):
