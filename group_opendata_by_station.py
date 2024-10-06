@@ -94,7 +94,7 @@ with open('opendata_irve.csv') as csvfile:
         # Overkill given that this data should have passed through this code:
         # https://github.com/datagouv/datagouvfr_data_pipelines/blob/75db0b1db3fd79407a1526b0950133114fefaa0f/schema/utils/geo.py#L33
         if not validate_coord(row["consolidated_longitude"]) or not validate_coord(row["consolidated_latitude"]):
-            errors.append({"station_id" :  cleanRef,
+            errors.append({"station_id" :  cleanRef or row['id_station_itinerance'],
                 "source": row['datagouv_organization_or_owner'],
                 "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                 "detail": "consolidated_longitude: {}, consolidated_latitude: {}".format(row['consolidated_longitude'], row["consolidated_latitude"])
@@ -102,7 +102,7 @@ with open('opendata_irve.csv') as csvfile:
             continue
 
         if not is_correct_id(cleanRef):
-            errors.append({"station_id" : cleanRef,
+            errors.append({"station_id" : cleanRef or row['id_station_itinerance'],
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                    "detail": "iti: %s, local: %s" % (row['id_station_itinerance'], row['id_station_local'])})
