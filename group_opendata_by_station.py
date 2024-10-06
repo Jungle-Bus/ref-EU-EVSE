@@ -3,6 +3,7 @@
 
 import csv
 import re
+import argparse
 
 from collections import Counter
 from enum import IntFlag, auto
@@ -21,6 +22,13 @@ socket_attributes = { 'prise_type_ef': Socket.EF, 'prise_type_2': Socket.T2, 'pr
 errors = []
 power_stats = []
 wrong_ortho = {}
+
+parser = argparse.ArgumentParser(description='This will group, validate and sanitize a previously "consolidated" export of IRVE data from data.gouv.fr')
+parser.add_argument('input', metavar='Input file', nargs='?', default='opendata_irve.csv',
+                    help='csv input file')
+parser.add_argument('-s','--power-stats', required=False, default=False, action='store_true',
+                    help='Print power statistics on stdout')
+args = parser.parse_args()
 
 with open('fixes_networks.csv', 'r') as csv_file:
     csv_reader = csv.DictReader(csv_file, delimiter=',')
@@ -114,7 +122,7 @@ def transformRef(refIti, refLoc):
     else:
         return None
 
-with open('opendata_irve.csv') as csvfile:
+with open(args.input) as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',')
     for row in reader:
         if not row['id_station_itinerance']:
@@ -294,10 +302,11 @@ for station_id, station in station_list.items() :
     power_props = ['power_ef_grouped', 'power_t2_grouped', 'power_chademo_grouped', 'power_ccs_grouped']
     station['attributes'].update(zip(power_props, power_grouped_values))
 
-print("Computed power stats:")
-print("       EF  |   T2  | Chademo |  CCS  |")
-for power_set, count in Counter(power_stats).most_common():
-    print(" >    {:4.2f}   {:5.2f}    {:5.2f}   {:6.2f} : {} occurences".format(*power_set, count))
+if args.power_stats:
+    print("Computed power stats:")
+    print("       EF  |   T2  | Chademo |  CCS  |")
+    for power_set, count in Counter(power_stats).most_common():
+        print(" >    {:4.2f}   {:5.2f}    {:5.2f}   {:6.2f} : {} occurences".format(*power_set, count))
 
 print("{} stations".format(len(station_list)))
 
