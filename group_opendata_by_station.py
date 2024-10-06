@@ -114,8 +114,6 @@ def transformRef(refIti, refLoc):
     else:
         return None
 
-errors = []
-
 with open('opendata_irve.csv') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',')
     for row in reader:
