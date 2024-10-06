@@ -16,13 +16,18 @@ Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Carrefour Energies
 Allego,GreenToWheel
+Atlante | FR*ATL,Atlante
+Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
 BIARS DISTRIBUTION,E. Leclerc
+BeTrom | FR*BEC,Be Cablé
+Borneco | FR*BHM,BornEco
 Botanic,Botanic
 Bouygues (1-OUEST),OUEST CHARGE
 Bouygues (2-Nord),OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 CHARGEPOLY,CHARGEPOLY
 DRIVECO,DRIVECO
+Dropnplug | FR*DNP,Dropnplug
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
 E-TOTEM,AGGLOMERATION MONTARGOISE - CEPOY
@@ -161,6 +166,7 @@ E-TOTEM,Ville de Lens - Giratoire Maës
 E-TOTEM,Ville de Lens - Parking Aqualens
 E-TOTEM,Ville de Lens - Parking Léo Lagrange
 E-TOTEM,Ville de Lens - Place du Cantin
+E.Leclerc | FR*LE2,Leclerc
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
@@ -174,6 +180,7 @@ EV MAP SAS,Renault Faurie Bergerac
 EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
+Easy Charge | FR*ECH,Easy Charge
 Easycharge services,Easycharge services
 Ekoplug,aucun
 Electra,Electra
@@ -201,12 +208,17 @@ Eoliberty,SUPER U BRUAY SUR L'ESCAUT
 Eoliberty,U EXPRESS MESANGER 1
 Eoliberty,U EXPRESS MESANGER 2
 Etablissement Combes,Etablissement Combes
+Evadea | FR*EVA,E-VADEA
 Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
+Freshmile | FR*CN1,Move In Pure
+Freshmile | FR*FR1,Freshmile
+Freshmile | FR*FR1,Freshmile France
 Fuzed,Réseau de recharge Fuzed
+Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
 GREENSPOT,ANRAS 01
@@ -243,6 +255,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
@@ -275,6 +288,12 @@ GREENSPOT,THALAZUR ROYAN
 GREENSPOT,Thalazur Bains de Camargue
 GREENSPOT,Thalazur bains de Cabourg
 Green To Wheel,GreenToWheel
+GreenFlux Assets B.V. | FR*EVZ,CARF - Bornes Publiques
+GreenFlux Assets B.V. | FR*EVZ,ENGIE MAMP - Bornes publiques
+GreenFlux Assets B.V. | FR*EVZ,EVzen
+GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
+GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
+GreenYellow | FR*GYM,GreenYellow Shift Mobility
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Réseau IRVE TE90
 IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
@@ -500,6 +519,12 @@ LE REVE DE JANINE,LE REVE DE JANINE
 LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
+Mobilize Fast Charge France | FR*MFC,Mobilize Fast Charge
+Mobilygreen | FR*MW1,Mobilygreen CPO
+Mobilygreen | FR*PY1,PICOTY
+Mobilygreen | FR*VIS,ENRGETICA
+Morbihan énergies | FR*S56,Mobilité électrique 56
+Métropolis | FR*MGP,Métropolis
 NEXTENEO,ACTIPOLE
 NEXTENEO,Boulangerie Ange
 NEXTENEO,CLUB MED
@@ -515,14 +540,20 @@ NEXTENEO,SA TRANSPORTS FRANCONY
 NEXTENEO,SMAG CDC
 NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
+Obornes | FR*ORV,Obornes
+Orléans Métropole | FR*M45,Orléans Métropole
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
 Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
+Proviridis | FR*PVD,Proviridis
 QoWatt,QoWatt
 R3,R3
+Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
+Régie Services Energie | FR*RSE,Régie Services Energie
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
+SAP Labs France SAS | FR*SLF,SAP Labs
 SARL LAFOURCADE ,SARL LAFOURCADE
 SAS Miodis,E. Leclerc
 SGA Industries,Réseau de recharge Brasserie Castelain
@@ -534,7 +565,7 @@ SIEGE 27,SIEGE27
 SNER RHONE-ALPES,GMK Motorsport
 SOCIETE BRICORTHE,WELDOM
 SPBR1,eborn
-SPIE CityNetworks,METROPOLIS
+SPBR1 | FR*EBN,Réseau eborn
 SPIE CityNetworks,Pays de GEX
 SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
@@ -545,9 +576,22 @@ SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
 Spie,OUEST CHARGE
+Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
+Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
+Syndicat Départemental d'Énergies de l'Yonne (SDEY89) | FR*S89,SDEY
+Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
+Syndicat Départemental Énergie Aube (SDEA) | FR*S10,SDEA 10
+Syndicat Intercommunal d'Electricité de Côte d'Or (SICECO21) | FR*S21,SICECO
+Syndicat Intercommunal d'Electricité et de Gaz du Puy-de-Dôme (SIEG) | FR*S63,SIEG 63
+Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,MobiSDEC
+Syndicat d'Energie de l'Oise (SE60) | FR*S60,Mouv'Oise
+Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,SDED52
+Syndicat intercommunal d'énergie du département de la Haute-Saône | FR*S70,SIED70
+Syndicat mixte d'Électricité du Doubs (SYDED) | FR*S25,SYDED
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
 TEVGO,61mobility
+Territoire d'Energie 90 (TE90) | FR*S90,TE90
 Tesla,Tesla Supercharger
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE
@@ -623,6 +667,18 @@ TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
+WAAT SAS | FR*W11,WAAT
+WAAT SAS | FR*WA1,WAAT
+WAAT SAS | FR*WA2,WAAT
+WAAT SAS | FR*WA3,WAAT
+WAAT SAS | FR*WA4,WAAT
+WAAT SAS | FR*WA5,WAAT
+WAAT SAS | FR*WA6,WAAT
+WAAT SAS | FR*WA7,WAAT
+WAAT SAS | FR*WA8,WAAT
+WAAT SAS | FR*WA9,WAAT
+WAAT SAS | FR*WAT,WAAT
+WattzHub | FR*SMI,WattzHub
 Zephyre SAS,AR Duen
 Zephyre SAS,Airria
 Zephyre SAS,Best Hotel Mayenne
@@ -723,6 +779,7 @@ Zephyre SAS,UNICAP - Garage Pochet
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
+Zephyre | FR*ZP1,Zephyre
 bp France,bp pulse
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
