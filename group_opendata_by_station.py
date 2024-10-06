@@ -50,19 +50,19 @@ def is_correct_id(station_id):
     return True
 
 def cleanPhoneNumber(phone):
-    if re.match("^\+33\d{9}$", phone):
+    if re.match(r"^\+33\d{9}$", phone):
         return phone
-    elif re.match("^\+33 \d( \d{2}){4}$", phone):
+    elif re.match(r"^\+33 \d( \d{2}){4}$", phone):
         return phone.replace(" ", "")
-    elif re.match("^33\d{9}$", phone):
+    elif re.match(r"^33\d{9}$", phone):
         return "+"+phone
-    elif re.match("^\d{10}$", phone):
+    elif re.match(r"^\d{10}$", phone):
         return "+33" + phone[1:]
-    elif re.match("^\d{9}$", phone):
+    elif re.match(r"^\d{9}$", phone):
         return "+33" + phone
-    elif re.match("^(\d{2}[. -]){4}\d{2}$", phone):
+    elif re.match(r"^(\d{2}[. -]){4}\d{2}$", phone):
         return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
-    elif re.match("^\d( \d{3}){3}$", phone):
+    elif re.match(r"^\d( \d{3}){3}$", phone):
         return "+33" + phone[1:].replace(" ", "")
     else:
         return None
@@ -102,7 +102,7 @@ def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
 
 def transformRef(refIti, refLoc):
-    rgx = "FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
+    rgx = r"FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
     areRefNoSepEqual = refIti.replace("*", "") == refLoc.replace("*", "")
 
     if re.match(rgx, refIti):
@@ -130,26 +130,20 @@ with open('opendata_irve.csv') as csvfile:
             # Station non concernée par l'identifiant ref:EU:EVSE (id_station_itinerance). Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose
             continue
 
-        coordsXY = row['coordonneesXY'][1:-1].split(',')
         cleanRef = transformRef(row['id_station_itinerance'], row['id_station_local'])
 
-        if not validate_coord(coordsXY[0]):
-            errors.append({"station_id" :  cleanRef,
-                                   "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['coordonneesXY']
-                                  })
-            continue
-        if not validate_coord(coordsXY[1]):
-            errors.append({"station_id" :  cleanRef,
-                                   "source": row['datagouv_organization_or_owner'],
-                                   "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
-                                   "detail": row['coordonneesXY']
-                                  })
+        # Overkill given that this data should have passed through this code:
+        # https://github.com/datagouv/datagouvfr_data_pipelines/blob/75db0b1db3fd79407a1526b0950133114fefaa0f/schema/utils/geo.py#L33
+        if not validate_coord(row["consolidated_longitude"]) or not validate_coord(row["consolidated_latitude"]):
+            errors.append({"station_id" :  cleanRef or row['id_station_itinerance'],
+                "source": row['datagouv_organization_or_owner'],
+                "error": "coordonnées non valides. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
+                "detail": "consolidated_longitude: {}, consolidated_latitude: {}".format(row['consolidated_longitude'], row["consolidated_latitude"])
+                })
             continue
 
         if not is_correct_id(cleanRef):
-            errors.append({"station_id" : cleanRef,
+            errors.append({"station_id" : cleanRef or row['id_station_itinerance'],
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le format de l'identifiant ref:EU:EVSE (id_station_itinerance) n'est pas valide. Ce point de charge est ignoré et sa station ne sera pas présente dans l'analyse Osmose",
                    "detail": "iti: %s, local: %s" % (row['id_station_itinerance'], row['id_station_local'])})
@@ -157,8 +151,8 @@ with open('opendata_irve.csv') as csvfile:
 
         if not cleanRef in station_list:
             station_prop = {key: row[key] if row[key] != "null" else "" for key in station_attributes}
-            station_prop['Xlongitude'] = float(coordsXY[0])
-            station_prop['Ylatitude'] = float(coordsXY[1])
+            station_prop['Xlongitude'] = float(row['consolidated_longitude'])
+            station_prop['Ylatitude'] = float(row['consolidated_latitude'])
             phone = cleanPhoneNumber(row['telephone_operateur'])
             station_list[cleanRef] = {'attributes' : station_prop, 'pdc_list': []}
 
@@ -216,7 +210,7 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['horaires_grouped'] = list(horaires)[0]
 
-    gratuit = set([elem['gratuit'].strip() for elem in station['pdc_list']])
+    gratuit = set([elem['gratuit'].strip().lower() for elem in station['pdc_list']])
     if len(gratuit) !=1 :
         station['attributes']['gratuit_grouped'] = None
         errors.append({"station_id" : station_id,
@@ -226,7 +220,7 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['gratuit_grouped'] = list(gratuit)[0]
 
-    paiement_acte = set([elem['paiement_acte'].strip() for elem in station['pdc_list']])
+    paiement_acte = set([elem['paiement_acte'].strip().lower() for elem in station['pdc_list']])
     if len(paiement_acte) !=1 :
         station['attributes']['paiement_acte_grouped'] = None
         errors.append({"station_id" : station_id,
@@ -236,7 +230,7 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['paiement_acte_grouped'] = list(paiement_acte)[0]
 
-    paiement_cb = set([elem['paiement_cb'].strip() for elem in station['pdc_list']])
+    paiement_cb = set([elem['paiement_cb'].strip().lower() for elem in station['pdc_list']])
     if len(paiement_cb) !=1 :
         station['attributes']['paiement_cb_grouped'] = None
         errors.append({"station_id" : station_id,
@@ -246,7 +240,7 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['paiement_cb_grouped'] = list(paiement_cb)[0]
 
-    reservation = set([elem['reservation'].strip() for elem in station['pdc_list']])
+    reservation = set([elem['reservation'].strip().lower() for elem in station['pdc_list']])
     if len(reservation) !=1 :
         station['attributes']['reservation_grouped'] = None
         errors.append({"station_id" : station_id,
