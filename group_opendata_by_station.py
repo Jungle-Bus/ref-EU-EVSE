@@ -109,7 +109,14 @@ with open('opendata_irve.csv') as csvfile:
             continue
 
         if not cleanRef in station_list:
-            station_prop = {key: row[key] if row[key] != "null" else "" for key in station_attributes}
+            station_prop = {}
+            for key in station_attributes :
+                station_prop[key] = row[key]
+                if row[key] == "null":
+                    station_prop[key] = ""
+                elif row[key] in wrong_ortho.keys():
+                    station_prop[key] = wrong_ortho[row[key]]
+
             station_prop['Xlongitude'] = float(row['consolidated_longitude'])
             station_prop['Ylatitude'] = float(row['consolidated_latitude'])
             phone = cleanPhoneNumber(row['telephone_operateur'])
@@ -142,13 +149,6 @@ with open('opendata_irve.csv') as csvfile:
 # ~ all_prises_types = set()
 
 for station_id, station in station_list.items() :
-    if station['attributes']['nom_amenageur'] in wrong_ortho.keys():
-        station['attributes']['nom_amenageur'] = wrong_ortho[station['attributes']['nom_amenageur']]
-    if station['attributes']['nom_enseigne'] in wrong_ortho.keys():
-        station['attributes']['nom_enseigne'] = wrong_ortho[station['attributes']['nom_enseigne']]
-    if station['attributes']['nom_operateur'] in wrong_ortho.keys():
-        station['attributes']['nom_operateur'] = wrong_ortho[station['attributes']['nom_operateur']]
-
     station['attributes']['id_station_itinerance'] = station_id
     sources = set([elem['datagouv_organization_or_owner'] for elem in station['pdc_list']])
     if len(sources) !=1 :
