@@ -8,6 +8,7 @@ from collections import Counter
 
 station_list = {}
 station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'adresse_station' ]
+station_unsure_attributes = ['nbre_pdc_unsure']
 pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'horaires' ]
 
 wrong_ortho = {}
@@ -117,6 +118,7 @@ with open('opendata_irve.csv') as csvfile:
                 elif row[key] in wrong_ortho.keys():
                     station_prop[key] = wrong_ortho[row[key]]
 
+            for key in station_unsure_attributes: station_prop[key] = ""
             station_prop['Xlongitude'] = float(row['consolidated_longitude'])
             station_prop['Ylatitude'] = float(row['consolidated_latitude'])
             phone = cleanPhoneNumber(row['telephone_operateur'])
@@ -224,6 +226,7 @@ for station_id, station in station_list.items() :
                        "source": station['attributes']['source_grouped'],
                        "error": "le nombre de point de charge de la station n'est pas cohérent avec la liste des points de charge fournie",
                        "detail": "{} points de charge indiqués pour la station (nbre_pdc) mais {} points de charge listés".format(station['attributes']['nbre_pdc'], len(station['pdc_list']))})        
+        station['attributes']['nbre_pdc_unsure'] = min(len(station['pdc_list']), int(station['attributes']['nbre_pdc']))
         station['attributes']['nbre_pdc'] = None
 
     station['attributes']['nb_prises_grouped'] = len(station['pdc_list'])
