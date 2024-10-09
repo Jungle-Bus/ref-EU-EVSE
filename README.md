@@ -16,7 +16,7 @@ En complément du regroupement par station, le retraitement suivant effectue div
 * vérification sommaire de la validité des coordonnées géographiques
 * vérification sommaire de la validité de l'identifiant d'itinérance (`id_station_itinerance`) qui est ajouté dans OSM dans la clef `ref:EU:EVSE`
 * vérification sommaire de la validité du numéro de téléphone
-* correction du nom de l'opérateur et du réseau à partir d'une liste de référence (modifiable [ici](https://github.com/Jungle-Bus/ref-EU-EVSE/blob/master/fixes_networks.csv))
+* correction de plusieurs attributs tels que les noms de l'opérateur, de l'aménageur et du réseau à partir d'une liste de référence (modifiable [ici](https://github.com/Jungle-Bus/ref-EU-EVSE/blob/master/fixes_networks.csv))
 * vérification des doublons (une même station listée plusieurs fois)
 * vérifications diverses de cohérence entre les informations des points de recharge et de la station
 * etc
