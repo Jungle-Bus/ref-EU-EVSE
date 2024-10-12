@@ -33,8 +33,6 @@ def is_correct_id(station_id):
     station_id_parts = station_id.split(' ')
     station_id = "".join(station_id_parts)
 
-    if not station_id.startswith('FR'):
-        return False
     if not station_id.startswith('P', 5):
         return False
     return True
@@ -61,15 +59,15 @@ def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
 
 def transformRef(refIti, refLoc):
-    rgx = r"FR\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
+    rgx = r"^[A-Z]{2}\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
     areRefNoSepEqual = refIti.replace("*", "") == refLoc.replace("*", "")
 
     if re.match(rgx, refIti):
         return refIti
     elif areRefNoSepEqual and re.match(rgx, refLoc):
         return refLoc
-    elif re.match("FR[A-Za-z0-9]{3}P[A-Za-z0-9]+", refIti):
-        return "FR*"+refIti[2:5]+"*P"+refIti[6:]
+    elif re.match("^[A-Z]{2}[A-Za-z0-9]{3}P[A-Za-z0-9]+", refIti):
+        return refIti[:2]+"*"+refIti[2:5]+"*P"+refIti[6:]
     else:
         return None
 
