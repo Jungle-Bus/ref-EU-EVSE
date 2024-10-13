@@ -22,7 +22,7 @@ En complément du regroupement par station, le retraitement suivant effectue div
 * etc
 
 Ces opérations de regroupement et vérifications peuvent révéler des incohérences dans les données. Dans ce cas le champ de sortie est laissé vide. Des champs supplémentaires peuvent être ajouté dans certains cas :
-* `nbre_pdc_unsure` : ce champ est ajouté lors du regroupement lorsque le `nbr_pdc` déclaré pour une station ne correspond pas aux nombres de PDCs effectivement trouvés (exemple `nbr_pdc = 2` et 4 PDCs avec le même station_id -> dans ce cas, la sortie contiendra `nbr_pdc = 0` et `nbr_pdc_unsure = 2`)
+* `nbre_pdc_unsure` : ce champ est ajouté lors du regroupement lorsque le `nbr_pdc` déclaré pour une station ne correspond pas aux nombres de PDCs effectivement trouvés (exemple `nbr_pdc = 2` et 4 PDCs avec le même station_id -> dans ce cas, la sortie contiendra `nbr_pdc = None` et `nbr_pdc_unsure = 2`)
 
 Voici les fichiers de sortie du retraitement :
 
