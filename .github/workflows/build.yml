@@ -7,7 +7,7 @@ on:
     branches-ignore:
       - 'gh-pages'
 
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,10 +21,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependencies && generate data for Osmose    
+    - name: Install dependencies && generate data for Osmose
       run: |
-        ./install.sh 
+        ./install.sh
         export PATH=$PATH:$PWD/
+        python -m unittest group_opendata_by_station.py -v
         xsv --version
         mkdir output
         wget https://www.data.gouv.fr/fr/datasets/r/2729b192-40ab-4454-904d-735084dca3a3 --no-verbose --output-document=opendata_irve.csv 2>&1
