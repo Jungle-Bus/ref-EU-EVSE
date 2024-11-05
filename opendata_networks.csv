@@ -22,10 +22,11 @@ BIARS DISTRIBUTION,E. Leclerc
 BeTrom | FR*BEC,Be Cablé
 Borneco | FR*BHM,BornEco
 Botanic,Botanic
-Bouygues (1-OUEST),OUEST CHARGE
-Bouygues (2-Nord),OUEST CHARGE
+Bouygues,OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 CHARGEPOLY,CHARGEPOLY
+ChargePoint Austria GmbH | FR*CG0,ChargeGuru
+ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 DRIVECO,DRIVECO
 Dropnplug | FR*DNP,Dropnplug
 E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
@@ -170,6 +171,8 @@ E.Leclerc | FR*LE2,Leclerc
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
+EV MAP SAS,BOREAL LABEGE
+EV MAP SAS,CAP NORD LORMONT
 EV MAP SAS,CENTRAL MOTOR FRANCHEVILLE
 EV MAP SAS,CENTRAL MOTOR LYON NORD
 EV MAP SAS,CENTRAL MOTOR ST FONS
@@ -293,6 +296,7 @@ GreenFlux Assets B.V. | FR*EVZ,EVzen
 GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
 GreenYellow | FR*GYM,GreenYellow Shift Mobility
+Greenflux,ENGIE Vianeo
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Réseau IRVE TE90
 IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
@@ -319,6 +323,7 @@ Izivia,BAOBAB
 Izivia,BATIMENT START
 Izivia,BMW HELI-MOTORS
 Izivia,BORNES-E
+Izivia,BOULANGER VARTELEC
 Izivia,BRAS - LE SUQUET
 Izivia,BRIOCHES FONTENEAU
 Izivia,BRIT HOTEL
@@ -344,6 +349,7 @@ Izivia,CAMPING MUNICIPALE LES SABLERES
 Izivia,CAMPING RESASOL
 Izivia,CAMPING SANDAYA
 Izivia,CAMPING SUNELIA LES 3 VALLEES
+Izivia,CAMPING UR ONEA
 Izivia,CANCE
 Izivia,CANTAL REPROGRAPHIE
 Izivia,CARREFOUR
@@ -381,8 +387,8 @@ Izivia,EDF-EN-EV100
 Izivia,EDF-EV100
 Izivia,EKOSPORT
 Izivia,EPSA
-Izivia,ES B2B
-Izivia,ES B2G
+Izivia,ES-B2B
+Izivia,ES-B2G
 Izivia,EURL R.M.A
 Izivia,FAIVELEY
 Izivia,FEDERATION FRANCAISE DE FOOTBALL
@@ -421,6 +427,7 @@ Izivia,INTERMARCHE CLAUGINIE
 Izivia,IZIVIA FAST
 Izivia,IZIVIA IMPACT
 Izivia,Izivia
+Izivia,Izivia Express
 Izivia,JERNAT
 Izivia,JIVA HILL RESORT
 Izivia,JONATHAN EVENEMENTS
@@ -475,6 +482,7 @@ Izivia,PROVENCIA
 Izivia,QPARK
 Izivia,QUERCY FROID
 Izivia,REINE DE DIJON
+Izivia,RENAULT TRUCKS
 Izivia,REPORAMA
 Izivia,RESERVE AFRICAINE DE SIGEAN
 Izivia,ROTEL
@@ -534,6 +542,7 @@ NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
+NEXTENEO,Mairie de Champagny-en-Vanoise
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,SA TRANSPORTS FRANCONY
 NEXTENEO,SMAG CDC
@@ -592,6 +601,13 @@ TANAY Electricité,Riviera Car Center
 TEVGO,61mobility
 Territoire d'Energie 90 (TE90) | FR*S90,TE90
 Tesla,Tesla Supercharger
+Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
+Total Charging Services,Carglass Services SAS - DARDILLY
+Total Charging Services,Carglass Services SAS - F - Nîmes
+Total Charging Services,Carglass Services SAS - Herblay sur seine
+Total Charging Services,Carglass Services SAS - MARIGNANE
+Total Charging Services,Carglass Services SAS - PANTIN
+Total Charging Services,Carglass Services SAS - VILLENEUVE D'ASCQ
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE
 TotalEnergies, GROUPE DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE
 TotalEnergies, GROUPE DESFOSSEY- ACCOR - IBIS BUDGET NUITS SAINT GEORGES
@@ -651,6 +667,7 @@ TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
+TotalEnergies,TotalEnergies - Compiègne
 TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
