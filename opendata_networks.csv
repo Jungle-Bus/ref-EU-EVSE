@@ -1,4 +1,5 @@
 nom_operateur,nom_enseigne
+,CPO CITEOS Mobive
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
 ,L'HOSTELLOISE HOTEL DES BAINS
@@ -16,6 +17,7 @@ Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Carrefour Energies
 Allego,GreenToWheel
+Altensys | FR*ALS,Altensys
 Atlante | FR*ATL,Atlante
 Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
 BIARS DISTRIBUTION,E. Leclerc
@@ -29,144 +31,50 @@ ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 DRIVECO,DRIVECO
 Dropnplug | FR*DNP,Dropnplug
-E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 1
-E-TOTEM,AGGLOMERATION MONTARGOISE - AMILLY 2
-E-TOTEM,AGGLOMERATION MONTARGOISE - CEPOY
-E-TOTEM,AGGLOMERATION MONTARGOISE - CHALETTE BRANLY
-E-TOTEM,AGGLOMERATION MONTARGOISE - CHALETTE LAVOISIER
-E-TOTEM,AGGLOMERATION MONTARGOISE - CHEVILLON SUR HUILLARD
-E-TOTEM,AGGLOMERATION MONTARGOISE - COMMISSARIAT
-E-TOTEM,AGGLOMERATION MONTARGOISE - CONFLANS SUR LOING
-E-TOTEM,AGGLOMERATION MONTARGOISE - CORQUILLEROY
-E-TOTEM,AGGLOMERATION MONTARGOISE - LOMBREUIL
-E-TOTEM,AGGLOMERATION MONTARGOISE - PANNES
-E-TOTEM,AGGLOMERATION MONTARGOISE - PAUCOURT
-E-TOTEM,AGGLOMERATION MONTARGOISE - SAINT MAURICE SUR FESSARD
-E-TOTEM,AGGLOMERATION MONTARGOISE - SOLTERRE
-E-TOTEM,AGGLOMERATION MONTARGOISE - VILLEMANDEUR
-E-TOTEM,AGGLOMERATION MONTARGOISE - VILLEMANDEUR BEL AIR
-E-TOTEM,AGGLOMERATION MONTARGOISE - VIMORY
-E-TOTEM,Aéroport de Lille-Lesquin
-E-TOTEM,Biocoop Granville
-E-TOTEM,CASINO DE MONTROND
-E-TOTEM,CBS - Gare de Culoz 1
-E-TOTEM,CBS - Gare de Culoz 2
-E-TOTEM,CENTRE COMMERCIAL CENTR'AZUR
-E-TOTEM,CERTAS Eurodisney
-E-TOTEM,CLOS DE LA VAUPALIERE
+E-TOTEM,CARREFOUR SUPPLY CHAIN - Aulnay sous Bois
+E-TOTEM,CARREFOUR SUPPLY CHAIN - La Courneuve - PL
 E-TOTEM,Carrefour Contact Bazoche Les Gallerandes
 E-TOTEM,Carrefour Contact La Crèche
 E-TOTEM,Carrefour Contact Pernes
 E-TOTEM,Carrefour Contact Périgny
 E-TOTEM,Carrefour Contact Saint-Malo
 E-TOTEM,Carrefour Contact Saint-Martin-de-Bellevue
-E-TOTEM,Carrefour Market Belondis
-E-TOTEM,Carrefour Nice Lingostière
 E-TOTEM,Carrefour Supply Chain - Combs la Ville
 E-TOTEM,Carrefour Supply Chain - Crépy en valois
-E-TOTEM,Carrefour Supply Chain - La Courneuve
+E-TOTEM,Carrefour Supply Chain - La Courneuve VL
 E-TOTEM,Carrefour Supply Chaine - Saint Germain les Arpajon
 E-TOTEM,Carrefour express Villaz
-E-TOTEM,Cimetière intercommunal de Valenton
-E-TOTEM,DOMAINE DE LA SAPINIERE
-E-TOTEM,DOMAINE DE VALINCHES
-E-TOTEM,ETOTEM Aytré
-E-TOTEM,Eurocommercial Etrembières
-E-TOTEM,Ferrières-en-Gatinais - Rue du Perray
-E-TOTEM,GAMM VERT - MONISTROL SUR LOIRE
-E-TOTEM,GAMMVERT - BRIGNAIS
-E-TOTEM,GARAGE DU CENTRE
-E-TOTEM,GEG - Site d'Apprieu
-E-TOTEM,Garage Cheminal - Volkswagen
-E-TOTEM,Garage Quantin
-E-TOTEM,Garage de la Marinière
-E-TOTEM,Garage de la Senia
-E-TOTEM,HOTELOP - Holiday Inn Roissy
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
-E-TOTEM,Holiday Marina Resort
-E-TOTEM,Hôtel Ibis Style Fougères
-E-TOTEM,Hôtel Mercure Orange Centre
-E-TOTEM,Institut de Cancérologie de Lorraine
-E-TOTEM,Intermarché Hermillon
-E-TOTEM,Intermarché Yssingeaux
-E-TOTEM,LPA Parking Antonin Poncet - N1 - Zone 1
-E-TOTEM,LPA Parking Berthelot - N1 - Zone 1
-E-TOTEM,LPA Parking Berthelot - N1 - Zone 2
-E-TOTEM,LPA Parking Célestins - N1 - Zone 1
-E-TOTEM,LPA Parking Célestins - N1 - Zone 2
-E-TOTEM,LPA Parking Célestins - N1 - Zone 3
-E-TOTEM,LPA Parking FAO - N1 - Zone 1
-E-TOTEM,LPA Parking FAO - N1 - Zone 2
-E-TOTEM,LPA Parking GPD - N1 - Zone 1
-E-TOTEM,LPA Parking Gros Cailloux - N1 - Zone 1
-E-TOTEM,LPA Parking Gros Cailloux - N1 - Zone 2
-E-TOTEM,LPA Parking Les Halles - N1 - Zone 1
-E-TOTEM,LPA Parking Morand - N1 - Zone 1
-E-TOTEM,LPA Parking Morand - N1 - Zone 2
-E-TOTEM,LPA Parking St Antoine - N1 - Zone 1
-E-TOTEM,LPA Parking St Exupery - N1 - Zone 1
-E-TOTEM,LPA Parking St Georges - N1 - Zone 1
-E-TOTEM,LPA Parking Tony Garnier - N1 - Zone 1
-E-TOTEM,LPA Parking Tony Garnier - N1 - Zone 2
-E-TOTEM,La Charpinière
-E-TOTEM,MAIRIE DE MOUXY
-E-TOTEM,MAIRIE OLLIERGUES
 E-TOTEM,MJS DISTRIBUTION
-E-TOTEM,Mairie Aillant sur Milleron
-E-TOTEM,Mairie de Beaugency - PARKING AGORA
-E-TOTEM,Mairie de Beaugency - PARKING GRAND MAIL
-E-TOTEM,Mairie de Beaugency - PARKING RUE NATIONALE
-E-TOTEM,Mairie de Vertolaye
-E-TOTEM,Meritor
+E-TOTEM,PROMOCASH - Site de Colmar
 E-TOTEM,PROMOCASH WASQUEHAL
-E-TOTEM,RENAULT AGENCE LOSANGE
-E-TOTEM,RENAULT THIVOLLE ST ETIENNE
 E-TOTEM,Réseau Saint Étienne Métropole
 E-TOTEM,Réseau e-Totem Infrastructures
 E-TOTEM,SAS ANGELINA
+E-TOTEM,SAS CHAUBODIS
 E-TOTEM,SAS COPADIS
 E-TOTEM,SAS GCP
 E-TOTEM,SAS GUYDIS
 E-TOTEM,SAS HADERMA
 E-TOTEM,SAS ISADIS
 E-TOTEM,SAS VERNAIDIS
-E-TOTEM,SPLM Marché Gare zone 1
-E-TOTEM,SPLM Marché Gare zone 2
-E-TOTEM,SPLM Parking Bourse - N1 - Zone 2
-E-TOTEM,SPLM Parking République - N1 - Zone 1
-E-TOTEM,SPLM Parking République - N1 - Zone 2
-E-TOTEM,SPLM Parking Terreaux - N1 - Zone 1
-E-TOTEM,SPLM Parking Terreaux - N1 - Zone 2
-E-TOTEM,SPLM Parking Terreaux - N1 - Zone 3
-E-TOTEM,SPLM Parking Villette
+E-TOTEM,SASU CHAPUS
 E-TOTEM,SUPER U CAEN
 E-TOTEM,SUPER U FARGUES ST HILAIRE
 E-TOTEM,SUPER U GANGES
 E-TOTEM,SUPER U LA TOURETTE
 E-TOTEM,SUPER U LAMASTRE
 E-TOTEM,SUPER U LE CHEYLARD
+E-TOTEM,SUPER U MONTMEDY
 E-TOTEM,SUPER U SAVIGNEUX
 E-TOTEM,SUPER U ST BONNET DE JOUX
 E-TOTEM,SUPER U ST LEGER DE LA MARTINIERE
 E-TOTEM,SUPER U TARASCON SUR ARIEGE
 E-TOTEM,SUPER U VIVONNE
-E-TOTEM,Salaison Fournet-Fayard
-E-TOTEM,Super U Thuir
-E-TOTEM,UAB
-E-TOTEM,VILLE DE DAMPIERRE
-E-TOTEM,VILLE DE LA ROCHELLE - PARKING CHASSELOUP LAUBAT
-E-TOTEM,VILLE DE LA ROCHELLE - PARKING PREFECTURE
-E-TOTEM,VILLE DE LA ROCHELLE - PLACE JB MARCET
-E-TOTEM,VILLE DE LA ROCHELLE - PLACE VERDUN
-E-TOTEM,Ville de Cerdon
-E-TOTEM,Ville de Lens - 1 Place de la République
-E-TOTEM,Ville de Lens - 20 Place de la République
-E-TOTEM,Ville de Lens - Giratoire Maës
-E-TOTEM,Ville de Lens - Parking Aqualens
-E-TOTEM,Ville de Lens - Parking Léo Lagrange
-E-TOTEM,Ville de Lens - Place du Cantin
+E-TOTEM,U EXPRESS MONTREDON
+E-TOTEM,U Express Saint Jean Du Gard
 E.Leclerc | FR*LE2,Leclerc
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
@@ -189,7 +97,7 @@ Ekoplug,aucun
 Electra,Electra
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Carrefour Contact 
+Electromaps,Domaine de Fompeyre
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -220,7 +128,6 @@ Freshmile SAS,Freshmile
 Freshmile | FR*CN1,Move In Pure
 Freshmile | FR*FR1,Freshmile
 Freshmile | FR*FR1,Freshmile France
-Fuzed,Réseau de recharge Fuzed
 Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
@@ -258,6 +165,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
@@ -476,6 +384,7 @@ Izivia,OF COURSE TRANSPORT
 Izivia,OMBRIWATT-ST LAURENT BLANGUY
 Izivia,ORTEC
 Izivia,PATISMATIQUE
+Izivia,PFRA - NOUVELLE-AQUITAINE
 Izivia,PLESSIS-TREVISE
 Izivia,PRODUCTEURS PLAIMONT
 Izivia,PROVENCIA
@@ -523,6 +432,7 @@ Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
 LE REVE DE JANINE,LE REVE DE JANINE
+LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
@@ -540,10 +450,13 @@ NEXTENEO,GRAND ANNECY BASE CAMP
 NEXTENEO,LOCKIT
 NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
+NEXTENEO,Les Cimes Blanches - CGH
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
 NEXTENEO,Mairie de Champagny-en-Vanoise
+NEXTENEO,Nexteneo - La Cordée
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
+NEXTENEO,Reversade
 NEXTENEO,SA TRANSPORTS FRANCONY
 NEXTENEO,SMAG CDC
 NEXTENEO,Ville d'Annecy
@@ -719,7 +632,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -792,6 +704,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
