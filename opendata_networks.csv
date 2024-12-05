@@ -20,6 +20,7 @@ Allego,GreenToWheel
 Altensys | FR*ALS,Altensys
 Atlante | FR*ATL,Atlante
 Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
+Aéroports de la Côte d'Azur | FR*ACA,Aéroports de la Côte d'Azur
 BIARS DISTRIBUTION,E. Leclerc
 BeTrom | FR*BEC,Be Cablé
 Borneco | FR*BHM,BornEco
@@ -79,6 +80,7 @@ E.Leclerc | FR*LE2,Leclerc
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
+EV MAP SAS,AUTO EMERAUD 35
 EV MAP SAS,BOREAL LABEGE
 EV MAP SAS,CAP NORD LORMONT
 EV MAP SAS,CENTRAL MOTOR FRANCHEVILLE
@@ -94,7 +96,6 @@ EVzen (SMEG Développement),larecharge
 Easy Charge | FR*ECH,Easy Charge
 Easycharge services,Easycharge services
 Ekoplug,aucun
-Electra,Electra
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Domaine de Fompeyre
@@ -165,7 +166,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
@@ -329,6 +329,7 @@ Izivia,HOTELS IBIS
 Izivia,HOTRAVAIL
 Izivia,HUHTAMAKI
 Izivia,IBIPEX
+Izivia,IGESA
 Izivia,IKEA
 Izivia,INTERMARCHE
 Izivia,INTERMARCHE CLAUGINIE
@@ -438,7 +439,6 @@ Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
 Mobilize Fast Charge France | FR*MFC,Mobilize Fast Charge
 Mobilygreen | FR*MW1,Mobilygreen CPO
-Mobilygreen | FR*PY1,PICOTY
 Mobilygreen | FR*VIS,ENRGETICA
 Morbihan énergies | FR*S56,Mobilité électrique 56
 Métropolis | FR*MGP,Métropolis
@@ -447,6 +447,7 @@ NEXTENEO,Boulangerie Ange
 NEXTENEO,CLUB MED
 NEXTENEO,GALILEO
 NEXTENEO,GRAND ANNECY BASE CAMP
+NEXTENEO,Garage Mouthon
 NEXTENEO,LOCKIT
 NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
@@ -458,6 +459,7 @@ NEXTENEO,Nexteneo - La Cordée
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,Reversade
 NEXTENEO,SA TRANSPORTS FRANCONY
+NEXTENEO,SMAG
 NEXTENEO,SMAG CDC
 NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
@@ -491,7 +493,6 @@ SPIE CityNetworks,Pays de GEX
 SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
-SPIE CityNetworks,Territoire d'Énergie Mayenne
 SPIE CityNetworks,e-Vadea
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
@@ -511,9 +512,9 @@ Syndicat intercommunal d'énergie du département de la Haute-Saône | FR*S70,SI
 Syndicat mixte d'Électricité du Doubs,SYDED
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
+TESLA France SARL,TESLA France SARL
 TEVGO,61mobility
 Territoire d'Energie 90 (TE90) | FR*S90,TE90
-Tesla,Tesla Supercharger
 Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
 Total Charging Services,Carglass Services SAS - DARDILLY
 Total Charging Services,Carglass Services SAS - F - Nîmes
@@ -580,7 +581,6 @@ TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
-TotalEnergies,TotalEnergies - Compiègne
 TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
@@ -596,6 +596,7 @@ TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
+Virta,Réseau de recharge Virta Public
 WAAT SAS | FR*W11,WAAT
 WAAT SAS | FR*WA1,WAAT
 WAAT SAS | FR*WA2,WAAT
@@ -713,3 +714,4 @@ bp France,bp pulse
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
 electromaps,ROAD54 / ChargeMeUp
+sas e-motum,e-motum
