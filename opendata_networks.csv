@@ -1,13 +1,34 @@
 nom_operateur,nom_enseigne
+,CARREFOUR CONTACT GONDREVILLE
+,CARREFOUR CONTACT RINXENT
+,CARREFOUR EXPRESS LAMARCHE
+,CARREOUR CONTACT  FORTSCHWIHR
 ,CPO CITEOS Mobive
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
+,ITM AUZANCES
+,ITM BELLEU
+,ITM BRASSAC LES MINES
+,ITM CLERMONT DE L'OISE 1
+,ITM COMBRONBE
+,ITM CREPY EN VALOIS 
+,ITM CROUY
+,ITM GUERIGNY
+,ITM LAMORLAYE 
+,ITM MONTLUCON
+,ITM PIERRE DE BRESSE 
+,ITM SAINT DIZIER
+,ITM ST GEORGES DE MONS
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
+,MAIRIE ORMOY VILLERS
+,MAIRIE PEROY LES GOMBRIES
 ,ORECO
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
+,STATION BAGNEUX
+,SUPER U BRUAY SUR L'ESCAUT
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
@@ -32,25 +53,10 @@ ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 DRIVECO,DRIVECO
 Dropnplug | FR*DNP,Dropnplug
-E-TOTEM,CARREFOUR SUPPLY CHAIN - Aulnay sous Bois
-E-TOTEM,CARREFOUR SUPPLY CHAIN - La Courneuve - PL
-E-TOTEM,Carrefour Contact Bazoche Les Gallerandes
-E-TOTEM,Carrefour Contact La Crèche
-E-TOTEM,Carrefour Contact Pernes
-E-TOTEM,Carrefour Contact Périgny
-E-TOTEM,Carrefour Contact Saint-Malo
-E-TOTEM,Carrefour Contact Saint-Martin-de-Bellevue
-E-TOTEM,Carrefour Supply Chain - Combs la Ville
-E-TOTEM,Carrefour Supply Chain - Crépy en valois
-E-TOTEM,Carrefour Supply Chain - La Courneuve VL
-E-TOTEM,Carrefour Supply Chaine - Saint Germain les Arpajon
-E-TOTEM,Carrefour express Villaz
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
 E-TOTEM,MJS DISTRIBUTION
-E-TOTEM,PROMOCASH - Site de Colmar
-E-TOTEM,PROMOCASH WASQUEHAL
 E-TOTEM,Réseau Saint Étienne Métropole
 E-TOTEM,Réseau e-Totem Infrastructures
 E-TOTEM,SAS ANGELINA
@@ -80,15 +86,18 @@ E.Leclerc | FR*LE2,Leclerc
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
+EV MAP,Ford
 EV MAP SAS,AUTO EMERAUD 35
 EV MAP SAS,BOREAL LABEGE
 EV MAP SAS,CAP NORD LORMONT
+EV MAP SAS,CAP NORD MERIGNAC
 EV MAP SAS,CENTRAL MOTOR FRANCHEVILLE
 EV MAP SAS,CENTRAL MOTOR LYON NORD
 EV MAP SAS,CENTRAL MOTOR ST FONS
 EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
+EV MAP SAS,MG MOTORS MEAUX
 EV MAP SAS,Renault Faurie Bergerac
 EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
@@ -103,24 +112,9 @@ Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
-Eoliberty,CARREFOUR CONTACT RINXENT
-Eoliberty,ITM CHATILLON SUR MARNE
-Eoliberty,ITM CLERMONT DE L'OISE 1
-Eoliberty,ITM CLERMONT DE L'OISE 2
-Eoliberty,ITM COMBRONBE
-Eoliberty,ITM CREPY EN VALOIS 1
-Eoliberty,ITM CREPY EN VALOIS 2
-Eoliberty,ITM CREPY EN VALOIS 3
-Eoliberty,ITM GUERIGNY
-Eoliberty,ITM PIERRE DE BRESSE 
-Eoliberty,ITM ST GEORGES DE MONS
-Eoliberty,MAIRIE ORMOY VILLERS
-Eoliberty,MAIRIE PEROY LES GOMBRIES
-Eoliberty,SUPER U BRUAY SUR L'ESCAUT
-Eoliberty,U EXPRESS MESANGER 1
-Eoliberty,U EXPRESS MESANGER 2
 Etablissement Combes,Etablissement Combes
 Evadea | FR*EVA,E-VADEA
+FAROAD,TEV
 Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
@@ -129,6 +123,7 @@ Freshmile SAS,Freshmile
 Freshmile | FR*CN1,Move In Pure
 Freshmile | FR*FR1,Freshmile
 Freshmile | FR*FR1,Freshmile France
+Fuzed,Réseau de recharge Fuzed
 Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
@@ -166,6 +161,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
@@ -199,7 +195,6 @@ GREENSPOT,Thalazur Bains de Camargue
 GREENSPOT,Thalazur bains de Cabourg
 Green To Wheel,GreenToWheel
 GreenFlux Assets B.V. | FR*EVZ,CARF - Bornes Publiques
-GreenFlux Assets B.V. | FR*EVZ,ENGIE MAMP - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,EVzen
 GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
@@ -287,7 +282,6 @@ Izivia,DALKIA-EV100
 Izivia,DEP INDUSTRIE
 Izivia,DOMAINE DE LESPERON
 Izivia,DOMOLANDES
-Izivia,DYNEFF
 Izivia,E.LECLERC
 Izivia,ECOLE DINGENIEURS DE PURPAN SITE TOULOUSE
 Izivia,EDEIS AEROPORT CHERBOURG-MAUPERTUS
@@ -316,10 +310,12 @@ Izivia,GROUPE INCA
 Izivia,GROUPE PARTOUCHE
 Izivia,GROUPE PARTOUCHE - CASINO ROYAT
 Izivia,GROUPE VIKINGS
+Izivia,HAMARIS CHAUMONT
 Izivia,HAMMEL
 Izivia,HAUTS DE MONTROUGE
 Izivia,HOPITAL DE SEMUR
 Izivia,HOTEL CARCARILLE
+Izivia,HOTEL CASINO
 Izivia,HOTEL ESTELOU
 Izivia,HOTEL IBARBOURE
 Izivia,HOTEL LA CHAMBRE
@@ -329,7 +325,6 @@ Izivia,HOTELS IBIS
 Izivia,HOTRAVAIL
 Izivia,HUHTAMAKI
 Izivia,IBIPEX
-Izivia,IGESA
 Izivia,IKEA
 Izivia,INTERMARCHE
 Izivia,INTERMARCHE CLAUGINIE
@@ -337,7 +332,6 @@ Izivia,IZIVIA FAST
 Izivia,IZIVIA IMPACT
 Izivia,Izivia
 Izivia,Izivia Express
-Izivia,JERNAT
 Izivia,JIVA HILL RESORT
 Izivia,JONATHAN EVENEMENTS
 Izivia,KAFREMBO
@@ -362,7 +356,6 @@ Izivia,LEVAPARC
 Izivia,LIMOGES METROPOLE
 Izivia,LOGIS TRAVAUX
 Izivia,LR2P
-Izivia,LUMINUS
 Izivia,MAIRIE DE COURRIERES
 Izivia,MAIRIE DE FREVENT
 Izivia,MAIRIE DE HARNES
@@ -396,7 +389,6 @@ Izivia,RENAULT TRUCKS
 Izivia,REPORAMA
 Izivia,RESERVE AFRICAINE DE SIGEAN
 Izivia,ROTEL
-Izivia,SAINT-JUNIEN
 Izivia,SAS EPONA
 Izivia,SAS LE RUISSEAU
 Izivia,SCA ALINEA
@@ -437,12 +429,14 @@ LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
+Mob-Energy| FR*MEI,Mob-Energy
 Mobilize Fast Charge France | FR*MFC,Mobilize Fast Charge
 Mobilygreen | FR*MW1,Mobilygreen CPO
 Mobilygreen | FR*VIS,ENRGETICA
 Morbihan énergies | FR*S56,Mobilité électrique 56
 Métropolis | FR*MGP,Métropolis
 NEXTENEO,ACTIPOLE
+NEXTENEO,Avoriaz - SERMA 1
 NEXTENEO,Boulangerie Ange
 NEXTENEO,CLUB MED
 NEXTENEO,GALILEO
@@ -455,6 +449,7 @@ NEXTENEO,Les Cimes Blanches - CGH
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
 NEXTENEO,Mairie de Champagny-en-Vanoise
+NEXTENEO,Mairie de Manigod
 NEXTENEO,Nexteneo - La Cordée
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,Reversade
@@ -470,6 +465,8 @@ Plageco Distribution,Leclerc Express Labouheyre
 Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
 Proviridis | FR*PVD,Proviridis
+QOVOLTIS,LABODENT
+QOVOLTIS,QOVOLTIS
 QoWatt,QoWatt
 R3,R3
 Road | FR*EFL,Road
@@ -490,6 +487,7 @@ SOCIETE BRICORTHE,WELDOM
 SPBR1,eborn
 SPBR1 | FR*EBN,Réseau eborn
 SPIE CityNetworks,Pays de GEX
+SPIE CityNetworks,RSE01
 SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
@@ -581,6 +579,7 @@ TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
+TotalEnergies,TotalEnergies - Compiègne
 TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
@@ -597,6 +596,7 @@ TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
+Voltalia Mobility (Yusco) | FR*USC,Yusco
 WAAT SAS | FR*W11,WAAT
 WAAT SAS | FR*WA1,WAAT
 WAAT SAS | FR*WA2,WAAT
