@@ -38,6 +38,7 @@ Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Carrefour Energies
 Allego,GreenToWheel
+Allego,Klépierre
 Altensys | FR*ALS,Altensys
 Atlante | FR*ATL,Atlante
 Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
@@ -83,7 +84,9 @@ E-TOTEM,SUPER U VIVONNE
 E-TOTEM,U EXPRESS MONTREDON
 E-TOTEM,U Express Saint Jean Du Gard
 E.Leclerc | FR*LE2,Leclerc
+EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
+ENERJUMP,Watt'up
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
 EV MAP,Ford
@@ -98,6 +101,8 @@ EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
 EV MAP SAS,MG MOTORS MEAUX
+EV MAP SAS,PEUGEOT BESANCON GROUPE CHOPARD
+EV MAP SAS,RENAULT FAURIE LIMOGES
 EV MAP SAS,Renault Faurie Bergerac
 EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
@@ -161,8 +166,8 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
+GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
 GREENSPOT,HOTEL LES SALINES
 GREENSPOT,HOTEL SAINT NICOLAS
@@ -287,6 +292,7 @@ Izivia,ECOLE DINGENIEURS DE PURPAN SITE TOULOUSE
 Izivia,EDEIS AEROPORT CHERBOURG-MAUPERTUS
 Izivia,EDF-EN-EV100
 Izivia,EDF-EV100
+Izivia,EDF-EV100 - PEI/SEI 
 Izivia,EKOSPORT
 Izivia,EPSA
 Izivia,ES-B2B
@@ -332,6 +338,7 @@ Izivia,IZIVIA FAST
 Izivia,IZIVIA IMPACT
 Izivia,Izivia
 Izivia,Izivia Express
+Izivia,JERNAT
 Izivia,JIVA HILL RESORT
 Izivia,JONATHAN EVENEMENTS
 Izivia,KAFREMBO
@@ -429,7 +436,7 @@ LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
 Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
-Mob-Energy| FR*MEI,Mob-Energy
+Mob-Energy | FR*MEI,Mob-Energy
 Mobilize Fast Charge France | FR*MFC,Mobilize Fast Charge
 Mobilygreen | FR*MW1,Mobilygreen CPO
 Mobilygreen | FR*VIS,ENRGETICA
@@ -439,10 +446,13 @@ NEXTENEO,ACTIPOLE
 NEXTENEO,Avoriaz - SERMA 1
 NEXTENEO,Boulangerie Ange
 NEXTENEO,CLUB MED
+NEXTENEO,Chalet Rêve de Marmottes
 NEXTENEO,GALILEO
 NEXTENEO,GRAND ANNECY BASE CAMP
 NEXTENEO,Garage Mouthon
+NEXTENEO,LDTP - showroom
 NEXTENEO,LOCKIT
+NEXTENEO,La ferrme du château
 NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
 NEXTENEO,Les Cimes Blanches - CGH
@@ -452,10 +462,13 @@ NEXTENEO,Mairie de Champagny-en-Vanoise
 NEXTENEO,Mairie de Manigod
 NEXTENEO,Nexteneo - La Cordée
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
-NEXTENEO,Reversade
+NEXTENEO,RAFFINS
 NEXTENEO,SA TRANSPORTS FRANCONY
 NEXTENEO,SMAG
 NEXTENEO,SMAG CDC
+NEXTENEO,SNC fonciere
+NEXTENEO,Serre chevalier
+NEXTENEO,Sirius
 NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
 Obornes | FR*ORV,Obornes
@@ -504,7 +517,6 @@ Syndicat Départemental Énergie Aube (SDEA) | FR*S10,SDEA 10
 Syndicat Intercommunal d'Electricité de Côte d'Or (SICECO21) | FR*S21,SICECO
 Syndicat Intercommunal d'Electricité et de Gaz du Puy-de-Dôme (SIEG) | FR*S63,SIEG 63
 Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,MobiSDEC
-Syndicat d'Energie de l'Oise (SE60) | FR*S60,Mouv'Oise
 Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,SDED52
 Syndicat intercommunal d'énergie du département de la Haute-Saône | FR*S70,SIED70
 Syndicat mixte d'Électricité du Doubs,SYDED
@@ -580,6 +592,7 @@ TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
 TotalEnergies,TotalEnergies - Compiègne
+TotalEnergies,TotalEnergies - Metpark
 TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
 TotalEnergies,VIKINGS CASINO FREJUS
@@ -710,6 +723,7 @@ Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
 Zephyre | FR*ZP1,Zephyre
+Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
 electromaps,EDF
 electromaps,Ligue Occitanie Basketball
