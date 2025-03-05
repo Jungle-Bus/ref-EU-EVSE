@@ -42,7 +42,9 @@ Allego,Klépierre
 Altensys | FR*ALS,Altensys
 Atlante | FR*ATL,Atlante
 Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
+Avia Picoty | FR*PY2,Avia Picoty
 Aéroports de la Côte d'Azur | FR*ACA,Aéroports de la Côte d'Azur
+BE CHARGE,PLENITUDE on the road
 BIARS DISTRIBUTION,E. Leclerc
 BeTrom | FR*BEC,Be Cablé
 Borneco | FR*BHM,BornEco
@@ -54,6 +56,7 @@ ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 DRIVECO,DRIVECO
 Dropnplug | FR*DNP,Dropnplug
+E-Motum | FR*EMO,e-Motum
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
@@ -109,17 +112,20 @@ EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easy Charge | FR*ECH,Easy Charge
 Easycharge services,Easycharge services
-Ekoplug,aucun
+Electra,Electra
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact 
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
+Enerstock | FR*ENT,Enerstock
 Etablissement Combes,Etablissement Combes
 Evadea | FR*EVA,E-VADEA
 FAROAD,TEV
+Faroad | FR*EVE,FAROAD
+Freshmile,Freshmile
 Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
@@ -200,6 +206,7 @@ GREENSPOT,Thalazur Bains de Camargue
 GREENSPOT,Thalazur bains de Cabourg
 Green To Wheel,GreenToWheel
 GreenFlux Assets B.V. | FR*EVZ,CARF - Bornes Publiques
+GreenFlux Assets B.V. | FR*EVZ,ENGIE MAMP - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,EVzen
 GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
@@ -224,7 +231,6 @@ Izivia,ATLANTIS - SAS SHD IMMO
 Izivia,AU MARCHE SAVOYARD
 Izivia,AUCHAN
 Izivia,AUTOGRILL
-Izivia,Arcachon
 Izivia,B&B HOTEL
 Izivia,B2G DIFFUS
 Izivia,BAOBAB
@@ -443,18 +449,26 @@ Mobilygreen | FR*VIS,ENRGETICA
 Morbihan énergies | FR*S56,Mobilité électrique 56
 Métropolis | FR*MGP,Métropolis
 NEXTENEO,ACTIPOLE
+NEXTENEO,ASCO - EMERSON
+NEXTENEO,AVENTICS - EMERSON
 NEXTENEO,Avoriaz - SERMA 1
 NEXTENEO,Boulangerie Ange
 NEXTENEO,CLUB MED
 NEXTENEO,Chalet Rêve de Marmottes
+NEXTENEO,Copropriété Genève Bellevue
 NEXTENEO,GALILEO
 NEXTENEO,GRAND ANNECY BASE CAMP
 NEXTENEO,Garage Mouthon
+NEXTENEO,Grand massif Samoens
+NEXTENEO,Hôtel Champs Fleuris
+NEXTENEO,Hôtel l'équipe
+NEXTENEO,Hôtel la Bergerie
 NEXTENEO,LDTP - showroom
 NEXTENEO,LOCKIT
 NEXTENEO,La ferrme du château
 NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
+NEXTENEO,Le Flocon Blanc
 NEXTENEO,Les Cimes Blanches - CGH
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
@@ -464,6 +478,7 @@ NEXTENEO,Nexteneo - La Cordée
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,RAFFINS
 NEXTENEO,SA TRANSPORTS FRANCONY
+NEXTENEO,SGF parking
 NEXTENEO,SMAG
 NEXTENEO,SMAG CDC
 NEXTENEO,SNC fonciere
@@ -508,6 +523,7 @@ SPIE CityNetworks,e-Vadea
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
+Sorégies,AlterBase
 Spie,OUEST CHARGE
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
@@ -609,7 +625,7 @@ TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
-Voltalia Mobility (Yusco) | FR*USC,Yusco
+Voltalia Mobility | FR*USC,Yusco
 WAAT SAS | FR*W11,WAAT
 WAAT SAS | FR*WA1,WAAT
 WAAT SAS | FR*WA2,WAAT
