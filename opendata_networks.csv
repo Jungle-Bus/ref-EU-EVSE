@@ -6,6 +6,8 @@ nom_operateur,nom_enseigne
 ,CPO CITEOS Mobive
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
+,HOTEL SAINT FERREOL
+,ITM AUBIGNY SUR NERE
 ,ITM AUZANCES
 ,ITM BELLEU
 ,ITM BRASSAC LES MINES
@@ -16,6 +18,8 @@ nom_operateur,nom_enseigne
 ,ITM GUERIGNY
 ,ITM LAMORLAYE 
 ,ITM MONTLUCON
+,ITM NANTEUIL LE HAUDOUIN
+,ITM NEVERS
 ,ITM PIERRE DE BRESSE 
 ,ITM SAINT DIZIER
 ,ITM ST GEORGES DE MONS
@@ -87,6 +91,8 @@ E-TOTEM,SUPER U VIVONNE
 E-TOTEM,U EXPRESS MONTREDON
 E-TOTEM,U Express Saint Jean Du Gard
 E.Leclerc | FR*LE2,Leclerc
+EASYCHARGE,AVIA VOLT
+EASYCHARGE,AVIA VOLT by Easy Charge
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
@@ -103,6 +109,7 @@ EV MAP SAS,CENTRAL MOTOR ST FONS
 EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
+EV MAP SAS,Espace Carrosserie Dijon
 EV MAP SAS,MG MOTORS MEAUX
 EV MAP SAS,PEUGEOT BESANCON GROUPE CHOPARD
 EV MAP SAS,RENAULT FAURIE LIMOGES
@@ -112,6 +119,7 @@ EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easy Charge | FR*ECH,Easy Charge
 Easycharge services,Easycharge services
+Eiffage Energie Systèmes | FR*WGO,We-Go
 Electra,Electra
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
@@ -126,7 +134,7 @@ Evadea | FR*EVA,E-VADEA
 FAROAD,TEV
 Faroad | FR*EVE,FAROAD
 Freshmile,Freshmile
-Freshmile,Morbihan Energies
+Freshmile,Réseau de recharge CCPHVA
 Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
@@ -135,6 +143,7 @@ Freshmile | FR*CN1,Move In Pure
 Freshmile | FR*FR1,Freshmile
 Freshmile | FR*FR1,Freshmile France
 Fuzed,Réseau de recharge Fuzed
+Fuzed | FR*FZD,Fuzed
 Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
@@ -217,6 +226,7 @@ HAEFELI,Réseau IRVE TE90
 IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
 INOUID,Caliceo Sainte Cyr Public
 INOUID,Caliceo Sainte Foy Public
+Izivia, EARL THIBAUT LE CHEMIN VERT
 Izivia,ACC HUSSE
 Izivia,ADVANCED CONFORT SYSTEMS
 Izivia,AEROPORTS DE LYON
@@ -303,6 +313,7 @@ Izivia,EKOSPORT
 Izivia,EPSA
 Izivia,ES-B2B
 Izivia,ES-B2G
+Izivia,ES-STATION CHARGE
 Izivia,EURL R.M.A
 Izivia,FAIVELEY
 Izivia,FEDERATION FRANCAISE DE FOOTBALL
@@ -343,7 +354,6 @@ Izivia,INTERMARCHE CLAUGINIE
 Izivia,IZIVIA FAST
 Izivia,IZIVIA IMPACT
 Izivia,Izivia
-Izivia,Izivia Express
 Izivia,JERNAT
 Izivia,JIVA HILL RESORT
 Izivia,JONATHAN EVENEMENTS
@@ -366,7 +376,6 @@ Izivia,LES MOUSQUETAIRES
 Izivia,LES TERRASSES DEZE
 Izivia,LES VIGNERONS DE FLORENSAC
 Izivia,LEVAPARC
-Izivia,LIMOGES METROPOLE
 Izivia,LOGIS TRAVAUX
 Izivia,LR2P
 Izivia,MAIRIE DE COURRIERES
@@ -440,7 +449,6 @@ LANGON DISTRIBUTION,Centre Auto Leclerc Langon
 LE REVE DE JANINE,LE REVE DE JANINE
 LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
-Last Mile Solutions,ENGIE Vianeo
 Leclerc Millau,Leclerc Millau
 Mob-Energy | FR*MEI,Mob-Energy
 Mobilize Fast Charge France | FR*MFC,Mobilize Fast Charge
@@ -495,7 +503,6 @@ ProperPhi,PROPERPHI
 Proviridis | FR*PVD,Proviridis
 QOVOLTIS,LABODENT
 QOVOLTIS,QOVOLTIS
-QoWatt,QoWatt
 R3,R3
 Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
@@ -516,14 +523,12 @@ SPBR1,eborn
 SPBR1 | FR*EBN,Réseau eborn
 SPIE CityNetworks,Pays de GEX
 SPIE CityNetworks,RSE01
-SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
 SPIE CityNetworks,e-Vadea
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
-Sorégies,AlterBase
 Spie,OUEST CHARGE
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
@@ -634,7 +639,6 @@ WAAT SAS | FR*WA4,WAAT
 WAAT SAS | FR*WA5,WAAT
 WAAT SAS | FR*WA6,WAAT
 WAAT SAS | FR*WA7,WAAT
-WAAT SAS | FR*WA8,WAAT
 WAAT SAS | FR*WA9,WAAT
 WAAT SAS | FR*WAT,WAAT
 WattzHub | FR*SMI,WattzHub
@@ -662,6 +666,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -734,7 +739,6 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
