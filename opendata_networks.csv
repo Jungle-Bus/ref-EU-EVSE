@@ -44,19 +44,28 @@ Allego,ALLEGO
 Allego,Carrefour Energies
 Allego,GreenToWheel
 Allego,Klépierre
-BE CHARGE,PLENITUDE on the road
+Altensys | FR*ALS,Altensys
+Atlante | FR*ATL,Atlante
+Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
+Avia Picoty | FR*PY2,Avia Picoty
+Aéroports de la Côte d'Azur | FR*ACA,Aéroports de la Côte d'Azur
 BIARS DISTRIBUTION,E. Leclerc
+BeTrom | FR*BEC,Be Cablé
+Borneco | FR*BHM,BornEco
 Botanic,Botanic
 Bouygues,OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 CHARGEPOLY,CHARGEPOLY
+ChargePoint Austria GmbH | FR*CG0,ChargeGuru
+ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 DRIVECO,DRIVECO
+Dropnplug | FR*DNP,Dropnplug
+E-Motum | FR*EMO,e-Motum
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
 E-TOTEM,MJS DISTRIBUTION
 E-TOTEM,Réseau Saint Étienne Métropole
-E-TOTEM,Réseau e-Totem Infrastructures
 E-TOTEM,SAS ANGELINA
 E-TOTEM,SAS CHAUBODIS
 E-TOTEM,SAS COPADIS
@@ -80,8 +89,9 @@ E-TOTEM,SUPER U TARASCON SUR ARIEGE
 E-TOTEM,SUPER U VIVONNE
 E-TOTEM,U EXPRESS MONTREDON
 E-TOTEM,U Express Saint Jean Du Gard
+E.Leclerc | FR*LE2,Leclerc
 EASYCHARGE,AVIA VOLT
-EASYCHARGE,AVIA VOLT by Easy Charge
+EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
@@ -107,7 +117,10 @@ EVBOX,EVBOX
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easy Charge Services,Easy Charge Services
+Easy Charge | FR*ECH,Easy Charge
+Eiffage Energie Systèmes | FR*WGO,We-Go
 Electra,Electra
+Electricité Veit | FR*HOP,Hopla Power Charge
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Domaine de Fompeyre
@@ -115,8 +128,11 @@ Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
+Enerstock | FR*ENT,Enerstock
 Etablissement Combes,Etablissement Combes
+Evadea | FR*EVA,E-VADEA
 FAROAD,TEV
+Faroad | FR*EVE,FAROAD
 Freshmile,Freshmile
 Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge CCPHVA
@@ -124,7 +140,12 @@ Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
 Freshmile,Touquet Semi Rapide
 Freshmile SAS,Freshmile
+Freshmile | FR*CN1,Move In Pure
+Freshmile | FR*FR1,Freshmile
+Freshmile | FR*FR1,Freshmile France
 Fuzed,Réseau de recharge Fuzed
+Fuzed | FR*FZD,Fuzed
+Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
 GREENSPOT,ANRAS 01
@@ -195,6 +216,10 @@ GREENSPOT,THALAZUR ROYAN
 GREENSPOT,Thalazur Bains de Camargue
 GREENSPOT,Thalazur bains de Cabourg
 Green To Wheel,GreenToWheel
+GreenFlux Assets B.V. | FR*EVZ,CARF - Bornes Publiques
+GreenFlux Assets B.V. | FR*EVZ,EVzen
+GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
+GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
 Greenflux,ENGIE Vianeo
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Réseau IRVE TE90
@@ -229,6 +254,7 @@ Izivia,BRIT HOTEL
 Izivia,CAMP ATLANTIC
 Izivia,CAMPING AURAN LES PLANS
 Izivia,CAMPING CHADOTEL - LA DUNE DES SABLES
+Izivia,CAMPING CHADOTEL - OCEANO DOR
 Izivia,CAMPING CRIN BLANC
 Izivia,CAMPING DE KERSENTIC
 Izivia,CAMPING DE LOCEAN
@@ -428,7 +454,13 @@ LE REVE DE JANINE,LE REVE DE JANINE
 LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
 Leclerc Millau,Leclerc Millau
+Lumi'in | FR*LUM,LUMI'IN
 Milence,Milence
+Mob-Energy | FR*MEI,Mob-Energy
+Mobilygreen | FR*MW1,Mobilygreen CPO
+Mobilygreen | FR*VIS,ENRGETICA
+Morbihan énergies | FR*S56,Mobilité électrique 56
+Métropolis | FR*MGP,Métropolis
 NEXTENEO,ACTIPOLE
 NEXTENEO,ASCO - EMERSON
 NEXTENEO,AVENTICS - EMERSON
@@ -468,6 +500,9 @@ NEXTENEO,Serre chevalier
 NEXTENEO,Sirius
 NEXTENEO,Ville d'Annecy
 Normatech Lodmi,Bornes de recharge AC Candas
+Obornes | FR*ORV,Obornes
+Orléans Métropole | FR*M45,Orléans Métropole
+Paragon Mobility | FR*PAM,Paragon Mobility
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
 Power Dot France,Power Dot France
@@ -475,8 +510,11 @@ ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
 QOVOLTIS,QOVOLTIS
 R3,R3
+Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
+Régie Services Energie | FR*RSE,Régie Services Energie
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
+SAP Labs France SAS | FR*SLF,SAP Labs
 SARL LAFOURCADE ,SARL LAFOURCADE
 SAS Miodis,E. Leclerc
 SGA Industries,Réseau de recharge Brasserie Castelain
@@ -488,10 +526,9 @@ SIEGE 27,SIEGE27
 SNER RHONE-ALPES,GMK Motorsport
 SOCIETE BRICORTHE,WELDOM
 SPBR1,eborn
-SPIE CityNetworks,METROPOLIS
+SPBR1 | FR*EBN,Réseau eborn
 SPIE CityNetworks,Pays de GEX
 SPIE CityNetworks,RSE01
-SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
 SPIE CityNetworks,e-Vadea
@@ -500,10 +537,21 @@ STATIONS-E,Stations-e
 Securecharge,Securecharge
 Shango,Réseau de recharge Shango
 Spie,OUEST CHARGE
+Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
+Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
+Syndicat Départemental d'Énergies de l'Yonne (SDEY89) | FR*S89,SDEY
+Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
+Syndicat Départemental Énergie Aube (SDEA) | FR*S10,SDEA 10
+Syndicat Intercommunal d'Electricité de Côte d'Or (SICECO21) | FR*S21,SICECO
+Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,MobiSDEC
+Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,SDED52
+Syndicat intercommunal d'énergie du département de la Haute-Saône | FR*S70,SIED70
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
+TERRITOIRE D'ENERGIE DU PUY-DE-DOME (TE 63) | FR*S63,SIEG 63
 TESLA France SARL,TESLA France SARL
 TEVGO,61mobility
+Territoire d'Energie 90 (TE90) | FR*S90,TE90
 Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
 Total Charging Services,Carglass Services SAS - DARDILLY
 Total Charging Services,Carglass Services SAS - F - Nîmes
@@ -588,6 +636,19 @@ TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
+Voltalia Mobility | FR*USC,Yusco
+WAAT SAS | FR*W11,WAAT
+WAAT SAS | FR*WA1,WAAT
+WAAT SAS | FR*WA2,WAAT
+WAAT SAS | FR*WA3,WAAT
+WAAT SAS | FR*WA4,WAAT
+WAAT SAS | FR*WA5,WAAT
+WAAT SAS | FR*WA6,WAAT
+WAAT SAS | FR*WA7,WAAT
+WAAT SAS | FR*WA9,WAAT
+WAAT SAS | FR*WAT,WAAT
+WattzHub | FR*SMI,WattzHub
+Z-E-N | FR*PVD,Proviridis
 Zephyre SAS,AR Duen
 Zephyre SAS,Airria
 Zephyre SAS,Best Hotel Mayenne
@@ -612,7 +673,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -685,9 +745,11 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
+Zephyre | FR*ZP1,Zephyre
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
 electromaps,EDF
