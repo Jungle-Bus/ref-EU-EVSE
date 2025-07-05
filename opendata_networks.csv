@@ -1,39 +1,23 @@
 nom_operateur,nom_enseigne
-,CARREFOUR CONTACT GONDREVILLE
-,CARREFOUR CONTACT RINXENT
-,CARREFOUR EXPRESS LAMARCHE
-,CARREOUR CONTACT  FORTSCHWIHR
 ,CPO CITEOS Mobive
 ,CPO CITEOS Region-Bfc
+,CPO CITEOS SDE54
+,CPO CITEOS SMOYS
+,CPO CITEOS Vaucluse
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
 ,HOTEL SAINT FERREOL
 ,ITM AUBIGNY SUR NERE
-,ITM AUZANCES
 ,ITM BELLEU
-,ITM BRASSAC LES MINES
-,ITM CLERMONT DE L'OISE 1
-,ITM COMBRONBE
-,ITM CREPY EN VALOIS 
-,ITM CROUY
-,ITM GUERIGNY
 ,ITM LAMORLAYE 
-,ITM MONTLUCON
 ,ITM NANTEUIL LE HAUDOUIN
 ,ITM NEVERS
-,ITM PIERRE DE BRESSE 
-,ITM SAINT DIZIER
-,ITM ST GEORGES DE MONS
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
-,MAIRIE ORMOY VILLERS
-,MAIRIE PEROY LES GOMBRIES
-,ORECO
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Réseau de recharge Charge-in
 ,STATION BAGNEUX
-,SUPER U BRUAY SUR L'ESCAUT
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
@@ -41,10 +25,395 @@ Acelec Charge,Acelec
 Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
 Allego,ALLEGO
+Allego,Allego - Aire De Livron_A7
+Allego,Allego - Aire de Chavagnes_A83
+Allego,Allego - Aire de La Bruche_A355
+Allego,Allego - Aire de Les Brouzils_A83
+Allego,Allego - Aire de Lespignan Nord_A9
+Allego,Allego - Aire de Lespignan Sud_A9
+Allego,Allego - Aire de Nabrigas_A9
+Allego,Allego - Aire de Pirmil Est_A11
+Allego,Allego - Aire de Pirmil Ouest_A11
+Allego,Allego - Aire de Rouillé Pamproux Nord_A10
+Allego,Allego - Aire de Senas Ouest_A7
+Allego,Allego - Aire de Toulouse Sud Nord_A61
+Allego,Allego - Aire de la Coucourde_A7
+Allego,Allego - Au Bureau Abbeville
+Allego,Allego - Au Bureau Angoulême
+Allego,Allego - Au Bureau Beauvais
+Allego,Allego - Au Bureau Brignais
+Allego,Allego - Au Bureau Cambrai
+Allego,Allego - Au Bureau Cognac
+Allego,Allego - Au Bureau Ecole Valentin
+Allego,Allego - Au Bureau Laon
+Allego,Allego - Au Bureau Morlaix
+Allego,Allego - Au Bureau Soissons
+Allego,Allego - Au Bureau Villejust
+Allego,Allego - Auchan Aix-En-Provence
+Allego,Allego - Auchan Champniers
+Allego,Allego - Auchan Fenouillet
+Allego,Allego - Auchan Fréjus
+Allego,Allego - Auchan Nîmes
+Allego,Allego - Auchan Saint-Etienne
+Allego,Allego - Auchan Valence Sud
+Allego,Allego - B&M Bourg-En-Bresse
+Allego,Allego - B&M Bourges
+Allego,Allego - B&M Colmar - Horbourg
+Allego,Allego - B&M Epinal - Golbey
+Allego,Allego - B&M Essey-Les-Nancy
+Allego,Allego - B&M Limoges Couzeix
+Allego,Allego - B&M Montlucon
+Allego,Allego - B&M Perigueux - Marsac
+Allego,Allego - B&M Rouen
+Allego,Allego - Burger King Ambérieu en Bugey
+Allego,Allego - Burger King La Ville-du-Bois
+Allego,Allego - Burger King Limoges Feytiat
+Allego,Allego - Burger King Lure
+Allego,Allego - Burger King Lyon Bron
+Allego,Allego - Burger King Martigues L'Escaillon
+Allego,Allego - Burger King Montpellier Près d'Arènes
+Allego,Allego - Burger King Moulins Yzeure
+Allego,Allego - Burger King Orléans Ingré
+Allego,Allego - Burger King Pontault-Combault Le Pavé
+Allego,Allego - Burger King Taverny
+Allego,Allego - Burger King Toulouse Portet-sur-Garonne
+Allego,Allego - Burger King Trans En Provence
+Allego,Allego - Burger King Villeneuve les Beziers
+Allego,Allego - But Colmar
+Allego,Allego - But Orléans Saran
+Allego,Allego - Carrefour Aire-sur-la-Lys
+Allego,Allego - Carrefour Alençon
+Allego,Allego - Carrefour Amiens
+Allego,Allego - Carrefour Angers St Serge
+Allego,Allego - Carrefour Anglet
+Allego,Allego - Carrefour Angoulins
+Allego,Allego - Carrefour Annecy
+Allego,Allego - Carrefour Antibes
+Allego,Allego - Carrefour Armentières
+Allego,Allego - Carrefour Athis-Mons
+Allego,Allego - Carrefour Auch
+Allego,Allego - Carrefour Auchy les Mines
+Allego,Allego - Carrefour Avignon Cap Sud
+Allego,Allego - Carrefour Avignon Courtine
+Allego,Allego - Carrefour Avranches
+Allego,Allego - Carrefour Barentin
+Allego,Allego - Carrefour Bassens
+Allego,Allego - Carrefour Bayeux
+Allego,Allego - Carrefour Beaucaire
+Allego,Allego - Carrefour Beauvais Centre
+Allego,Allego - Carrefour Berck
+Allego,Allego - Carrefour Besancon Chalezeule
+Allego,Allego - Carrefour Besancon Valentin
+Allego,Allego - Carrefour Bourg en Bresse
+Allego,Allego - Carrefour Bourges
+Allego,Allego - Carrefour Brest
+Allego,Allego - Carrefour Brive
+Allego,Allego - Carrefour Bègles
+Allego,Allego - Carrefour Calais
+Allego,Allego - Carrefour Chalon Nord
+Allego,Allego - Carrefour Chalon Sud
+Allego,Allego - Carrefour Chalons-en-Champagne
+Allego,Allego - Carrefour Chambourcy
+Allego,Allego - Carrefour Champs-sur-Marne
+Allego,Allego - Carrefour Charleville
+Allego,Allego - Carrefour Chartres
+Allego,Allego - Carrefour Chateauneuf Les Martigues
+Allego,Allego - Carrefour Chelles
+Allego,Allego - Carrefour Cholet
+Allego,Allego - Carrefour Châteauroux
+Allego,Allego - Carrefour Claye-Souilly
+Allego,Allego - Carrefour Collégien
+Allego,Allego - Carrefour Condé
+Allego,Allego - Carrefour Coquelles
+Allego,Allego - Carrefour Crèches sur Saone
+Allego,Allego - Carrefour Dax
+Allego,Allego - Carrefour Denain
+Allego,Allego - Carrefour Digne
+Allego,Allego - Carrefour Douai
+Allego,Allego - Carrefour Draguignan
+Allego,Allego - Carrefour Drancy
+Allego,Allego - Carrefour Echirolles
+Allego,Allego - Carrefour Ecully
+Allego,Allego - Carrefour Epernay
+Allego,Allego - Carrefour Epinal
+Allego,Allego - Carrefour Etampes
+Allego,Allego - Carrefour Evreux
+Allego,Allego - Carrefour Fecamp
+Allego,Allego - Carrefour Feurs
+Allego,Allego - Carrefour Flins sur Seine
+Allego,Allego - Carrefour Fougères
+Allego,Allego - Carrefour Fourmies
+Allego,Allego - Carrefour Francheville
+Allego,Allego - Carrefour Givors
+Allego,Allego - Carrefour Goussainville
+Allego,Allego - Carrefour Gruchet
+Allego,Allego - Carrefour Guingamp
+Allego,Allego - Carrefour Guéret
+Allego,Allego - Carrefour Hazebrouck
+Allego,Allego - Carrefour Hérouville
+Allego,Allego - Carrefour Isle d'Abeau
+Allego,Allego - Carrefour Issoire
+Allego,Allego - Carrefour L'Hay-Les-Roses
+Allego,Allego - Carrefour La Chapelle
+Allego,Allego - Carrefour La Roche Sur Yon
+Allego,Allego - Carrefour La Ville Du Bois
+Allego,Allego - Carrefour Lanester
+Allego,Allego - Carrefour Laon
+Allego,Allego - Carrefour Lattes
+Allego,Allego - Carrefour Laval
+Allego,Allego - Carrefour Le Cres
+Allego,Allego - Carrefour Le Mans
+Allego,Allego - Carrefour Lesparre
+Allego,Allego - Carrefour Libourne
+Allego,Allego - Carrefour Limay
+Allego,Allego - Carrefour LimogesBoisseuil
+Allego,Allego - Carrefour Liévin
+Allego,Allego - Carrefour Lorient
+Allego,Allego - Carrefour Lormont
+Allego,Allego - Carrefour Mably
+Allego,Allego - Carrefour Marseille Merlan
+Allego,Allego - Carrefour Maubeuge
+Allego,Allego - Carrefour Mondeville
+Allego,Allego - Carrefour Mont de Marsan
+Allego,Allego - Carrefour Mont-St-Aignan
+Allego,Allego - Carrefour Montereau
+Allego,Allego - Carrefour Montluçon
+Allego,Allego - Carrefour Montélimar
+Allego,Allego - Carrefour Moulins
+Allego,Allego - Carrefour Mulhouse
+Allego,Allego - Carrefour Mérignac
+Allego,Allego - Carrefour Nantes Beaulieu
+Allego,Allego - Carrefour Nevers
+Allego,Allego - Carrefour Niort
+Allego,Allego - Carrefour Nîmes Sud
+Allego,Allego - Carrefour Ollioules
+Allego,Allego - Carrefour Orange
+Allego,Allego - Carrefour Orleans Place d'Arc
+Allego,Allego - Carrefour Ormesson
+Allego,Allego - Carrefour Paimpol
+Allego,Allego - Carrefour Pau Lescar
+Allego,Allego - Carrefour Perpignan Claira
+Allego,Allego - Carrefour Perpignan Roussillon
+Allego,Allego - Carrefour Pontault
+Allego,Allego - Carrefour Port de Bouc
+Allego,Allego - Carrefour Portet s-Garonne
+Allego,Allego - Carrefour Puget sur Argens
+Allego,Allego - Carrefour Purpan
+Allego,Allego - Carrefour Quetigny
+Allego,Allego - Carrefour Quimper
+Allego,Allego - Carrefour Rambouillet
+Allego,Allego - Carrefour Reims Cernay
+Allego,Allego - Carrefour Reims Tinqueux
+Allego,Allego - Carrefour Rennes Cesson
+Allego,Allego - Carrefour Rethel
+Allego,Allego - Carrefour Riom
+Allego,Allego - Carrefour Romorantin
+Allego,Allego - Carrefour Saint-André-Les-Vergers
+Allego,Allego - Carrefour Saint-Brieuc
+Allego,Allego - Carrefour Saint-Clément-De-Rivière
+Allego,Allego - Carrefour Saint-Egrève
+Allego,Allego - Carrefour Saint-Pol
+Allego,Allego - Carrefour Sainte Geneviève
+Allego,Allego - Carrefour Salaise
+Allego,Allego - Carrefour Sallanches
+Allego,Allego - Carrefour Saran
+Allego,Allego - Carrefour Sartrouville
+Allego,Allego - Carrefour Sens Maillot
+Allego,Allego - Carrefour Sens Voulx
+Allego,Allego - Carrefour Sete
+Allego,Allego - Carrefour Sevran
+Allego,Allego - Carrefour Soyaux
+Allego,Allego - Carrefour St Brice
+Allego,Allego - Carrefour St Herblain
+Allego,Allego - Carrefour St Jean de Luz
+Allego,Allego - Carrefour St Jean de Vedas
+Allego,Allego - Carrefour St-Martin au Laert
+Allego,Allego - Carrefour Stains
+Allego,Allego - Carrefour Ségny
+Allego,Allego - Carrefour Thiers
+Allego,Allego - Carrefour Thionville
+Allego,Allego - Carrefour Tours
+Allego,Allego - Carrefour Tourville
+Allego,Allego - Carrefour Trans
+Allego,Allego - Carrefour Uzes
+Allego,Allego - Carrefour Valenciennes
+Allego,Allego - Carrefour Vannes
+Allego,Allego - Carrefour Vaulx en Velin
+Allego,Allego - Carrefour Venette
+Allego,Allego - Carrefour Vernon
+Allego,Allego - Carrefour Villabe
+Allego,Allego - Carrefour Villefranche de Rouergue
+Allego,Allego - Carrefour Villeurbanne
+Allego,Allego - Carrefour Villiers
+Allego,Allego - Carrefour Vitrolles
+Allego,Allego - Carrefour Vénissieux
+Allego,Allego - Carrefour Wasquehal
+Allego,Allego - Carré Sénart
+Allego,Allego - Centrakor Exincourt
+Allego,Allego - Centrakor Rennes
+Allego,Allego - Centrakor St Bonnet de Mure
+Allego,Allego - Clermont-Ferrand Jaude
+Allego,Allego - Cuisinella Cholet
+Allego,Allego - Drôme Energie Bourg de Péage
+Allego,Allego - Drôme Energie Valence Sud
+Allego,Allego - Fournier Limoges
+Allego,Allego - Géant Casino Dijon Chenôve
+Allego,Allego - Intermarché Limoges
+Allego,Allego - Intermarché Montpellier
+Allego,Allego - Intermarché Saint-Louis
+Allego,Allego - Intermarché Tours La Riche
+Allego,Allego - Intersport Kingersheim
+Allego,Allego - La Seguiniere Outlet
+Allego,Allego - La Vallée Village
+Allego,Allego - Leclerc Blagnac
+Allego,Allego - Leclerc Saint-Orens
+Allego,Allego - Lidl Salaise Sur Sanne
+Allego,Allego - Léon Chalon Sur Saone
+Allego,Allego - Léon Servon
+Allego,Allego - Maison du Monde Niort
+Allego,Allego - Marseille Grand Littoral
+Allego,Allego - Maxi Bazar Valenciennes - La Sentinelle
+Allego,Allego - Pathé Archamps
+Allego,Allego - Pathé Aubières
+Allego,Allego - Pathé Conflans
+Allego,Allego - Pathé Liévin
+Allego,Allego - Pathé Saran
+Allego,Allego - Pathé Valenciennes
+Allego,Allego - Rennes Alma
+Allego,Allego - Stokomani Guichainville
+Allego,Allego - Thiais Belle Epine
+Allego,Allego - Tisséo Balma Gramont
+Allego,Allego - Tisséo Basso Cambo
+Allego,Allego - Tisséo Borderouge
+Allego,Allego - Tisséo Ramonville
+Allego,Allego - Toulouse Nailloux Outlet
+Allego,Allego - Volfoni Montargis Amilly
+Allego,Amiens - Maison De La Culture
 Allego,Carrefour Energies
 Allego,GreenToWheel
 Allego,Klépierre
 Altensys | FR*ALS,Altensys
+Atlante France,Atlante  - Audincourt - Sport 2000
+Atlante France,Atlante -  Saint Saturnin - Le Portofino
+Atlante France,Atlante - A10 - Aire de service de Meillac (direction Saintes)
+Atlante France,Atlante - A10 - Aire de service de Saint-Léger Ouest (direction Bordeaux)
+Atlante France,Atlante - A89 - Aire de service du Chavanon (accessible dans les 2 sens)
+Atlante France,Atlante - A9 - Aire de service de Marguerittes Sud (direction Orange)
+Atlante France,Atlante - Albi - La Mie de Pain
+Atlante France,Atlante - Amiens - CCV Amiens
+Atlante France,Atlante - Arnage - Hôtel Restaurant Campanile Le Mans Sud Arnage
+Atlante France,Atlante - Arques - CCV Saint-Omer
+Atlante France,Atlante - Arçonnay - Cash Piscine
+Atlante France,Atlante - Autun - Plan d'Eau du Vallon
+Atlante France,Atlante - Bailleul - Decathlon
+Atlante France,Atlante - Barentin - Ixina Rouen
+Atlante France,Atlante - Beauvais -  Riester Opel
+Atlante France,Atlante - Beauvais - Peugeot Autosphere
+Atlante France,Atlante - Bessoncourt - CCV Belfort
+Atlante France,Atlante - Blois - Hôtel initial by Balladins Blois
+Atlante France,Atlante - Bourg-de-Péage - La Bannetiere
+Atlante France,Atlante - Bruay-la-Buissière - CCV Bruay
+Atlante France,Atlante - Buchelay - Fitness Park
+Atlante France,Atlante - Calais - Kiabi CALAIS
+Atlante France,Atlante - Castelnaud-de-Gratecambe - Golf de Villeneuve sur Lot
+Atlante France,Atlante - Cernay-lès-Reims - Restaurant Chez Vincent
+Atlante France,Atlante - Chalon-sur-Saône - Lidl
+Atlante France,Atlante - Chambray-lès-Tours - CCV Tours
+Atlante France,Atlante - Chambray-lès-Tours - Le Portofino
+Atlante France,Atlante - Champniers - CCV Angoulême
+Atlante France,Atlante - Chanas - Hôtel initial by Balladins Lyon / Chanas
+Atlante France,Atlante - Châteauneuf-les-Martigues - Jaï Automobiles
+Atlante France,Atlante - Châtellerault - Citroën Autosphere
+Atlante France,Atlante - Clermont-Ferrand - CCV Clermont-Ferrand
+Atlante France,Atlante - Colomiers - Boulangerie Ange
+Atlante France,Atlante - Coudekerque-Branche - GÉMO
+Atlante France,Atlante - Coulommiers - Riester Peugeot
+Atlante France,Atlante - Dreux - CHAUSSEA Dreux
+Atlante France,Atlante - Echirolles - Decathlon Grenoble Echirolles
+Atlante France,Atlante - Erstein - Hôtel Restaurant Crystal Erstein
+Atlante France,Atlante - Essômes-sur-Marne - CHAUSSEA
+Atlante France,Atlante - Eysines - Hôtel initial by balladins Bordeaux / Eysines
+Atlante France,Atlante - Fléville-devant-Nancy - Restaurant La Parenthèse
+Atlante France,Atlante - Gauriaguet - L' Ange Bleu
+Atlante France,Atlante - Glisy - CHAUSSEA
+Atlante France,Atlante - Grenoble - Centre Commercial Grand Place
+Atlante France,Atlante - Houssen - CCV Colmar
+Atlante France,Atlante - Ibos - Auberge EverHôtel de Tarbes-Ibos
+Atlante France,Atlante - Issoire - Restaurant Le Chapeau Rouge
+Atlante France,Atlante - Istres - Casa
+Atlante France,Atlante - Istres - KHAAN Istres
+Atlante France,Atlante - Istres - Weldom
+Atlante France,Atlante - La Chapelle-Saint-Luc - Restaurant La Mangoune
+Atlante France,Atlante - La Teste-de-Buch - BYD Autosphere
+Atlante France,Atlante - Landorthe - L'Orange bleue
+Atlante France,Atlante - Laon - Action Laon 2
+Atlante France,Atlante - Laval - Hôtel Restaurant Kyriad Laval
+Atlante France,Atlante - Lempdes - B & M Lempdes
+Atlante France,Atlante - Lempdes - TEDi
+Atlante France,Atlante - Les Mathes - Golf de La Palmyre
+Atlante France,Atlante - Lingolsheim - Octapharma Tanneries
+Atlante France,Atlante - Mandelieu-la-Napoule - Sartoriz
+Atlante France,Atlante - Mandelieu-la-Napoule - Sport 2000
+Atlante France,Atlante - Maubeuge - Kia
+Atlante France,Atlante - Meaux - Land Rover Meaux
+Atlante France,Atlante - Metz - CCV Augny
+Atlante France,Atlante - Miserey-Salines - CCV Besançon
+Atlante France,Atlante - Montauban - Aldi
+Atlante France,Atlante - Montauban - E.Leclerc
+Atlante France,Atlante - Montluçon - Peugeot Autosphere Montluçon
+Atlante France,Atlante - Montpellier - Centre commercial Odysseum parking de la Mer
+Atlante France,Atlante - Mouans-Sartoux - Ibis Cannes
+Atlante France,Atlante - Mougins - Royal Mougins Golf
+Atlante France,Atlante - Muzillac - Action Muzillac
+Atlante France,Atlante - Mâlain - Golf de la Chassagne
+Atlante France,Atlante - Nanteuil-lès-Meaux - GÉMO MEAUX
+Atlante France,Atlante - Nitry -  Auberge La Beursaudière
+Atlante France,Atlante - Orthez - Citroën Autosphere
+Atlante France,Atlante - Pacé - Gifi Rennes Pacé
+Atlante France,Atlante - Petite-Forêt - Darty Valenciennes
+Atlante France,Atlante - Pissy-Pôville - CCV Rouen
+Atlante France,Atlante - Plouigneau - Restaurant - traiteur Le Lywen
+Atlante France,Atlante - Plounévez-Moëdec - L'Étape. Bar restaurant
+Atlante France,Atlante - Poilley -  Restaurant Les Martinaises
+Atlante France,Atlante - Presles - Le Domaine des Vanneaux
+Atlante France,Atlante - Provins - Boulanger
+Atlante France,Atlante - Provins - Riester Peugeot Citroën DS
+Atlante France,Atlante - Puget-sur-Argens - Maisons du Monde
+Atlante France,Atlante - Puilboreau - Campanile La Rochelle Nord
+Atlante France,Atlante - Quimper - Golf  du Domaine de l'Orangerie de Lanniron
+Atlante France,Atlante - Riom - Peugeot Autosphere
+Atlante France,Atlante - Ruffec - Peugeot Ruffec Autosphere
+Atlante France,Atlante - Saint-Agathon - Au Relais de Bellevue Bar Hôtel Restaurant
+Atlante France,Atlante - Saint-Aubin-sur-Scie - Hôtel initial by Balladins Dieppe
+Atlante France,Atlante - Saint-Chamond - Centre Commercial Novaciéries
+Atlante France,Atlante - Saint-Doulchard - CCV Bourges (Face CHAUSSEA)
+Atlante France,Atlante - Saint-Doulchard - CCV Bourges (Face Maxi Zoo)
+Atlante France,Atlante - Saint-Gervais-la-Forêt - Action Blois Vineuil
+Atlante France,Atlante - Saint-Junien - Citotel l'Azur
+Atlante France,Atlante - Saint-Lô - Agneaux - Jules - Kiabi
+Atlante France,Atlante - Saint-Martin-Boulogne - Lapeyre
+Atlante France,Atlante - Saint-Maximin - CCV Creil
+Atlante France,Atlante - Saint-Memmie - 77 avenue du Président Roosevelt
+Atlante France,Atlante - Saint-Paul-lès-Romans - Intersport
+Atlante France,Atlante - Saint-Pierre-du-Mont - Hotel Abor
+Atlante France,Atlante - Saint-Yrieix-sur-Charente - Greet Hotel Angoulême Ouest
+Atlante France,Atlante - Samazan - Brasserie des Pins
+Atlante France,Atlante - Sedan - Hôtel Restaurant Kyriad
+Atlante France,Atlante - Sin le Noble - Restaurant du Golf du Bois des Retz
+Atlante France,Atlante - Tavers - GÉMO
+Atlante France,Atlante - Terville - CCV Thionville
+Atlante France,Atlante - Thillois - CCV Reims
+Atlante France,Atlante - Ussel - Correze Automobiles
+Atlante France,Atlante - Ussel - Restaurant l'étable
+Atlante France,Atlante - Vannes - Aubert Vannes
+Atlante France,Atlante - Vezin-le-Coquet - Restaurant La Braizh
+Atlante France,Atlante - Vidauban - Parking de la Tuilerie
+Atlante France,Atlante - Villefranche-de-Rouergue - Picard
+Atlante France,Atlante - Villeneuve d'Ascq - Kiabi Villeneuve d'Ascq
+Atlante France,Atlante - Wittenheim - Destock Tout Mulhouse
+Atlante France,Atlante - Yvrac - Hôtel Gardenia Yvrac Bordeaux Est
+Atlante France,Atlante - Épinal -  CCV  Épinal
+Atlante France,Atlante - Étrelles - Brit Hotel Pays de Vitré
 Atlante | FR*ATL,Atlante
 Autel Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
 Avia Picoty | FR*PY2,Avia Picoty
@@ -55,10 +424,12 @@ Borneco | FR*BHM,BornEco
 Botanic,Botanic
 Bouygues,OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
+Bump,Bump
 CHARGEPOLY,CHARGEPOLY
+Charge Unix | FR*0CU,Charge Unix
 ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
-DRIVECO,DRIVECO
+Cityfmet | FR*EVA,E-VADEA
 Dropnplug | FR*DNP,Dropnplug
 E-Motum | FR*EMO,e-Motum
 E-TOTEM,HYPER U AIZENAY
@@ -66,6 +437,7 @@ E-TOTEM,HYPER U BLAIN
 E-TOTEM,HYPER U PONT DE BEAUVOISIN
 E-TOTEM,MJS DISTRIBUTION
 E-TOTEM,Réseau Saint Étienne Métropole
+E-TOTEM,Réseau e-Totem Infrastructures
 E-TOTEM,SAS ANGELINA
 E-TOTEM,SAS CHAUBODIS
 E-TOTEM,SAS COPADIS
@@ -109,17 +481,86 @@ EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
 EV MAP SAS,Espace Carrosserie Dijon
+EV MAP SAS,GATICAR BOURGES
+EV MAP SAS,GATICAR CHATEAUROUX
 EV MAP SAS,MG MOTORS MEAUX
+EV MAP SAS,MONTCHAPET AUTOMOBILES BEAUNE
 EV MAP SAS,PEUGEOT BESANCON GROUPE CHOPARD
 EV MAP SAS,RENAULT FAURIE LIMOGES
 EV MAP SAS,Renault Faurie Bergerac
 EVBOX,EVBOX
+EVzen,EVzen
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
 Easy Charge Services,Easy Charge Services
 Easy Charge | FR*ECH,Easy Charge
 Eiffage Energie Systèmes | FR*WGO,We-Go
+Electra,A7 - Aire de Tricastin (direction Montélimar)
+Electra,A9 - Aire de Bages (direction Narbonne)
+Electra,A9 - Aire de Gigean Nord (direction Béziers)
+Electra,A9 - Aire de Pia (direction Montpellier)
+Electra,A9 - Aire de Rivesaltes (direction Perpignan)
+Electra,Aix-en-Provence - Intermarché Est
+Electra,Albertville - Intermarché
+Electra,Artigues-près-Bordeaux - Hôtel Campanile
+Electra,Beaune - Greet Hotel
+Electra,Blagnac - Hôtel Première Classe Toulouse Aéroport
+Electra,Bordeaux - Novotel Bordeaux Lac
+Electra,Bourg-lès-Valence - Hôtel Campanile
+Electra,Bousbecque - Intermarché
+Electra,Brive-la-Gaillarde - Hôtel Campanile
+Electra,Bron - Novotel
+Electra,Calais - Burger King
+Electra,Chasse-sur-Rhône - Kyriad Direct
+Electra,Cormeilles-en-Parisis - ZAC des Bois Rochefort
+Electra,Courbevoie - Hôtel Ibis Budget
+Electra,Créteil - Novotel Créteil le Lac
+Electra,Dainville - E.Leclerc
+Electra,Dechy - CC Le Parc du Luc
 Electra,Electra
+Electra,Firminy - Intermarché
+Electra,Frouard - KFC
+Electra,Geispolsheim - CC La Vigie
+Electra,Grans - Jardipassion
+Electra,Grosseto-Prugna - Sofitel
+Electra,L'Isle-Adam - CC Grand Val
+Electra,Lattes - Hôtel F1
+Electra,Lille - Intermarché
+Electra,Montpellier - Centre commercial Odysseum
+Electra,Nanterre - Hôtel Campanile
+Electra,Nice - Indigo Parking Massena
+Electra,Niort - Ibis Est Mendes France
+Electra,Nîmes - Hôtel F1 Ouest
+Electra,Osny - CC Osny 2
+Electra,Paris 12 - Parking Méditerranée - Gare de Lyon - Saemes
+Electra,Pessac - Hôtel Première Classe
+Electra,Ploermel - Del Arte
+Electra,Pornic - E.Leclerc
+Electra,Reims Village - KFC
+Electra,Rezé - Hôtel Akena Nantes Rezé Aéroport
+Electra,Roissy-en-France - Van der Valk Hotel Paris CDG Airport
+Electra,Ruaudin - CC Family Village les Hunaudières
+Electra,Saint-Alban-Leysse - Sport 2000
+Electra,Saint-Dizier - Del Arte
+Electra,Saint-Fons - Mercedes-Benz Lyon
+Electra,Saint-Genis-Laval - CC Saint Genis 2
+Electra,Saint-Jean-de-Védas - Kyriad Direct
+Electra,Saint-Laurent-du-Var - CC Cap 3000
+Electra,Saint-Magne-de-Castillon - E.Leclerc
+Electra,Saint-Nazaire - Auchan Oceanis I
+Electra,Saint-Nicolas - Hôtel Campanile
+Electra,Saint-Ouen-l'Aumône - Première Classe
+Electra,Saint-Priest - KFC
+Electra,Saint-Sébastien-sur-Loire - Hôtel Campanile
+Electra,Salon-de-Provence - King Jouet
+Electra,Sancé - Mercedes-Benz Mâcon
+Electra,Sorgues - Décor Discount
+Electra,Sérézin-du-Rhône - Peugeot
+Electra,Tain-l'Hermitage - Intermarché
+Electra,Troyes - Intermarché
+Electra,Valence - Hôtel Campanile Sud
+Electra,Villeneuve-Saint-Georges - Kyriad
+Electra,Viry-Châtillon - E.Leclerc
 Electricité Veit | FR*HOP,Hopla Power Charge
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
@@ -129,9 +570,228 @@ Electromaps,Electromaps
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
 Enerstock | FR*ENT,Enerstock
+Eoliberty,BP Bagneux Charles De Gaulle-C1
+Eoliberty,BP Bagneux Charles De Gaulle-C2
+Eoliberty,CRF Badonviller C1
+Eoliberty,CRF Badonviller C2
+Eoliberty,CRF Domblans - CCS
+Eoliberty,CRF Domblans - T2
+Eoliberty,CRF Fleurbaix C1-CCS
+Eoliberty,CRF Fleurbaix C2-T2
+Eoliberty,CRF Fortschwihr C1-CCS
+Eoliberty,CRF Fortschwihr C2-T2
+Eoliberty,CRF Gondreville - CCS
+Eoliberty,CRF Gondreville - T2
+Eoliberty,CRF Lamarche C1-CCS
+Eoliberty,CRF Lamarche C2-T2
+Eoliberty,CRF Rinxent - CCS
+Eoliberty,CRF Rinxent - T2
+Eoliberty,Cogep St Doulchard-C1
+Eoliberty,Cogep St Doulchard-C2
+Eoliberty,Cogep St Doulchard-C3
+Eoliberty,Cogep St Doulchard-C4
+Eoliberty,Cr√®che Sancerre
+Eoliberty,DietSmann-Borne-1-C1
+Eoliberty,DietSmann-Borne-1-C2
+Eoliberty,DietSmann-Borne-2-C1
+Eoliberty,DietSmann-Borne-2-C2
+Eoliberty,DietSmann-Borne-3-C1
+Eoliberty,DietSmann-Borne-3-C2
+Eoliberty,DietSmann-Borne-4-C1
+Eoliberty,DietSmann-Borne-4-C2
+Eoliberty,Foyer de la Sagesse 1
+Eoliberty,Foyer de la Sagesse 2
+Eoliberty,Foyer de la Sagesse 3
+Eoliberty,Foyer de la Sagesse 4
+Eoliberty,Foyer de la Sagesse 5
+Eoliberty,Foyer de la Sagesse 6
+Eoliberty,Foyer de la Sagesse 7
+Eoliberty,Foyer de la Sagesse 8
+Eoliberty,Fusion FS3MW-S2S2-DD-1-C1
+Eoliberty,Fusion FS3MW-S2S2-DD-1-C2
+Eoliberty,Fusion FS3MW-S2S2-DD-2-C1
+Eoliberty,Fusion FS3MW-S2S2-DD-2-C2
+Eoliberty,Fusion FS3MW-S2S2-DD-3-C1
+Eoliberty,Fusion FS3MW-S2S2-DD-3-C2
+Eoliberty,Fusion FS3MW-S2S2-DD-4-C1
+Eoliberty,Fusion FS3MW-S2S2-DD-4-C2
+Eoliberty,Fusion FS3MW-S2S2-DD-5-C1
+Eoliberty,Fusion FS3MW-S2S2-DD-5-C2
+Eoliberty,Hotel Brit Munster B-1
+Eoliberty,Hotel Brit Munster B-2
+Eoliberty,Hotel Cerizay B-1
+Eoliberty,Hotel Cerizay B-2
+Eoliberty,Hotel Le Translon B-1
+Eoliberty,Hotel Le Translon B-2
+Eoliberty,Hotel Maison Blanche B-1
+Eoliberty,Hotel Maison Blanche B-2
+Eoliberty,Hotel Petit Nan√ßay B-1
+Eoliberty,Hotel Petit Nan√ßay B-2
+Eoliberty,Hotel St Quentin B-1
+Eoliberty,Hotel St Quentin B-2
+Eoliberty,Hyundai IES B1-CCS HMF 50kw
+Eoliberty,Hyundai IES B1-T2 HMF 22kwh
+Eoliberty,Hyundai IES B2-CCS
+Eoliberty,Hyundai IES B2-T2
+Eoliberty,Hyundai Keba-B1-C1 fond gauche
+Eoliberty,Hyundai Keba-B1-C2
+Eoliberty,Hyundai Keba-B2-C2
+Eoliberty,Hyundai Keba-B3-C1
+Eoliberty,Hyundai Keba-B3-C2
+Eoliberty,Hyundai Schneider B1-C1 CFO/DG
+Eoliberty,Hyundai Schneider B1-C2 LFK
+Eoliberty,Hyundai Schneider B2-C1
+Eoliberty,Hyundai Schneider B3-C1
+Eoliberty,ITM Auzances - CCS
+Eoliberty,ITM Auzances - T2
+Eoliberty,ITM Belleu - CCS
+Eoliberty,ITM Belleu - T2
+Eoliberty,ITM Brassac Les Mines - CCS
+Eoliberty,ITM Brassac Les Mines - T2
+Eoliberty,ITM Brienne le ch√¢teau - CCS
+Eoliberty,ITM Brienne le ch√¢teau - T2
+Eoliberty,ITM Chatillon Sur Marne - CCS
+Eoliberty,ITM Chatillon Sur Marne - T2
+Eoliberty,ITM Clermont De L Oise-2 C1-T2
+Eoliberty,ITM Clermont De L Oise-2 C2-T2
+Eoliberty,ITM Clermont De L'Oise-1 - CCS
+Eoliberty,ITM Clermont De L'Oise-1 - T2
+Eoliberty,ITM Combronde - CCS
+Eoliberty,ITM Combronde - T2
+Eoliberty,ITM Crepy En Valois-1 - CCS
+Eoliberty,ITM Crepy En Valois-1 - T2
+Eoliberty,ITM Crepy En Valois-2 C1-T2
+Eoliberty,ITM Crepy En Valois-2 C2-T2
+Eoliberty,ITM Crepy En Valois-3 C1-T2
+Eoliberty,ITM Crepy En Valois-3 C2-T2
+Eoliberty,ITM Crouy - CCS
+Eoliberty,ITM Crouy - T2
+Eoliberty,ITM Ennezat - CCS
+Eoliberty,ITM Ennezat - T2
+Eoliberty,ITM Gamaches - CCS
+Eoliberty,ITM Gamaches - T2
+Eoliberty,ITM Gauville B-1
+Eoliberty,ITM Gauville B-2
+Eoliberty,ITM Guerigny - CCS
+Eoliberty,ITM Guerigny - T2
+Eoliberty,ITM La C√¥te St Andre -C1
+Eoliberty,ITM La C√¥te St Andre -C2
+Eoliberty,ITM Lamorlaye-1 - CCS
+Eoliberty,ITM Lamorlaye-1 - T2
+Eoliberty,ITM Lamorlaye-2 - CCS
+Eoliberty,ITM Lamorlaye-2 - T2
+Eoliberty,ITM Lamorlaye-Circontrol -C1
+Eoliberty,ITM Lamorlaye-Circontrol -C2
+Eoliberty,ITM Montlu√ßon - CCS
+Eoliberty,ITM Montlu√ßon - T2
+Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C1
+Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C2
+Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C3
+Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C4
+Eoliberty,ITM Pierre De Bresse - CCS
+Eoliberty,ITM Pierre De Bresse - T2
+Eoliberty,ITM Randan - CCS
+Eoliberty,ITM Randan - T2
+Eoliberty,ITM Saint Dizier - CCS
+Eoliberty,ITM Saint Dizier - T2
+Eoliberty,ITM St Georges De Mons - CCS
+Eoliberty,ITM St Georges De Mons - T2
+Eoliberty,ITM Yzeure Sur Creuse - CCS
+Eoliberty,ITM Yzeure Sur Creuse - T2
+Eoliberty,La Ritournelle Coueron - CCS
+Eoliberty,La Ritournelle Coueron - T2
+Eoliberty,LaFoirFouille-B1
+Eoliberty,LaFoirFouille-B2
+Eoliberty,LaFoirFouille-B3
+Eoliberty,LaFoirFouille-B4
+Eoliberty,LaFoirFouille-B5
+Eoliberty,LaFoirFouille-B6
+Eoliberty,Lamorlaye borne S
+Eoliberty,Mairie Ormoy Villers C1-T2
+Eoliberty,Mairie Ormoy Villers C2-T2
+Eoliberty,Mairie Peroy Les Gombries C1-T2
+Eoliberty,Mairie Peroy Les Gombries C2-T2
+Eoliberty,Netto Crepy en Valois -C1
+Eoliberty,Netto Crepy en Valois -C2
+Eoliberty,Netto Crepy en Valois -C3
+Eoliberty,Netto Crepy en Valois -C4
+Eoliberty,Rapid-1-180-Trio-C1-T2
+Eoliberty,Rapid-1-180-Trio-C2-CCS
+Eoliberty,Rapid-1-180-Trio-C3-CCS
+Eoliberty,Rapid-2-180-Trio-C1-T2
+Eoliberty,Rapid-2-180-Trio-C2-Chademo
+Eoliberty,Rapid-2-180-Trio-C3-CCS
+Eoliberty,Rapid-3-180-Duo-C1-CCS
+Eoliberty,Rapid-3-180-Duo-C2-CCS
+Eoliberty,Residence Carouge
+Eoliberty,Rioland_Vierzon_B1-C1
+Eoliberty,Rioland_Vierzon_B1-C2
+Eoliberty,Rioland_Vierzon_B1-C3
+Eoliberty,Rioland_Vierzon_B1-C4
+Eoliberty,Rioland_Vierzon_B2-C1
+Eoliberty,Rioland_Vierzon_B2-C2
+Eoliberty,SERP-ALP 350-C1
+Eoliberty,SERP-ALP 350-C2
+Eoliberty,SERP-ALP 350-C3
+Eoliberty,Sixense Lyon-C1
+Eoliberty,Sixense Lyon-C2
+Eoliberty,Sixense Lyon-C3
+Eoliberty,Sixense Lyon-C4
+Eoliberty,Sixense Lyon-C5
+Eoliberty,Sixense Lyon-C6
+Eoliberty,Sixense wallbox borne 1
+Eoliberty,Sixense wallbox borne 2
+Eoliberty,Sixense wallbox borne 3
+Eoliberty,Sixense wallbox borne 4
+Eoliberty,Sixense wallbox borne 5
+Eoliberty,Sixense wallbox borne 6
+Eoliberty,Sixense wallbox borne 7
+Eoliberty,Sixense wallbox borne 8
+Eoliberty,Super U Bruay Sur L Escaut - CCS
+Eoliberty,Super U Bruay Sur L Escaut - T2
+Eoliberty,Super U Express Mesanger-1 - CCS
+Eoliberty,Super U Express Mesanger-1 - T2
+Eoliberty,Super U Express Mesanger-2 C1-T2
+Eoliberty,Super U Express Mesanger-2 C2-T2
+Eoliberty,The-place-borne-1
+Eoliberty,The-place-borne-10
+Eoliberty,The-place-borne-11
+Eoliberty,The-place-borne-12
+Eoliberty,The-place-borne-13
+Eoliberty,The-place-borne-14
+Eoliberty,The-place-borne-15
+Eoliberty,The-place-borne-16
+Eoliberty,The-place-borne-17
+Eoliberty,The-place-borne-18
+Eoliberty,The-place-borne-19
+Eoliberty,The-place-borne-2
+Eoliberty,The-place-borne-20
+Eoliberty,The-place-borne-3
+Eoliberty,The-place-borne-4
+Eoliberty,The-place-borne-5
+Eoliberty,The-place-borne-6
+Eoliberty,The-place-borne-7
+Eoliberty,The-place-borne-8
+Eoliberty,The-place-borne-9
+Eoliberty,WGarage-Renault-Omnium-C1
+Eoliberty,hyundai Keba-B2-C1
+Eoliberty,ineris- B1-Droite-C3
+Eoliberty,ineris- B1-Gauche-C1
+Eoliberty,ineris- B2-Droite-C3
+Eoliberty,ineris- B2-Gauche-C1
+Eoliberty,ineris- B3-Droite-C3
+Eoliberty,ineris- B3-Gauche-C1
+Eoliberty,ineris- B4-Droite-C2
+Eoliberty,ineris- B4-Gauche-C1
+Eoliberty,ineris- Borne1-C2
+Eoliberty,ineris- Borne1-C4
+Eoliberty,ineris- Borne2-C2
+Eoliberty,ineris- Borne2-C4
+Eoliberty,ineris- Borne3-C2
+Eoliberty,ineris- Borne3-C4
 Etablissement Combes,Etablissement Combes
-Evadea | FR*EVA,E-VADEA
 FAROAD,TEV
+FUZED,Réseau de recharge Fuzed
 Faroad | FR*EVE,FAROAD
 Freshmile,Freshmile
 Freshmile,Morbihan Energies
@@ -143,8 +803,6 @@ Freshmile SAS,Freshmile
 Freshmile | FR*CN1,Move In Pure
 Freshmile | FR*FR1,Freshmile
 Freshmile | FR*FR1,Freshmile France
-Fuzed,Réseau de recharge Fuzed
-Fuzed | FR*FZD,Fuzed
 Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
 GREENSPOT,AED
@@ -226,6 +884,167 @@ HAEFELI,Réseau IRVE TE90
 IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
 INOUID,Caliceo Sainte Cyr Public
 INOUID,Caliceo Sainte Foy Public
+Ionity,IONITY Agde
+Ionity,IONITY Agen
+Ionity,IONITY Arclusaz
+Ionity,IONITY Auray
+Ionity,IONITY Authezat
+Ionity,IONITY Baie de Somme
+Ionity,IONITY Baralle
+Ionity,IONITY Bedenac Est
+Ionity,IONITY Bedenac Ouest
+Ionity,IONITY Bergerac
+Ionity,IONITY Bessoncourt
+Ionity,IONITY Blois Ménars
+Ionity,IONITY Blois Villerbon
+Ionity,IONITY Bois Guillerot
+Ionity,IONITY Boismandé Est
+Ionity,IONITY Boismandé Ouest
+Ionity,IONITY Bolleville Est
+Ionity,IONITY Bonneville
+Ionity,IONITY Bourbonnais
+Ionity,IONITY Bourges Sainte Thorette
+Ionity,IONITY Brumath Bernolsheim
+Ionity,IONITY Bréguières Nord
+Ionity,IONITY Burnhaupt
+Ionity,IONITY Cambarette Nord
+Ionity,IONITY Caussade
+Ionity,IONITY Ceignes Haut Bugey
+Ionity,IONITY Centre de la France
+Ionity,IONITY Chaberte La Garde
+Ionity,IONITY Champfleury
+Ionity,IONITY Chartres Bois Paris
+Ionity,IONITY Châteauroux Nord
+Ionity,IONITY Clermont l'Hérault
+Ionity,IONITY Coquelles
+Ionity,IONITY Corbières Nord
+Ionity,IONITY Corbières Sud
+Ionity,IONITY Cœur d'Aquitaine
+Ionity,IONITY Darvault
+Ionity,IONITY Dijon Sud
+Ionity,IONITY Dommartin
+Ionity,IONITY Dreux
+Ionity,IONITY Etrembieres
+Ionity,IONITY Fontaine Colette
+Ionity,IONITY Fontanelles
+Ionity,IONITY Freney
+Ionity,IONITY Frouard
+Ionity,IONITY Garonne
+Ionity,IONITY Gevrey-Chambertin Est
+Ionity,IONITY Giberville Nord
+Ionity,IONITY Giberville Sud
+Ionity,IONITY Glanon
+Ionity,IONITY Gourdan Polignan
+Ionity,IONITY Gueux
+Ionity,IONITY Hanches
+Ionity,IONITY Hastingues Nord
+Ionity,IONITY Hastingues Sud
+Ionity,IONITY Hauconcourt
+Ionity,IONITY Haut Koenigsbourg
+Ionity,IONITY Herbiers
+Ionity,IONITY Ile Rose
+Ionity,IONITY Jardin des arbres
+Ionity,IONITY Jura
+Ionity,IONITY Kergoët
+Ionity,IONITY La Ferté-Bernard
+Ionity,IONITY La Garde
+Ionity,IONITY La Roche sur Yon
+Ionity,IONITY La Réserve
+Ionity,IONITY Labenne Est
+Ionity,IONITY Labenne Ouest
+Ionity,IONITY Lacq Audéjos Nord
+Ionity,IONITY Lacq Audéjos Sud
+Ionity,IONITY Langres Noidant
+Ionity,IONITY Langres Perrogney
+Ionity,IONITY Larzac
+Ionity,IONITY Lauragais
+Ionity,IONITY Le Faou
+Ionity,IONITY Lochères
+Ionity,IONITY Loire
+Ionity,IONITY Longué la Couaille
+Ionity,IONITY Longué-les-Cossonnières
+Ionity,IONITY Longvilliers
+Ionity,IONITY Longwy
+Ionity,IONITY Loudeac
+Ionity,IONITY Lyon-Dagneux Sud
+Ionity,IONITY Maison Dieu
+Ionity,IONITY Mas D'Agenais
+Ionity,IONITY Mayenne
+Ionity,IONITY Meyrargues
+Ionity,IONITY Mionnay Chatanay
+Ionity,IONITY Montbartier
+Ionity,IONITY Montmarault
+Ionity,IONITY Montpellier Saint-Aunès
+Ionity,IONITY Montélimar Est
+Ionity,IONITY Montélimar Est 2
+Ionity,IONITY Montélimar Ouest
+Ionity,IONITY Montélimar Ouest 2
+Ionity,IONITY Morières
+Ionity,IONITY Mornas Village
+Ionity,IONITY Mornas les Adrets
+Ionity,IONITY Mouxy
+Ionity,IONITY Mâcon Saint-Albain
+Ionity,IONITY Narbonne-Vinassan Nord
+Ionity,IONITY Nemours
+Ionity,IONITY Nieppe
+Ionity,IONITY Orléans Nord
+Ionity,IONITY Pamiers
+Ionity,IONITY Pays de Brives Nord
+Ionity,IONITY Pays de Brives Sud
+Ionity,IONITY Pech Montat Ouest
+Ionity,IONITY Plaines de Beauce
+Ionity,IONITY Plouer sur Rance
+Ionity,IONITY Poitiers Chincé
+Ionity,IONITY Poitiers Jaunay-Clan
+Ionity,IONITY Poitou-Charentes
+Ionity,IONITY Portes d'Angers Sud
+Ionity,IONITY Périgueux Sud
+Ionity,IONITY Rely
+Ionity,IONITY Rochefort
+Ionity,IONITY Rodez
+Ionity,IONITY Rosny Nord
+Ionity,IONITY Rouille Sud
+Ionity,IONITY Rousset
+Ionity,IONITY Saint Brieuc
+Ionity,IONITY Saint Junien
+Ionity,IONITY Saint Laurent
+Ionity,IONITY Saint Léger Est
+Ionity,IONITY Saint-Chamond
+Ionity,IONITY Saint-Rambert Est
+Ionity,IONITY Saint-Rambert Ouest
+Ionity,IONITY Saint-Witz
+Ionity,IONITY Sarthe Nord
+Ionity,IONITY Sarthe Sud
+Ionity,IONITY Saugon Ouest
+Ionity,IONITY Seclin
+Ionity,IONITY Seyssins
+Ionity,IONITY Sierentz
+Ionity,IONITY Sisteron
+Ionity,IONITY Soissons Ouest
+Ionity,IONITY Sorgues
+Ionity,IONITY Taponas
+Ionity,IONITY Tavel Nord
+Ionity,IONITY Tavel Sud
+Ionity,IONITY Toulouse Ouest
+Ionity,IONITY Tours La Longue Vue
+Ionity,IONITY Troyes Sud
+Ionity,IONITY Val Gelon
+Ionity,IONITY Val Neuvy
+Ionity,IONITY Val de Reuil
+Ionity,IONITY Valleiry Sud
+Ionity,IONITY Vallée de la vire Gouvets
+Ionity,IONITY Vendée
+Ionity,IONITY Verdun Saint-Nicolas Sud
+Ionity,IONITY Veyre
+Ionity,IONITY Vidauban Sud
+Ionity,IONITY Village Catalan Est
+Ionity,IONITY Village Catalan Ouest
+Ionity,IONITY Villaines la Gonais
+Ionity,IONITY Vivonne
+Ionity,IONITY Volvestre
+Ionity,IONITY Vrigny
+Ionity,IONITY Vérités
+Ionity,IONITY l'Isle-d'Abeau
 Izivia, EARL THIBAUT LE CHEMIN VERT
 Izivia,ACC HUSSE
 Izivia,ADVANCED CONFORT SYSTEMS
@@ -401,6 +1220,7 @@ Izivia,NICE AP
 Izivia,NICE RP
 Izivia,OF COURSE TRANSPORT
 Izivia,OMBRIWATT-ST LAURENT BLANGUY
+Izivia,ORECO
 Izivia,ORTEC
 Izivia,PAPREC
 Izivia,PATISMATIQUE
@@ -443,6 +1263,7 @@ Izivia,Unibail
 Izivia,VIPE GESTION
 Izivia,VM DECOR
 Izivia,VOLKSWAGEN
+Izivia,WATERROWER
 Izivia,WiiiZ
 Izivia,ZOOPARC DE BEAUVAL
 Izivia,Zenpark
@@ -457,6 +1278,7 @@ Leclerc Millau,Leclerc Millau
 Lumi'in | FR*LUM,LUMI'IN
 Milence,Milence
 Mob-Energy | FR*MEI,Mob-Energy
+Mobilize Fast Charge Network FRANCE,Mobilize Power Solutions
 Mobilygreen | FR*MW1,Mobilygreen CPO
 Mobilygreen | FR*VIS,ENRGETICA
 Morbihan énergies | FR*S56,Mobilité électrique 56
@@ -509,6 +1331,27 @@ Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
 QOVOLTIS,QOVOLTIS
+QoWatt,1 Rue de l
+QoWatt,Avenue du 
+QoWatt,Chemin de 
+QoWatt,Château de
+QoWatt,Passage de
+QoWatt,Route de J
+QoWatt,Route de N
+QoWatt,Route de l
+QoWatt,Route du C
+QoWatt,Rue Annet 
+QoWatt,Rue de Poi
+QoWatt,Rue de la 
+QoWatt,Rue des Ca
+QoWatt,Rue des Ce
+QoWatt,Rue du 8 M
+QoWatt,Rue du Boi
+QoWatt,Rue du Cha
+QoWatt,Rue du Gra
+QoWatt,Rue du Gén
+QoWatt,Voie du Bo
+R-Mob | FR*BEZ,Ville de Béziers
 R3,R3
 Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
@@ -532,14 +1375,13 @@ SPIE CityNetworks,RSE01
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
 SPIE CityNetworks,e-Vadea
+SPIE CityNetworks | FR*CPB,Camping Les Pins Bleus
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
-Shango,Réseau de recharge Shango
 Spie,OUEST CHARGE
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
-Syndicat Départemental d'Énergies de l'Yonne (SDEY89) | FR*S89,SDEY
 Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
 Syndicat Départemental Énergie Aube (SDEA) | FR*S10,SDEA 10
 Syndicat Intercommunal d'Electricité de Côte d'Or (SICECO21) | FR*S21,SICECO
@@ -551,7 +1393,7 @@ TANAY Electricité,Riviera Car Center
 TERRITOIRE D'ENERGIE DU PUY-DE-DOME (TE 63) | FR*S63,SIEG 63
 TESLA France SARL,TESLA France SARL
 TEVGO,61mobility
-Territoire d'Energie 90 (TE90) | FR*S90,TE90
+Tesla,Tesla
 Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
 Total Charging Services,Carglass Services SAS - DARDILLY
 Total Charging Services,Carglass Services SAS - F - Nîmes
@@ -649,6 +1491,7 @@ WAAT SAS | FR*WA9,WAAT
 WAAT SAS | FR*WAT,WAAT
 WattzHub | FR*SMI,WattzHub
 Z-E-N | FR*PVD,Proviridis
+ZETRA Distribution SAS,ZETRA
 Zephyre SAS,AR Duen
 Zephyre SAS,Airria
 Zephyre SAS,Best Hotel Mayenne
