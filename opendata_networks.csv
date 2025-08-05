@@ -4,6 +4,7 @@ nom_operateur,nom_enseigne
 ,CPO CITEOS SDE54
 ,CPO CITEOS SMOYS
 ,CPO CITEOS Vaucluse
+,EDF-EV100
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
 ,HOTEL SAINT FERREOL
@@ -26,8 +27,10 @@ Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
 Allego,ALLEGO
 Allego,Allego - Aire De Livron_A7
+Allego,Allego - Aire de Boutroux_A10
 Allego,Allego - Aire de Chavagnes_A83
 Allego,Allego - Aire de La Bruche_A355
+Allego,Allego - Aire de La Chaussee de Cesar_A71
 Allego,Allego - Aire de Les Brouzils_A83
 Allego,Allego - Aire de Lespignan Nord_A9
 Allego,Allego - Aire de Lespignan Sud_A9
@@ -38,6 +41,7 @@ Allego,Allego - Aire de Rouillé Pamproux Nord_A10
 Allego,Allego - Aire de Senas Ouest_A7
 Allego,Allego - Aire de Toulouse Sud Nord_A61
 Allego,Allego - Aire de la Coucourde_A7
+Allego,Allego - Amiens Maison De La Culture
 Allego,Allego - Au Bureau Abbeville
 Allego,Allego - Au Bureau Angoulême
 Allego,Allego - Au Bureau Beauvais
@@ -64,8 +68,11 @@ Allego,Allego - B&M Essey-Les-Nancy
 Allego,Allego - B&M Limoges Couzeix
 Allego,Allego - B&M Montlucon
 Allego,Allego - B&M Perigueux - Marsac
+Allego,Allego - B&M Reims Courcelles
 Allego,Allego - B&M Rouen
 Allego,Allego - Burger King Ambérieu en Bugey
+Allego,Allego - Burger King Bayonne Saint-Léon
+Allego,Allego - Burger King Epinal Golbey
 Allego,Allego - Burger King La Ville-du-Bois
 Allego,Allego - Burger King Limoges Feytiat
 Allego,Allego - Burger King Lure
@@ -73,12 +80,15 @@ Allego,Allego - Burger King Lyon Bron
 Allego,Allego - Burger King Martigues L'Escaillon
 Allego,Allego - Burger King Montpellier Près d'Arènes
 Allego,Allego - Burger King Moulins Yzeure
+Allego,Allego - Burger King Nemours
 Allego,Allego - Burger King Orléans Ingré
 Allego,Allego - Burger King Pontault-Combault Le Pavé
 Allego,Allego - Burger King Taverny
+Allego,Allego - Burger King Toulouse Colomiers
 Allego,Allego - Burger King Toulouse Portet-sur-Garonne
 Allego,Allego - Burger King Trans En Provence
 Allego,Allego - Burger King Villeneuve les Beziers
+Allego,Allego - Burger King Villiers-sur-Marne
 Allego,Allego - But Colmar
 Allego,Allego - But Orléans Saran
 Allego,Allego - Carrefour Aire-sur-la-Lys
@@ -177,6 +187,7 @@ Allego,Allego - Carrefour Mondeville
 Allego,Allego - Carrefour Mont de Marsan
 Allego,Allego - Carrefour Mont-St-Aignan
 Allego,Allego - Carrefour Montereau
+Allego,Allego - Carrefour Montesson
 Allego,Allego - Carrefour Montluçon
 Allego,Allego - Carrefour Montélimar
 Allego,Allego - Carrefour Moulins
@@ -220,7 +231,6 @@ Allego,Allego - Carrefour Saran
 Allego,Allego - Carrefour Sartrouville
 Allego,Allego - Carrefour Sens Maillot
 Allego,Allego - Carrefour Sens Voulx
-Allego,Allego - Carrefour Sete
 Allego,Allego - Carrefour Sevran
 Allego,Allego - Carrefour Soyaux
 Allego,Allego - Carrefour St Brice
@@ -229,6 +239,7 @@ Allego,Allego - Carrefour St Jean de Luz
 Allego,Allego - Carrefour St Jean de Vedas
 Allego,Allego - Carrefour St-Martin au Laert
 Allego,Allego - Carrefour Stains
+Allego,Allego - Carrefour Sète Balaruc
 Allego,Allego - Carrefour Ségny
 Allego,Allego - Carrefour Thiers
 Allego,Allego - Carrefour Thionville
@@ -257,6 +268,7 @@ Allego,Allego - Cuisinella Cholet
 Allego,Allego - Drôme Energie Bourg de Péage
 Allego,Allego - Drôme Energie Valence Sud
 Allego,Allego - Fournier Limoges
+Allego,Allego - Grand Frais La Sentinelle Valenciennes
 Allego,Allego - Géant Casino Dijon Chenôve
 Allego,Allego - Intermarché Limoges
 Allego,Allego - Intermarché Montpellier
@@ -277,6 +289,8 @@ Allego,Allego - Pathé Archamps
 Allego,Allego - Pathé Aubières
 Allego,Allego - Pathé Conflans
 Allego,Allego - Pathé Liévin
+Allego,Allego - Pathé Reims Thillois
+Allego,Allego - Pathé Rouen Grand Quevilly
 Allego,Allego - Pathé Saran
 Allego,Allego - Pathé Valenciennes
 Allego,Allego - Rennes Alma
@@ -288,7 +302,6 @@ Allego,Allego - Tisséo Borderouge
 Allego,Allego - Tisséo Ramonville
 Allego,Allego - Toulouse Nailloux Outlet
 Allego,Allego - Volfoni Montargis Amilly
-Allego,Amiens - Maison De La Culture
 Allego,Carrefour Energies
 Allego,GreenToWheel
 Allego,Klépierre
@@ -397,6 +410,7 @@ Atlante France,Atlante - Saint-Memmie - 77 avenue du Président Roosevelt
 Atlante France,Atlante - Saint-Paul-lès-Romans - Intersport
 Atlante France,Atlante - Saint-Pierre-du-Mont - Hotel Abor
 Atlante France,Atlante - Saint-Yrieix-sur-Charente - Greet Hotel Angoulême Ouest
+Atlante France,Atlante - Salaise-sur-Sanne - Kiloutou
 Atlante France,Atlante - Samazan - Brasserie des Pins
 Atlante France,Atlante - Sedan - Hôtel Restaurant Kyriad
 Atlante France,Atlante - Sin le Noble - Restaurant du Golf du Bois des Retz
@@ -406,6 +420,7 @@ Atlante France,Atlante - Thillois - CCV Reims
 Atlante France,Atlante - Ussel - Correze Automobiles
 Atlante France,Atlante - Ussel - Restaurant l'étable
 Atlante France,Atlante - Vannes - Aubert Vannes
+Atlante France,Atlante - Vesoul - Cinéma Majestic
 Atlante France,Atlante - Vezin-le-Coquet - Restaurant La Braizh
 Atlante France,Atlante - Vidauban - Parking de la Tuilerie
 Atlante France,Atlante - Villefranche-de-Rouergue - Picard
@@ -423,6 +438,7 @@ BeTrom | FR*BEC,Be Cablé
 Borneco | FR*BHM,BornEco
 Botanic,Botanic
 Bouygues,OUEST CHARGE
+Bouygues (2-NORD),OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
 Bump,Bump
 CHARGEPOLY,CHARGEPOLY
@@ -430,7 +446,48 @@ Charge Unix | FR*0CU,Charge Unix
 ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 Cityfmet | FR*EVA,E-VADEA
-Dropnplug | FR*DNP,Dropnplug
+DREAM ENERGY ,ARTEPARC BIOT
+DREAM ENERGY ,ARTEPARC FUVEAU
+DREAM ENERGY ,ARTEPARC LESQUIN
+DREAM ENERGY ,ARTEPARC MEYLAN
+DREAM ENERGY ,ARTEPARC MEYREUIL
+DREAM ENERGY ,ARTEPARC de Bachasson
+DREAM ENERGY ,B&B HOTEL Nancy Frouard
+DREAM ENERGY ,Brit Hôtel
+DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
+DREAM ENERGY ,Enzo Hotels Reims Tinqueux
+DREAM ENERGY ,F1 EPINAL CHAVELOT
+DREAM ENERGY ,Greet Hotel Nancy Sud
+DREAM ENERGY ,HOTEL B&B MONTPELLIER SAINT AUNES
+DREAM ENERGY ,HOTEL F1 SAINT DIE DES VOSGES
+DREAM ENERGY ,Hotêl Escalet Storia
+DREAM ENERGY ,Hôtel Kyriad Enzo Hôtel Pont A Mousson
+DREAM ENERGY ,IBIS SAINT-DIZIER
+DREAM ENERGY ,Ibis Budget Bar-Le-Duc
+DREAM ENERGY ,Ibis Styles Nancy Ouest Laxou
+DREAM ENERGY ,JUNGHEINRICH IFS
+DREAM ENERGY ,LE PALATIN
+DREAM ENERGY ,ZAC TECHNOLOGIA
+DRIVECO,DRIVECO
+DRIVECO,DRIVECO - Carrefour Market - Amberieu en Bugey
+DRIVECO,DRIVECO - Carrefour Market - Auterive Midi
+DRIVECO,DRIVECO - Carrefour Market - Bagnols sur Ceze
+DRIVECO,DRIVECO - Carrefour Market - Blere
+DRIVECO,DRIVECO - Carrefour Market - Brioude
+DRIVECO,DRIVECO - Carrefour Market - Chartres-De-Bretagne
+DRIVECO,DRIVECO - Carrefour Market - Connerre
+DRIVECO,DRIVECO - Carrefour Market - Déols
+DRIVECO,DRIVECO - Carrefour Market - Ergué Gabéric
+DRIVECO,DRIVECO - Carrefour Market - Guérande
+DRIVECO,DRIVECO - Carrefour Market - La Ferte-Bernard
+DRIVECO,DRIVECO - Carrefour Market - Lagnieu
+DRIVECO,DRIVECO - Carrefour Market - Les Abrets
+DRIVECO,DRIVECO - Carrefour Market - Marly Les Valenciennes
+DRIVECO,DRIVECO - Carrefour Market - Nanteuil Meaux
+DRIVECO,DRIVECO - Carrefour Market - Rive De Gier
+DRIVECO,DRIVECO - Carrefour Market - Saint-Lô
+DRIVECO,DRIVECO - Carrefour Market - Trevoux
+DRIVECO,DRIVECO - Carrefour Market - Villeneuve les Avignon
 E-Motum | FR*EMO,e-Motum
 E-TOTEM,HYPER U AIZENAY
 E-TOTEM,HYPER U BLAIN
@@ -461,12 +518,15 @@ E-TOTEM,SUPER U TARASCON SUR ARIEGE
 E-TOTEM,SUPER U VIVONNE
 E-TOTEM,U EXPRESS MONTREDON
 E-TOTEM,U Express Saint Jean Du Gard
+E-Totem,E-Totem tiers investissement FR*ETI
+E-Totem,Réseau de charge Saint-Etienne Métropole
 E.Leclerc | FR*LE2,Leclerc
 EASYCHARGE,AVIA VOLT
 EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
+ENGIE Vianeo,ENGIE Vianeo
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
 EV MAP,Ford
@@ -488,6 +548,7 @@ EV MAP SAS,MONTCHAPET AUTOMOBILES BEAUNE
 EV MAP SAS,PEUGEOT BESANCON GROUPE CHOPARD
 EV MAP SAS,RENAULT FAURIE LIMOGES
 EV MAP SAS,Renault Faurie Bergerac
+EV MAP SAS,SBA SOCIETE BARSEQUANAISE D'AUTOMOBILES
 EVBOX,EVBOX
 EVzen,EVzen
 EVzen (SMEG Développement),Simone
@@ -505,6 +566,7 @@ Electra,Albertville - Intermarché
 Electra,Artigues-près-Bordeaux - Hôtel Campanile
 Electra,Beaune - Greet Hotel
 Electra,Blagnac - Hôtel Première Classe Toulouse Aéroport
+Electra,Bois-d'Arcy - E.Leclerc
 Electra,Bordeaux - Novotel Bordeaux Lac
 Electra,Bourg-lès-Valence - Hôtel Campanile
 Electra,Bousbecque - Intermarché
@@ -523,6 +585,7 @@ Electra,Frouard - KFC
 Electra,Geispolsheim - CC La Vigie
 Electra,Grans - Jardipassion
 Electra,Grosseto-Prugna - Sofitel
+Electra,Hyères - Hôtel Ibis Plage
 Electra,L'Isle-Adam - CC Grand Val
 Electra,Lattes - Hôtel F1
 Electra,Lille - Intermarché
@@ -555,6 +618,7 @@ Electra,Saint-Sébastien-sur-Loire - Hôtel Campanile
 Electra,Salon-de-Provence - King Jouet
 Electra,Sancé - Mercedes-Benz Mâcon
 Electra,Sorgues - Décor Discount
+Electra,Suresnes - Hôtel Campanile
 Electra,Sérézin-du-Rhône - Peugeot
 Electra,Tain-l'Hermitage - Intermarché
 Electra,Troyes - Intermarché
@@ -617,6 +681,7 @@ Eoliberty,Fusion FS3MW-S2S2-DD-4-C1
 Eoliberty,Fusion FS3MW-S2S2-DD-4-C2
 Eoliberty,Fusion FS3MW-S2S2-DD-5-C1
 Eoliberty,Fusion FS3MW-S2S2-DD-5-C2
+Eoliberty,Hotel Brit Florimont B-2
 Eoliberty,Hotel Brit Munster B-1
 Eoliberty,Hotel Brit Munster B-2
 Eoliberty,Hotel Cerizay B-1
@@ -642,6 +707,7 @@ Eoliberty,Hyundai Schneider B1-C1 CFO/DG
 Eoliberty,Hyundai Schneider B1-C2 LFK
 Eoliberty,Hyundai Schneider B2-C1
 Eoliberty,Hyundai Schneider B3-C1
+Eoliberty,ITM Aubigny sur Nère - T2
 Eoliberty,ITM Auzances - CCS
 Eoliberty,ITM Auzances - T2
 Eoliberty,ITM Belleu - CCS
@@ -682,12 +748,14 @@ Eoliberty,ITM Lamorlaye-2 - CCS
 Eoliberty,ITM Lamorlaye-2 - T2
 Eoliberty,ITM Lamorlaye-Circontrol -C1
 Eoliberty,ITM Lamorlaye-Circontrol -C2
+Eoliberty,ITM Montluçon - T2
 Eoliberty,ITM Montlu√ßon - CCS
 Eoliberty,ITM Montlu√ßon - T2
 Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C1
 Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C2
 Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C3
 Eoliberty,ITM Nanteuil le Haudoin-Circontrol -C4
+Eoliberty,ITM Nevers -1- T2
 Eoliberty,ITM Pierre De Bresse - CCS
 Eoliberty,ITM Pierre De Bresse - T2
 Eoliberty,ITM Randan - CCS
@@ -793,8 +861,60 @@ Etablissement Combes,Etablissement Combes
 FAROAD,TEV
 FUZED,Réseau de recharge Fuzed
 Faroad | FR*EVE,FAROAD
+Fastned France,Fastned Aire de Bosgouet Sud
+Fastned France,Fastned Aire de Changis sur Marne
+Fastned France,Fastned Aire de Covoiturage de Guer
+Fastned France,Fastned Aire de Dracé
+Fastned France,Fastned Aire de Gevrey - Chambertin Ouest
+Fastned France,Fastned Aire de Groisy
+Fastned France,Fastned Aire de Jardin des Causses du Lot
+Fastned France,Fastned Aire de Jonchets - La Grande Paroisse
+Fastned France,Fastned Aire de Jonchets - Les Récompenses
+Fastned France,Fastned Aire de Keskastel-Ouest
+Fastned France,Fastned Aire de L'Obrion
+Fastned France,Fastned Aire de La Maxe
+Fastned France,Fastned Aire de Loisy
+Fastned France,Fastned Aire de Pont Chêne d'Argent
+Fastned France,Fastned Aire de Pont Val de Saône
+Fastned France,Fastned Aire de Romagnieu
+Fastned France,Fastned Aire de Rosny-Sud
+Fastned France,Fastned Aire de Saint Ambreuil
+Fastned France,Fastned Aire de Saint Hilaire Cottes
+Fastned France,Fastned Aire de Saint-Julien-Mont-Denis
+Fastned France,Fastned Aire de Saint-Léger
+Fastned France,Fastned Aire de Saint-Nazaire les Eymes
+Fastned France,Fastned Aire de Saulce
+Fastned France,Fastned Aire de Ussy sur Marne
+Fastned France,Fastned Aire de Valmy Le Moulin
+Fastned France,Fastned Aire de Valmy-Orbeval
+Fastned France,Fastned Aire de Villers-Bretonneux
+Fastned France,Fastned Aire de Vémars Est
+Fastned France,Fastned Aire de Vémars Ouest
+Fastned France,Fastned Aire de Wancourt Est
+Fastned France,Fastned Aire de la Plaine du Forez Est
+Fastned France,Fastned Aire des Crêts Blancs
+Fastned France,Fastned Aire des Groies
+Fastned France,Fastned Aire du Manoire
+Fastned France,Fastned Aire d’Achères - La Forêt
+Fastned France,Fastned Aire d’Ambrussum Nord
+Fastned France,Fastned Aire d’Écot Sud
+Fastned France,Fastned Augny
+Fastned France,Fastned Brest Europe
+Fastned France,Fastned Emerainville
+Fastned France,Fastned Enox Gennevilliers
+Fastned France,Fastned Illies
+Fastned France,Fastned Istres La Galerie
+Fastned France,Fastned La Croix Blanche
+Fastned France,Fastned Longuenesse
+Fastned France,Fastned Montluçon Saint-Victor
+Fastned France,Fastned Perpignan Porte d'Espagne
+Fastned France,Fastned Puiseux Pontoise
+Fastned France,Fastned Quimper
+Fastned France,Fastned Saint Dié des Vosges
+Fastned France,Fastned Troyes Lavau
+Fastned France,Fastned Vert-Saint-Denis
+Fastned France,Fastned Vitry en Charollais
 Freshmile,Freshmile
-Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge CCPHVA
 Freshmile,Réseau de recharge DOMAINE DES BUFFLONNES
 Freshmile,Touquet Normal
@@ -805,6 +925,7 @@ Freshmile | FR*FR1,Freshmile
 Freshmile | FR*FR1,Freshmile France
 Fédération Départementale d'Énergie de la Somme (FDE80) | FR*S80,FDE 80
 G-MOB,GMOB
+GEEVE,GEEVE
 GREENSPOT,AED
 GREENSPOT,ANRAS 01
 GREENSPOT,ARCADIE BIO
@@ -990,7 +1111,7 @@ Ionity,IONITY Nieppe
 Ionity,IONITY Orléans Nord
 Ionity,IONITY Pamiers
 Ionity,IONITY Pays de Brives Nord
-Ionity,IONITY Pays de Brives Sud
+Ionity,IONITY Pays de Brives sud
 Ionity,IONITY Pech Montat Ouest
 Ionity,IONITY Plaines de Beauce
 Ionity,IONITY Plouer sur Rance
@@ -1046,11 +1167,349 @@ Ionity,IONITY Vrigny
 Ionity,IONITY Vérités
 Ionity,IONITY l'Isle-d'Abeau
 Izivia, EARL THIBAUT LE CHEMIN VERT
+Izivia,0
+Izivia,1008
+Izivia,1009
+Izivia,1010
+Izivia,1012
+Izivia,1017
+Izivia,1025
+Izivia,1032
+Izivia,1037
+Izivia,1042
+Izivia,1046
+Izivia,1049
+Izivia,1052
+Izivia,1053
+Izivia,1057
+Izivia,106
+Izivia,1070
+Izivia,1074
+Izivia,1075
+Izivia,1088
+Izivia,1090
+Izivia,1091
+Izivia,1095
+Izivia,1097
+Izivia,1098
+Izivia,1102
+Izivia,1119
+Izivia,112
+Izivia,1133
+Izivia,1134
+Izivia,1140
+Izivia,1147
+Izivia,1152
+Izivia,1158
+Izivia,1159
+Izivia,1163
+Izivia,117
+Izivia,1170
+Izivia,1175
+Izivia,1176
+Izivia,1182
+Izivia,1183
+Izivia,1184
+Izivia,1185
+Izivia,1187
+Izivia,1193
+Izivia,1201
+Izivia,1204
+Izivia,1206
+Izivia,1207
+Izivia,1208
+Izivia,1209
+Izivia,1213
+Izivia,1216
+Izivia,1223
+Izivia,1224
+Izivia,1225
+Izivia,1230
+Izivia,1233
+Izivia,1236
+Izivia,1237
+Izivia,1261
+Izivia,1265
+Izivia,1268
+Izivia,1269
+Izivia,127
+Izivia,1270
+Izivia,1273
+Izivia,1276
+Izivia,1288
+Izivia,1291
+Izivia,1294
+Izivia,1298
+Izivia,130
+Izivia,1301
+Izivia,1302
+Izivia,1306
+Izivia,1307
+Izivia,1308
+Izivia,1318
+Izivia,1319
+Izivia,1334
+Izivia,1339
+Izivia,1341
+Izivia,1343
+Izivia,1347
+Izivia,1350
+Izivia,1352
+Izivia,1357
+Izivia,1359
+Izivia,1365
+Izivia,1370
+Izivia,1372
+Izivia,1386
+Izivia,1393
+Izivia,1397
+Izivia,1401
+Izivia,1402
+Izivia,1404
+Izivia,1409
+Izivia,141
+Izivia,1414
+Izivia,1425
+Izivia,1433
+Izivia,1435
+Izivia,1452
+Izivia,1453
+Izivia,1454
+Izivia,1459
+Izivia,146
+Izivia,1464
+Izivia,1470
+Izivia,1480
+Izivia,1481
+Izivia,1489
+Izivia,149
+Izivia,1491
+Izivia,1504
+Izivia,1510
+Izivia,1512
+Izivia,1519
+Izivia,1523
+Izivia,1534
+Izivia,1542
+Izivia,1551
+Izivia,1556
+Izivia,1567
+Izivia,157
+Izivia,1572
+Izivia,1585
+Izivia,159
+Izivia,1599
+Izivia,1611
+Izivia,1616
+Izivia,1617
+Izivia,1625
+Izivia,1648
+Izivia,1655
+Izivia,1657
+Izivia,1658
+Izivia,1662
+Izivia,1665
+Izivia,1668
+Izivia,167
+Izivia,1674
+Izivia,1680
+Izivia,1681
+Izivia,1683
+Izivia,1690
+Izivia,1691
+Izivia,1696
+Izivia,1698
+Izivia,1699
+Izivia,1707
+Izivia,1713
+Izivia,1715
+Izivia,1721
+Izivia,1722
+Izivia,1727
+Izivia,1728
+Izivia,1729
+Izivia,173
+Izivia,1731
+Izivia,1736
+Izivia,180
+Izivia,182
+Izivia,187
+Izivia,195
+Izivia,203
+Izivia,205
+Izivia,210
+Izivia,216
+Izivia,219
+Izivia,224
+Izivia,225
+Izivia,232
+Izivia,235
+Izivia,239
+Izivia,240
+Izivia,242
+Izivia,250
+Izivia,261
+Izivia,266
+Izivia,271
+Izivia,272
+Izivia,274
+Izivia,283
+Izivia,284
+Izivia,289
+Izivia,290
+Izivia,291
+Izivia,294
+Izivia,295
+Izivia,296
+Izivia,300
+Izivia,301
+Izivia,303
+Izivia,310
+Izivia,312
+Izivia,313
+Izivia,320
+Izivia,322
+Izivia,329
+Izivia,332
+Izivia,334
+Izivia,336
+Izivia,337
+Izivia,338
+Izivia,339
+Izivia,344
+Izivia,352
+Izivia,354
+Izivia,360
+Izivia,361
+Izivia,363
+Izivia,381
+Izivia,383
+Izivia,390
+Izivia,393
+Izivia,395
+Izivia,404
+Izivia,411
+Izivia,412
+Izivia,415
+Izivia,420
+Izivia,422
+Izivia,425
+Izivia,426
+Izivia,429
+Izivia,431
+Izivia,433
+Izivia,435
+Izivia,436
+Izivia,439
+Izivia,457
+Izivia,465
+Izivia,476
+Izivia,481
+Izivia,482
+Izivia,483
+Izivia,495
+Izivia,499
+Izivia,504
+Izivia,505
+Izivia,509
+Izivia,511
+Izivia,517
+Izivia,525
+Izivia,538
+Izivia,539
+Izivia,544
+Izivia,546
+Izivia,554
+Izivia,565
+Izivia,566
+Izivia,570
+Izivia,575
+Izivia,582
+Izivia,592
+Izivia,595
+Izivia,60
+Izivia,602
+Izivia,603
+Izivia,606
+Izivia,608
+Izivia,618
+Izivia,619
+Izivia,622
+Izivia,630
+Izivia,633
+Izivia,639
+Izivia,648
+Izivia,665
+Izivia,668
+Izivia,672
+Izivia,689
+Izivia,692
+Izivia,695
+Izivia,703
+Izivia,706
+Izivia,7145
+Izivia,715
+Izivia,7158
+Izivia,7161
+Izivia,718
+Izivia,7202
+Izivia,7206
+Izivia,7241
+Izivia,730
+Izivia,743
+Izivia,745
+Izivia,750
+Izivia,755
+Izivia,756
+Izivia,767
+Izivia,768
+Izivia,772
+Izivia,776
+Izivia,782
+Izivia,787
+Izivia,799
+Izivia,813
+Izivia,818
+Izivia,822
+Izivia,827
+Izivia,850
+Izivia,857
+Izivia,858
+Izivia,862
+Izivia,875
+Izivia,878
+Izivia,884
+Izivia,889
+Izivia,892
+Izivia,898
+Izivia,903
+Izivia,904
+Izivia,906
+Izivia,908
+Izivia,917
+Izivia,919
+Izivia,922
+Izivia,928
+Izivia,932
+Izivia,934
+Izivia,936
+Izivia,938
+Izivia,940
+Izivia,942
+Izivia,950
+Izivia,952
+Izivia,953
+Izivia,967
+Izivia,97
+Izivia,971
+Izivia,975
+Izivia,978
 Izivia,ACC HUSSE
 Izivia,ADVANCED CONFORT SYSTEMS
 Izivia,AEROPORTS DE LYON
 Izivia,AGILAUTO
 Izivia,AGROPOLE
+Izivia,AIX-EN-PROVENCE
 Izivia,AMSOM HABITAT
 Izivia,AQUABELLA
 Izivia,ASCAPE
@@ -1067,9 +1526,11 @@ Izivia,BATIMENT START
 Izivia,BMW HELI-MOTORS
 Izivia,BORNES-E
 Izivia,BOULANGER VARTELEC
+Izivia,BOURGUEIL
 Izivia,BRAS - LE SUQUET
 Izivia,BRIOCHES FONTENEAU
 Izivia,BRIT HOTEL
+Izivia,BRN06 - Mermoz-Pinel - Charge ultra-rapide
 Izivia,CAMP ATLANTIC
 Izivia,CAMPING AURAN LES PLANS
 Izivia,CAMPING CHADOTEL - LA DUNE DES SABLES
@@ -1096,16 +1557,22 @@ Izivia,CAMPING SUNELIA LES 3 VALLEES
 Izivia,CAMPING UR ONEA
 Izivia,CANCE
 Izivia,CANTAL REPROGRAPHIE
+Izivia,CAP KOAD
 Izivia,CARREFOUR
 Izivia,CARREFOUR GRESY-SUR-AIX
 Izivia,CAVE COOP VINIFI COSTIERES
 Izivia,CAVE ROBERT ET MARCEL
+Izivia,CC CARRE SUD
+Izivia,CC CHAMNORD
+Izivia,CC PLACE DU DAUPHINÉ
 Izivia,CCI - BAYONNE PAYS BASQUE
 Izivia,CCI - CALAIS
 Izivia,CCI - OUST MAREST
 Izivia,CENTRAKOR
+Izivia,CENTRAKOR CHAMPNIERS
 Izivia,CENTRE CCIAL LA VOULZIE
 Izivia,CENTRIMEX
+Izivia,CHA01 - ZI Chassieu - Rocade Est
 Izivia,CHATEAU GISCOURS
 Izivia,CLUB DU DOMAINE DES HAUTS DE VAUGRENIER
 Izivia,COFRA
@@ -1114,22 +1581,40 @@ Izivia,COMMUNE DE SAINT-FLOUR
 Izivia,COMMUNE DOYONNAX
 Izivia,COMMUNE VAL DISERE
 Izivia,CONFISERIE LE ROY RENE
+Izivia,COU25E
+Izivia,COURBEVOIE - 2
 Izivia,CPS
 Izivia,CREPS DE POITIERS
 Izivia,CSP PARIS FASHION GROUP
+Izivia,CSV39E
 Izivia,CTA CONSTRUCTION
 Izivia,CYCLIFE-EV100
+Izivia,"Centre Commercial Leclerc, Rue Jean-Philippe Rameau"
 Izivia,DALKIA-EV100
+Izivia,DAR01 - M6 - Porte de Lyon
+Izivia,DEAUVILLE
+Izivia,DEC03 - Eurexpo - Sept Chemins
 Izivia,DEP INDUSTRIE
 Izivia,DOMAINE DE LESPERON
 Izivia,DOMOLANDES
 Izivia,E.LECLERC
+Izivia,E.LECLERC ALBI
+Izivia,E.LECLERC AMBOISE
+Izivia,E.LECLERC ANGLET
+Izivia,E.LECLERC AVERMES
+Izivia,E.LECLERC BELFORT
+Izivia,E.LECLERC LYON BARTHELEMY
+Izivia,E.LECLERC MONTAUBAN
+Izivia,E.LECLERC ORVAULT
+Izivia,E.LECLERC SAINT GREGOIRE
+Izivia,E.LECLERC SAINT MAUR NORD
 Izivia,ECOLE DINGENIEURS DE PURPAN SITE TOULOUSE
 Izivia,EDEIS AEROPORT CHERBOURG-MAUPERTUS
 Izivia,EDF-EN-EV100
 Izivia,EDF-EV100
 Izivia,EDF-EV100 - PEI/SEI 
 Izivia,EKOSPORT
+Izivia,ENDESA
 Izivia,EPSA
 Izivia,ES-B2B
 Izivia,ES-B2G
@@ -1137,8 +1622,11 @@ Izivia,ES-STATION CHARGE
 Izivia,EURL R.M.A
 Izivia,FAIVELEY
 Izivia,FEDERATION FRANCAISE DE FOOTBALL
+Izivia,FEDERATION FRANCAISE DEQUITATION
 Izivia,FLANDRE ENERGIES
 Izivia,FLEURY MICHON
+Izivia,FLEX-E - VALENCE NORD - AIRE DE COVOITURAGE
+Izivia,FOS03 - Place de l'Eglise
 Izivia,FPEE INDUSTRIES
 Izivia,FREY
 Izivia,FROMAGERIE MILLERET
@@ -1167,39 +1655,73 @@ Izivia,HOTEL RESTAURANT LA PERGOLA
 Izivia,HOTELS IBIS
 Izivia,HOTRAVAIL
 Izivia,HUHTAMAKI
+Izivia,HYPER U - MURS-ERIGNÉ
 Izivia,IBIPEX
 Izivia,IKEA
 Izivia,INTERMARCHE
+Izivia,INTERMARCHE BAYONNE
 Izivia,INTERMARCHE CLAUGINIE
+Izivia,INTERMARCHÉ BRIVE
+Izivia,INTERMARCHÉ CAMBRAI
+Izivia,INTERMARCHÉ COMBS-LA-VILLE
+Izivia,INTERMARCHÉ CROISSY BEAUBOURG
+Izivia,INTERMARCHÉ GERZAT
+Izivia,INTERMARCHÉ GRADIGNAN
+Izivia,INTERMARCHÉ LAON
+Izivia,INTERMARCHÉ LE MANS
+Izivia,INTERMARCHÉ LIMOGES
+Izivia,INTERMARCHÉ MONS EN BAROEIL
+Izivia,INTERMARCHÉ POITIERS
+Izivia,INTERMARCHÉ PONT A MOUSSON
+Izivia,INTERMARCHÉ ROCHEFORT
+Izivia,IRY02 - Gare d'Yvours
+Izivia,IZIVIA EXPRESS - CC SAINT-MARCEL
 Izivia,IZIVIA FAST
+Izivia,IZIVIA FAST - McDonald's - Bordeaux Lac
+Izivia,IZIVIA FAST - McDonald's - Givet
+Izivia,IZIVIA FAST - McDonald's - Ville Du Bois
+Izivia,IZIVIA FAST - McDonald's - Vitry en Charolais
 Izivia,IZIVIA IMPACT
 Izivia,Izivia
 Izivia,Izivia Express
 Izivia,JERNAT
 Izivia,JIVA HILL RESORT
 Izivia,JONATHAN EVENEMENTS
+Izivia,JOUE LES TOURS
 Izivia,KAFREMBO
 Izivia,KIAGIS
 Izivia,KR EXPANSION
 Izivia,KYRIAD
+Izivia,LA FOIR'FOUILLE - CASTRES
 Izivia,LA GARANGEOIRE
 Izivia,LA NORMANDISE
 Izivia,LABORATOIRE DES PYRENEES ET DES LANDES
 Izivia,LABORATOIRES M&L
 Izivia,LAFUMA MOBILIER
+Izivia,LAM02 - M7 - Confluence
 Izivia,LE CASTEL EMERAUDE
 Izivia,LE CONCORDE
 Izivia,LE FIEF MELIN
 Izivia,LE GOLF DES HAUTS DE NIMES
+Izivia,LE HAVRE
 Izivia,LES CAVES DE LA LOIRE
 Izivia,LES JARDINS DE LA MER
 Izivia,LES MOUSQUETAIRES
 Izivia,LES TERRASSES DEZE
 Izivia,LES VIGNERONS DE FLORENSAC
 Izivia,LEVAPARC
+Izivia,LIM95F
 Izivia,LIMOGES METROPOLE
 Izivia,LOGIS TRAVAUX
 Izivia,LR2P
+Izivia,LY207 - Cours Suchet
+Izivia,LY320 - Part-Dieu Est
+Izivia,LY321 - Part-Dieu Ouest
+Izivia,LY708 - Jean Macé - Saint-Lazare
+Izivia,LY709 - General Leclerc
+Izivia,LY811 - Etats-Unis - Lycée Lumière
+Izivia,LY905 - Marietton
+Izivia,Le Comptoir du Malt
 Izivia,MAIRIE DE COURRIERES
 Izivia,MAIRIE DE FREVENT
 Izivia,MAIRIE DE HARNES
@@ -1208,8 +1730,55 @@ Izivia,MAISONS FRANCE CONFORT
 Izivia,MAISONS TERRE DOC
 Izivia,MASSILLY GROUPE
 Izivia,METRE CARRE
+Izivia,MEY04 - Rocade Est
 Izivia,MILLAU DIFF
 Izivia,MIPIOL - INTERMARCHE
+Izivia,MIS02 - Rocade Est - D318
+Izivia,MOISSELLES
+Izivia,Mc Donald's - Albertville
+Izivia,Mc Donald's - Allonnes
+Izivia,Mc Donald's - Amilly
+Izivia,Mc Donald's - Beaufort en Vallée
+Izivia,Mc Donald's - Beynost
+Izivia,Mc Donald's - Bourgoin Jallieu
+Izivia,Mc Donald's - Castanet
+Izivia,Mc Donald's - Chambray les Tours
+Izivia,Mc Donald's - Château Gontier
+Izivia,Mc Donald's - Fenouillet
+Izivia,Mc Donald's - HONFLEUR
+Izivia,Mc Donald's - L'AIGLE
+Izivia,Mc Donald's - Roques sur Garonne
+Izivia,Mc Donald's - Terrasson-Lavilledieu
+Izivia,Mc Donald's - VIRE
+Izivia,McDonald's - ALBERT
+Izivia,McDonald's - ANTIBES OUEST
+Izivia,McDonald's - Avignon Le Pontet
+Izivia,McDonald's - Blanquefort
+Izivia,McDonald's - DIJON SUD
+Izivia,McDonald's - Douai Vauban
+Izivia,McDonald's - LA FERTE BERNARD
+Izivia,McDonald's - Le Mans CGR
+Izivia,McDonald's - Mennecy Montvrain
+Izivia,McDonald's - Nancy Laxou
+Izivia,McDonald's - Noisy-le-Grand Montfort
+Izivia,McDonald's - Orléans
+Izivia,McDonald's - PONTORSON
+Izivia,McDonald's - ROCHEFORT
+Izivia,McDonald's - RUBELLES
+Izivia,McDonald's - SAINT ANDRE DE CUBZAC 1
+Izivia,McDonald's - SAINT JEAN D'ANGELY
+Izivia,McDonald's - SAINT JOUAN DES GUERETS
+Izivia,McDonald's - SAINT MARTIN AU LAERT
+Izivia,McDonald's - SAINT MARTIN LACAUSSADE
+Izivia,McDonald's - SAINT PAUL LES DAX
+Izivia,McDonald's - SENS CHAMPS PLAISANTS
+Izivia,McDonald's - SIERENTZ
+Izivia,McDonald's - Saint Avold Mangin
+Izivia,McDonald's - Saint Philbert de Grand Lieu
+Izivia,McDonald's - Saint-Martin-d'Hères
+Izivia,McDonald's - Saint-Pierre-des-Corps
+Izivia,McDonald's - Servon-sur-Vilaine
+Izivia,McDonald's - Vigneux de Bretagne
 Izivia,MobiVE
 Izivia,NETTO
 Izivia,NETTO - DAMPIERRUS
@@ -1218,14 +1787,18 @@ Izivia,NH HOTEL
 Izivia,NHOOD
 Izivia,NICE AP
 Izivia,NICE RP
+Izivia,NORAUTO
+Izivia,NORAUTO - SAINT-NAZAIRE
 Izivia,OF COURSE TRANSPORT
 Izivia,OMBRIWATT-ST LAURENT BLANGUY
 Izivia,ORECO
 Izivia,ORTEC
+Izivia,PAN54E
 Izivia,PAPREC
 Izivia,PATISMATIQUE
 Izivia,PFRA - NOUVELLE-AQUITAINE
 Izivia,PLESSIS-TREVISE
+Izivia,POUILLY EN AUXOIS
 Izivia,PRODUCTEURS PLAIMONT
 Izivia,PROVENCIA
 Izivia,QPARK
@@ -1234,24 +1807,36 @@ Izivia,REINE DE DIJON
 Izivia,RENAULT TRUCKS
 Izivia,REPORAMA
 Izivia,RESERVE AFRICAINE DE SIGEAN
+Izivia,RIL05 - Z.I Semenaz
 Izivia,ROTEL
+Izivia,SAINT-MARCEL
 Izivia,SAS EPONA
 Izivia,SAS LE RUISSEAU
 Izivia,SCA ALINEA
 Izivia,SCI MEUNIER
 Izivia,SEMVR
 Izivia,SERCEL
+Izivia,SIGEIF - 15 avenue du Général Leclerc - Boulogne-Billancourt
+Izivia,"SIGEIF - 2, Boulevard du Levant - Noisy-le-Grand"
+Izivia,SIGEIF - 22 Quai d’Asnières - Villeneuve-la-Garenne
+Izivia,SIGEIF - 22 avenue du Général Leclerc - Maisons-Alfort
+Izivia,SIGEIF - 22-28 rue Henri Barbusse - Clichy
+Izivia,"SIGEIF - Gennevilliers, 12 Rue Louis Calmel"
+Izivia,SIGERLy
 Izivia,SIMON SAS
 Izivia,SNC CLEMENT ADER
 Izivia,SOBAG
 Izivia,SODIP
+Izivia,SUPER U - ROUJAN
 Izivia,SYDER
 Izivia,SYGNATURES
 Izivia,SYSTEME U
 Izivia,Sigeif
 Izivia,Sixt
-Izivia,Sorégies
+Izivia,Super U -  Boofzheim
+Izivia,TDL05 - Demi-Lune
 Izivia,TEGOMETALL
+Izivia,TENNESSEE GRILL Vauxbuin
 Izivia,TESTO INDUSTRIAL SERVICES
 Izivia,TIERS
 Izivia,TITI FLORIS
@@ -1260,6 +1845,11 @@ Izivia,UNION AGRICOLE DU PAYS DE LOIRE
 Izivia,UNIVITIS
 Izivia,UP2PLAY
 Izivia,Unibail
+Izivia,VAV06 - Carré de Soie - Bohlen
+Izivia,VERDUN
+Izivia,VIL02 - Tête d'Or - Stalingrad
+Izivia,VIL11 - Buers - Salengro
+Izivia,VIL14 - Cusset
 Izivia,VIPE GESTION
 Izivia,VM DECOR
 Izivia,VOLKSWAGEN
@@ -1306,11 +1896,13 @@ NEXTENEO,Lac d’Annecy Camping
 NEXTENEO,Lavorel Jet
 NEXTENEO,Le Flocon Blanc
 NEXTENEO,Les Cimes Blanches - CGH
+NEXTENEO,Les Espaces Lapardieu
 NEXTENEO,MOBILIS
 NEXTENEO,MOULINS D'ASCQ
 NEXTENEO,Mairie de Champagny-en-Vanoise
 NEXTENEO,Mairie de Manigod
 NEXTENEO,Nexteneo - La Cordée
+NEXTENEO,P&Co
 NEXTENEO,PRINGY POIDS LOURDS VOLVO
 NEXTENEO,RAFFINS
 NEXTENEO,SA TRANSPORTS FRANCONY
@@ -1321,6 +1913,155 @@ NEXTENEO,SNC fonciere
 NEXTENEO,Serre chevalier
 NEXTENEO,Sirius
 NEXTENEO,Ville d'Annecy
+NEXTENEO,Vival
+NW IECharge,Abbéville-lès-Conflans
+NW IECharge,Allaire
+NW IECharge,Amanvillers
+NW IECharge,Amilly
+NW IECharge,Andel
+NW IECharge,Aubigné-sur-Layon
+NW IECharge,Auriolles
+NW IECharge,Avrillé
+NW IECharge,Baud
+NW IECharge,Beaugency
+NW IECharge,Beaumont-de-Lomagne
+NW IECharge,Biscarrosse
+NW IECharge,Bléré
+NW IECharge,Boinville-en-Mantois
+NW IECharge,Bonnieres sur Seine
+NW IECharge,Bonvillet
+NW IECharge,Bourbon-l'Archambault
+NW IECharge,Brieulles-sur-Meuse
+NW IECharge,Brou
+NW IECharge,Campagne
+NW IECharge,Carcassonne
+NW IECharge,Carquefou
+NW IECharge,Caumont-sur-Aure
+NW IECharge,Champniers
+NW IECharge,Chantrigné
+NW IECharge,Chargé
+NW IECharge,Charleval
+NW IECharge,Chauffailles
+NW IECharge,Chazelles sur Lyon
+NW IECharge,Chazey-Bons
+NW IECharge,Chinon
+NW IECharge,Cierzac
+NW IECharge,Combourg
+NW IECharge,Coteaux-sur-Loire
+NW IECharge,Couesmes
+NW IECharge,Couleuvre
+NW IECharge,Culhat
+NW IECharge,Dampierre-en-Burly
+NW IECharge,Derval
+NW IECharge,Diges
+NW IECharge,Dogneville II
+NW IECharge,Dombrot-le-Sec
+NW IECharge,Domfront
+NW IECharge,Dommartin-lès-Remiremont
+NW IECharge,Dormans
+NW IECharge,Douchy-Montcorbon
+NW IECharge,Dourdan
+NW IECharge,Glonville II
+NW IECharge,Guengat
+NW IECharge,Guerlesquin
+NW IECharge,Guérande
+NW IECharge,Gétigné
+NW IECharge,Hagetmau
+NW IECharge,Hambach
+NW IECharge,Henrichemont
+NW IECharge,Hémonstoir
+NW IECharge,Kernoues
+NW IECharge,La Roche-sur-Yon
+NW IECharge,La Vôge les Bains
+NW IECharge,Lacres
+NW IECharge,Lauzerte
+NW IECharge,Le Mans II
+NW IECharge,Liny-Devant-Dun B
+NW IECharge,Loché-sur-Indrois
+NW IECharge,Loireauxence
+NW IECharge,Maen Roch
+NW IECharge,Mailly-le-Château
+NW IECharge,Mairy-Mainville
+NW IECharge,Mantes-la-Ville
+NW IECharge,Maurs
+NW IECharge,Maîche
+NW IECharge,Melesse
+NW IECharge,Mirecourt
+NW IECharge,Molompize
+NW IECharge,Mondoubleau
+NW IECharge,Montalieu-Vercieu
+NW IECharge,Montauban B
+NW IECharge,Montverdun
+NW IECharge,Méru Amblainville
+NW IECharge,Mézidon Vallée d'Auge
+NW IECharge,Nesle-Normandeuse
+NW IECharge,Neulise
+NW IECharge,Niort Saint-Florent
+NW IECharge,Nissan-Lez-Enserune
+NW IECharge,Niévroz
+NW IECharge,Noyal-Pontivy
+NW IECharge,Orbec
+NW IECharge,Orgeval
+NW IECharge,Orignolles
+NW IECharge,Os-Marsillon
+NW IECharge,Piffonds
+NW IECharge,Pleumartin
+NW IECharge,Plouasne
+NW IECharge,Plouyé
+NW IECharge,Plufur
+NW IECharge,Pontchateau
+NW IECharge,Pontfaverger-Moronvilliers
+NW IECharge,Pujaudran
+NW IECharge,Périers
+NW IECharge,Quevilloncourt
+NW IECharge,Quièvrecourt
+NW IECharge,Rambervilliers
+NW IECharge,Reims
+NW IECharge,Reims B
+NW IECharge,Reuil
+NW IECharge,Riorges
+NW IECharge,Riscle
+NW IECharge,Roanne
+NW IECharge,Rue
+NW IECharge,Sablé-sur-Sarthe
+NW IECharge,Saint Hilaire du Harcouët
+NW IECharge,Saint Victor de Morestel
+NW IECharge,Saint-Amour
+NW IECharge,Saint-Benin-d'Azy
+NW IECharge,Saint-Benoît-la-Forêt
+NW IECharge,Saint-Igny-de-Roche
+NW IECharge,Saint-Jean-le-Vieux
+NW IECharge,Saint-Léger-sur-Roanne
+NW IECharge,Saint-Léon-sur-l'Isle
+NW IECharge,Saint-Pierre-la-Cour
+NW IECharge,Saint-Pierre-le-Moûtier II
+NW IECharge,Saint-Père-en-Retz
+NW IECharge,Saint-Rénan
+NW IECharge,Saint-Thelo
+NW IECharge,Saint-Vincent-d'Autéjac
+NW IECharge,Sainte Catherine
+NW IECharge,Saujon
+NW IECharge,Sully-sur-Loire B
+NW IECharge,Suèvres
+NW IECharge,Taden
+NW IECharge,Trie-la-Ville
+NW IECharge,Triel-sur-Seine
+NW IECharge,Trélivan
+NW IECharge,Val-Revermont
+NW IECharge,Vaupillon
+NW IECharge,Verneuil d'Avre et d'Iton
+NW IECharge,Vernouillet
+NW IECharge,Vezin-le-Coquet
+NW IECharge,Ville-en-Vermois
+NW IECharge,Vimoutiers
+NW IECharge,Vincey
+NW IECharge,Virandeville
+NW IECharge,Vironvay
+NW IECharge,Vitré II
+NW IECharge,Winnezeele
+NW IECharge,Wittenheim
+NW IECharge,Yvetot-Bocage
+NW IECharge,Épeigné-sur-Dême-II
 Normatech Lodmi,Bornes de recharge AC Candas
 Obornes | FR*ORV,Obornes
 Orléans Métropole | FR*M45,Orléans Métropole
@@ -1336,6 +2077,7 @@ QoWatt,Avenue du
 QoWatt,Chemin de 
 QoWatt,Château de
 QoWatt,Passage de
+QoWatt,QoWatt
 QoWatt,Route de J
 QoWatt,Route de N
 QoWatt,Route de l
@@ -1370,8 +2112,10 @@ SNER RHONE-ALPES,GMK Motorsport
 SOCIETE BRICORTHE,WELDOM
 SPBR1,eborn
 SPBR1 | FR*EBN,Réseau eborn
+SPIE CityNetworks,Métropolis
 SPIE CityNetworks,Pays de GEX
 SPIE CityNetworks,RSE01
+SPIE CityNetworks,SIEG63
 SPIE CityNetworks,SYDELA
 SPIE CityNetworks,Siéml
 SPIE CityNetworks,e-Vadea
@@ -1392,7 +2136,6 @@ Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
 TERRITOIRE D'ENERGIE DU PUY-DE-DOME (TE 63) | FR*S63,SIEG 63
 TESLA France SARL,TESLA France SARL
-TEVGO,61mobility
 Tesla,Tesla
 Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
 Total Charging Services,Carglass Services SAS - DARDILLY
@@ -1460,7 +2203,10 @@ TotalEnergies,SAMSE - ERP COMBOIRE
 TotalEnergies,SAMSE - ERP EDB ANNEMASSE
 TotalEnergies,SCI DUBOIS SIMONNEAU BEAUNE
 TotalEnergies,SCI GADMP
+TotalEnergies,TERRITOIRE D'ENERGIE ORNE
+TotalEnergies,TotalEnergies
 TotalEnergies,TotalEnergies - Compiègne
+TotalEnergies,TotalEnergies - La Plagne
 TotalEnergies,TotalEnergies - Metpark
 TotalEnergies,TotalEnergies Charge Rapide
 TotalEnergies,VIKING CASINOS
@@ -1479,6 +2225,7 @@ TotalEnergies, VIKINGS CASINO BUSSANG
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 Voltalia Mobility | FR*USC,Yusco
+WAAT - PROUDREED,WAAT - PROUDREED
 WAAT SAS | FR*W11,WAAT
 WAAT SAS | FR*WA1,WAAT
 WAAT SAS | FR*WA2,WAAT
