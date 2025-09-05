@@ -4,7 +4,6 @@ nom_operateur,nom_enseigne
 ,CPO CITEOS SDE54
 ,CPO CITEOS SMOYS
 ,CPO CITEOS Vaucluse
-,EDF-EV100
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
 ,HOTEL SAINT FERREOL
@@ -37,6 +36,7 @@ Allego,Allego - Aire de Lespignan Sud_A9
 Allego,Allego - Aire de Nabrigas_A9
 Allego,Allego - Aire de Pirmil Est_A11
 Allego,Allego - Aire de Pirmil Ouest_A11
+Allego,Allego - Aire de Quincy_A71
 Allego,Allego - Aire de Rouillé Pamproux Nord_A10
 Allego,Allego - Aire de Senas Ouest_A7
 Allego,Allego - Aire de Toulouse Sud Nord_A61
@@ -94,6 +94,7 @@ Allego,Allego - But Orléans Saran
 Allego,Allego - Carrefour Aire-sur-la-Lys
 Allego,Allego - Carrefour Alençon
 Allego,Allego - Carrefour Amiens
+Allego,Allego - Carrefour Angers Grand Maine
 Allego,Allego - Carrefour Angers St Serge
 Allego,Allego - Carrefour Anglet
 Allego,Allego - Carrefour Angoulins
@@ -264,6 +265,7 @@ Allego,Allego - Centrakor Exincourt
 Allego,Allego - Centrakor Rennes
 Allego,Allego - Centrakor St Bonnet de Mure
 Allego,Allego - Clermont-Ferrand Jaude
+Allego,Allego - Créteil Soleil
 Allego,Allego - Cuisinella Cholet
 Allego,Allego - Drôme Energie Bourg de Péage
 Allego,Allego - Drôme Energie Valence Sud
@@ -287,6 +289,7 @@ Allego,Allego - Marseille Grand Littoral
 Allego,Allego - Maxi Bazar Valenciennes - La Sentinelle
 Allego,Allego - Pathé Archamps
 Allego,Allego - Pathé Aubières
+Allego,Allego - Pathé Brumath
 Allego,Allego - Pathé Conflans
 Allego,Allego - Pathé Liévin
 Allego,Allego - Pathé Reims Thillois
@@ -304,7 +307,7 @@ Allego,Allego - Toulouse Nailloux Outlet
 Allego,Allego - Volfoni Montargis Amilly
 Allego,Carrefour Energies
 Allego,GreenToWheel
-Allego,Klépierre
+Allego,KlÈpierre
 Altensys | FR*ALS,Altensys
 Atlante France,Atlante  - Audincourt - Sport 2000
 Atlante France,Atlante -  Saint Saturnin - Le Portofino
@@ -316,7 +319,7 @@ Atlante France,Atlante - Albi - La Mie de Pain
 Atlante France,Atlante - Amiens - CCV Amiens
 Atlante France,Atlante - Arnage - Hôtel Restaurant Campanile Le Mans Sud Arnage
 Atlante France,Atlante - Arques - CCV Saint-Omer
-Atlante France,Atlante - Arçonnay - Cash Piscine
+Atlante France,Atlante - Arçonnay - King Jouet Alençon
 Atlante France,Atlante - Autun - Plan d'Eau du Vallon
 Atlante France,Atlante - Bailleul - Decathlon
 Atlante France,Atlante - Barentin - Ixina Rouen
@@ -341,6 +344,7 @@ Atlante France,Atlante - Clermont-Ferrand - CCV Clermont-Ferrand
 Atlante France,Atlante - Colomiers - Boulangerie Ange
 Atlante France,Atlante - Coudekerque-Branche - GÉMO
 Atlante France,Atlante - Coulommiers - Riester Peugeot
+Atlante France,Atlante - Danjoutin - Gifi Belfort
 Atlante France,Atlante - Dreux - CHAUSSEA Dreux
 Atlante France,Atlante - Echirolles - Decathlon Grenoble Echirolles
 Atlante France,Atlante - Erstein - Hôtel Restaurant Crystal Erstein
@@ -365,6 +369,7 @@ Atlante France,Atlante - Lempdes - B & M Lempdes
 Atlante France,Atlante - Lempdes - TEDi
 Atlante France,Atlante - Les Mathes - Golf de La Palmyre
 Atlante France,Atlante - Lingolsheim - Octapharma Tanneries
+Atlante France,Atlante - Longueau - Action Amiens Longueau
 Atlante France,Atlante - Mandelieu-la-Napoule - Sartoriz
 Atlante France,Atlante - Mandelieu-la-Napoule - Sport 2000
 Atlante France,Atlante - Maubeuge - Kia
@@ -425,6 +430,7 @@ Atlante France,Atlante - Vezin-le-Coquet - Restaurant La Braizh
 Atlante France,Atlante - Vidauban - Parking de la Tuilerie
 Atlante France,Atlante - Villefranche-de-Rouergue - Picard
 Atlante France,Atlante - Villeneuve d'Ascq - Kiabi Villeneuve d'Ascq
+Atlante France,Atlante - Wittenheim - CCV Wittenheim
 Atlante France,Atlante - Wittenheim - Destock Tout Mulhouse
 Atlante France,Atlante - Yvrac - Hôtel Gardenia Yvrac Bordeaux Est
 Atlante France,Atlante - Épinal -  CCV  Épinal
@@ -437,23 +443,23 @@ BIARS DISTRIBUTION,E. Leclerc
 BeTrom | FR*BEC,Be Cablé
 Borneco | FR*BHM,BornEco
 Botanic,Botanic
-Bouygues,OUEST CHARGE
-Bouygues (2-NORD),OUEST CHARGE
 Bouygues Energies et Services,Ecocharge77
+Bouygues Energies et Services,OUEST CHARGE
 Bump,Bump
 CHARGEPOLY,CHARGEPOLY
 Charge Unix | FR*0CU,Charge Unix
 ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,RAIDEN SAS (ChargeGuru)
 Cityfmet | FR*EVA,E-VADEA
+DEJA BLUE FRANCE,DejaBlue
 DREAM ENERGY ,ARTEPARC BIOT
 DREAM ENERGY ,ARTEPARC FUVEAU
 DREAM ENERGY ,ARTEPARC LESQUIN
 DREAM ENERGY ,ARTEPARC MEYLAN
 DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
-DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
+DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -472,18 +478,16 @@ DRIVECO,DRIVECO
 DRIVECO,DRIVECO - Carrefour Market - Amberieu en Bugey
 DRIVECO,DRIVECO - Carrefour Market - Auterive Midi
 DRIVECO,DRIVECO - Carrefour Market - Bagnols sur Ceze
-DRIVECO,DRIVECO - Carrefour Market - Blere
 DRIVECO,DRIVECO - Carrefour Market - Brioude
 DRIVECO,DRIVECO - Carrefour Market - Chartres-De-Bretagne
-DRIVECO,DRIVECO - Carrefour Market - Connerre
 DRIVECO,DRIVECO - Carrefour Market - Déols
 DRIVECO,DRIVECO - Carrefour Market - Ergué Gabéric
 DRIVECO,DRIVECO - Carrefour Market - Guérande
-DRIVECO,DRIVECO - Carrefour Market - La Ferte-Bernard
+DRIVECO,DRIVECO - Carrefour Market - Jouy-Le-Moutier
 DRIVECO,DRIVECO - Carrefour Market - Lagnieu
 DRIVECO,DRIVECO - Carrefour Market - Les Abrets
-DRIVECO,DRIVECO - Carrefour Market - Marly Les Valenciennes
 DRIVECO,DRIVECO - Carrefour Market - Nanteuil Meaux
+DRIVECO,DRIVECO - Carrefour Market - Pont-évêque
 DRIVECO,DRIVECO - Carrefour Market - Rive De Gier
 DRIVECO,DRIVECO - Carrefour Market - Saint-Lô
 DRIVECO,DRIVECO - Carrefour Market - Trevoux
@@ -521,8 +525,6 @@ E-TOTEM,U Express Saint Jean Du Gard
 E-Totem,E-Totem tiers investissement FR*ETI
 E-Totem,Réseau de charge Saint-Etienne Métropole
 E.Leclerc | FR*LE2,Leclerc
-EASYCHARGE,AVIA VOLT
-EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
@@ -566,9 +568,8 @@ Electra,Albertville - Intermarché
 Electra,Artigues-près-Bordeaux - Hôtel Campanile
 Electra,Beaune - Greet Hotel
 Electra,Blagnac - Hôtel Première Classe Toulouse Aéroport
-Electra,Bois-d'Arcy - E.Leclerc
 Electra,Bordeaux - Novotel Bordeaux Lac
-Electra,Bourg-lès-Valence - Hôtel Campanile
+Electra,Bourg-lès-Valence - Sure Hotel by Best Western
 Electra,Bousbecque - Intermarché
 Electra,Brive-la-Gaillarde - Hôtel Campanile
 Electra,Bron - Novotel
@@ -585,7 +586,7 @@ Electra,Frouard - KFC
 Electra,Geispolsheim - CC La Vigie
 Electra,Grans - Jardipassion
 Electra,Grosseto-Prugna - Sofitel
-Electra,Hyères - Hôtel Ibis Plage
+Electra,Houdemont - KFC
 Electra,L'Isle-Adam - CC Grand Val
 Electra,Lattes - Hôtel F1
 Electra,Lille - Intermarché
@@ -601,6 +602,7 @@ Electra,Ploermel - Del Arte
 Electra,Pornic - E.Leclerc
 Electra,Reims Village - KFC
 Electra,Rezé - Hôtel Akena Nantes Rezé Aéroport
+Electra,Roissy-en-France - Hôtel Mercure
 Electra,Roissy-en-France - Van der Valk Hotel Paris CDG Airport
 Electra,Ruaudin - CC Family Village les Hunaudières
 Electra,Saint-Alban-Leysse - Sport 2000
@@ -623,7 +625,6 @@ Electra,Sérézin-du-Rhône - Peugeot
 Electra,Tain-l'Hermitage - Intermarché
 Electra,Troyes - Intermarché
 Electra,Valence - Hôtel Campanile Sud
-Electra,Villeneuve-Saint-Georges - Kyriad
 Electra,Viry-Châtillon - E.Leclerc
 Electricité Veit | FR*HOP,Hopla Power Charge
 Electromaps,Ameublement Rognon
@@ -961,7 +962,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -994,6 +994,7 @@ GREENSPOT,THALAZUR OUISTREHAM
 GREENSPOT,THALAZUR ROYAN
 GREENSPOT,Thalazur Bains de Camargue
 GREENSPOT,Thalazur bains de Cabourg
+GROUPE INDIGO,Réseau de recharge du groupe Indigo
 Green To Wheel,GreenToWheel
 GreenFlux Assets B.V. | FR*EVZ,CARF - Bornes Publiques
 GreenFlux Assets B.V. | FR*EVZ,EVzen
@@ -1133,6 +1134,7 @@ Ionity,IONITY Saint Léger Est
 Ionity,IONITY Saint-Chamond
 Ionity,IONITY Saint-Rambert Est
 Ionity,IONITY Saint-Rambert Ouest
+Ionity,IONITY Saint-Sébastien-sur-Loire
 Ionity,IONITY Saint-Witz
 Ionity,IONITY Sarthe Nord
 Ionity,IONITY Sarthe Sud
@@ -1561,7 +1563,6 @@ Izivia,CAP KOAD
 Izivia,CARREFOUR
 Izivia,CARREFOUR GRESY-SUR-AIX
 Izivia,CAVE COOP VINIFI COSTIERES
-Izivia,CAVE ROBERT ET MARCEL
 Izivia,CC CARRE SUD
 Izivia,CC CHAMNORD
 Izivia,CC PLACE DU DAUPHINÉ
@@ -2095,6 +2096,7 @@ QoWatt,Rue du Gén
 QoWatt,Voie du Bo
 R-Mob | FR*BEZ,Ville de Béziers
 R3,R3
+REVEO SYADEN | FR*RVE,Révéo
 Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
 Régie Services Energie | FR*RSE,Régie Services Energie
@@ -2123,7 +2125,6 @@ SPIE CityNetworks | FR*CPB,Camping Les Pins Bleus
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
-Spie,OUEST CHARGE
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
 Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
