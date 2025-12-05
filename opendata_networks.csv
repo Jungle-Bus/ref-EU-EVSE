@@ -572,7 +572,6 @@ DRIVECO,DRIVECO - Carrefour Market - Thimert-Gatelles
 DRIVECO,DRIVECO - Carrefour Market - Tournefeuille
 DRIVECO,DRIVECO - Carrefour Market - Trevoux
 DRIVECO,DRIVECO - Carrefour Market - Villeneuve les Avignon
-E-Motum | FR*EMO,e-Motum
 E-Totem,E-Totem tiers investissement FR*ETI
 E-Totem,Réseau de charge Saint-Etienne Métropole
 E.Leclerc,Leclerc
@@ -607,9 +606,9 @@ EVBOX,EVBOX
 EVzen,EVzen
 EVzen (SMEG Développement),Simone
 EVzen (SMEG Développement),larecharge
+Easy Charge,Easy Charge
 Easy Charge Services,Easy Charge Services
-Easy Charge | FR*ECH,Easy Charge
-Eiffage Energie Systèmes | FR*WGO,We-Go
+Eiffage Energie Systèmes,We-Go
 Electra,A7 - Aire de Tricastin (direction Montélimar)
 Electra,A9 - Aire de Bages (direction Narbonne)
 Electra,A9 - Aire de Gigean Nord (direction Béziers)
@@ -688,7 +687,7 @@ Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
 Electromaps,Le COTONNIER NIEPPE
-Enerstock | FR*ENT,Enerstock
+Enerstock,Enerstock
 Eoliberty,BP Bagneux Charles De Gaulle-C1
 Eoliberty,BP Bagneux Charles De Gaulle-C2
 Eoliberty,CRF Badonviller C1
@@ -925,7 +924,7 @@ Eoliberty,ineris- Borne3-C4
 Etablissement Combes,Etablissement Combes
 Evota Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
 FAROAD,TEV
-Faroad | FR*EVE,FAROAD
+Faroad,FAROAD
 Fastned France,Fastned Agen Le Passage
 Fastned France,Fastned Aire de Bosgouet Sud
 Fastned France,Fastned Aire de Changis sur Marne
@@ -2391,6 +2390,7 @@ Zephyre | FR*ZP1,Zephyre
 Zunder,Zunder
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
+e-Motum,e-Motum
 e-Totem,HYPER U AIZENAY
 e-Totem,HYPER U BLAIN
 e-Totem,HYPER U PONT DE BEAUVOISIN
