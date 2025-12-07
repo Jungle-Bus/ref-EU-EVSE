@@ -132,12 +132,12 @@ with open('opendata_irve.csv') as csvfile:
             station_list[cleanRef] = {'attributes' : station_prop, 'pdc_list': []}
 
             # Non-blocking issues
-            if phone is None and row['telephone_operateur']!= "":
+            if phone is None and telephone_operateur_clean!= "":
                 station_prop['telephone_operateur'] = None
                 errors.append({"station_id" : cleanRef,
                    "source": row['datagouv_organization_or_owner'],
                    "error": "le numéro de téléphone de l'opérateur (telephone_operateur) est dans un format invalide",
-                   "detail": row['telephone_operateur']})
+                   "detail": telephone_operateur_clean})
             elif phone is not None:
                 station_prop['telephone_operateur'] = phone
             else:
@@ -158,6 +158,12 @@ with open('opendata_irve.csv') as csvfile:
         for key in pdc_prop:
             if pdc_prop[key] in wrong_ortho.keys():
                 pdc_prop[key] = wrong_ortho[pdc_prop[key]]
+
+        # Nettoyage du numéro de téléphone par dictionnaire avant opération/test générique
+        telephone_operateur_clean = row['telephone_operateur']
+        if telephone_operateur_clean in wrong_ortho.keys():
+            telephone_operateur_clean = wrong_ortho[telephone_operateur_clean]
+        phone = cleanPhoneNumber(telephone_operateur_clean)
 
         station_list[cleanRef]['pdc_list'].append(pdc_prop)
 
