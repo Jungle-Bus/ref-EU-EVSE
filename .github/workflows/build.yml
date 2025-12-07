@@ -27,6 +27,7 @@ jobs:
         export PATH=$PATH:$PWD/
         xsv --version
         mkdir output
+        cp README.md output/README.md
         wget https://www.data.gouv.fr/fr/datasets/r/2729b192-40ab-4454-904d-735084dca3a3 --no-verbose --output-document=opendata_irve.csv 2>&1
         python group_opendata_by_station.py
         #fail if less than 2 lines
@@ -38,3 +39,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: output
+        enable_jekyll: true
