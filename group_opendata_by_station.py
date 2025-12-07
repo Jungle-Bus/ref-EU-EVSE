@@ -153,6 +153,12 @@ with open('opendata_irve.csv') as csvfile:
                 station_prop['station_deux_roues'] = row['station_deux_roues'].lower()
 
         pdc_prop = {key: row[key] for key in pdc_attributes}
+
+        # Application des corrections pour tous les attributs PDC (puisque certains serront ensuite regroupé sur la station)
+        for key in pdc_prop:
+            if pdc_prop[key] in wrong_ortho.keys():
+                pdc_prop[key] = wrong_ortho[pdc_prop[key]]
+
         station_list[cleanRef]['pdc_list'].append(pdc_prop)
 
 # ~ all_prises_types = set()
