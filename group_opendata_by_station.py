@@ -46,20 +46,15 @@ def is_correct_id(station_id):
 def cleanPhoneNumber(phone):
     if phone.startswith("tel:"):
         phone = phone[4:]
+    phone = phone.replace(" ", "").replace("-", "").replace(".", "")
     if re.match(r"^\+33\d{9}$", phone):
         return phone
-    elif re.match(r"^\+33 \d( \d{2}){4}$", phone):
-        return phone.replace(" ", "")
     elif re.match(r"^33\d{9}$", phone):
-        return "+"+phone
-    elif re.match(r"^\d{10}$", phone):
+        return "+" + phone
+    elif re.match(r"^0\d{9}$", phone):
         return "+33" + phone[1:]
     elif re.match(r"^\d{9}$", phone):
         return "+33" + phone
-    elif re.match(r"^(\d{2}[. -]){4}\d{2}$", phone):
-        return "+33" + phone[1:].replace(".", "").replace(" ", "").replace("-", "")
-    elif re.match(r"^\d( \d{3}){3}$", phone):
-        return "+33" + phone[1:].replace(" ", "")
     else:
         return None
 
