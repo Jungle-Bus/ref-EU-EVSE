@@ -44,6 +44,8 @@ def is_correct_id(station_id):
     return True
 
 def cleanPhoneNumber(phone):
+    if phone.startswith("tel:"):
+        phone = phone[4:]
     if re.match(r"^\+33\d{9}$", phone):
         return phone
     elif re.match(r"^\+33 \d( \d{2}){4}$", phone):
