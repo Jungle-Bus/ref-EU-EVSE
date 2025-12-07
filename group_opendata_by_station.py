@@ -6,6 +6,9 @@ import re
 
 from collections import Counter
 
+# Configuration des codes pays acceptés
+ACCEPTED_COUNTRY_CODES = ['AT', 'DK', 'ES', 'FR']
+
 station_list = {}
 station_attributes = [ 'nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'code_insee_commune', 'nbre_pdc', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'adresse_station' ]
 pdc_attributes = [ 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'accessibilite_pmr', 'restriction_gabarit', 'observations', 'date_maj', 'cable_t2_attache', 'datagouv_organization_or_owner', 'horaires' ]
@@ -33,6 +36,8 @@ def is_correct_id(station_id):
     station_id_parts = station_id.split(' ')
     station_id = "".join(station_id_parts)
 
+    if not any(station_id.startswith(code) for code in ACCEPTED_COUNTRY_CODES)
+        return False
     if not station_id.startswith('P', 5):
         return False
     return True
@@ -59,7 +64,8 @@ def stringBoolToInt(strbool):
     return 1 if strbool.lower() == 'true' else 0
 
 def transformRef(refIti, refLoc):
-    rgx = r"^[A-Z]{2}\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+"
+    country_codes_pattern = '|'.join(ACCEPTED_COUNTRY_CODES)
+    rgx = r"(%s)\*[A-Za-z0-9]{3}\*P[A-Za-z0-9]+\*[A-Za-z0-9]+" % country_codes_pattern
     areRefNoSepEqual = refIti.replace("*", "") == refLoc.replace("*", "")
 
     if re.match(rgx, refIti):
