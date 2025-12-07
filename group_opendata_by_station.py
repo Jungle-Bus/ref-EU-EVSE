@@ -72,8 +72,9 @@ def transformRef(refIti, refLoc):
         return refIti
     elif areRefNoSepEqual and re.match(rgx, refLoc):
         return refLoc
-    elif re.match("^[A-Z]{2}[A-Za-z0-9]{3}P[A-Za-z0-9]+", refIti):
-        return refIti[:2]+"*"+refIti[2:5]+"*P"+refIti[6:]
+    elif re.match("(%s)[A-Za-z0-9]{3}P[A-Za-z0-9]+" % country_codes_pattern, refIti):
+        country_code = refIti[:2]
+        return country_code+"*"+refIti[2:5]+"*P"+refIti[6:]
     else:
         return None
 
