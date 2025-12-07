@@ -37,7 +37,7 @@ def is_correct_id(station_id):
     station_id_parts = station_id.split(' ')
     station_id = "".join(station_id_parts)
 
-    if not any(station_id.startswith(code) for code in ACCEPTED_COUNTRY_CODES)
+    if not any(station_id.startswith(code) for code in ACCEPTED_COUNTRY_CODES):
         return False
     if not station_id.startswith('P', 5):
         return False
