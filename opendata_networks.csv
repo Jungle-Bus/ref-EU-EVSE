@@ -4,9 +4,9 @@ nom_operateur,nom_enseigne
 ,CARREFOUR EXPRESS LAMARCHE
 ,CARREOUR CONTACT  FORTSCHWIHR
 ,CITEOS Bourgogne-Franche-Comté
+,CITEOS Mobive
 ,CITEOS SMOYS
 ,CITEOS Vaucluse
-,CPO CITEOS Mobive
 ,CPO CITEOS SDE54
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
@@ -51,6 +51,7 @@ Allego,Allego - Aire de La Bruche_A355
 Allego,Allego - Aire de La Chaussee de Cesar_A71
 Allego,Allego - Aire de La Dauneuse_A10
 Allego,Allego - Aire de Lamanon_A7
+Allego,Allego - Aire de Le Mans Nord_A11
 Allego,Allego - Aire de Les Brouzils_A83
 Allego,Allego - Aire de Lespignan Nord_A9
 Allego,Allego - Aire de Lespignan Sud_A9
@@ -108,6 +109,7 @@ Allego,Allego - Burger King Gaillac
 Allego,Allego - Burger King La Seyne sur Mer
 Allego,Allego - Burger King La Ville-du-Bois
 Allego,Allego - Burger King Limoges Feytiat
+Allego,Allego - Burger King Limoges Nord
 Allego,Allego - Burger King Lure
 Allego,Allego - Burger King Lyon Bron
 Allego,Allego - Burger King Martigues L'Escaillon
@@ -319,6 +321,7 @@ Allego,Allego - Darty Vitrolles
 Allego,Allego - Drôme Energie Bourg de Péage
 Allego,Allego - Drôme Energie Valence Sud
 Allego,Allego - Fournier Limoges
+Allego,Allego - Franklin Frey Reims
 Allego,Allego - Grand Frais La Sentinelle Valenciennes
 Allego,Allego - Géant Casino Dijon Chenôve
 Allego,Allego - Intermarché Limoges
@@ -575,6 +578,8 @@ DRIVECO,DRIVECO - Carrefour Market - Villeneuve les Avignon
 E-Totem,E-Totem tiers investissement FR*ETI
 E-Totem,Réseau de charge Saint-Etienne Métropole
 E.Leclerc,Leclerc
+EASYCHARGE,AVIA VOLT
+EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
@@ -1029,6 +1034,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -2007,7 +2013,6 @@ NEXTENEO,Vival
 Normatech Lodmi,Bornes de recharge AC Candas
 Obornes | FR*ORV,Obornes
 Orléans Métropole | FR*M45,Orléans Métropole
-Paragon Mobility,Paragon Mobility
 Paragon Mobility | FR*PAM,Paragon Mobility
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
