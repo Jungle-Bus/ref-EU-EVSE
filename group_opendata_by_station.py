@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -46,7 +47,16 @@ def is_correct_id(station_id):
 def cleanPhoneNumber(phone):
     if phone.startswith("tel:"):
         phone = phone[4:]
-    phone = phone.replace(" ", "").replace("-", "").replace(".", "")
+    # Suppression des caractères de contrôle Unicode
+    phone = re.sub(r'[\u2000-\u206F]', '', phone)
+    # Suppression de tous les séparateurs
+    phone = phone.replace(" ", "").replace("-", "").replace(".", "").replace("(", "").replace(")", "")
+    # Suppression du 0 après +33 ou 33
+    if phone.startswith("+330"):
+        phone = "+33" + phone[4:]
+    if phone.startswith("330"):
+        phone = "+33" + phone[3:]
+    # Tests sur le numéro nettoyé
     if re.match(r"^\+33\d{9}$", phone):
         return phone
     elif re.match(r"^33\d{9}$", phone):
