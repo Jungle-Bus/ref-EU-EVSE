@@ -74,7 +74,6 @@ Allego,Allego - Au Bureau Ecole Valentin
 Allego,Allego - Au Bureau Laon
 Allego,Allego - Au Bureau Morlaix
 Allego,Allego - Au Bureau Soissons
-Allego,Allego - Au Bureau Thionville
 Allego,Allego - Au Bureau Villejust
 Allego,Allego - Auchan Aix-En-Provence
 Allego,Allego - Auchan Champniers
@@ -101,6 +100,7 @@ Allego,Allego - Burger King Agen Boé
 Allego,Allego - Burger King Ambérieu en Bugey
 Allego,Allego - Burger King Bayonne Saint-Léon
 Allego,Allego - Burger King Beychac-et-Caillau
+Allego,Allego - Burger King Bordeaux Pessac
 Allego,Allego - Burger King Brive cinéma
 Allego,Allego - Burger King Chelles Sud
 Allego,Allego - Burger King Epinal Golbey
@@ -112,6 +112,7 @@ Allego,Allego - Burger King Limoges Feytiat
 Allego,Allego - Burger King Limoges Nord
 Allego,Allego - Burger King Lure
 Allego,Allego - Burger King Lyon Bron
+Allego,Allego - Burger King Lyon Saint-Priest
 Allego,Allego - Burger King Martigues L'Escaillon
 Allego,Allego - Burger King Maurepas
 Allego,Allego - Burger King Montceau-les-Mines
@@ -358,6 +359,7 @@ Allego,Allego - Tisséo Ramonville
 Allego,Allego - Toulouse Nailloux Outlet
 Allego,Allego - Val d'Europe
 Allego,Allego - Volfoni Montargis Amilly
+Allego,Allego - Volfoni Thionville
 Allego,Carrefour Energies
 Allego,GreenToWheel
 Allego,Klépierre
@@ -523,8 +525,8 @@ DREAM ENERGY ,ARTEPARC LESQUIN
 DREAM ENERGY ,ARTEPARC MEYLAN
 DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
-DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
+DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -583,6 +585,7 @@ EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
+ENGIE Vianeo,ENGIE Vianeo
 ENRGETICA,ENRGETICA
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
@@ -687,7 +690,7 @@ Electra,Valence - Hôtel Campanile Sud
 Electra,Viry-Châtillon - E.Leclerc
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact 
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -1034,7 +1037,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -2314,7 +2316,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2387,6 +2388,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
