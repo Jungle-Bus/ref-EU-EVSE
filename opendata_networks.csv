@@ -340,6 +340,7 @@ Allego,Allego - Léon Chalon Sur Saone
 Allego,Allego - Léon Servon
 Allego,Allego - Maison du Monde Niort
 Allego,Allego - Marseille Grand Littoral
+Allego,Allego - Oki La Gravlle
 Allego,Allego - Pathe Atlantis Saint Herblain
 Allego,Allego - Pathé Archamps
 Allego,Allego - Pathé Aubières
@@ -442,6 +443,7 @@ Atlante France,Atlante - Montauban - Aldi
 Atlante France,Atlante - Montauban - E.Leclerc
 Atlante France,Atlante - Montluçon - Peugeot Autosphere Montluçon
 Atlante France,Atlante - Montpellier - Centre commercial Odysseum parking de la Mer
+Atlante France,Atlante - Montpellier - Centre commercial Odysseum parking de la Mer 2
 Atlante France,Atlante - Mouans-Sartoux - Ibis Cannes
 Atlante France,Atlante - Mougins - Royal Mougins Golf
 Atlante France,Atlante - Muzillac - Action Muzillac
@@ -485,6 +487,7 @@ Atlante France,Atlante - Saint-Yrieix-sur-Charente - Greet Hotel Angoulême Oues
 Atlante France,Atlante - Sainte-Eulalie - Pizzeria Del Arte
 Atlante France,Atlante - Salaise-sur-Sanne - Kiloutou
 Atlante France,Atlante - Samazan - Brasserie des Pins
+Atlante France,Atlante - Savernay - Restaurant La Boucherie
 Atlante France,Atlante - Sedan - Hôtel Restaurant Kyriad
 Atlante France,Atlante - Sin le Noble - Restaurant du Golf du Bois des Retz
 Atlante France,Atlante - Tavers - GÉMO
@@ -517,6 +520,7 @@ Bouygues Energies et Services,OUEST CHARGE
 Bump,Bump
 CHARGEPOLY,CHARGEPOLY
 Charge Unix | FR*0CU,Charge Unix
+ChargeFacile | FR*LUM,LUMI'IN
 ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,Siemens Sicharge D 240 kW MAX
 DEJA BLUE FRANCE,DejaBlue
@@ -549,6 +553,7 @@ DRIVECO,DRIVECO - Carrefour Market - Aubigny sur Nere
 DRIVECO,DRIVECO - Carrefour Market - Auray Pluneret
 DRIVECO,DRIVECO - Carrefour Market - Auterive Midi
 DRIVECO,DRIVECO - Carrefour Market - Bagnols sur Ceze
+DRIVECO,DRIVECO - Carrefour Market - Benodet
 DRIVECO,DRIVECO - Carrefour Market - Brioude
 DRIVECO,DRIVECO - Carrefour Market - Charleval
 DRIVECO,DRIVECO - Carrefour Market - Chartres-De-Bretagne
@@ -591,6 +596,7 @@ ENRGETICA,ENRGETICA
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
 EV MAP,Ford
+EV MAP SAS,ACS AUTOMOBILES OPEL-KIA AUXERRE
 EV MAP SAS,AUTO EMERAUD 35
 EV MAP SAS,BOREAL LABEGE
 EV MAP SAS,CAP NORD LORMONT
@@ -602,6 +608,7 @@ EV MAP SAS,CENTRAL MOTOR VIENNE
 EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
 EV MAP SAS,Espace Carrosserie Dijon
+EV MAP SAS,GARAGE EUROPE CHENOVE
 EV MAP SAS,GATICAR BOURGES
 EV MAP SAS,GATICAR CHATEAUROUX
 EV MAP SAS,GROUPE JB
@@ -655,6 +662,7 @@ Electra,Lattes - Hôtel F1
 Electra,Lille - Intermarché
 Electra,Montpellier - Centre commercial Odysseum
 Electra,Nanterre - Hôtel Campanile
+Electra,Nice - Hôtel Campanile Aéroport
 Electra,Nice - Indigo Parking Massena
 Electra,Niort - Ibis Est Mendes France
 Electra,Nîmes - Hôtel F1 Ouest
@@ -691,7 +699,7 @@ Electra,Valence - Hôtel Campanile Sud
 Electra,Viry-Châtillon - E.Leclerc
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -934,62 +942,21 @@ Etablissement Combes,Etablissement Combes
 Evota Netherlands B.V. | FR*AUT,AUTEL EUROPE GmbH
 FAROAD,TEV
 Faroad,FAROAD
-Fastned France,Fastned Agen Le Passage
-Fastned France,Fastned Aire de Bosgouet Sud
-Fastned France,Fastned Aire de Changis sur Marne
-Fastned France,Fastned Aire de Covoiturage de Guer
-Fastned France,Fastned Aire de Dracé
-Fastned France,Fastned Aire de Gevrey - Chambertin Ouest
-Fastned France,Fastned Aire de Groisy
-Fastned France,Fastned Aire de Jardin des Causses du Lot
 Fastned France,Fastned Aire de Jonchets - La Grande Paroisse
 Fastned France,Fastned Aire de Jonchets - Les Récompenses
-Fastned France,Fastned Aire de Keskastel-Ouest
-Fastned France,Fastned Aire de L'Obrion
-Fastned France,Fastned Aire de La Maxe
-Fastned France,Fastned Aire de Loisy
-Fastned France,Fastned Aire de Pont Chêne d'Argent
-Fastned France,Fastned Aire de Pont Val de Saône
 Fastned France,Fastned Aire de Romagnieu
-Fastned France,Fastned Aire de Rosny-Sud
 Fastned France,Fastned Aire de Saint Ambreuil
-Fastned France,Fastned Aire de Saint Hilaire Cottes
-Fastned France,Fastned Aire de Saint-Julien-Mont-Denis
-Fastned France,Fastned Aire de Saint-Léger
-Fastned France,Fastned Aire de Saint-Nazaire les Eymes
-Fastned France,Fastned Aire de Saulce
-Fastned France,Fastned Aire de Ussy sur Marne
-Fastned France,Fastned Aire de Valmy Le Moulin
 Fastned France,Fastned Aire de Valmy-Orbeval
-Fastned France,Fastned Aire de Villers-Bretonneux
-Fastned France,Fastned Aire de Vémars Est
 Fastned France,Fastned Aire de Vémars Ouest
-Fastned France,Fastned Aire de Wancourt Est
 Fastned France,Fastned Aire de la Plaine du Forez Est
-Fastned France,Fastned Aire des Crêts Blancs
-Fastned France,Fastned Aire des Groies
-Fastned France,Fastned Aire du Manoire
-Fastned France,Fastned Aire d’Achères - La Forêt
-Fastned France,Fastned Aire d’Ambrussum Nord
-Fastned France,Fastned Aire d’Écot Sud
 Fastned France,Fastned Augny
-Fastned France,Fastned Brest Europe
+Fastned France,Fastned Chartres - Mainvilliers
 Fastned France,Fastned Chateauroux Nord
-Fastned France,Fastned Emerainville
-Fastned France,Fastned Enox Gennevilliers
 Fastned France,Fastned Illies
 Fastned France,Fastned Istres La Galerie
-Fastned France,Fastned La Croix Blanche
 Fastned France,Fastned Longuenesse
-Fastned France,Fastned Montluçon Saint-Victor
-Fastned France,Fastned Narbonne La Coupe
-Fastned France,Fastned Perpignan Porte d'Espagne
 Fastned France,Fastned Puiseux Pontoise
 Fastned France,Fastned Quimper
-Fastned France,Fastned Saint Dié des Vosges
-Fastned France,Fastned Troyes Lavau
-Fastned France,Fastned Vert-Saint-Denis
-Fastned France,Fastned Vitry en Charollais
 Freshmile,Freshmile
 Freshmile,Morbihan Energies
 Freshmile,Réseau de recharge CCPHVA
@@ -1039,6 +1006,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1958,7 +1926,6 @@ LMS Informatique,LMS Informatique
 LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
 Load Stations,SIEA
-Lumi'in | FR*LUM,LUMI'IN
 Milence,Milence
 Mob-Energy | FR*MEI,Mob-Energy
 Mobilize Fast Charge Network FRANCE,Mobilize Power Solutions
@@ -2153,7 +2120,7 @@ Sowatt Solutions,Wellborne
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
 Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
-Syndicat Départemental Énergie Aube (SDEA) | FR*S10,SDEA 10
+Syndicat Départemental Énergie Aube,SDEA 10
 Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,MobiSDEC
 Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,SDED52
 Séolis,AlterBase
@@ -2280,7 +2247,6 @@ Ubitricity,"Shell Recharge Rue du Dr d’Oreilly, Le Havre"
 Ubitricity,"Shell Recharge Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE"
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
-Voltalia Mobility | FR*USC,Yusco
 WAAT SAS | FR*WA2,WAAT
 WAAT SAS | FR*WA3,WAAT
 WAAT SAS | FR*WA4,WAAT
@@ -2295,6 +2261,7 @@ WAAT Umbrella-Copro,WAAT Tertiaire
 WAAT Umbrella-Copro,WAAT Umbrella-Copro
 WattzHub | FR*SMI,WattzHub
 Yaway,Kallista-Yaway
+Yusco | FR*USC,Yusco
 Z-E-N | FR*PVD,Proviridis
 ZETRA Distribution SAS,ZETRA
 Zephyre SAS,AR Duen
@@ -2402,35 +2369,8 @@ Zunder,Zunder
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
 e-Motum,e-Motum
-e-Totem,HYPER U AIZENAY
-e-Totem,HYPER U BLAIN
-e-Totem,HYPER U PONT DE BEAUVOISIN
-e-Totem,MJS DISTRIBUTION
 e-Totem,Réseau Saint Étienne Métropole
 e-Totem,Réseau e-Totem Infrastructures
-e-Totem,SAS ANGELINA
-e-Totem,SAS CHAUBODIS
-e-Totem,SAS COPADIS
-e-Totem,SAS GCP
-e-Totem,SAS GUYDIS
-e-Totem,SAS HADERMA
-e-Totem,SAS ISADIS
-e-Totem,SAS VERNAIDIS
-e-Totem,SASU CHAPUS
-e-Totem,SUPER U CAEN
-e-Totem,SUPER U FARGUES ST HILAIRE
-e-Totem,SUPER U GANGES
-e-Totem,SUPER U LA TOURETTE
-e-Totem,SUPER U LAMASTRE
-e-Totem,SUPER U LE CHEYLARD
-e-Totem,SUPER U MONTMEDY
-e-Totem,SUPER U SAVIGNEUX
-e-Totem,SUPER U ST BONNET DE JOUX
-e-Totem,SUPER U ST LEGER DE LA MARTINIERE
-e-Totem,SUPER U TARASCON SUR ARIEGE
-e-Totem,SUPER U VIVONNE
-e-Totem,U EXPRESS MONTREDON
-e-Totem,U Express Saint Jean Du Gard
 e-charge50,e-charge50
 eborn,eborn
 electromaps,EDF
