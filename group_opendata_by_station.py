@@ -245,6 +245,28 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['accessibilite_pmr_grouped'] = list(accessibilite_pmr)[0]
 
+    # Regroupement de la puissance nominale
+    puissances = []
+    for elem in station['pdc_list']:
+        puissance_str = elem['puissance_nominale'].strip() if elem['puissance_nominale'] else ''
+        if puissance_str and puissance_str.lower() != 'null':
+            try:
+                puissances.append(float(puissance_str))
+            except ValueError:
+                pass
+    
+    if len(puissances) == 0:
+        station['attributes']['puissance_nominale_grouped'] = None
+    elif len(set(puissances)) == 1:
+        station['attributes']['puissance_nominale_grouped'] = puissances[0]
+    else:
+        # Si plusieurs puissances différentes, on prend la valeur la plus haute
+        station['attributes']['puissance_nominale_grouped'] = max(puissances)
+        errors.append({"station_id" : station_id,
+                       "source": station['attributes']['source_grouped'],
+                       "error": "plusieurs puissances nominales différentes pour une même station",
+                       "detail": puissances})
+
     if len(station['pdc_list']) != int(station['attributes']['nbre_pdc']):
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
