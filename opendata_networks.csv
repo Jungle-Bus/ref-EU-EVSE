@@ -1,44 +1,33 @@
 nom_operateur,nom_enseigne
-,CARREFOUR CONTACT GONDREVILLE
-,CARREFOUR CONTACT RINXENT
-,CARREFOUR EXPRESS LAMARCHE
-,CARREOUR CONTACT  FORTSCHWIHR
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
 ,Grand Est Mobilité Electrique
 ,HOTEL SAINT FERREOL
 ,ITM AUBIGNY SUR NERE
-,ITM AUZANCES
 ,ITM BELLEU
-,ITM BRASSAC LES MINES
-,ITM CLERMONT DE L'OISE 1
-,ITM COMBRONBE
-,ITM CREPY EN VALOIS 
-,ITM CROUY
-,ITM GUERIGNY
 ,ITM LAMORLAYE 
-,ITM MONTLUCON
 ,ITM NANTEUIL LE HAUDOUIN
 ,ITM NEVERS
-,ITM PIERRE DE BRESSE 
-,ITM SAINT DIZIER
-,ITM ST GEORGES DE MONS
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
-,MAIRIE ORMOY VILLERS
-,MAIRIE PEROY LES GOMBRIES
 ,Mobive
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Region Bourgogne-Franche-Comté
 ,Réseau de recharge Charge-in
 ,STATION BAGNEUX
-,SUPER U BRUAY SUR L'ESCAUT
 ,Syndicat mixte Orge-Yvette-Seine
 ,Vaucluse
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
+AUTORECHARGE SAS,Etoile Routière LE BAILLEUL (72))
+AUTORECHARGE SAS,Groupe Malherbe - Bapaume
+AUTORECHARGE SAS,LL PARC MONDEVILLE
+AUTORECHARGE SAS,TRANSPORTS VALLEE - 27320 La Madeleine-de-Nonancourt
+AUTORECHARGE SAS,Transport Malherbe Moissy-Cramayel
+AUTORECHARGE SAS,Transports Malherbe - Mâcon
+AUTORECHARGE SAS,Transports Malherbe Vironvay (27400)
 Acelec Charge,Acelec
 Acelec Charge,Camaïeu France
 Acelec Charge,Kyriad
@@ -100,6 +89,7 @@ Allego,Allego - Buffalo Grill St Lo
 Allego,Allego - Burger King Agen Boé
 Allego,Allego - Burger King Ambérieu en Bugey
 Allego,Allego - Burger King Angouleme Sud St Michel
+Allego,Allego - Burger King Argenteuil Allemane
 Allego,Allego - Burger King Bayonne Saint-Léon
 Allego,Allego - Burger King Beychac-et-Caillau
 Allego,Allego - Burger King Bordeaux Pessac
@@ -371,6 +361,7 @@ Allego,Allego - Tisséo Ramonville
 Allego,Allego - Toulouse Nailloux Outlet
 Allego,Allego - Val d'Europe
 Allego,Allego - Volfoni Montargis Amilly
+Allego,Allego - Volfoni Semecourt
 Allego,Allego - Volfoni Thionville
 Allego,Carrefour Energies
 Allego,GreenToWheel
@@ -469,6 +460,7 @@ Atlante France,Atlante - Pissy-Pôville - CCV Rouen
 Atlante France,Atlante - Plouigneau - Restaurant - traiteur Le Lywen
 Atlante France,Atlante - Plounévez-Moëdec - L'Étape. Bar restaurant
 Atlante France,Atlante - Poilley -  Restaurant Les Martinaises
+Atlante France,Atlante - Poitiers - La Mie Câline
 Atlante France,Atlante - Presles - Le Domaine des Vanneaux
 Atlante France,Atlante - Provins - Boulanger
 Atlante France,Atlante - Provins - Riester Peugeot Citroën DS
@@ -575,8 +567,9 @@ DREAM ENERGY ,ARTEPARC MEYLAN
 DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
 DREAM ENERGY ,Avenue Ali√©nor d'Aquitaine 8
+DREAM ENERGY ,Avenue Blaise Pascal
+DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
-DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -591,8 +584,12 @@ DREAM ENERGY ,Ibis Styles Nancy Ouest Laxou
 DREAM ENERGY ,JUNGHEINRICH IFS
 DREAM ENERGY ,LE PALATIN
 DREAM ENERGY ,Rue Louis de Broglie 360
+DREAM ENERGY ,Rue Pierre et Marie Curie 81
+DREAM ENERGY ,Rue de l'Europe 251
+DREAM ENERGY ,Rue de l'Europe 675
 DREAM ENERGY ,Rue des Comptoirs 2
 DREAM ENERGY ,Rue des Orangers 46
+DREAM ENERGY ,Rue du Fenouil 155
 DREAM ENERGY ,ZAC TECHNOLOGIA
 DRIVECO,DRIVECO
 DRIVECO,DRIVECO - Carrefour Market - Guerande
@@ -604,14 +601,13 @@ E.Leclerc,Leclerc
 EASYCHARGE,AVIA VOLT
 EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
-ELECTRIC 55 CHARGING,ELECTRIC 55 CHARGING
 ENERJUMP,Watt'up
-ENGIE Vianeo,ENGIE Vianeo
 ENRGETICA,ENRGETICA
 EV MAP,CAMPING LE PALACE
 EV MAP,Camping la Boutinardière
 EV MAP,Ford
 EV MAP SAS,ACS AUTOMOBILES OPEL-KIA AUXERRE
+EV MAP SAS,AMBIANCE AUTOMOBILES AUXERRE
 EV MAP SAS,AUTO EMERAUD 35
 EV MAP SAS,BOREAL LABEGE
 EV MAP SAS,CAP NORD LORMONT
@@ -627,6 +623,8 @@ EV MAP SAS,GARAGE EUROPE CHENOVE
 EV MAP SAS,GATICAR BOURGES
 EV MAP SAS,GATICAR CHATEAUROUX
 EV MAP SAS,GROUPE JB
+EV MAP SAS,GROUPE JB - Carrosserie Beltramelli - PILOTE REPARATION PSM
+EV MAP SAS,KIMCAR REIMS
 EV MAP SAS,MG MOTORS MEAUX
 EV MAP SAS,MONTCHAPET AUTOMOBILES BEAUNE
 EV MAP SAS,PEUGEOT BESANCON GROUPE CHOPARD
@@ -711,7 +709,9 @@ Electra,Tain-l'Hermitage - Intermarché
 Electra,Toulouse Colomiers - KFC
 Electra,Troyes - Intermarché
 Electra,Valence - Hôtel Campanile Sud
+Electra,Villeneuve d'Ascq - Grand Frais
 Electra,Viry-Châtillon - E.Leclerc
+Electric 55 Charging,Electric 55 Charging
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Domaine de Fompeyre
@@ -722,6 +722,8 @@ Electromaps,Le COTONNIER NIEPPE
 Enerstock,Enerstock
 Eoliberty,BP Bagneux Charles De Gaulle-C1
 Eoliberty,BP Bagneux Charles De Gaulle-C2
+Eoliberty,CARREFOUR EXPRESS LAMARCHE
+Eoliberty,CARREFOUR PAGNY SUR MOSELLE
 Eoliberty,CRF Badonviller C1
 Eoliberty,CRF Badonviller C2
 Eoliberty,CRF Domblans - CCS
@@ -740,7 +742,7 @@ Eoliberty,Cogep St Doulchard-C1
 Eoliberty,Cogep St Doulchard-C2
 Eoliberty,Cogep St Doulchard-C3
 Eoliberty,Cogep St Doulchard-C4
-Eoliberty,Cr√®che Sancerre
+Eoliberty,CrÃ¨che Sancerre
 Eoliberty,DietSmann-Borne-1-C1
 Eoliberty,DietSmann-Borne-1-C2
 Eoliberty,DietSmann-Borne-2-C1
@@ -778,6 +780,8 @@ Eoliberty,Hotel Le Translon B-1
 Eoliberty,Hotel Le Translon B-2
 Eoliberty,Hotel Maison Blanche B-1
 Eoliberty,Hotel Maison Blanche B-2
+Eoliberty,Hotel Petit NanÃ§ay B-1
+Eoliberty,Hotel Petit NanÃ§ay B-2
 Eoliberty,Hotel St Quentin B-1
 Eoliberty,Hotel St Quentin B-2
 Eoliberty,Hyundai IES B1-CCS HMF 50kw
@@ -802,8 +806,8 @@ Eoliberty,ITM Belleu - CCS
 Eoliberty,ITM Belleu - T2
 Eoliberty,ITM Brassac Les Mines - CCS
 Eoliberty,ITM Brassac Les Mines - T2
-Eoliberty,ITM Brienne le ch√¢teau - CCS
-Eoliberty,ITM Brienne le ch√¢teau - T2
+Eoliberty,ITM Brienne le chÃ¢teau - CCS
+Eoliberty,ITM Brienne le chÃ¢teau - T2
 Eoliberty,ITM Chatillon Sur Marne - CCS
 Eoliberty,ITM Chatillon Sur Marne - T2
 Eoliberty,ITM Clermont De L Oise-2 C1-T2
@@ -829,17 +833,17 @@ Eoliberty,ITM Gauville B-2
 Eoliberty,ITM Guerigny - CCS
 Eoliberty,ITM Guerigny - T2
 Eoliberty,ITM LE MAYET DE MONTAGNE
-Eoliberty,ITM La C√¥te St Andre -C1
-Eoliberty,ITM La C√¥te St Andre -C2
+Eoliberty,ITM La CÃ´te St Andre -C1
+Eoliberty,ITM La CÃ´te St Andre -C2
 Eoliberty,ITM Lamorlaye-1 - CCS
 Eoliberty,ITM Lamorlaye-1 - T2
 Eoliberty,ITM Lamorlaye-2 - CCS
 Eoliberty,ITM Lamorlaye-2 - T2
 Eoliberty,ITM Lamorlaye-Circontrol -C1
 Eoliberty,ITM Lamorlaye-Circontrol -C2
+Eoliberty,ITM MontluÃ§on - CCS
+Eoliberty,ITM MontluÃ§on - T2
 Eoliberty,ITM Montluçon - T2
-Eoliberty,ITM Montlu√ßon - CCS
-Eoliberty,ITM Montlu√ßon - T2
 Eoliberty,ITM Nanteuil le Haudoin -1- CCS
 Eoliberty,ITM Nanteuil le Haudoin -1- T2
 Eoliberty,ITM Nanteuil le Haudoin -2- CCS
@@ -1066,6 +1070,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1648,6 +1653,7 @@ QoWatt,Voie du Bo
 R3,DBT
 R3,DBT-CEV
 R3,Norauto
+R3,R3
 R3,R3 SPV COM
 R3,R3 SPV NOR
 R3,SPV COM
@@ -1723,6 +1729,7 @@ SOCIETE BRICORTHE,WELDOM
 SPBR1,eborn
 SPIE CityNetworks,BEZIERS
 SPIE CityNetworks,Béziers
+SPIE CityNetworks,CHARGEZY - TE63
 SPIE CityNetworks,METROPOLIS
 SPIE CityNetworks,Métropolis
 SPIE CityNetworks,Pays de GEX
@@ -1740,6 +1747,14 @@ Shell Recharge,Shell Aire de Ostwald HW
 Shell Recharge,Shell Aire des Eglantiers - Ruffec
 Shell Recharge,Shell Aire du Domaine d'Harcourt HW
 Shell Recharge,Shell- France Aire de Rumaucourt HW
+Sorel energies,Avenue du Chemin Noir 16
+Sorel energies,"Rte de Fontainebleau, 77370 Nangis"
+Sorel energies,Rue Guillaume des Barres 1
+Sorel energies,Rue Henry Bessemer 91
+Sorel energies,Rue Lamartine 4
+Sorel energies,Rue de Normandie 1
+Sorel energies,Rue de Sarcelles 2
+Sorel energies,Rue du Hainault
 Sorégies,Sorégies
 Sowatt Solutions,CIBLE ELEC 1
 Sowatt Solutions,EVBOX – SOWATT
@@ -1894,11 +1909,13 @@ WattzHub | FR*SMI,WattzHub
 We-Go,Eiffage Energie Systèmes - Agence Besançon
 We-Go,Eiffage Energie Systèmes - Agence Boucherez Metz
 We-Go,Eiffage Energie Systèmes - Agence Boucherez Pulnoy
+We-Go,Eiffage Energie Systèmes - Agence Chemaudin
 We-Go,Eiffage Energie Systèmes - Agence Colmar
 We-Go,Eiffage Energie Systèmes - Agence Duppigheim
 We-Go,Eiffage Energie Systèmes - Agence IT LAN Metz
 We-Go,Eiffage Energie Systèmes - Agence Longvic
 We-Go,Eiffage Energie Systèmes - Agence Metz
+We-Go,Eiffage Energie Systèmes - Agence Ostwald
 We-Go,Eiffage Energie Systèmes - Agence Pourcelot
 We-Go,Eiffage Energie Systèmes - Agence Sedan
 We-Go,Eiffage Energie Systèmes - Agence Sélestat
@@ -1907,7 +1924,10 @@ We-Go,Eiffage Energie Systèmes - Bourgogne Champagne
 We-Go,Eiffage Energie Systèmes - Direction Régionale Est Ludres
 Yaway,Kallista-Yaway
 Yusco | FR*USC,Yusco
+Z-E-N,EKLEO TRANSPORTS
+Z-E-N,Z-E-N
 Z-E-N | FR*PVD,Proviridis
+ZEN,ZEN
 ZETRA Distribution SAS,ZETRA
 Zephyre SAS,AR Duen
 Zephyre SAS,Airria
@@ -1933,7 +1953,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2006,6 +2025,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
