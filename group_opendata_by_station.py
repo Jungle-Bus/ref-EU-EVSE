@@ -254,14 +254,10 @@ for station_id, station in station_list.items() :
                 puissances.append(float(puissance_str))
             except ValueError:
                 pass
+    station['attributes']['puissance_nominale'] = elem['puissance_nominale']
+    station['attributes']['puissance_nominale_grouped'] = max(puissances) if puissances else None
     
-    if len(puissances) == 0:
-        station['attributes']['puissance_nominale_grouped'] = None
-    elif len(set(puissances)) == 1:
-        station['attributes']['puissance_nominale_grouped'] = puissances[0]
-    else:
-        # Si plusieurs puissances différentes, on prend la valeur la plus haute
-        station['attributes']['puissance_nominale_grouped'] = max(puissances)
+    if len(puissances) > 1:
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
                        "error": "plusieurs puissances nominales différentes pour une même station",
