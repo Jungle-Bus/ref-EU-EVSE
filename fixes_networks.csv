@@ -276,4 +276,5 @@
 "help@electra.com","help@go-electra.com"
 "Mo-Su 00:00-24:00","24/7"
 "Su,Mo,We,Fr,Tu,Sa,Th  00:00-23:59","24/7"
+"Fr,Sa,Su,Tu,We,Th,Mo  00:00-23:59","24/7"
 "tel:+352-25-36-36-404","+33 1 70 48 46 00"
