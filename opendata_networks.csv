@@ -64,6 +64,7 @@ Allego,Allego - Au Bureau Laon
 Allego,Allego - Au Bureau Morlaix
 Allego,Allego - Au Bureau Soissons
 Allego,Allego - Au Bureau Villejust
+Allego,Allego - Aubervilliers Le Millénaire
 Allego,Allego - Auchan Aix-En-Provence
 Allego,Allego - Auchan Champniers
 Allego,Allego - Auchan Fenouillet
@@ -272,6 +273,7 @@ Allego,Allego - Carrefour Saint-André-Les-Vergers
 Allego,Allego - Carrefour Saint-Brieuc
 Allego,Allego - Carrefour Saint-Clément-De-Rivière
 Allego,Allego - Carrefour Saint-Egrève
+Allego,Allego - Carrefour Saint-Malo
 Allego,Allego - Carrefour Saint-Pol
 Allego,Allego - Carrefour Sainte Geneviève
 Allego,Allego - Carrefour Salaise
@@ -461,6 +463,7 @@ Atlante France,Atlante - Plouigneau - Restaurant - traiteur Le Lywen
 Atlante France,Atlante - Plounévez-Moëdec - L'Étape. Bar restaurant
 Atlante France,Atlante - Poilley -  Restaurant Les Martinaises
 Atlante France,Atlante - Poitiers - La Mie Câline
+Atlante France,Atlante - Poitiers - Quick Poitiers
 Atlante France,Atlante - Presles - Le Domaine des Vanneaux
 Atlante France,Atlante - Provins - Boulanger
 Atlante France,Atlante - Provins - Riester Peugeot Citroën DS
@@ -518,7 +521,9 @@ Aéroports de la Côte d'Azur | FR*ACA,Aéroports de la Côte d'Azur
 BIARS DISTRIBUTION,E. Leclerc
 Borneco | FR*BHM,BornEco
 Botanic,Botanic
+Bouygues Energies & Services,Alizé Liberté 2
 Bouygues Energies & Services,Ecocharge77
+Bouygues Energies & Services,Seymaborne
 Bouygues Energies & Services,TOULIBEO
 Bouygues Energies & Services,reGARD
 Bouygues Energies et Services,OUEST CHARGE
@@ -709,9 +714,9 @@ Electra,Tain-l'Hermitage - Intermarché
 Electra,Toulouse Colomiers - KFC
 Electra,Troyes - Intermarché
 Electra,Valence - Hôtel Campanile Sud
-Electra,Villeneuve d'Ascq - Grand Frais
 Electra,Viry-Châtillon - E.Leclerc
 Electric 55 Charging,Electric 55 Charging
+Electricité Veit | FR*HOP,Hopla Power Charge
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
 Electromaps,Domaine de Fompeyre
@@ -1070,7 +1075,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1283,7 +1287,6 @@ Ionity,IONITY Authezat
 Ionity,IONITY Bedenac Est
 Ionity,IONITY Bessoncourt
 Ionity,IONITY Bonneville
-Ionity,IONITY Bréguières Nord
 Ionity,IONITY Centre de la France
 Ionity,IONITY Dommartin
 Ionity,IONITY Gevrey-Chambertin Est
@@ -1549,16 +1552,16 @@ LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
 Load Stations,SIEA
 Milence,Milence
-Milence,Milence Charging Hub Béziers
-Milence,Milence Charging Hub Dunkirk Grande-Synthe
-Milence,Milence Charging Hub Gondreville
 Milence,Milence Charging Hub Heudebouville
-Milence,Milence Charging Hub Lille Lesquin
-Milence,Milence Charging Hub Malataverne
-Milence,Milence Charging Hub Mondeville
-Milence,Milence Charging Hub Perpignan
-Milence,Milence Charging Hub Reims
-Milence,Milence Charging Hub Saint-Witz
+Milence,Milence Truck Charging Station Béziers
+Milence,Milence Truck Charging Station Dunkirk Grande-Synthe
+Milence,Milence Truck Charging Station Gondreville
+Milence,Milence Truck Charging Station Lille Lesquin
+Milence,Milence Truck Charging Station Malataverne
+Milence,Milence Truck Charging Station Mondeville
+Milence,Milence Truck Charging Station Perpignan
+Milence,Milence Truck Charging Station Reims
+Milence,Milence Truck Charging Station Saint-Witz
 Mob-Energy | FR*MEI,Mob-Energy
 Mobilize Fast Charge Network FRANCE,Mobilize Power Solutions
 Mobilygreen,Mobilygreen
@@ -1625,6 +1628,88 @@ Paragon Mobility,Paragon Mobility
 Paragon Mobility | FR*PAM,Paragon Mobility
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
+Plenitude On The Road,"102, Avenue d'Auvergne"
+Plenitude On The Road,"1177, Route de Digoin"
+Plenitude On The Road,"154 Impasse de, La Grande Grange"
+Plenitude On The Road,1935 Av. d'Espagne
+Plenitude On The Road,"274, Avenue Joseph Gallieni"
+Plenitude On The Road,3 rue de l'artisanat
+Plenitude On The Road,"33, Avenue Maréchal Juin"
+Plenitude On The Road,"4, Avenue du Centre Commercial"
+Plenitude On The Road,"445 Rue Gustave Eiffel, 11000 Carcassonne"
+Plenitude On The Road,"49 Rte de Saint-Pourçain, 03110 Charmeil, Francia"
+Plenitude On The Road,"61, Avenue d'Andrézieux"
+Plenitude On The Road,"9, Rue de l'Etang"
+Plenitude On The Road,Aire de Haut Forez Sud
+Plenitude On The Road,Aire de Service La Maxe - Autoroute A31
+Plenitude On The Road,Aire de Service Trementines
+Plenitude On The Road,Aire de Souchez - A26
+Plenitude On The Road,Av. Santos Dumont
+Plenitude On The Road,Av. des Eaux Blanches
+Plenitude On The Road,Avenue Edouard Herriot
+Plenitude On The Road,"Avenue Jean Moos, ZI La Gaieté"
+Plenitude On The Road,Chaumont-sur-Tharonne
+Plenitude On The Road,Chemin de Giraud
+Plenitude On The Road,Chemin du Vieux Château - Lieudit La Provende
+Plenitude On The Road,"D103, La Gueuse"
+Plenitude On The Road,Eni Station - 114-116 Rue des Aciéries
+Plenitude On The Road,Eni Station - 131 RUE JOLIOT CURIE
+Plenitude On The Road,"Eni Station - 148,AVENUE DE LYON"
+Plenitude On The Road,Eni Station - 15 AVE JEAN JAURES
+Plenitude On The Road,Eni Station - 151 AVENUE DE COLMAR
+Plenitude On The Road,Eni Station - 171-173 BD ST LOUP
+Plenitude On The Road,Eni Station - 19 BIS AVE BERTHELOT
+Plenitude On The Road,Eni Station - 20 - 22 ROUTE DE ST ANTOINE
+Plenitude On The Road,Eni Station - 20 -22 AVENUE MONOT
+Plenitude On The Road,Eni Station - 22 AVENUE DU CLOS MOUZON
+Plenitude On The Road,Eni Station - 26 CHEMIN DE STE MARTHE
+Plenitude On The Road,Eni Station - 32 Av. Rhin et Danube
+Plenitude On The Road,Eni Station - 38-40 Av. du Roussillon
+Plenitude On The Road,Eni Station - 4 ROUTE D'ALTENHEIM
+Plenitude On The Road,Eni Station - 40 AVENUE JEAN JAURES
+Plenitude On The Road,Eni Station - 42 Route d'Ingersheim
+Plenitude On The Road,Eni Station - 5 Av. Jean Perrot
+Plenitude On The Road,Eni Station - 51 Rue de Remiremont
+Plenitude On The Road,Eni Station - 51-55 ROUTE DE PARIS
+Plenitude On The Road,Eni Station - 61 AVENUE STE MARGUERITE
+Plenitude On The Road,Eni Station - 61 Av. de Genève
+Plenitude On The Road,Eni Station - 620 RUE DAVID
+Plenitude On The Road,Eni Station - 75 ROUTE DE MONTCENIS
+Plenitude On The Road,Eni Station - 79 Route de Bischwiller
+Plenitude On The Road,"Eni Station - 8 Av. des Sergents, 34300 Agde, Francia"
+Plenitude On The Road,Eni Station - 80 Route de Paris
+Plenitude On The Road,"Eni Station - Aire de Thouars, A630, 33170 Gradignan, Francia"
+Plenitude On The Road,"Eni Station - Autoroute de la Maurienne, A43"
+Plenitude On The Road,Eni Station - Av. de Lattre de Tassigny 67
+Plenitude On The Road,Eni Station - BOULEVARD PONTIFFROY
+Plenitude On The Road,"Eni Station - CD 38, RUE DES VOSGES"
+Plenitude On The Road,Eni Station - RN 113
+Plenitude On The Road,Eni Station - RN 433
+Plenitude On The Road,Eni Station - RN 6
+Plenitude On The Road,Eni Station - RN 86 - LES SEPT CHEMINS
+Plenitude On The Road,Eni Station - ROUTE DE LYON
+Plenitude On The Road,Eni Station - ROUTE DE PEZENAS
+Plenitude On The Road,Eni Station - RUE ADRIEN FAYOLLE
+Plenitude On The Road,Eni Station - ZAC DU CHAMP ST ANGE
+Plenitude On The Road,"Eni Station - Zac De Tournezy, Rue de Montels Église"
+Plenitude On The Road,Haut Forez Nord - Autoroute A89
+Plenitude On The Road,La Combe
+Plenitude On The Road,Les Plaines ZAC
+Plenitude On The Road,"Logis Hôtel le Capricorne, Av. Hubert Ruffe"
+Plenitude On The Road,Parc d’Activité Ecovert - Route de Vrigne-Meuse
+Plenitude On The Road,Route de Charlieu ZI
+Plenitude On The Road,Route de Coubon - ZI Clos de Corsac
+Plenitude On The Road,"Route de Saint Etienne - Zone Commerciale Carrefour - 11, rue des Prairies"
+Plenitude On The Road,Route du Molay-Littry
+Plenitude On The Road,Rue Louis Delage
+Plenitude On The Road,Rue de Moulin Gillier
+Plenitude On The Road,Rue de la Fosse Benate - Tangentielle RN60
+Plenitude On The Road,ZA Les Granges - Rue de Laplatte
+Plenitude On The Road,ZAC de Pontillault - Lieu dit les Berchères
+Plenitude On The Road,"ZAE la Ginieisse, Rte de Bessan, 34500 Béziers"
+Plenitude On The Road,Zac de la Varizelle - Route du 17 Octobre 1961
+Plenitude On The Road,"Zac du, Rond-Point du Mas Rouma"
+Plenitude On The Road,"Zone commerciale du Mail, Mail de l'Hippodrome, 3 avenue du"
 Power Dot France,Power Dot France
 ProperPhi,PROPERPHI
 QOVOLTIS,LABODENT
@@ -1659,6 +1744,7 @@ R3,R3 SPV NOR
 R3,SPV COM
 REVEO SYADEN | FR*RVE,Révéo
 REVEO SYADEN | FR*RVE,Révéo 2025
+Ramery Mobility | FR*RYM,Ramery
 Road | FR*EFL,Road
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
@@ -1756,12 +1842,9 @@ Sorel energies,Rue de Normandie 1
 Sorel energies,Rue de Sarcelles 2
 Sorel energies,Rue du Hainault
 Sorégies,Sorégies
-Sowatt Solutions,CIBLE ELEC 1
-Sowatt Solutions,EVBOX – SOWATT
 Sowatt Solutions,Jean Lain
 Sowatt Solutions,SALOMON
 Sowatt Solutions,Sowatt Solutions
-Sowatt Solutions,Wellborne
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Roulez Électrique En Haute-Garonne
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,SDE82
 Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,SDEG32
@@ -1770,8 +1853,8 @@ Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,M
 Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,SDED52
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
-TESLA France SARL,TESLA SUPERCHARGER
 Tesla,Tesla
+Tesla France,Tesla Supercharger
 Total Charging Services, Carglass Services SAS - Chasseneuil Futuroscope
 Total Charging Services,Carglass Services SAS - DARDILLY
 Total Charging Services,Carglass Services SAS - F - Nîmes
@@ -1858,15 +1941,15 @@ TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
 Ubitricity,"Shell Recharge 1 Rue du Carreau, Beaurepaire"
-Ubitricity,"Shell Recharge 107 Rue Commandant Abadie, Le Havre"
+Ubitricity,"Shell Recharge 107 Rue Commandant Abadie, Le Havre, [AN 0]"
 Ubitricity,"Shell Recharge 11 rue de Mondeville (AQUABOWLING), Criquetot l’Esneva"
-Ubitricity,"Shell Recharge 117, avenue Rouget de L’Isle, Le Havre"
 Ubitricity,"Shell Recharge 163 Irene Juliot Curie, Le Havre"
 Ubitricity,"Shell Recharge 18 rue du Homet, Le Havre"
-Ubitricity,"Shell Recharge 2 Rue Philippe Lebon (Place des Expositions), Le Havre"
-Ubitricity,"Shell Recharge 3 Rue Dume d’Aplemeont, Le Havre"
-Ubitricity,"Shell Recharge 30 Rue Georges Boissaye du Bocage, Sainte-Adresse"
+Ubitricity,"Shell Recharge 2 Rue Philippe Lebon (Place des Expositions), Le Havre, [AN 0]"
+Ubitricity,"Shell Recharge 3 Rue Dume d’Aplemeont, Le Havre, [AN 0]"
+Ubitricity,"Shell Recharge 30 Rue Georges Boissaye du Bocage, Sainte-Adresse, [AN 0]"
 Ubitricity,"Shell Recharge 444 Avenue du bois au Coq, Le Havre"
+Ubitricity,"Shell Recharge 52 Av. de Frileuse, Le Havre, [AN 0]"
 Ubitricity,"Shell Recharge 54 Rue Eugène Bodin, Le Havre"
 Ubitricity,"Shell Recharge 55 Rue du 329ème, Le Havre"
 Ubitricity,"Shell Recharge 60 Rue Théophile Gautier, Le Havre, [AN null]"
@@ -1879,18 +1962,18 @@ Ubitricity,"Shell Recharge Georges Brassens, Gonfreville L’Orcher"
 Ubitricity,"Shell Recharge La cote de l'église, Notre-Dame-du-Bec"
 Ubitricity,"Shell Recharge Place Abbé Pierre, Montivilliers"
 Ubitricity,"Shell Recharge Place Danton, Le Havre"
-Ubitricity,"Shell Recharge Place Leon Carlier (Rue Amiral Courbet), Le Havre"
+Ubitricity,"Shell Recharge Place Leon Carlier (Rue Amiral Courbet), Le Havre, [AN 0]"
 Ubitricity,"Shell Recharge Rue André Gide / Route du Château, Cuverville"
-Ubitricity,"Shell Recharge Rue Boris Vian, Le Havre"
+Ubitricity,"Shell Recharge Rue Boris Vian, Le Havre, [AN 0]"
 Ubitricity,"Shell Recharge Rue Edouard Vaillant, Caucriauville"
 Ubitricity,"Shell Recharge Rue Hannès Montlairy, LE HAVRE"
 Ubitricity,"Shell Recharge Rue Henri Cayeux / boulevard Bois au Coq (Parking PFC MARKET), Le Havre"
 Ubitricity,"Shell Recharge Rue Maurice Baquet, Gonfreville l’Orcher"
 Ubitricity,"Shell Recharge Rue Pauline Kergomard, Le Havre"
 Ubitricity,"Shell Recharge Rue Victor Petitpas, Rolleville"
-Ubitricity,"Shell Recharge Rue du Chemin de Fer, Épouville"
-Ubitricity,"Shell Recharge Rue du Dr d’Oreilly, Le Havre"
-Ubitricity,"Shell Recharge Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE"
+Ubitricity,"Shell Recharge Rue du Chemin de Fer, Épouville, [AN 0]"
+Ubitricity,"Shell Recharge Rue du Dr d’Oreilly, Le Havre, [AN 0]"
+Ubitricity,"Shell Recharge Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE, [AN 0]"
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 WAAT SAS | FR*WA2,WAAT
@@ -1953,6 +2036,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2025,7 +2109,6 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
