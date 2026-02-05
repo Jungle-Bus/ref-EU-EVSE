@@ -534,24 +534,25 @@ ChargeFacile | FR*LUM,LUMI'IN
 ChargePoint Austria GmbH | FR*CG0,ChargeGuru
 ChargePoint Austria GmbH | FR*CG0,Siemens Sicharge D 240 kW MAX
 DEJA BLUE FRANCE,DejaBlue
-DREAM ENERGY,Allée de l'Enclos
-DREAM ENERGY,Allée de l'Espace Saint-Martin 210
+DREAM ENERGY,All√©e de l'Enclos
+DREAM ENERGY,All√©e de l'Espace Saint-Martin 210
+DREAM ENERGY,Avenue Ali√©nor d'Aquitaine 8
 DREAM ENERGY,Avenue Roumanille 965
 DREAM ENERGY,Avenue de Toulouse 32
-DREAM ENERGY,Avenue de la République 109
+DREAM ENERGY,Avenue de la R√©publique 109
 DREAM ENERGY,Avenue du Languedoc 2273
 DREAM ENERGY,Champ Poury
-DREAM ENERGY,Chemin des Prés Chalots
-DREAM ENERGY,Chemin du Vieux Chêne 22
-DREAM ENERGY,Impasse Jean Prouvé 8
-DREAM ENERGY,Route Départementale 940
+DREAM ENERGY,Chemin des Pr√©s Chalots
+DREAM ENERGY,Chemin du Vieux Ch√™ne 22
+DREAM ENERGY,Impasse Jean Prouv√© 8
+DREAM ENERGY,Route D√©partementale 940
 DREAM ENERGY,Route de Bar le Duc
 DREAM ENERGY,Route de l'Escalet 2159
 DREAM ENERGY,Rue Des Egrez 2
 DREAM ENERGY,Rue Ferdinand Braun 15
 DREAM ENERGY,Rue Louis Breguet 5
 DREAM ENERGY,Rue Louis de Broglie 360
-DREAM ENERGY,Rue Madeleine Brès 20
+DREAM ENERGY,Rue Madeleine Br√®s 20
 DREAM ENERGY,Rue Marcel Sembat 97
 DREAM ENERGY,Rue Pierre Berthier 595
 DREAM ENERGY,Rue Pierre Emonnot 1
@@ -559,12 +560,12 @@ DREAM ENERGY,Rue Tachard 30
 DREAM ENERGY,Rue de Nerbevaux 3
 DREAM ENERGY,Rue de Poul Palud
 DREAM ENERGY,Rue de la Belle du Canet
-DREAM ENERGY,Rue de la Carrière de Bachasson
-DREAM ENERGY,Rue de la Malloué
-DREAM ENERGY,Rue de la Saône 10
+DREAM ENERGY,Rue de la Carri√®re de Bachasson
+DREAM ENERGY,Rue de la Mallou√©
+DREAM ENERGY,Rue de la Sa√¥ne 10
 DREAM ENERGY,Rue des Pierres Missigault 41
 DREAM ENERGY,Rue des Valottes 5
-DREAM ENERGY,Zone d'aménagement concerté de la Barque
+DREAM ENERGY,Zone d'am√©nagement concert√© de la Barque
 DREAM ENERGY ,ARTEPARC BIOT
 DREAM ENERGY ,ARTEPARC FUVEAU
 DREAM ENERGY ,ARTEPARC LESQUIN
@@ -573,8 +574,8 @@ DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
 DREAM ENERGY ,Avenue Ali√©nor d'Aquitaine 8
 DREAM ENERGY ,Avenue Blaise Pascal
-DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
+DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -607,8 +608,11 @@ EASYCHARGE,AVIA VOLT
 EASYCHARGE,AVIA VOLT by EASYCHARGE
 EKLEO,RÃ©seau EKLEO Montlouis sur Loire
 ENERJUMP,Watt'up
+ENGIE Vianeo,ENGIE Vianeo
 ENRGETICA,ENRGETICA
 EV MAP,CAMPING LE PALACE
+EV MAP,CTC10 CRENEY
+EV MAP,CTC10 ROSIERES
 EV MAP,Camping la Boutinardière
 EV MAP,Ford
 EV MAP SAS,ACS AUTOMOBILES OPEL-KIA AUXERRE
@@ -625,10 +629,12 @@ EV MAP SAS,Chopard Peugeot Carpentras
 EV MAP SAS,Chopard Peugeot Orange
 EV MAP SAS,Espace Carrosserie Dijon
 EV MAP SAS,GARAGE EUROPE CHENOVE
+EV MAP SAS,GARAGE GAUME
 EV MAP SAS,GATICAR BOURGES
 EV MAP SAS,GATICAR CHATEAUROUX
 EV MAP SAS,GROUPE JB
 EV MAP SAS,GROUPE JB - Carrosserie Beltramelli - PILOTE REPARATION PSM
+EV MAP SAS,KIMCAR CHARLEVILLE MEZIERES
 EV MAP SAS,KIMCAR REIMS
 EV MAP SAS,MG MOTORS MEAUX
 EV MAP SAS,MONTCHAPET AUTOMOBILES BEAUNE
@@ -1336,6 +1342,7 @@ Izivia,BORNES-E
 Izivia,BOULANGER VARTELEC
 Izivia,BRAS - LE SUQUET
 Izivia,BRIT HOTEL
+Izivia,BRN06 - Mermoz-Pinel - Charge ultra-rapide
 Izivia,Brioches Fonteneau
 Izivia,CAMP ATLANTIC
 Izivia,CAMPING AURAN LES PLANS
@@ -1372,6 +1379,7 @@ Izivia,CCI - OUST MAREST
 Izivia,CENTRAKOR
 Izivia,CENTRE CCIAL LA VOULZIE
 Izivia,CENTRIMEX
+Izivia,CHA01 - ZI Chassieu - Rocade Est
 Izivia,CHATEAU GISCOURS
 Izivia,CLUB DU DOMAINE DES HAUTS DE VAUGRENIER
 Izivia,COFRA
@@ -1386,6 +1394,8 @@ Izivia,CSP PARIS FASHION GROUP
 Izivia,CTA CONSTRUCTION
 Izivia,CYCLIFE-EV100
 Izivia,DALKIA-EV100
+Izivia,DAR01 - M6 - Porte de Lyon
+Izivia,DEC03 - Eurexpo - Sept Chemins
 Izivia,DEP INDUSTRIE
 Izivia,DOMAINE DE LESPERON
 Izivia,DOMOLANDES
@@ -1442,6 +1452,7 @@ Izivia,INTERMARCHE
 Izivia,INTERMARCHE BAYONNE
 Izivia,INTERMARCHE CLAUGINIE
 Izivia,INTERMARCHÉ COMBS-LA-VILLE
+Izivia,IRY02 - Gare d'Yvours
 Izivia,IZIVIA FAST
 Izivia,IZIVIA Impact
 Izivia,Izivia Express
@@ -1457,6 +1468,7 @@ Izivia,LA NORMANDISE
 Izivia,LABORATOIRE DES PYRENEES ET DES LANDES
 Izivia,LABORATOIRES M&L
 Izivia,LAFUMA MOBILIER
+Izivia,LAM02 - M7 - Confluence
 Izivia,LE CASTEL EMERAUDE
 Izivia,LE CONCORDE
 Izivia,LE FIEF MELIN
@@ -1480,8 +1492,10 @@ Izivia,MAISONS TERRE DOC
 Izivia,MAMP
 Izivia,MASSILLY GROUPE
 Izivia,METRE CARRE
+Izivia,MEY04 - Rocade Est
 Izivia,MILLAU DIFF
 Izivia,MIPIOL - INTERMARCHE
+Izivia,MIS02 - Rocade Est - D318
 Izivia,MobiVE
 Izivia,NETTO
 Izivia,NETTO - DAMPIERRUS
@@ -1531,6 +1545,7 @@ Izivia,UNION AGRICOLE DU PAYS DE LOIRE
 Izivia,UNIVITIS
 Izivia,UP2PLAY
 Izivia,Unibail
+Izivia,VAV06 - Carré de Soie - Bohlen
 Izivia,VERDUN
 Izivia,VIPE GESTION
 Izivia,VM DECOR
@@ -1552,10 +1567,10 @@ LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
 Load Stations,SIEA
 Milence,Milence
-Milence,Milence Charging Hub Heudebouville
 Milence,Milence Truck Charging Station Béziers
 Milence,Milence Truck Charging Station Dunkirk Grande-Synthe
 Milence,Milence Truck Charging Station Gondreville
+Milence,Milence Truck Charging Station Heudebouville
 Milence,Milence Truck Charging Station Lille Lesquin
 Milence,Milence Truck Charging Station Malataverne
 Milence,Milence Truck Charging Station Mondeville
@@ -1621,6 +1636,7 @@ NEXTENEO,Sirius
 NEXTENEO,Ville d'Annecy
 NEXTENEO,Vival
 Normatech Lodmi,Bornes de recharge AC Candas
+OBORNES,OREVE
 OET,OET
 Obornes | FR*ORV,Obornes
 Orléans Métropole | FR*M45,Orléans Métropole
@@ -1690,6 +1706,7 @@ Plenitude On The Road,Eni Station - RN 86 - LES SEPT CHEMINS
 Plenitude On The Road,Eni Station - ROUTE DE LYON
 Plenitude On The Road,Eni Station - ROUTE DE PEZENAS
 Plenitude On The Road,Eni Station - RUE ADRIEN FAYOLLE
+Plenitude On The Road,Eni Station - Rte de Porrentruy 72
 Plenitude On The Road,Eni Station - ZAC DU CHAMP ST ANGE
 Plenitude On The Road,"Eni Station - Zac De Tournezy, Rue de Montels Église"
 Plenitude On The Road,Haut Forez Nord - Autoroute A89
@@ -1703,6 +1720,7 @@ Plenitude On The Road,"Route de Saint Etienne - Zone Commerciale Carrefour - 11,
 Plenitude On The Road,Route du Molay-Littry
 Plenitude On The Road,Rue Louis Delage
 Plenitude On The Road,Rue de Moulin Gillier
+Plenitude On The Road,Rue de l'Aubépine
 Plenitude On The Road,Rue de la Fosse Benate - Tangentielle RN60
 Plenitude On The Road,ZA Les Granges - Rue de Laplatte
 Plenitude On The Road,ZAC de Pontillault - Lieu dit les Berchères
@@ -1989,6 +2007,7 @@ WAAT Umbrella-Copro,WAAT - Test Client
 WAAT Umbrella-Copro,WAAT Tertiaire
 WAAT Umbrella-Copro,WAAT Umbrella-Copro
 WattzHub | FR*SMI,WattzHub
+We-Go,Eiffage Energie Systèmes - Agence Belfort
 We-Go,Eiffage Energie Systèmes - Agence Besançon
 We-Go,Eiffage Energie Systèmes - Agence Boucherez Metz
 We-Go,Eiffage Energie Systèmes - Agence Boucherez Pulnoy
@@ -2037,7 +2056,6 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
-Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2110,6 +2128,7 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
+Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
