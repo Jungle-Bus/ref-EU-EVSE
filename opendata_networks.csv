@@ -83,6 +83,7 @@ Allego,Allego - B&M Montlucon
 Allego,Allego - B&M Perigueux - Marsac
 Allego,Allego - B&M Reims Courcelles
 Allego,Allego - B&M Rouen
+Allego,Allego - Buffalo Grill Arras
 Allego,Allego - Buffalo Grill Dommartin Les Toul
 Allego,Allego - Buffalo Grill Ploeren
 Allego,Allego - Buffalo Grill St Jean De Vedas
@@ -113,6 +114,7 @@ Allego,Allego - Burger King Lorient Lanester
 Allego,Allego - Burger King Lure
 Allego,Allego - Burger King Lyon Bron
 Allego,Allego - Burger King Lyon Saint-Priest
+Allego,Allego - Burger King Marseille Saint-Loup
 Allego,Allego - Burger King Martigues L'Escaillon
 Allego,Allego - Burger King Maurepas
 Allego,Allego - Burger King Montceau-les-Mines
@@ -395,6 +397,7 @@ Atlante France,Atlante - Bruay-la-Buissière - CCV Bruay
 Atlante France,Atlante - Buchelay - Fitness Park
 Atlante France,Atlante - Calais - Kiabi CALAIS
 Atlante France,Atlante - Castelnaud-de-Gratecambe - Golf de Villeneuve sur Lot
+Atlante France,Atlante - Castelnaudary - Intermarché HYPER Castelnaudary et Drive
 Atlante France,Atlante - Cernay-lès-Reims - Restaurant Chez Vincent
 Atlante France,Atlante - Chalon-sur-Saône - Lidl
 Atlante France,Atlante - Chambray-lès-Tours - CCV Tours
@@ -493,7 +496,7 @@ Atlante France,Atlante - Saint-Yrieix-sur-Charente - Greet Hotel Angoulême Oues
 Atlante France,Atlante - Sainte-Eulalie - Pizzeria Del Arte
 Atlante France,Atlante - Salaise-sur-Sanne - Kiloutou
 Atlante France,Atlante - Samazan - Brasserie des Pins
-Atlante France,Atlante - Savernay - Restaurant La Boucherie
+Atlante France,Atlante - Savenay - Restaurant La Boucherie
 Atlante France,Atlante - Sedan - Hôtel Restaurant Kyriad
 Atlante France,Atlante - Sin le Noble - Restaurant du Golf du Bois des Retz
 Atlante France,Atlante - Tavers - GÉMO
@@ -544,6 +547,7 @@ DREAM ENERGY,Avenue du Languedoc 2273
 DREAM ENERGY,Champ Poury
 DREAM ENERGY,Chemin des Pr√©s Chalots
 DREAM ENERGY,Chemin du Vieux Ch√™ne 22
+DREAM ENERGY,DREAM ENERGY
 DREAM ENERGY,Impasse Jean Prouv√© 8
 DREAM ENERGY,Route D√©partementale 940
 DREAM ENERGY,Route de Bar le Duc
@@ -574,8 +578,8 @@ DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
 DREAM ENERGY ,Avenue Ali√©nor d'Aquitaine 8
 DREAM ENERGY ,Avenue Blaise Pascal
+DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
-DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -601,6 +605,7 @@ DRIVECO,DRIVECO
 DRIVECO,DRIVECO - Carrefour Market - Guerande
 DRIVECO,DRIVECO - Carrefour Market - Isigny-Sur-Mer
 DRIVECO Partner Network,DRIVECO
+E-Motum,e-Motum
 E-Totem,E-Totem tiers investissement FR*ETI
 E-Totem,Réseau de charge Saint-Etienne Métropole
 E.Leclerc,Leclerc
@@ -683,6 +688,7 @@ Electra,Houdemont - KFC
 Electra,La Teste-de-Buch - McDonald's
 Electra,Lattes - Hôtel F1
 Electra,Lille - Intermarché
+Electra,Mions - Grand Frais
 Electra,Montpellier - Centre commercial Odysseum
 Electra,Nanterre - Hôtel Campanile
 Electra,Nice - Hôtel Campanile Aéroport
@@ -723,9 +729,11 @@ Electra,Valence - Hôtel Campanile Sud
 Electra,Viry-Châtillon - E.Leclerc
 Electric 55 Charging,Electric 55 Charging
 Electricité Veit | FR*HOP,Hopla Power Charge
+Electro Mobility Solutions,CARLOVERS
+Electro Mobility Solutions,Electro Mobility Solutions
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact 
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -1081,6 +1089,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1492,7 +1501,6 @@ Izivia,MAISONS TERRE DOC
 Izivia,MAMP
 Izivia,MASSILLY GROUPE
 Izivia,METRE CARRE
-Izivia,MEY04 - Rocade Est
 Izivia,MILLAU DIFF
 Izivia,MIPIOL - INTERMARCHE
 Izivia,MIS02 - Rocade Est - D318
@@ -1769,6 +1777,7 @@ SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BOR
 SAP Labs France SAS | FR*SLF,SAP Labs
 SARL LAFOURCADE ,SARL LAFOURCADE
 SAS Miodis,E. Leclerc
+SEOLIS,Seolis
 SEVDEC,Réseau de recharge AVENIR ISO
 SEVDEC,Réseau de recharge CAISSE D EPARGNE
 SEVDEC,Réseau de recharge CLINIQUE PORTES EURE
@@ -1958,40 +1967,40 @@ TotalEnergies,WARNING
 TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
-Ubitricity,"Shell Recharge 1 Rue du Carreau, Beaurepaire"
-Ubitricity,"Shell Recharge 107 Rue Commandant Abadie, Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge 11 rue de Mondeville (AQUABOWLING), Criquetot l’Esneva"
-Ubitricity,"Shell Recharge 163 Irene Juliot Curie, Le Havre"
-Ubitricity,"Shell Recharge 18 rue du Homet, Le Havre"
-Ubitricity,"Shell Recharge 2 Rue Philippe Lebon (Place des Expositions), Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge 3 Rue Dume d’Aplemeont, Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge 30 Rue Georges Boissaye du Bocage, Sainte-Adresse, [AN 0]"
-Ubitricity,"Shell Recharge 444 Avenue du bois au Coq, Le Havre"
-Ubitricity,"Shell Recharge 52 Av. de Frileuse, Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge 54 Rue Eugène Bodin, Le Havre"
-Ubitricity,"Shell Recharge 55 Rue du 329ème, Le Havre"
-Ubitricity,"Shell Recharge 60 Rue Théophile Gautier, Le Havre, [AN null]"
-Ubitricity,"Shell Recharge 626 Route de Gonneville, Sainte-Marie-au-Bosc, [AN null]"
-Ubitricity,"Shell Recharge 691 Route d Etretat, Villainville, [AN 0]"
-Ubitricity,"Shell Recharge 7 Rue de Dieppe, Le Havre"
-Ubitricity,"Shell Recharge 97 Rue Eugène Mopin, Le Havre, [AN -]"
-Ubitricity,"Shell Recharge Allée Henri Wallon, Le Havre"
-Ubitricity,"Shell Recharge Georges Brassens, Gonfreville L’Orcher"
-Ubitricity,"Shell Recharge La cote de l'église, Notre-Dame-du-Bec"
-Ubitricity,"Shell Recharge Place Abbé Pierre, Montivilliers"
-Ubitricity,"Shell Recharge Place Danton, Le Havre"
-Ubitricity,"Shell Recharge Place Leon Carlier (Rue Amiral Courbet), Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge Rue André Gide / Route du Château, Cuverville"
-Ubitricity,"Shell Recharge Rue Boris Vian, Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge Rue Edouard Vaillant, Caucriauville"
-Ubitricity,"Shell Recharge Rue Hannès Montlairy, LE HAVRE"
-Ubitricity,"Shell Recharge Rue Henri Cayeux / boulevard Bois au Coq (Parking PFC MARKET), Le Havre"
-Ubitricity,"Shell Recharge Rue Maurice Baquet, Gonfreville l’Orcher"
-Ubitricity,"Shell Recharge Rue Pauline Kergomard, Le Havre"
-Ubitricity,"Shell Recharge Rue Victor Petitpas, Rolleville"
-Ubitricity,"Shell Recharge Rue du Chemin de Fer, Épouville, [AN 0]"
-Ubitricity,"Shell Recharge Rue du Dr d’Oreilly, Le Havre, [AN 0]"
-Ubitricity,"Shell Recharge Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE, [AN 0]"
+Ubitricity,"Ubitricity 1 Rue du Carreau, Beaurepaire"
+Ubitricity,"Ubitricity 107 Rue Commandant Abadie, Le Havre, [AN 0]"
+Ubitricity,"Ubitricity 11 rue de Mondeville (AQUABOWLING), Criquetot l’Esneva"
+Ubitricity,"Ubitricity 163 Irene Juliot Curie, Le Havre"
+Ubitricity,"Ubitricity 18 rue du Homet, Le Havre"
+Ubitricity,"Ubitricity 2 Rue Philippe Lebon (Place des Expositions), Le Havre, [AN 0]"
+Ubitricity,"Ubitricity 3 Rue Dume d’Aplemeont, Le Havre, [AN 0]"
+Ubitricity,"Ubitricity 30 Rue Georges Boissaye du Bocage, Sainte-Adresse, [AN 0]"
+Ubitricity,"Ubitricity 444 Avenue du bois au Coq, Le Havre"
+Ubitricity,"Ubitricity 52 Av. de Frileuse, Le Havre, [AN 0]"
+Ubitricity,"Ubitricity 54 Rue Eugène Bodin, Le Havre"
+Ubitricity,"Ubitricity 55 Rue du 329ème, Le Havre"
+Ubitricity,"Ubitricity 60 Rue Théophile Gautier, Le Havre, [AN null]"
+Ubitricity,"Ubitricity 626 Route de Gonneville, Sainte-Marie-au-Bosc, [AN null]"
+Ubitricity,"Ubitricity 691 Route d Etretat, Villainville, [AN 0]"
+Ubitricity,"Ubitricity 7 Rue de Dieppe, Le Havre"
+Ubitricity,"Ubitricity 97 Rue Eugène Mopin, Le Havre, [AN -]"
+Ubitricity,"Ubitricity Allée Henri Wallon, Le Havre"
+Ubitricity,"Ubitricity Georges Brassens, Gonfreville L’Orcher"
+Ubitricity,"Ubitricity La cote de l'église, Notre-Dame-du-Bec"
+Ubitricity,"Ubitricity Place Abbé Pierre, Montivilliers"
+Ubitricity,"Ubitricity Place Danton, Le Havre"
+Ubitricity,"Ubitricity Place Leon Carlier (Rue Amiral Courbet), Le Havre, [AN 0]"
+Ubitricity,"Ubitricity Rue André Gide / Route du Château, Cuverville"
+Ubitricity,"Ubitricity Rue Boris Vian, Le Havre, [AN 0]"
+Ubitricity,"Ubitricity Rue Edouard Vaillant, Caucriauville"
+Ubitricity,"Ubitricity Rue Hannès Montlairy, LE HAVRE"
+Ubitricity,"Ubitricity Rue Henri Cayeux / boulevard Bois au Coq (Parking PFC MARKET), Le Havre"
+Ubitricity,"Ubitricity Rue Maurice Baquet, Gonfreville l’Orcher"
+Ubitricity,"Ubitricity Rue Pauline Kergomard, Le Havre"
+Ubitricity,"Ubitricity Rue Victor Petitpas, Rolleville"
+Ubitricity,"Ubitricity Rue du Chemin de Fer, Épouville, [AN 0]"
+Ubitricity,"Ubitricity Rue du Dr d’Oreilly, Le Havre, [AN 0]"
+Ubitricity,"Ubitricity Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE, [AN 0]"
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
 WAAT SAS | FR*WA2,WAAT
@@ -2029,6 +2038,36 @@ Yusco | FR*USC,Yusco
 Z-E-N,EKLEO TRANSPORTS
 Z-E-N,Z-E-N
 Z-E-N | FR*PVD,Proviridis
+ZEENCO e-mobility,AUTOSPHERE VO
+ZEENCO e-mobility,Alptis 25
+ZEENCO e-mobility,Bricka
+ZEENCO e-mobility,CRX
+ZEENCO e-mobility,Fast Automobiles
+ZEENCO e-mobility,Howdens
+ZEENCO e-mobility,INTENZ - POLE CHAMPAGNE
+ZEENCO e-mobility,KARWIN - POLE LUXE
+ZEENCO e-mobility,Orange
+ZEENCO e-mobility,Peugeot Bassussary
+ZEENCO e-mobility,Peugeot Chambray-les-Tours
+ZEENCO e-mobility,Renaud Keos Arras
+ZEENCO e-mobility,Renaud Keos Sarrebourg
+ZEENCO e-mobility,Renault Keos Châlons-en-Champagne
+ZEENCO e-mobility,Renault Keos Créteil
+ZEENCO e-mobility,Renault Keos Fouquières-lès-Béthune
+ZEENCO e-mobility,Renault Keos Hirson
+ZEENCO e-mobility,Renault Keos Loison-sous-Lens
+ZEENCO e-mobility,Renault Keos Maizières-la-Grande-Paroisse
+ZEENCO e-mobility,Renault Keos Nieppe
+ZEENCO e-mobility,Renault Keos Troyes
+ZEENCO e-mobility,Renault Keos Vitry-sur-Seine
+ZEENCO e-mobility,Renault Keos Wormhout
+ZEENCO e-mobility,SAS Herlindis
+ZEENCO e-mobility,Tunesi
+ZEENCO e-mobility,Volkswagen Charleville
+ZEENCO e-mobility,Würth Logistique
+ZEENCO e-mobility,Würth Proxi
+ZEENCO e-mobility,Yutz
+ZEENCO e-mobility,ZEENCO e-mobility
 ZEN,ZEN
 ZETRA Distribution SAS,ZETRA
 Zephyre,Zephyre
@@ -2056,6 +2095,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2128,14 +2168,12 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
 Zunder,Zunder
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
-e-Motum,e-Motum
 e-Totem,Réseau Saint Étienne Métropole
 e-Totem,Réseau e-Totem Infrastructures
 e-charge50,e-charge50
