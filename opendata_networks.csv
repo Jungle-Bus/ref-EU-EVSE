@@ -10,7 +10,6 @@ nom_operateur,nom_enseigne
 ,ITM NEVERS
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
-,Mobive
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Region Bourgogne-Franche-Comté
@@ -124,6 +123,7 @@ Allego,Allego - Burger King Nemours
 Allego,Allego - Burger King Orléans Ingré
 Allego,Allego - Burger King Orléans Saran
 Allego,Allego - Burger King Ornex
+Allego,Allego - Burger King Pau Route de Tarbes
 Allego,Allego - Burger King Pontault-Combault Le Pavé
 Allego,Allego - Burger King Roanne Mably
 Allego,Allego - Burger King Saints Geosmes
@@ -1569,11 +1569,11 @@ Kallista BDR,YAWAY Recharge
 LANGON DISTRIBUTION,BBJ Mazères
 LANGON DISTRIBUTION,Centre Auto Leclerc Langon
 LE REVE DE JANINE,LE REVE DE JANINE
-LIDL France,LIDL
 LMS,PARTAGE MA BORNE
 LMS Informatique,LMS Informatique
 LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
+Lidl France,LIDL
 Load Stations,SIEA
 Milence,Milence
 Milence,Milence Truck Charging Station Béziers
@@ -2064,6 +2064,7 @@ ZEENCO e-mobility,Renault Keos Wormhout
 ZEENCO e-mobility,SAS Herlindis
 ZEENCO e-mobility,Tunesi
 ZEENCO e-mobility,Volkswagen Charleville
+ZEENCO e-mobility,Volkswagen Niort
 ZEENCO e-mobility,Würth Logistique
 ZEENCO e-mobility,Würth Proxi
 ZEENCO e-mobility,Yutz
