@@ -1576,6 +1576,7 @@ LMS Informatique,LMS Informatique
 LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
 Lidl France,LIDL
+Lidl France,Lidl France
 Load Stations,SIEA
 Milence,Milence
 Milence,Milence Truck Charging Station Béziers
@@ -1649,6 +1650,7 @@ NEXTENEO,Vival
 Normatech Lodmi,Bornes de recharge AC Candas
 OBORNES,OREVE
 OET,OET
+OG Clean Fuels France | FR*PVD,Proviridis
 Obornes | FR*ORV,Obornes
 Orléans Métropole | FR*M45,Orléans Métropole
 Paragon Mobility,Paragon Mobility
@@ -2032,11 +2034,11 @@ We-Go,Eiffage Energie Systèmes - Agence Sélestat
 We-Go,Eiffage Energie Systèmes - Agence Troyes
 We-Go,Eiffage Energie Systèmes - Bourgogne Champagne
 We-Go,Eiffage Energie Systèmes - Direction Régionale Est Ludres
+YES55 | FR*Y55,YES55
 Yaway,Kallista-Yaway
 Yusco | FR*USC,Yusco
 Z-E-N,EKLEO TRANSPORTS
 Z-E-N,Z-E-N
-Z-E-N | FR*PVD,Proviridis
 ZEENCO e-mobility,AUTOSPHERE VO
 ZEENCO e-mobility,Alptis 25
 ZEENCO e-mobility,Bricka
@@ -2174,6 +2176,7 @@ Zephyre SAS, Logis Hôtel la Ferme des Mares
 Zunder,Zunder
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
+bp pulse,bp pulse
 e-Totem,Réseau Saint Étienne Métropole
 e-Totem,Réseau e-Totem Infrastructures
 e-charge50,e-charge50
