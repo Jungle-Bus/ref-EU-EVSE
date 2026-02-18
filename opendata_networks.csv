@@ -531,6 +531,7 @@ Bouygues Energies & Services,Seymaborne
 Bouygues Energies & Services,TOULIBEO
 Bouygues Energies & Services,reGARD
 Bouygues Energies et Services,OUEST CHARGE
+Brasserie du Slalom,Brasserie du Slalom
 Bump,Bump
 CHARGEPOLY,CHARGEPOLY
 Charge Unix | FR*0CU,Charge Unix
@@ -564,6 +565,7 @@ DREAM ENERGY,Rue Pierre Emonnot 1
 DREAM ENERGY,Rue Tachard 30
 DREAM ENERGY,Rue de Nerbevaux 3
 DREAM ENERGY,Rue de Poul Palud
+DREAM ENERGY,Rue de l'Europe 251
 DREAM ENERGY,Rue de la Belle du Canet
 DREAM ENERGY,Rue de la Carri√®re de Bachasson
 DREAM ENERGY,Rue de la Mallou√©
@@ -1092,7 +1094,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1577,6 +1578,7 @@ LOAD STATIONS | FR*SEA,SIEA
 Leclerc Millau,Leclerc Millau
 Lidl France,LIDL
 Lidl France,Lidl France
+Load Stations,SDEC ENERGIE
 Load Stations,SIEA
 Milence,Milence
 Milence,Milence Truck Charging Station Béziers
@@ -1653,7 +1655,11 @@ OET,OET
 OG Clean Fuels France | FR*PVD,Proviridis
 Obornes | FR*ORV,Obornes
 Orléans Métropole | FR*M45,Orléans Métropole
+Paragon Mobility,"Alissas,07 ArdÃÂ¨che,Auvergne-RhÃÂ´ne-Alpes,France"
+Paragon Mobility,"Cambrai,59 Nord,Hauts-de-France,France"
+Paragon Mobility,"Nogent-le-Phaye / Allonnes,28 Eure-et-Loir,Centre-Val de Loire,France"
 Paragon Mobility,Paragon Mobility
+Paragon Mobility,"Vitry-le-FranÃÂ§ois (secteur),51 Marne,Grand Est,France"
 Paragon Mobility | FR*PAM,Paragon Mobility
 Plageco Distribution,E. Leclerc
 Plageco Distribution,Leclerc Express Labouheyre
@@ -1869,7 +1875,7 @@ Sorel energies,Avenue du Chemin Noir 16
 Sorel energies,"Rte de Fontainebleau, 77370 Nangis"
 Sorel energies,Rue Guillaume des Barres 1
 Sorel energies,Rue Henry Bessemer 91
-Sorel energies,Rue Lamartine 4
+Sorel energies,Rue Ren√© Dhal 31
 Sorel energies,Rue de Normandie 1
 Sorel energies,Rue de Sarcelles 2
 Sorel energies,Rue du Hainault
@@ -1972,45 +1978,43 @@ TotalEnergies,WARNING
 TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
 TotalEnergies, VIKINGS CASINO BUSSANG
-Ubitricity,"Ubitricity 1 Rue du Carreau, Beaurepaire"
-Ubitricity,"Ubitricity 107 Rue Commandant Abadie, Le Havre, [AN 0]"
-Ubitricity,"Ubitricity 11 rue de Mondeville (AQUABOWLING), Criquetot l’Esneva"
-Ubitricity,"Ubitricity 163 Irene Juliot Curie, Le Havre"
-Ubitricity,"Ubitricity 18 rue du Homet, Le Havre"
-Ubitricity,"Ubitricity 2 Rue Philippe Lebon (Place des Expositions), Le Havre, [AN 0]"
-Ubitricity,"Ubitricity 3 Rue Dume d’Aplemeont, Le Havre, [AN 0]"
-Ubitricity,"Ubitricity 30 Rue Georges Boissaye du Bocage, Sainte-Adresse, [AN 0]"
-Ubitricity,"Ubitricity 444 Avenue du bois au Coq, Le Havre"
-Ubitricity,"Ubitricity 52 Av. de Frileuse, Le Havre, [AN 0]"
-Ubitricity,"Ubitricity 54 Rue Eugène Bodin, Le Havre"
-Ubitricity,"Ubitricity 55 Rue du 329ème, Le Havre"
-Ubitricity,"Ubitricity 60 Rue Théophile Gautier, Le Havre, [AN null]"
-Ubitricity,"Ubitricity 626 Route de Gonneville, Sainte-Marie-au-Bosc, [AN null]"
-Ubitricity,"Ubitricity 691 Route d Etretat, Villainville, [AN 0]"
-Ubitricity,"Ubitricity 7 Rue de Dieppe, Le Havre"
-Ubitricity,"Ubitricity 97 Rue Eugène Mopin, Le Havre, [AN -]"
-Ubitricity,"Ubitricity Allée Henri Wallon, Le Havre"
-Ubitricity,"Ubitricity Georges Brassens, Gonfreville L’Orcher"
-Ubitricity,"Ubitricity La cote de l'église, Notre-Dame-du-Bec"
-Ubitricity,"Ubitricity Place Abbé Pierre, Montivilliers"
-Ubitricity,"Ubitricity Place Danton, Le Havre"
-Ubitricity,"Ubitricity Place Leon Carlier (Rue Amiral Courbet), Le Havre, [AN 0]"
-Ubitricity,"Ubitricity Rue André Gide / Route du Château, Cuverville"
-Ubitricity,"Ubitricity Rue Boris Vian, Le Havre, [AN 0]"
-Ubitricity,"Ubitricity Rue Edouard Vaillant, Caucriauville"
-Ubitricity,"Ubitricity Rue Hannès Montlairy, LE HAVRE"
-Ubitricity,"Ubitricity Rue Henri Cayeux / boulevard Bois au Coq (Parking PFC MARKET), Le Havre"
-Ubitricity,"Ubitricity Rue Maurice Baquet, Gonfreville l’Orcher"
-Ubitricity,"Ubitricity Rue Pauline Kergomard, Le Havre"
-Ubitricity,"Ubitricity Rue Victor Petitpas, Rolleville"
-Ubitricity,"Ubitricity Rue du Chemin de Fer, Épouville, [AN 0]"
-Ubitricity,"Ubitricity Rue du Dr d’Oreilly, Le Havre, [AN 0]"
-Ubitricity,"Ubitricity Rue du general Mangin / Rue Pierre Guillaume Petit, Le HAVRE, [AN 0]"
+Ubitricity,Ubitricity 1 Rue du Carreau
+Ubitricity,Ubitricity 107 Rue Commandant Abadie
+Ubitricity,Ubitricity 11 rue de Mondeville (AQUABOWLING)
+Ubitricity,Ubitricity 163 Irene Juliot Curie
+Ubitricity,Ubitricity 18 rue du Homet
+Ubitricity,Ubitricity 2 Rue Philippe Lebon (Place des Expositions)
+Ubitricity,Ubitricity 3 Rue Dume d’Aplemeont
+Ubitricity,Ubitricity 30 Rue Georges Boissaye du Bocage
+Ubitricity,Ubitricity 444 Avenue du bois au Coq
+Ubitricity,Ubitricity 52 Av. de Frileuse
+Ubitricity,Ubitricity 54 Rue Eugène Bodin
+Ubitricity,Ubitricity 55 Rue du 329ème
+Ubitricity,Ubitricity 60 Rue Théophile Gautier
+Ubitricity,Ubitricity 626 Route de Gonneville
+Ubitricity,Ubitricity 691 Route d Etretat
+Ubitricity,Ubitricity 7 Rue de Dieppe
+Ubitricity,"Ubitricity 97 Rue Eugène Mopin, Place Maurice Blard"
+Ubitricity,Ubitricity Allée Henri Wallon
+Ubitricity,Ubitricity Georges Brassens
+Ubitricity,Ubitricity La cote de l'église
+Ubitricity,Ubitricity Place Abbé Pierre
+Ubitricity,Ubitricity Place Danton
+Ubitricity,Ubitricity Place Leon Carlier (Rue Amiral Courbet)
+Ubitricity,Ubitricity Rue André Gide / Route du Château
+Ubitricity,Ubitricity Rue Boris Vian
+Ubitricity,Ubitricity Rue Edouard Vaillant
+Ubitricity,Ubitricity Rue Hannès Montlairy
+Ubitricity,Ubitricity Rue Henri Cayeux / boulevard Bois au Coq (Par
+Ubitricity,Ubitricity Rue Maurice Baquet
+Ubitricity,Ubitricity Rue Pauline Kergomard
+Ubitricity,Ubitricity Rue Victor Petitpas
+Ubitricity,Ubitricity Rue du Chemin de Fer
+Ubitricity,Ubitricity Rue du Dr d’Oreilly
+Ubitricity,Ubitricity Rue du general Mangin / Rue Pierre Guillaume
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
-Waat,WAAT
 Waat,WAAT - GROUPE COLISEE France
-Waat,WAAT - ICADE
 Waat,WAAT - PROUDREED
 Waat,WAAT - RENT A CAR France
 Waat,WAAT - SPEEDY France
