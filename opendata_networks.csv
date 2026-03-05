@@ -1,7 +1,6 @@
 nom_operateur,nom_enseigne
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
-,Grand Est Mobilité Electrique
 ,HOTEL SAINT FERREOL
 ,ITM AUBIGNY SUR NERE
 ,ITM BELLEU
@@ -10,6 +9,7 @@ nom_operateur,nom_enseigne
 ,ITM NEVERS
 ,L'HOSTELLOISE HOTEL DES BAINS
 ,LABORATOIRE ESTRADE HUART
+,Mobive
 ,PLATEAU_YZERON
 ,ROBOTIC COVER CONCEPT
 ,Region Bourgogne-Franche-Comté
@@ -83,6 +83,7 @@ Allego,Allego - B&M Perigueux - Marsac
 Allego,Allego - B&M Reims Courcelles
 Allego,Allego - B&M Rouen
 Allego,Allego - Buffalo Grill Arras
+Allego,Allego - Buffalo Grill Bois Guillaume
 Allego,Allego - Buffalo Grill Dommartin Les Toul
 Allego,Allego - Buffalo Grill Ploeren
 Allego,Allego - Buffalo Grill St Jean De Vedas
@@ -91,6 +92,7 @@ Allego,Allego - Burger King Agen Boé
 Allego,Allego - Burger King Ambérieu en Bugey
 Allego,Allego - Burger King Angouleme Sud St Michel
 Allego,Allego - Burger King Argenteuil Allemane
+Allego,Allego - Burger King Arles Fourchon
 Allego,Allego - Burger King Bayonne Saint-Léon
 Allego,Allego - Burger King Beychac-et-Caillau
 Allego,Allego - Burger King Bordeaux Pessac
@@ -106,6 +108,7 @@ Allego,Allego - Burger King Gaillac
 Allego,Allego - Burger King Gujan La Hume
 Allego,Allego - Burger King La Seyne sur Mer
 Allego,Allego - Burger King La Ville-du-Bois
+Allego,Allego - Burger King Lesparre Médoc
 Allego,Allego - Burger King Limoges Feytiat
 Allego,Allego - Burger King Limoges Nord
 Allego,Allego - Burger King Limoges Vanteaux
@@ -420,6 +423,7 @@ Atlante France,Atlante - Eysines - Hôtel initial by balladins Bordeaux / Eysine
 Atlante France,Atlante - Fléville-devant-Nancy - Restaurant La Parenthèse
 Atlante France,Atlante - Gauriaguet - L' Ange Bleu
 Atlante France,Atlante - Glisy - CHAUSSEA
+Atlante France,Atlante - Graçay - La Plaisance Bar-Restaurant-Routier
 Atlante France,Atlante - Grenoble - Centre Commercial Grand Place
 Atlante France,Atlante - Houssen - CCV Colmar
 Atlante France,Atlante - Ibos - Auberge EverHôtel de Tarbes-Ibos
@@ -488,6 +492,7 @@ Atlante France,Atlante - Saint-Gervais-la-Forêt - Action Blois Vineuil
 Atlante France,Atlante - Saint-Junien - Citotel l'Azur
 Atlante France,Atlante - Saint-Lô - Agneaux - Jules - Kiabi
 Atlante France,Atlante - Saint-Martin-Boulogne - Easy Cash Boulogne
+Atlante France,Atlante - Saint-Martin-Boulogne - Kiabi
 Atlante France,Atlante - Saint-Martin-Boulogne - Lapeyre
 Atlante France,Atlante - Saint-Maximin - CCV Creil
 Atlante France,Atlante - Saint-Memmie - 77 avenue du Président Roosevelt
@@ -546,6 +551,7 @@ DREAM ENERGY,Avenue Roumanille 965
 DREAM ENERGY,Avenue de Toulouse 32
 DREAM ENERGY,Avenue de la R√©publique 109
 DREAM ENERGY,Avenue du Languedoc 2273
+DREAM ENERGY,Boulevard de l'Europe 44
 DREAM ENERGY,Champ Poury
 DREAM ENERGY,Chemin des Pr√©s Chalots
 DREAM ENERGY,Chemin du Vieux Ch√™ne 22
@@ -562,12 +568,13 @@ DREAM ENERGY,Rue Madeleine Br√®s 20
 DREAM ENERGY,Rue Marcel Sembat 97
 DREAM ENERGY,Rue Pierre Berthier 595
 DREAM ENERGY,Rue Pierre Emonnot 1
+DREAM ENERGY,Rue Pierre et Marie Curie 81
 DREAM ENERGY,Rue Tachard 30
 DREAM ENERGY,Rue de Nerbevaux 3
 DREAM ENERGY,Rue de Poul Palud
 DREAM ENERGY,Rue de l'Europe 251
 DREAM ENERGY,Rue de la Belle du Canet
-DREAM ENERGY,Rue de la Carri√®re de Bachasson
+DREAM ENERGY,Rue de la Carri‚àö¬Ære de Bachasson
 DREAM ENERGY,Rue de la Mallou√©
 DREAM ENERGY,Rue de la Sa√¥ne 10
 DREAM ENERGY,Rue des Pierres Missigault 41
@@ -605,8 +612,13 @@ DREAM ENERGY ,Rue des Orangers 46
 DREAM ENERGY ,Rue du Fenouil 155
 DREAM ENERGY ,ZAC TECHNOLOGIA
 DRIVECO,DRIVECO
+DRIVECO,DRIVECO - Carrefour Market - Anse
 DRIVECO,DRIVECO - Carrefour Market - Guerande
 DRIVECO,DRIVECO - Carrefour Market - Isigny-Sur-Mer
+DRIVECO,DRIVECO - Carrefour Market - St Germain Du Puy En Fenestrelay
+DRIVECO,DRIVECO - Carrefour Market - Tournefeuille
+DRIVECO,DRIVECO - Cestas -  Kyriad Direct Cestas
+DRIVECO,DRIVECO - Merignac - Kyriad Prestige Mérignac
 DRIVECO Partner Network,DRIVECO
 E-Motum,e-Motum
 E-Totem,E-Totem tiers investissement FR*ETI
@@ -624,6 +636,7 @@ EV MAP,CAMPING LE PALACE
 EV MAP,CTC10 CRENEY
 EV MAP,CTC10 ROSIERES
 EV MAP,Camping la Boutinardière
+EV MAP,ETOILE 69 VIENNE
 EV MAP,Ford
 EV MAP SAS,ACS AUTOMOBILES OPEL-KIA AUXERRE
 EV MAP SAS,AMBIANCE AUTOMOBILES AUXERRE
@@ -738,7 +751,7 @@ Electro Mobility Solutions,CARLOVERS
 Electro Mobility Solutions,Electro Mobility Solutions
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Domaine de Fompeyre
+Electromaps,Carrefour Contact
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -1094,6 +1107,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1135,13 +1149,13 @@ GreenFlux Assets B.V. | FR*EVZ,Evzen - bornes Opérateur
 GreenFlux Assets B.V. | FR*EVZ,Norauto - Bornes publiques
 GreenFlux Assets B.V. | FR*EVZ,SOMIMAR - Bornes publiques
 Greenspot,Adapei88
-Greenspot,Boissée finance
+Greenspot,Boissée Finance 1
 Greenspot,Crédit Agricole Aquitaine
 Greenspot,Enersoft Invest
 Greenspot,Greenspot
+Greenspot,Greenspot Entreprise
 Greenspot,Ledelec
-Greenspot,Organisation Planes
-Greenspot,Pichet
+Greenspot,Organisation Planes 1
 HABT,Hotel Ibis Styles Toulouse Blagnac Aéroport
 HAEFELI,Réseau IRVE TE90
 IDEX SOLAR CHARGING STATIONS,Réseau de recharge Idex
@@ -1299,6 +1313,7 @@ INOUID,Caliceo Sainte Cyr Public
 INOUID,Caliceo Sainte Foy Public
 Idex,CH Evreux
 Idex,HECTAR Levis
+Idex,Looping
 Ionity,IONITY Agde
 Ionity,IONITY Agen
 Ionity,IONITY Auray
@@ -1865,12 +1880,30 @@ SPIE CityNetworks,e-Vadea
 SPIM ENERGIES,SPIM ENERGIES
 STATIONS-E,Stations-e
 Securecharge,Securecharge
+Shell Recharge,Shell AIRE DE L'OCEAN EST
+Shell Recharge,Shell AIRE DE VAL-NEUVY
+Shell Recharge,Shell AIRE DES PLAINES DE BEAUCE
+Shell Recharge,Shell AIRE DU HAUT-FOREZ NORD
 Shell Recharge,Shell Aire d'Armor et d'Argoat - St Gilles
 Shell Recharge,Shell Aire de Béziers-Montblanc NORD
+Shell Recharge,Shell Aire de Haras HW
 Shell Recharge,Shell Aire de Ostwald HW
+Shell Recharge,Shell Aire de la plaine du Forez Ouest HW
 Shell Recharge,Shell Aire des Eglantiers - Ruffec
 Shell Recharge,Shell Aire du Domaine d'Harcourt HW
+Shell Recharge,Shell Chillou - Le Havre
+Shell Recharge,Shell Clemenceau
+Shell Recharge,Shell Criquetôt - Le Havre
+Shell Recharge,Shell Fenioux Est
+Shell Recharge,Shell Gonfreville L'O - Le Havre
+Shell Recharge,Shell Honegger - Le Havre
+Shell Recharge,Shell Montivilliers Cinema - Le Havre
+Shell Recharge,Shell Parvis - Le Havre
+Shell Recharge,Shell SAINT MICHEL DE RIEUFRET
+Shell Recharge,Shell Saint-Romain - Le Havre
+Shell Recharge,Shell- France Aire de Charmont-sous-Barbuise HW
 Shell Recharge,Shell- France Aire de Rumaucourt HW
+Shell Recharge,Shell- France Aire de Sommesous HW
 Sorel energies,Avenue du Chemin Noir 16
 Sorel energies,"Rte de Fontainebleau, 77370 Nangis"
 Sorel energies,Rue Guillaume des Barres 1
@@ -1986,6 +2019,7 @@ Ubitricity,Ubitricity 18 rue du Homet
 Ubitricity,Ubitricity 2 Rue Philippe Lebon (Place des Expositions)
 Ubitricity,Ubitricity 3 Rue Dume d’Aplemeont
 Ubitricity,Ubitricity 30 Rue Georges Boissaye du Bocage
+Ubitricity,Ubitricity 38 Rue Guy de Maupassant
 Ubitricity,Ubitricity 444 Avenue du bois au Coq
 Ubitricity,Ubitricity 52 Av. de Frileuse
 Ubitricity,Ubitricity 54 Rue Eugène Bodin
@@ -2014,11 +2048,7 @@ Ubitricity,Ubitricity Rue du Dr d’Oreilly
 Ubitricity,Ubitricity Rue du general Mangin / Rue Pierre Guillaume
 Virta,Groupama supports et services 
 Virta,Réseau de recharge Virta Public
-Waat,WAAT - GROUPE COLISEE France
 Waat,WAAT - PROUDREED
-Waat,WAAT - RENT A CAR France
-Waat,WAAT - SPEEDY France
-Waat,WAAT - Test Client
 Waat,Waat
 WattzHub | FR*SMI,WattzHub
 We-Go,Eiffage Energie Systèmes - Agence Belfort
@@ -2101,6 +2131,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -2173,14 +2204,13 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
 Zunder,Zunder
 Zunder (Grupo Easycharger S.A),e-charge50
 bp France,bp pulse
-bp pulse,bp pulse
+bp Pulse,bp Pulse
 e-Totem,Réseau Saint Étienne Métropole
 e-Totem,Réseau e-Totem Infrastructures
 e-charge50,e-charge50
