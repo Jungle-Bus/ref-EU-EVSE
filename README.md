@@ -4,7 +4,7 @@ Retraitement des données open data des points de recharge pour véhicules élec
 
 Le fichier open data utilisé est le fichier consolidé des bornes de rechage pour véhicules électriques, publié sur [datagouv](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques). Il s'agit d'un jeu de données qui regroupe l'ensemble des données produites par les différents acteurs territoriaux.
 
-
+Contrairement à ce que son nom laisse entendre, le jeu de données open data ne contient pas d'informations sur les bornes : il contient des points de recharge, ainsi que des informations sur les stations.
 
 ![définition des termes borne/station/point de charge](https://afirev.fr/wp-content/uploads/2019/08/Archi-station-borne-point-Fr-1024x610.jpg)
 *illustration issue de la [doc de l'AFIREV](https://afirev.fr/fr/definition-des-termes-de-la-mobilite-electrique/)*
