@@ -6,10 +6,12 @@ Le fichier open data utilisé est le fichier consolidé des bornes de rechage po
 
 Contrairement à ce que son nom laisse entendre, le jeu de données open data ne contient pas d'informations sur les bornes : il contient des points de recharge, ainsi que des informations sur les stations.
 
-![définition des termes borne/station/point de charge](https://afirev.fr/wp-content/uploads/2019/08/Archi-station-borne-point-Fr-1024x610.jpg)
-*illustration issue de la [doc de l'AFIREV](https://afirev.fr/fr/definition-des-termes-de-la-mobilite-electrique/)*
+![définition des termes borne/station/point de charge](definitions.png)
+*illustration issue de la doc de l'AFIREV*
 
-Ce sont les bornes qui nous intéressent pour OpenStreetMap. À défaut, la consolidation suivante regroupe les informations open data par station (en recalculant notamment les informations des types de prise par station à partir des points de recharge).
+Dans OpenStreetMap, on cartographie les bornes, les stations et les places de stationnement. Le fichier open data nous permet principalement de compléter les stations.
+
+La consolidation faite ici regroupe les informations open data par station (en recalculant notamment les informations des types de prise par station à partir des points de recharge).
 
 En complément du regroupement par station, le retraitement suivant effectue divers modifications ou vérifications :
 
@@ -22,6 +24,7 @@ En complément du regroupement par station, le retraitement suivant effectue div
 * etc
 
 Ces opérations de regroupement et vérifications peuvent révéler des incohérences dans les données. Dans ce cas le champ de sortie est laissé vide. Des champs supplémentaires peuvent être ajouté dans certains cas :
+
 * `nbre_pdc_unsure` : ce champ est ajouté lors du regroupement lorsque le `nbr_pdc` déclaré pour une station ne correspond pas aux nombres de PDCs effectivement trouvés (exemple `nbr_pdc = 2` et 4 PDCs avec le même station_id -> dans ce cas, la sortie contiendra `nbr_pdc = None` et `nbr_pdc_unsure = 2`)
 
 Voici les fichiers de sortie du retraitement :
@@ -35,3 +38,35 @@ Les données open data semblent être mises à jour tous les jours. Le présent 
 Les données consolidées ici sont utilisées par [l'analyse Osmose 8410](https://osmose.openstreetmap.fr/en/issues/open?item=8410).
 
 La correspondance entre les attributs est documentée sur le [wiki](https://wiki.openstreetmap.org/wiki/France/data.gouv.fr/Bornes_de_Recharge_pour_V%C3%A9hicules_%C3%89lectriques) et accessible dans le [code source d'Osmose](https://github.com/osm-fr/osmose-backend/blob/master/analysers/analyser_merge_charging_station_FR.py).
+
+## Installation
+
+### Créer le dossier de sortie
+
+Les scripts génèrent des fichiers dans le dossier `output/`. Créez ce dossier avant d'exécuter les scripts :
+
+```bash
+mkdir -p output
+```
+
+### Récupérer le jeu de données IRVE depuis data.gouv.fr
+
+Le fichier `opendata_irve.csv` doit être téléchargé depuis data.gouv.fr.
+
+https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques
+
+```
+
+Pour télécharger le fichier avec curl:
+
+```bash
+curl -L https://www.data.gouv.fr/fr/datasets/r/2729b192-40ab-4454-904d-735084dca3a3 -o opendata_irve.csv
+```
+
+L'URL peut changer si le jeu de données est mis à jour. Vérifiez régulièrement la page du jeu de données pour obtenir l'URL la plus récente.
+
+
+### Exécuter le retraitement
+
+`python group_opendata_by_station.py`
+
