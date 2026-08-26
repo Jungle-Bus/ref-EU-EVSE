@@ -1,6 +1,7 @@
 nom_operateur,nom_enseigne
 ,EPGML
 ,ESPACE CARROSSERIE DIJON
+,Greenflux Assets B.V.
 ,HOTEL SAINT FERREOL
 ,ITM AUBIGNY SUR NERE
 ,ITM BELLEU
@@ -14,7 +15,6 @@ nom_operateur,nom_enseigne
 ,Réseau de recharge Charge-in
 ,STATION BAGNEUX
 ,Syndicat mixte Orge-Yvette-Seine
-,Vaucluse
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
 ATRACHATA,ATRACHATA
@@ -85,6 +85,7 @@ Allego,Allego - B&M Perigueux - Marsac
 Allego,Allego - B&M Reims Courcelles
 Allego,Allego - B&M Rouen
 Allego,Allego - B&M Saint-Quentin Fayet
+Allego,Allego - Buffalo Grill Albertville
 Allego,Allego - Buffalo Grill Arras
 Allego,Allego - Buffalo Grill Avrainville
 Allego,Allego - Buffalo Grill Bailly Romainvilliers
@@ -98,6 +99,7 @@ Allego,Allego - Buffalo Grill Tinqueux
 Allego,Allego - Buffalo Grill Villejust
 Allego,Allego - Burger King Agen Boé
 Allego,Allego - Burger King Ambérieu en Bugey
+Allego,Allego - Burger King Amiens Sud
 Allego,Allego - Burger King Angouleme Sud St Michel
 Allego,Allego - Burger King Argenteuil Allemane
 Allego,Allego - Burger King Arles Fourchon
@@ -114,6 +116,7 @@ Allego,Allego - Burger King Cavaillon
 Allego,Allego - Burger King Chelles Sud
 Allego,Allego - Burger King Cognac Châteaubernard
 Allego,Allego - Burger King Coulommiers
+Allego,Allego - Burger King Davézieux
 Allego,Allego - Burger King Epinal Golbey
 Allego,Allego - Burger King Eragny
 Allego,Allego - Burger King Fougères
@@ -307,6 +310,7 @@ Allego,Carrefour Energies by Allego - L'Hay-Les-Roses
 Allego,Carrefour Energies by Allego - La Chapelle
 Allego,Carrefour Energies by Allego - La Roche Sur Yon
 Allego,Carrefour Energies by Allego - La Ville Du Bois
+Allego,Carrefour Energies by Allego - Labège
 Allego,Carrefour Energies by Allego - Laon
 Allego,Carrefour Energies by Allego - Lattes
 Allego,Carrefour Energies by Allego - Laval
@@ -425,6 +429,7 @@ Atlante France,Atlante - Arçonnay - King Jouet Alençon
 Atlante France,Atlante - Autun - Plan d'Eau du Vallon
 Atlante France,Atlante - Bailleul - Decathlon
 Atlante France,Atlante - Barentin - Ixina Rouen
+Atlante France,Atlante - Bayonne - Centre Commercial Ametzondo Shopping
 Atlante France,Atlante - Beauvais -  Riester Opel
 Atlante France,Atlante - Beauvais - Peugeot Autosphere
 Atlante France,Atlante - Bessoncourt - CCV Belfort
@@ -495,6 +500,7 @@ Atlante France,Atlante - Les Mathes - Golf de La Palmyre
 Atlante France,Atlante - Limoges - Contact Hôtel Be Guest Limoges Sud
 Atlante France,Atlante - Lingolsheim - Octapharma Tanneries
 Atlante France,Atlante - Longueau - Action Amiens Longueau
+Atlante France,Atlante - Mably - Del Arte
 Atlante France,Atlante - Mandelieu-la-Napoule - Besson Chaussures
 Atlante France,Atlante - Mandelieu-la-Napoule - Sartoriz
 Atlante France,Atlante - Mandelieu-la-Napoule - Sport 2000
@@ -618,6 +624,7 @@ Bouygues Energies et Services,OUEST CHARGE
 Bump,Bump
 CAR2PLUG,INTERMARCHÉ VAURÉAL
 CHARGEPOLY,CHARGEPOLY
+CHARGEPOLY,Chargepoly
 Charge Unix | FR*0CU,Charge Unix
 ChargeFacile | FR*LUM,Charge Facile
 ChargeFacile | FR*LUM,LUMI'IN
@@ -675,8 +682,8 @@ DREAM ENERGY ,ARTEPARC MEYREUIL
 DREAM ENERGY ,ARTEPARC de Bachasson
 DREAM ENERGY ,Avenue Ali√©nor d'Aquitaine 8
 DREAM ENERGY ,Avenue Blaise Pascal
+DREAM ENERGY ,B&B HOTEL Nancy Frouard
 DREAM ENERGY ,Brit Hôtel
-DREAM ENERGY ,ENZO HOTEL FROUARD
 DREAM ENERGY ,ENZO HOTEL MULHOUSE MORSCHWILLER
 DREAM ENERGY ,Enzo Hotels Reims Tinqueux
 DREAM ENERGY ,F1 EPINAL CHAVELOT
@@ -699,11 +706,14 @@ DREAM ENERGY ,Rue des Orangers 46
 DREAM ENERGY ,Rue du Fenouil 155
 DREAM ENERGY ,ZAC TECHNOLOGIA
 DRIVECO,DRIVECO
-DRIVECO,DRIVECO - AEW - Saint-Maur - Echarbeaux
+DRIVECO,DRIVECO - Basic Fit - Orange
 DRIVECO,DRIVECO - Campanile - Saint-Quentin
 DRIVECO,DRIVECO - Carrefour Market - Lamorlaye
-DRIVECO,DRIVECO - Equilis-Horizon - Provence Monteux
-DRIVECO,DRIVECO - So Bio - Istres
+DRIVECO,DRIVECO - Carrefour Market - Saint-Denis-Les-Bourg
+DRIVECO,DRIVECO - Horizon Provence - Monteux
+DRIVECO,DRIVECO - KingFisher - Brico Dépôt - St Etienne Meons
+DRIVECO,DRIVECO - Les Écharbeaux - Saint-Maur
+DRIVECO,DRIVECO - So.bio - Istres
 DRIVECO Partner Network,DRIVECO
 Delmonicos,Delmonicos
 E-Motum,e-Motum
@@ -870,6 +880,7 @@ Electra,Electra Clermont-Ferrand - Electra - Ibis
 Electra,Electra Cognac - CC Village des Commerçants
 Electra,Electra Compiègne - Intermarché
 Electra,Electra Coquelles - Channel Outlet
+Electra,Electra Corbeil-Essonnes - Discount Center
 Electra,Electra Cormeilles-en-Parisis - ZAC des Bois Rochefort
 Electra,Electra Coupvray - Super U
 Electra,Electra Courbevoie - Hôtel Ibis Budget
@@ -962,6 +973,7 @@ Electra,Electra Lieusaint - Carré Sénart
 Electra,Electra Lille - Intermarché
 Electra,Electra Limoges - CC Family Village
 Electra,Electra Limoges - Retail Park
+Electra,Electra Limonest - Grand Frais
 Electra,Electra Livry-Gargan - Lidl
 Electra,Electra Lognes - Hôtel Europarc
 Electra,Electra Lognes - KFC
@@ -993,6 +1005,7 @@ Electra,Electra Montpellier - Auchan Celleneuve
 Electra,Electra Montpellier - Centre commercial Odysseum
 Electra,Electra Montpellier - Hôtel Campanile
 Electra,Electra Montpellier - Hôtel Ibis Budget Millénaire
+Electra,Electra Montreuil - Kyriad Eco
 Electra,Electra Morangis - Action
 Electra,Electra Morschwiller-le-Bas - KFC
 Electra,Electra Moulins - KFC
@@ -1043,6 +1056,7 @@ Electra,Electra Plérin - Ibis Styles
 Electra,Electra Pontault-Combault - KFC
 Electra,Electra Pontoise - Campanile
 Electra,Electra Pornic - E.Leclerc
+Electra,Electra Puilboreau - McDonald's
 Electra,Electra Quimper - KFC
 Electra,Electra Ramonville-Saint-Agne - Action
 Electra,Electra Reims - Boulangerie Feuillette
@@ -1212,7 +1226,7 @@ Electro Mobility Solutions,CARLOVERS
 Electro Mobility Solutions,Electro Mobility Solutions
 Electromaps,Ameublement Rognon
 Electromaps,Aubade - Comptoir des Fers
-Electromaps,Carrefour Contact
+Electromaps,Domaine de Fompeyre
 Electromaps,ECOPARK 5
 Electromaps,Electromaps
 Electromaps,I-Bornes
@@ -1456,6 +1470,7 @@ Eoliberty,ineris- Borne2-C4
 Eoliberty,ineris- Borne3-C2
 Eoliberty,ineris- Borne3-C4
 Eparck,Eparck
+Eranovum e-Mobility France SAS,Eranovum e-Mobility France SAS
 Eranovum e-mobility | FR*ERA,Eranovum e-Mobility France SAS
 Etablissement Combes,Etablissement Combes
 Evota Netherlands B.V. | FR*AUT,Evota
@@ -1512,6 +1527,7 @@ Fastned France,Fastned La Croix Blanche
 Fastned France,Fastned Lille Aéroport
 Fastned France,Fastned Longuenesse
 Fastned France,Fastned Longwy
+Fastned France,Fastned Montlhéry
 Fastned France,Fastned Montluçon Saint-Victor
 Fastned France,Fastned Narbonne La Coupe
 Fastned France,Fastned Onet-le-Château
@@ -1519,6 +1535,7 @@ Fastned France,Fastned Perpignan Porte d'Espagne
 Fastned France,Fastned Puiseux Pontoise
 Fastned France,Fastned Quimper
 Fastned France,Fastned Saint Dié des Vosges
+Fastned France,Fastned Thionville Yutz
 Fastned France,Fastned Troyes Lavau
 Fastned France,Fastned Valence Sud
 Fastned France,Fastned Vert-Saint-Denis
@@ -1574,6 +1591,7 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
+GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -2106,6 +2124,7 @@ Izivia,Flex-E
 Izivia,GARAGE RENAULT FIDALGO
 Izivia,GARAGE TERRIEN
 Izivia,GAZZELLA ATLANTIQUE
+Izivia,GPSO
 Izivia,GRAND FRAIS
 Izivia,GROUPE EDENIS
 Izivia,GROUPE INCA
@@ -2212,6 +2231,7 @@ Izivia,SCA ALINEA
 Izivia,SCI MEUNIER
 Izivia,SEMVR
 Izivia,SERCEL
+Izivia,"SIGEIF - 15, rue de Verdun - Suresnes"
 Izivia,SIMON SAS
 Izivia,SNC CLEMENT ADER
 Izivia,SOBAG
@@ -2234,6 +2254,7 @@ Izivia,VERDUN
 Izivia,VEXIN-THELLE
 Izivia,VIL02 - Tête d'Or - Stalingrad
 Izivia,VIL11 - Buers - Salengro
+Izivia,VIL13 - Grandclément
 Izivia,VIPE GESTION
 Izivia,VM DECOR
 Izivia,VOLKSWAGEN
@@ -2349,12 +2370,13 @@ NEXTENEO,Vival
 Normatech Lodmi,Bornes de recharge AC Candas
 OBORNES,OREVE
 OET,OET
-OG Clean Fuels France | FR*PVD,Z-E-N
+OG Clean Fuels France | FR*PVD,OG Clean Fuels France
 Obornes | FR*ORV,ORV
 Orléans Métropole | FR*M45,Freshmile
 Oya Énergies,Oya Énergies
 PARERA MOBILITE CPO,PARERA MOBILITE CPO
 PARERA MOBILITE | FR*MW1,Mobilygreen
+PARERA MOBILITE | FR*MW1,PARERA MOBILITE CPO
 PARERA MOBILITE | FR*VIS,ENRGETICA
 Paragon Mobility,"Alissas,07 ArdÃÂ¨che,Auvergne-RhÃÂ´ne-Alpes,France"
 Paragon Mobility,"Cambrai,59 Nord,Hauts-de-France,France"
@@ -2492,9 +2514,7 @@ QoWatt,Rue du Gra
 QoWatt,Rue du Gén
 QoWatt,Voie du Bo
 Qwello GmbH | FR*QWC,Qwello France SAS
-R3,DBT
 R3,DBT-CEV
-R3,Norauto
 R3,R3
 R3,R3 SPV COM
 R3,R3 SPV MOQ
@@ -2513,7 +2533,6 @@ Road | FR*EFL,Pluq
 Road | FR*EFL,Road
 Road | FR*EFL,Trial - Sogetrel - 250101
 Road | FR*EFL,V-CITY
-Road | FR*EFL,V-City La Réunion
 Royal Champagne,Royal Champagne Hotel & Spa
 SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX,SA FOOTBALL CLUB DES GIRONDINS DE BORDEAUX
 SAP Labs France SAS | FR*SLF,SAP Labs
@@ -2641,13 +2660,11 @@ Sorel energies,Rue du Hainault
 Sorégies,Sorégies
 Sowatt Solutions,Jean Lain
 Sowatt Solutions,Nomblot
-Sowatt Solutions,SALOMON
 Sowatt Solutions,Sowatt Solutions
 Syndicat Départemental d'Énergie De la Haute-Garonne (SDEHG) | FR*S31,Freshmile
 Syndicat Départemental d'Énergie de Tarn-et-Garonne (SDE82) | FR*S82,Freshmile
 Syndicat Départemental d'Énergies du Gers (SDEG) | FR*S32,Freshmile
 Syndicat Départemental Énergie Aube,Freshmile
-Syndicat Mixte Départemental d'Énergies du Calvados (SDEC Énergie) | FR*S14,Mobisdec
 Syndicat d'Energie et des Déchets de la Marne (SDED52) | FR*S52,Freshmile
 Séolis,AlterBase
 TANAY Electricité,Riviera Car Center
@@ -2735,6 +2752,7 @@ TotalEnergies,VIKINGS CASINO IBIS ROUGE FALAISE
 TotalEnergies,VIKINGS CASINO MERCURE GRANVILLE
 TotalEnergies,VIKINGS CASINO MERCURE HONFLEUR
 TotalEnergies,VIKINGS CASINO SANARY SUR MER
+TotalEnergies,Ville de Compiègne
 TotalEnergies,WARNING
 TotalEnergies,enedis
 TotalEnergies, SAMSE - GRENOBLE
@@ -2969,6 +2987,7 @@ Zephyre SAS,GHO Sophia Antipolis
 Zephyre SAS,Garage Beaudouin
 Zephyre SAS,Garage Chambault SARL 
 Zephyre SAS,Garage Gois Automobiles
+Zephyre SAS,Garage MECANIQUE 2000
 Zephyre SAS,Hostellerie Moulin des Ruats
 Zephyre SAS,Hotel - Les Fermes de Marie
 Zephyre SAS,Hôtel & Restaurant ARGI-EDER
@@ -3041,7 +3060,6 @@ Zephyre SAS,UNICAP - Garage Croix St Ladre
 Zephyre SAS,UNICAP - Garage Gois Automobiles
 Zephyre SAS,UNICAP - Garage Horizon Automobiles
 Zephyre SAS,UNICAP - Garage Pochet
-Zephyre SAS,UNICAP - Garage des 2 Caps
 Zephyre SAS,UNICAP - LOUE AUTOMOBILES
 Zephyre SAS,UNICAP - SARL DU COLOMBIER
 Zephyre SAS, Logis Hôtel la Ferme des Mares
