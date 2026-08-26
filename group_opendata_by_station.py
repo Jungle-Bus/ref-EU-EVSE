@@ -86,6 +86,12 @@ def transformRef(refIti, refLoc):
     else:
         return None
 
+def has_only_one_socket_type(pdc):
+    socket_number = stringBoolToInt(pdc['prise_type_2']) + stringBoolToInt(pdc['prise_type_combo_ccs']) + stringBoolToInt(pdc['prise_type_chademo']) + stringBoolToInt(pdc['prise_type_autre']) 
+    if socket_number == 1 :
+        return True
+    return False
+
 errors = []
 
 with open('opendata_irve.csv') as csvfile:
@@ -245,6 +251,9 @@ for station_id, station in station_list.items() :
     else :
         station['attributes']['accessibilite_pmr_grouped'] = list(accessibilite_pmr)[0]
 
+    puissance_max = max([float(elem['puissance_nominale'].strip()) for elem in station['pdc_list']])
+    station['attributes']['puissance_nominale_grouped'] = puissance_max
+
     if len(station['pdc_list']) != int(station['attributes']['nbre_pdc']):
         errors.append({"station_id" : station_id,
                        "source": station['attributes']['source_grouped'],
@@ -257,15 +266,39 @@ for station_id, station in station_list.items() :
 
     EF_count = sum([ stringBoolToInt(elem['prise_type_ef']) for elem in station['pdc_list'] ])
     station['attributes']['nb_EF_grouped'] = EF_count
+    puissance_max_EF = None
+    if EF_count != 0:
+        pdc_with_socket = [elem for elem in station['pdc_list'] if elem['prise_type_ef'].lower()=='true']
+        if all([has_only_one_socket_type(elem) for elem in pdc_with_socket]):
+            puissance_max_EF = max(elem["puissance_nominale"] for elem in pdc_with_socket)
+    station['attributes']['puissance_max_EF_grouped'] = puissance_max_EF
 
     T2_count = sum([ stringBoolToInt(elem['prise_type_2']) for elem in station['pdc_list'] ])
     station['attributes']['nb_T2_grouped'] = T2_count
+    puissance_max_T2 = None
+    if T2_count != 0:
+        pdc_with_socket = [elem for elem in station['pdc_list'] if elem['prise_type_2'].lower()=='true']
+        if all([has_only_one_socket_type(elem) for elem in pdc_with_socket]):
+            puissance_max_T2 = max(elem["puissance_nominale"] for elem in pdc_with_socket)
+    station['attributes']['puissance_max_T2_grouped'] = puissance_max_T2
 
     combo_count = sum([ stringBoolToInt(elem['prise_type_combo_ccs']) for elem in station['pdc_list'] ])
     station['attributes']['nb_combo_ccs_grouped'] = combo_count
+    puissance_max_combo = None
+    if combo_count != 0:
+        pdc_with_socket = [elem for elem in station['pdc_list'] if elem['prise_type_combo_ccs'].lower()=='true']
+        if all([has_only_one_socket_type(elem) for elem in pdc_with_socket]):
+            puissance_max_combo = max(elem["puissance_nominale"] for elem in pdc_with_socket)
+    station['attributes']['puissance_max_combo_grouped'] = puissance_max_combo
 
     chademo_count = sum([ stringBoolToInt(elem['prise_type_chademo']) for elem in station['pdc_list'] ])
     station['attributes']['nb_chademo_grouped'] = chademo_count
+    puissance_max_chademo = None
+    if chademo_count != 0:
+        pdc_with_socket = [elem for elem in station['pdc_list'] if elem['prise_type_chademo'].lower()=='true']
+        if all([has_only_one_socket_type(elem) for elem in pdc_with_socket]):
+            puissance_max_chademo = max(elem["puissance_nominale"] for elem in pdc_with_socket)
+    station['attributes']['puissance_max_chademo_grouped'] = puissance_max_chademo
 
     autre_count = sum([ stringBoolToInt(elem['prise_type_autre']) for elem in station['pdc_list'] ])
     station['attributes']['nb_autre_grouped'] = autre_count
