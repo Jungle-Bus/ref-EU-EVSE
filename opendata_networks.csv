@@ -17,6 +17,7 @@ nom_operateur,nom_enseigne
 ,Syndicat mixte Orge-Yvette-Seine
 	SOCIETE BRICORTHE,WELDOM
 270 AGENCY,270 AGENCY
+ALDI SARL,ALDI
 ATRACHATA,ATRACHATA
 AUTORECHARGE SAS,Etoile Routière LE BAILLEUL (72))
 AUTORECHARGE SAS,Groupe Malherbe - Bapaume
@@ -119,6 +120,7 @@ Allego,Allego - Burger King Coulommiers
 Allego,Allego - Burger King Davézieux
 Allego,Allego - Burger King Epinal Golbey
 Allego,Allego - Burger King Eragny
+Allego,Allego - Burger King Evreux Route de Paris
 Allego,Allego - Burger King Fougères
 Allego,Allego - Burger King Gaillac
 Allego,Allego - Burger King Gujan La Hume
@@ -150,8 +152,10 @@ Allego,Allego - Burger King Orléans Saran
 Allego,Allego - Burger King Ornex
 Allego,Allego - Burger King Pau Route de Tarbes
 Allego,Allego - Burger King Pontault-Combault Le Pavé
+Allego,Allego - Burger King Reims La Neuvillette
 Allego,Allego - Burger King Riom
 Allego,Allego - Burger King Roanne Mably
+Allego,Allego - Burger King Rouen Petit-Quevilly
 Allego,Allego - Burger King Saint-Thibault-des-Vignes
 Allego,Allego - Burger King Saints Geosmes
 Allego,Allego - Burger King St Denis les Sens
@@ -456,6 +460,7 @@ Atlante France,Atlante - Châtellerault - Optical Center
 Atlante France,Atlante - Clermont-Ferrand - CCV Clermont-Ferrand
 Atlante France,Atlante - Colomiers - Aldi
 Atlante France,Atlante - Colomiers - Norauto
+Atlante France,Atlante - Confrançon - Netto Confrançon
 Atlante France,Atlante - Cosne-Cours-sur-Loire - Mobalpa
 Atlante France,Atlante - Coudekerque-Branche - GÉMO
 Atlante France,Atlante - Coulommiers - Riester Peugeot
@@ -708,8 +713,10 @@ DREAM ENERGY ,ZAC TECHNOLOGIA
 DRIVECO,DRIVECO
 DRIVECO,DRIVECO - Basic Fit - Orange
 DRIVECO,DRIVECO - Campanile - Saint-Quentin
+DRIVECO,DRIVECO - Carrefour Market - Gisors
 DRIVECO,DRIVECO - Carrefour Market - Lamorlaye
 DRIVECO,DRIVECO - Carrefour Market - Saint-Denis-Les-Bourg
+DRIVECO,DRIVECO - Fitness Park - Villeneuve-d'Ascq
 DRIVECO,DRIVECO - Horizon Provence - Monteux
 DRIVECO,DRIVECO - KingFisher - Brico Dépôt - St Etienne Meons
 DRIVECO,DRIVECO - Les Écharbeaux - Saint-Maur
@@ -822,6 +829,7 @@ Electra,Electra Artigues-près-Bordeaux - Hôtel Campanile
 Electra,Electra Artigues-près-Bordeaux - Jardiland
 Electra,Electra Athis-Mons - Super U
 Electra,Electra Aubagne - Auchan Supermarché Pin Vert
+Electra,Electra Aubenas - Lidl & Marie-Blachère
 Electra,Electra Aubergenville - CC Family Village
 Electra,Electra Aubervilliers - Ibis Budget Paris Aubervilliers
 Electra,Electra Aubière - Ibis Budget
@@ -1022,6 +1030,7 @@ Electra,Electra Narbonne - Hôtel Ibis
 Electra,Electra Neuilly-sur-Seine - Indigo Madrid
 Electra,Electra Nice - Hôtel Campanile Aéroport
 Electra,Electra Nice - Indigo Parking Massena
+Electra,Electra Nice - Relais du Paillon
 Electra,Electra Nice - Stade Allianz Riviera (Parking P2)
 Electra,Electra Niort - E.Leclerc Centre
 Electra,Electra Niort - Ibis Est Mendes France
@@ -1474,6 +1483,7 @@ Eranovum e-Mobility France SAS,Eranovum e-Mobility France SAS
 Eranovum e-mobility | FR*ERA,Eranovum e-Mobility France SAS
 Etablissement Combes,Etablissement Combes
 Evota Netherlands B.V. | FR*AUT,Evota
+Evzen,Evzen
 FAROAD,TEV
 Faroad,FAROAD
 Fastned France,Fastned Agen Le Passage
@@ -1529,6 +1539,7 @@ Fastned France,Fastned Longuenesse
 Fastned France,Fastned Longwy
 Fastned France,Fastned Montlhéry
 Fastned France,Fastned Montluçon Saint-Victor
+Fastned France,Fastned Mundolsheim
 Fastned France,Fastned Narbonne La Coupe
 Fastned France,Fastned Onet-le-Château
 Fastned France,Fastned Perpignan Porte d'Espagne
@@ -1591,7 +1602,6 @@ GREENSPOT,CREDIT AGRICOLE SAINT ANDRE DE CUBZAC
 GREENSPOT,CREDIT AGRICOLE TARNOS
 GREENSPOT,Château Les Ormes de Pez
 GREENSPOT,Château Pey la Tour
-GREENSPOT,DOMAINE LA FONTAINE
 GREENSPOT,E. REMY & CIE
 GREENSPOT,GREENSPOT
 GREENSPOT,HOTEL LA ROBEYERE
@@ -1649,6 +1659,7 @@ IECharge,Allaire
 IECharge,Amanvillers
 IECharge,Amilly
 IECharge,Andel
+IECharge,Anglet
 IECharge,Aubigné-sur-Layon
 IECharge,Auriolles
 IECharge,Avrillé
@@ -1687,10 +1698,14 @@ IECharge,Diges
 IECharge,Dogneville II
 IECharge,Dombrot-le-Sec
 IECharge,Domfront
+IECharge,Domfront en Poiraie B
 IECharge,Dommartin-lès-Remiremont
 IECharge,Dormans
 IECharge,Douchy-Montcorbon
 IECharge,Dourdan
+IECharge,Epinal
+IECharge,Gien B
+IECharge,Gien C
 IECharge,Glonville II
 IECharge,Guengat
 IECharge,Guerlesquin
@@ -1701,11 +1716,14 @@ IECharge,Hambach
 IECharge,Henrichemont
 IECharge,Hémonstoir
 IECharge,IEC V2 Factory test Nidec ASI
+IECharge,Jeumont
+IECharge,Jeumont II
 IECharge,Kernoues
 IECharge,La Roche-sur-Yon
 IECharge,La Vôge les Bains
 IECharge,Lacres
 IECharge,Lauzerte
+IECharge,Le Creusot
 IECharge,Le Mans II
 IECharge,Liny-Devant-Dun B
 IECharge,Loché-sur-Indrois
@@ -1723,6 +1741,7 @@ IECharge,Molompize
 IECharge,Mondoubleau
 IECharge,Montalieu-Vercieu
 IECharge,Montauban B
+IECharge,Montrichard Val de Cher
 IECharge,Montverdun
 IECharge,Méru Amblainville
 IECharge,Mézidon Vallée d'Auge
@@ -1765,6 +1784,7 @@ IECharge,Saint-Igny-de-Roche
 IECharge,Saint-Jean-le-Vieux
 IECharge,Saint-Léger-sur-Roanne
 IECharge,Saint-Léon-sur-l'Isle
+IECharge,Saint-Molf
 IECharge,Saint-Pierre-la-Cour
 IECharge,Saint-Pierre-le-Moûtier II
 IECharge,Saint-Père-en-Retz
@@ -1773,6 +1793,7 @@ IECharge,Saint-Thelo
 IECharge,Saint-Vincent-d'Autéjac
 IECharge,Sainte Catherine
 IECharge,Saujon
+IECharge,Stenay
 IECharge,Sully-sur-Loire B
 IECharge,Suèvres
 IECharge,Taden
@@ -1815,6 +1836,7 @@ Interparking France,Interparking Parking François 1er
 Interparking France,Interparking Parking Gare Saint Jean Armagnac
 Interparking France,Interparking Parking George V
 Interparking France,Interparking Parking Grimaldi
+Interparking France,Interparking Parking Hôpital Marie-Lannelongue
 Interparking France,Interparking Parking Hôtel de Ville
 Interparking France,Interparking Parking Interparking Berri Champs-Elysées
 Interparking France,Interparking Parking Interparking Gare Nice Thiers
@@ -2019,7 +2041,6 @@ Ionity,IONITY GmbH IONITY Vérités
 Ionity,IONITY GmbH IONITY l'Isle-d'Abeau
 Izivia, EARL THIBAUT LE CHEMIN VERT
 Izivia, IZIVIA MAX
-Izivia,1690
 Izivia,ACC HUSSE
 Izivia,ADVANCED CONFORT SYSTEMS
 Izivia,AEROPORTS DE LYON
@@ -2416,6 +2437,7 @@ Plenitude On The Road,Av. Santos Dumont
 Plenitude On The Road,Av. des Eaux Blanches
 Plenitude On The Road,Avenue Edouard Herriot
 Plenitude On The Road,"Avenue Jean Moos, ZI La Gaieté"
+Plenitude On The Road,Avenue Jean Moulin
 Plenitude On The Road,Chaumont-sur-Tharonne
 Plenitude On The Road,Chemin de Giraud
 Plenitude On The Road,Chemin du Vieux Château - Lieudit La Provende
@@ -2928,6 +2950,8 @@ ZEENCO e-mobility,Bricka
 ZEENCO e-mobility,CRX
 ZEENCO e-mobility,Clients ZEENCO
 ZEENCO e-mobility,Eberria
+ZEENCO e-mobility,Ford Bassussarry
+ZEENCO e-mobility,Ford Dax
 ZEENCO e-mobility,Groupe Moretto
 ZEENCO e-mobility,Hager (ZEENCO)
 ZEENCO e-mobility,Howdens
